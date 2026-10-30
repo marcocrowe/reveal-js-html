@@ -1,0 +1,172 @@
+/*********************************************************
+ * Meme bank (memes.html), loaded after tna.css.
+ * Each entry slide: a heading, the quote, then field lines.
+ *********************************************************/
+.reveal {
+	font-size: 30px;
+}
+
+/* Topic and opening slides: level 1 headings with the same gold bar */
+.reveal h1 {
+	font-size: 60px;
+	padding-bottom: 0.25em;
+	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
+}
+
+.reveal .topic p {
+	font-size: 34px;
+	color: var(--muted);
+}
+
+/* Topic slides: one picture, with its credit underneath (src/img/topics/readme.md) */
+.reveal figure.topic-photo {
+	margin: 0.6em 0 0;
+}
+
+.reveal figure.topic-photo img {
+	display: block;
+	max-width: 100%;
+	height: 400px;
+	margin: 0;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.reveal figure.topic-photo figcaption {
+	margin-top: 6px;
+	font-size: 16px;
+	color: var(--muted);
+}
+
+.reveal figure.topic-photo figcaption a {
+	color: inherit;
+}
+
+/* The quote. --fit is lowered by memes.html on a slide whose text runs over. */
+.reveal blockquote {
+	width: auto;
+	margin: 0 0 0.7em;
+	padding: 0.4em 0.8em;
+	background: #fff;
+	border-left: 10px solid var(--gold);
+	box-shadow: none;
+	font-size: calc(40px * var(--fit, 1));
+	font-style: italic;
+	text-align: left;
+	color: var(--navy);
+}
+
+.reveal blockquote p {
+	margin: 0;
+}
+
+.reveal blockquote p + p {
+	margin-top: 0.25em;
+}
+
+/* Whole quote for context, the part to use in bold. When a quote has a bold
+ * part, the rest is greyed so the bold part stands out. */
+.reveal blockquote:has(strong) {
+	color: var(--muted);
+}
+
+.reveal blockquote strong {
+	color: var(--navy);
+}
+
+/* "**Scene: ...**" line under the heading */
+.reveal p.scene {
+	margin: -0.2em 0 0.5em;
+	font-size: calc(26px * var(--fit, 1));
+}
+
+.reveal p.scene strong {
+	font-weight: 600;
+	color: var(--navy-soft);
+}
+
+/* Field lines: "**Label:** value" */
+.reveal li.field {
+	margin-bottom: 0.35em;
+	font-size: calc(28px * var(--fit, 1));
+}
+
+.reveal li.field > strong:first-child {
+	color: var(--navy-soft);
+}
+
+.reveal li.field-use-it-for {
+	font-size: calc(30px * var(--fit, 1));
+	color: var(--ink);
+}
+
+.reveal li.field-use-it-for > strong:first-child {
+	color: var(--good);
+}
+
+.reveal li.field-checked > strong:first-child {
+	color: var(--good);
+}
+
+.reveal li.field-time > strong:first-child {
+	color: var(--gold);
+}
+
+/* Things to confirm stand out */
+.reveal li.field-check {
+	color: var(--bad);
+}
+
+.reveal li.field-check > strong:first-child {
+	color: var(--bad);
+}
+
+.reveal li.field-check::before {
+	background: var(--bad);
+}
+
+.reveal .slides a {
+	color: var(--navy-soft);
+}
+
+.reveal code {
+	font-size: 0.85em;
+}
+
+/* Long topics: the position bar shrinks to fit the slide width */
+.reveal .stack-bar {
+	max-width: 100%;
+	gap: 6px;
+}
+
+/* Bars are buttons here (stackBarLinks): a bit bigger, same 7.5 : 1 shape,
+ * with a taller invisible area to click */
+.reveal .stack-bar span,
+.reveal .stack-bar button {
+	flex: 0 1 75px;
+	min-width: 6px;
+	height: 10px;
+	padding: 0;
+	border: 0;
+	background: var(--line);
+}
+
+.reveal .stack-bar button {
+	position: relative;
+	cursor: pointer;
+}
+
+.reveal .stack-bar button::after {
+	content: "";
+	position: absolute;
+	inset: -8px 0;
+}
+
+.reveal .stack-bar button:hover,
+.reveal .stack-bar button:focus-visible {
+	background: var(--navy-soft);
+}
+
+.reveal .stack-bar span.on {
+	background: var(--gold);
+}

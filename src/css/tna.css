@@ -1,0 +1,677 @@
+/*********************************************************
+ * FYP theme for reveal.js
+ * Based on the TNA theme: light slide, navy panel, gold accent.
+ * Slide size is 1280 x 720 px. Arial for text, Impact for memes.
+ *********************************************************/
+:root {
+	--navy: #10234a;
+	--navy-soft: #1b3a73;
+	--gold: #e8b232;
+	--paper: #f4f6fb;
+	--ink: #14213d;
+	--muted: #44546f;
+	--line: #c9d2e3;
+	--good: #2e7d4f;
+	--bad: #b3261e;
+	--emoji: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+	--meme: Impact, "Arial Black", "Helvetica Neue", sans-serif;
+}
+
+.reveal-viewport {
+	background: var(--paper);
+}
+
+.reveal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	line-height: 1.3;
+	color: var(--ink);
+}
+
+.reveal .slides {
+	text-align: left;
+}
+
+.reveal .slides section {
+	padding: 0 8px;
+}
+
+/* A vertical stack is only a wrapper, so it gets no padding of its own */
+.reveal .slides > section.stack {
+	padding: 0;
+}
+
+/* Headings: sentence case as written, gold bar underneath */
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--navy);
+	font-weight: bold;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 1.1;
+	margin: 0 0 0.6em;
+}
+
+.reveal h2 {
+	font-size: 52px;
+	padding-bottom: 0.3em;
+	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
+}
+
+/* Progress bar along the bottom, in gold */
+.reveal .progress {
+	height: 8px;
+	color: var(--gold);
+	background: rgba(16, 35, 74, 0.12);
+}
+
+.reveal h3 {
+	font-size: 38px;
+}
+
+/* Lists: gold bullets */
+.reveal ul,
+.reveal ol {
+	display: block;
+	margin: 0;
+	padding-left: 1.1em;
+}
+
+.reveal li {
+	margin-bottom: 0.4em;
+}
+
+.reveal ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.reveal ul > li {
+	position: relative;
+	padding-left: 1em;
+}
+
+.reveal ul > li::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0.5em;
+	width: 0.32em;
+	height: 0.32em;
+	background: var(--gold);
+	border-radius: 50%;
+}
+
+.reveal ul ul {
+	margin-top: 0.3em;
+	font-size: 0.85em;
+}
+
+.reveal strong {
+	color: var(--navy);
+}
+
+.reveal a {
+	color: var(--navy-soft);
+}
+
+.reveal code {
+	font-family: Consolas, "Courier New", monospace;
+	background: #e6ebf5;
+	padding: 0 0.2em;
+	border-radius: 4px;
+}
+
+/* Reference marker: 🔗¹ */
+.reveal a.ref {
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: var(--emoji);
+	font-size: 0.8em;
+}
+
+.reveal a.ref sup {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.65em;
+	font-weight: bold;
+	color: var(--navy-soft);
+	vertical-align: super;
+}
+
+/* Two column layout: content left, navy panel right */
+.reveal .split {
+	display: grid;
+	grid-template-columns: 1.35fr 1fr;
+	gap: 48px;
+	align-items: center;
+}
+
+.reveal .split.even {
+	grid-template-columns: 1fr 1fr;
+}
+
+.reveal .panel {
+	background: var(--navy);
+	color: #fff;
+	padding: 36px 32px;
+	border-radius: 6px;
+	align-self: center;
+}
+
+.reveal .panel strong,
+.reveal .panel h3 {
+	color: var(--gold);
+}
+
+.reveal .panel ul > li,
+.reveal .panel a {
+	color: #fff;
+}
+
+.reveal .panel a.ref sup {
+	color: var(--gold);
+}
+
+/* Title slide */
+.reveal .title-slide h1 {
+	font-size: 72px;
+	margin-bottom: 0.2em;
+}
+
+.reveal .title-slide .kicker {
+	display: inline-block;
+	padding-top: 0.5em;
+	border-top: 8px solid var(--gold);
+	color: var(--navy-soft);
+	font-weight: bold;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.reveal .title-slide .byline {
+	color: var(--muted);
+	font-size: 30px;
+	margin-top: 1em;
+}
+
+.reveal .title-slide .built-with {
+	margin-top: 1.4em;
+	font-size: 26px;
+	color: var(--muted);
+}
+
+.reveal .title-slide .built-with img {
+	height: 1.3em;
+	margin: 0 0.15em;
+	vertical-align: middle;
+}
+
+/* Tables */
+.reveal table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 29px;
+}
+
+.reveal th {
+	background: var(--navy);
+	color: #fff;
+	text-align: left;
+	padding: 12px 16px;
+	font-weight: bold;
+}
+
+.reveal td {
+	padding: 12px 16px;
+	border-bottom: 2px solid var(--line);
+	vertical-align: top;
+}
+
+/* Small grey line under a slide */
+.reveal .cite {
+	margin: 1em 0 0;
+	font-size: 25px;
+	color: var(--muted);
+}
+
+/* Keyboard keys on the reveal.js slide */
+.reveal kbd {
+	display: inline-block;
+	min-width: 1.4em;
+	padding: 0.05em 0.35em;
+	border: 2px solid var(--line);
+	border-bottom-width: 4px;
+	border-radius: 6px;
+	background: #fff;
+	color: var(--ink);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.85em;
+	text-align: center;
+}
+
+/* Terminal style code block */
+.reveal pre.terminal {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	box-shadow: none;
+	background: #0d1626;
+	color: #d7e2f5;
+	border-radius: 8px;
+	padding: 20px 24px;
+	font-size: 30px;
+	line-height: 1.45;
+}
+
+.reveal pre.terminal code {
+	font-size: inherit;
+	background: none;
+	padding: 0;
+	max-height: none;
+}
+
+.reveal pre.terminal .hash {
+	color: var(--gold);
+}
+
+.reveal pre.terminal .bad {
+	color: #ff8a80;
+}
+
+.reveal pre.terminal .good {
+	color: #8fe3a6;
+}
+
+/* Images: memes and comics */
+.reveal .figure {
+	text-align: center;
+}
+
+.reveal .figure img {
+	max-height: 440px;
+	margin: 0 auto;
+	background: #fff;
+	border: 2px solid var(--line);
+	border-radius: 6px;
+}
+
+.reveal .figure.comic img {
+	max-height: 500px;
+	padding: 12px;
+}
+
+.reveal .figure p {
+	margin: 0.5em 0 0;
+	font-size: 26px;
+	color: var(--muted);
+}
+
+/*********************************************************
+ * Memes: template images live in src/img/meme (sources in
+ * src/img/meme/readme.md). Captions are HTML so they stay editable.
+ *********************************************************/
+.reveal .meme {
+	margin: 0 auto;
+	border: 3px solid var(--ink);
+	border-radius: 6px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.reveal .meme-credit {
+	margin: 0.4em 0 0;
+	font-size: 24px;
+	color: var(--muted);
+	text-align: center;
+}
+
+.reveal .emoji {
+	font-family: var(--emoji);
+	line-height: 1;
+}
+
+/* Classic meme caption: white Impact with black outline */
+.reveal .impact {
+	font-family: var(--meme);
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 0.02em;
+	-webkit-text-stroke: 2px #000;
+	paint-order: stroke fill;
+	text-shadow: 3px 3px 0 #000;
+}
+
+/* Template image with captions placed on top.
+ * Two sizes, so memes match across the deck:
+ *   full  (default)  480px tall, for a meme on its own slide
+ *   small            400px wide, beside or under the slide content */
+.reveal .meme.overlay {
+	position: relative;
+	width: max-content;
+	line-height: 0;
+}
+
+.reveal .meme.overlay > img {
+	display: block;
+	width: auto;
+	height: 480px;
+	max-width: none;
+	max-height: none;
+	margin: 0;
+	border: 0;
+}
+
+.reveal .meme.overlay.small > img {
+	width: 400px;
+	height: auto;
+}
+
+.reveal .meme.overlay .cap {
+	position: absolute;
+	box-sizing: border-box;
+	line-height: 1.15;
+	text-align: center;
+}
+
+/* Drake: text in the white right half */
+.reveal .drake .cap {
+	left: 50%;
+	width: 50%;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 18px;
+	font-size: 30px;
+	font-weight: bold;
+	color: var(--ink);
+}
+
+.reveal .drake.small .cap {
+	padding: 0 12px;
+	font-size: 27px;
+}
+
+.reveal .drake .cap.no { top: 0; }
+.reveal .drake .cap.yes { top: 50%; }
+
+/* Distracted boyfriend: a label on each person */
+.reveal .boyfriend .cap {
+	font-size: 34px;
+}
+
+.reveal .boyfriend .cap.shiny { left: 8%; width: 40%; top: 66%; }
+.reveal .boyfriend .cap.you { left: 47%; width: 28%; top: 52%; }
+.reveal .boyfriend .cap.planned { left: 73%; width: 26%; top: 70%; }
+
+.reveal .boyfriend.small .cap { font-size: 27px; }
+.reveal .boyfriend.small .cap.shiny { left: 4%; width: 46%; top: 50%; }
+.reveal .boyfriend.small .cap.you { left: 40%; width: 40%; top: 40%; }
+.reveal .boyfriend.small .cap.planned { left: 70%; width: 30%; top: 58%; }
+
+/* This is fine: caption on the left panel, the bubble is in the image */
+.reveal .fine .cap {
+	left: 0;
+	width: 50%;
+	font-size: 44px;
+}
+
+.reveal .fine.small .cap {
+	font-size: 27px;
+}
+
+.reveal .fine .cap.top { top: 4%; }
+.reveal .fine .cap.bottom { bottom: 5%; }
+
+/* Expanding brain: the four brains cropped into one row, so it stays landscape */
+.reveal .brain {
+	display: grid;
+	grid-template-columns: repeat(4, 280px);
+	width: max-content;
+}
+
+.reveal .brain > div + div {
+	border-left: 3px solid var(--ink);
+}
+
+.reveal .brain .pic {
+	height: 180px;
+	background: url("../img/meme/expanding-brain.jpg") no-repeat;
+	background-size: 566px 793px;
+	border-bottom: 3px solid var(--ink);
+}
+
+.reveal .brain .b1 .pic { background-position: -284px -9px; }
+.reveal .brain .b2 .pic { background-position: -284px -210px; }
+.reveal .brain .b3 .pic { background-position: -284px -402px; }
+.reveal .brain .b4 .pic { background-position: -284px -594px; }
+
+.reveal .brain .text {
+	padding: 14px 16px;
+	font-size: 27px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+/* Small brain: a short strip under the slide content, cropped to the brains */
+.reveal .brain.small {
+	grid-template-columns: repeat(4, 230px);
+}
+
+.reveal .brain.small .pic {
+	height: 90px;
+	background-size: 465px 652px;
+}
+
+.reveal .brain.small .b1 .pic { background-position: -233px -36px; }
+.reveal .brain.small .b2 .pic { background-position: -233px -202px; }
+.reveal .brain.small .b3 .pic { background-position: -233px -359px; }
+.reveal .brain.small .b4 .pic { background-position: -233px -522px; }
+
+.reveal .brain.small .text {
+	padding: 8px 12px;
+}
+
+/* Final slide: questions */
+.reveal .questions {
+	text-align: center;
+}
+
+.reveal .questions h1 {
+	font-size: 96px;
+	margin: 0.2em 0;
+}
+
+.reveal .questions .emoji {
+	font-size: 140px;
+}
+
+.reveal .questions .print {
+	margin-top: 1.2em;
+	font-size: 27px;
+	color: var(--muted);
+}
+
+/* Expectation vs reality, also used for "works on my machine" */
+.reveal .vs {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 1040px;
+}
+
+.reveal .vs > div {
+	padding: 26px 24px;
+	text-align: center;
+	background: #3d4f6b;
+}
+
+.reveal .vs > div + div {
+	border-left: 3px solid var(--ink);
+	background: #6b2f2f;
+}
+
+.reveal .vs .emoji {
+	display: block;
+	font-size: 120px;
+	margin: 12px 0;
+}
+
+.reveal .vs .impact {
+	font-size: 40px;
+	line-height: 1.15;
+}
+
+/* Links slides */
+.reveal .links {
+	columns: 2;
+	column-gap: 40px;
+	font-size: 22px;
+	line-height: 1.3;
+	padding-left: 0;
+	list-style: none;
+	counter-reset: link var(--start, 0);
+}
+
+.reveal .links li {
+	break-inside: avoid;
+	margin-bottom: 0.45em;
+	counter-increment: link;
+}
+
+.reveal .links li::before {
+	content: "🔗" counter(link) " ";
+	font-family: var(--emoji);
+	font-weight: bold;
+	color: var(--navy-soft);
+}
+
+/* Slide number, bottom centre, clear of the arrows in the bottom right corner */
+.reveal .slide-number a {
+	text-decoration: none;
+}
+
+.reveal .slide-number {
+	left: 50%;
+	right: auto;
+	bottom: 14px;
+	transform: translateX(-50%);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: var(--muted);
+	background: transparent;
+}
+
+/* Tooltip for 🔗 links, shown by src/js/deck.js. It sits outside the
+ * slides, so its size is set in screen pixels by the script. */
+#ref-tip {
+	position: fixed;
+	z-index: 100;
+	max-width: min(70vw, 900px);
+	padding: 0.4em 0.7em;
+	background: var(--navy);
+	color: #fff;
+	border-left: 6px solid var(--gold);
+	border-radius: 6px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.3;
+	pointer-events: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.12s;
+}
+
+#ref-tip.visible {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Position in a vertical stack, drawn by src/js/deck.js under the heading.
+ * One bar per slide in the stack; the gold one is the slide you are on.
+ * It replaces the single gold bar on those headings. */
+.reveal .has-stack-bar {
+	background: none;
+	padding-bottom: 0.15em;
+}
+
+.reveal .stack-bar {
+	display: flex;
+	gap: 10px;
+	margin: 0 0 0.9em;
+}
+
+.reveal .stack-bar span {
+	width: 60px;
+	height: 8px;
+	background: var(--line);
+}
+
+.reveal .stack-bar span.on {
+	background: var(--gold);
+}
+
+.reveal .questions .stack-bar {
+	justify-content: center;
+}
+
+/* Copy button on code boxes, added by src/js/deck.js */
+.reveal pre.has-copy {
+	position: relative;
+}
+
+.reveal .copy-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 4px 14px;
+	border: 2px solid var(--navy);
+	border-radius: 6px;
+	background: #fff;
+	color: var(--navy);
+	font: bold 24px/1.2 Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.reveal .copy-button:hover,
+.reveal .copy-button:focus-visible {
+	background: var(--gold);
+}
+
+/* Footnote jump: the line you landed on, and the way back (src/js/deck.js) */
+.reveal .entry-target {
+	background: #fff3cf;
+	outline: 3px solid var(--gold);
+	outline-offset: 4px;
+}
+
+.reveal .ref-back {
+	margin-left: 0.6em;
+	padding: 2px 12px;
+	border: 2px solid var(--navy);
+	border-radius: 6px;
+	background: #fff;
+	color: var(--navy);
+	font: bold 0.85em/1.3 Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.reveal .ref-back:hover,
+.reveal .ref-back:focus-visible {
+	background: var(--gold);
+}
+
+/* 🔗 inside a navy table header */
+.reveal th a.ref sup {
+	color: var(--gold);
+}
+
+/* Print version: the short citation follows each 🔗, as there is no hover */
+html.print-pdf .reveal a.ref[data-cite]::after {
+	content: " (" attr(data-cite) ")";
+	font-family: Arial, Helvetica, sans-serif;
+	color: var(--muted);
+}

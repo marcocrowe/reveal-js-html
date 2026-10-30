@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Mark Crowe" />
+	<meta name="description" content="Meme bank: film and TV quotes, and internet memes, for presentations and training." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Meme bank</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+	<link rel="stylesheet" href="src/css/tna.css" />
+	<link rel="stylesheet" href="src/css/memes.css" />
+	<link rel="stylesheet" href="src/css/deck-controls.css" />
+</head>
+
+<!--
+	Meme bank. Every slide comes from memes.md, so edit that file, not this one.
+	  ---   between topics (across)      ----   between entries (down)
+	Field lines like "**Who:** ..." get a class from their label (field-who,
+	field-imdb, field-check ...), styled in src/css/memes.css.
+
+	The Markdown is fetched, so the deck needs a web server: browsers block
+	fetching files from file://. In this folder run:  python -m http.server
+	then open http://localhost:8000/memes.html (or use VS Code Live Server).
+-->
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown="memes.md"
+				data-separator="^\r?\n---\r?\n$"
+				data-separator-vertical="^\r?\n----\r?\n$">
+			</section>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+	<script>
+		// Opened straight from disk: the Markdown can't be fetched, so say how to open it.
+		if (location.protocol === 'file:') {
+			document.querySelector('.slides').innerHTML =
+				'<section><h2>Open this through a web server</h2>' +
+				'<p>This deck loads <code>memes.md</code>, and browsers block that from a file.</p>' +
+				'<p>In this folder run <code>python -m http.server</code>, then open ' +
+				'<code>http://localhost:8000/memes.html</code>. Or use VS Code Live Server.</p>' +
+				'<p>Or read <a href="memes.md">memes.md</a> directly.</p></section>';
+		}
+
+		// The address before reveal.js starts: #/contents only exists once
+		// deck-controls.js has added the contents slides
+		window.deckStartHash = location.hash;
+
+		Reveal.initialize({
+			width: 1280,
+			height: 720,
+			margin: 0.06,
+			center: false,
+			hash: true,
+			history: true,
+			progress: true,
+			slideNumber: 'h.v',
+			transition: 'none',
+			mouseWheel: false, // src/js/deck.js handles the wheel
+			stackBarLinks: true, // src/js/deck.js: click a grey bar to go to that slide
+			// Slide list, contents slides and buttons: src/js/deck-controls.js
+			deckControls: { contentsPerSlide: 9, sidebarSide: 'left' },
+			plugins: [RevealMarkdown, RevealNotes],
+		}).then(function () {
+			// Give each field line a class from its label: "**Use it for:**" -> field-use-it-for
+			document.querySelectorAll('.reveal .slides li').forEach(function (item) {
+				const label = item.querySelector(':scope > strong:first-child');
+				if (!label) return;
+				const name = label.textContent.replace(/:\s*$/, '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
+				item.classList.add('field', 'field-' + name);
+			});
+
+			// Topic slides (a level 1 heading) and the opening slide get their own look
+			document.querySelectorAll('.reveal .slides section').forEach(function (slide) {
+				if (slide.querySelector(':scope > h1')) slide.classList.add('topic');
+			});
+
+			// "**Scene: ...**" lines under the heading
+			document.querySelectorAll('.reveal .slides section > p').forEach(function (line) {
+				if (/^Scene:/.test(line.textContent.trim()) && line.children.length === 1) line.classList.add('scene');
+			});
+
+			// Links to other websites open in a new tab, so the deck stays open
+			document.querySelectorAll('.reveal .slides a[href^="http"]').forEach(function (link) {
+				link.target = '_blank';
+				link.rel = 'noopener';
+			});
+
+			// Long quotes: shrink the text on a slide until it fits, in small steps
+			function fit(slide) {
+				if (!slide || slide.dataset.fitted) return;
+				let size = 1;
+				while (slide.scrollHeight > 690 && size > 0.55) {
+					size -= 0.05;
+					slide.style.setProperty('--fit', size.toFixed(2));
+				}
+				slide.dataset.fitted = 'yes';
+			}
+			fit(Reveal.getCurrentSlide());
+			Reveal.on('slidechanged', function (event) { fit(event.currentSlide); });
+
+			// Once the slides exist: the deck controls (they add the contents
+			// slides), then mouse navigation, tooltips and stack bars
+			['src/js/deck-controls.js', 'src/js/deck.js'].reduce(function (previous, src) {
+				return previous.then(function () {
+					return new Promise(function (resolve) {
+						const script = document.createElement('script');
+						script.src = src;
+						script.onload = resolve;
+						document.body.appendChild(script);
+					});
+				});
+			}, Promise.resolve());
+		});
+	</script>
+</body>
+
+</html>

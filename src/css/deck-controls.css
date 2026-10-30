@@ -1,0 +1,336 @@
+/*********************************************************
+ * Deck controls (src/js/deck-controls.js): the button docks, the slide list
+ * sidebar, the contents slides and the "Go to slide" box. Nothing here prints.
+ * Icons are Feather (MIT), as CSS masks from data URIs, so they work when the
+ * deck is opened from file:// too.
+ *********************************************************/
+:root {
+	--dock-colour: var(--navy, #1b2a4a);
+	--dock-hover: var(--gold, #e8b232);
+	--deck-sidebar-width: 340px;
+	--icon-maximize: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3'/%3E%3C/svg%3E");
+	--icon-minimize: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3'/%3E%3C/svg%3E");
+	--icon-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/%3E%3Cpolyline points='9 22 9 12 15 12 15 22'/%3E%3C/svg%3E");
+	--icon-grid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='7' height='7'/%3E%3Crect x='14' y='3' width='7' height='7'/%3E%3Crect x='14' y='14' width='7' height='7'/%3E%3Crect x='3' y='14' width='7' height='7'/%3E%3C/svg%3E");
+	--icon-list: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='8' y1='6' x2='21' y2='6'/%3E%3Cline x1='8' y1='12' x2='21' y2='12'/%3E%3Cline x1='8' y1='18' x2='21' y2='18'/%3E%3Cline x1='3' y1='6' x2='3.01' y2='6'/%3E%3Cline x1='3' y1='12' x2='3.01' y2='12'/%3E%3Cline x1='3' y1='18' x2='3.01' y2='18'/%3E%3C/svg%3E");
+	--icon-book: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z'/%3E%3Cpath d='M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z'/%3E%3C/svg%3E");
+	--icon-eye-off: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24'/%3E%3Cline x1='1' y1='1' x2='23' y2='23'/%3E%3C/svg%3E");
+	--icon-eye: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E");
+	--icon-sidebar: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'/%3E%3Cline x1='9' y1='3' x2='9' y2='21'/%3E%3C/svg%3E");
+	--icon-chevrons-down: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='7 13 12 18 17 13'/%3E%3Cpolyline points='7 6 12 11 17 6'/%3E%3C/svg%3E");
+	--icon-chevrons-up: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='17 11 12 6 7 11'/%3E%3Cpolyline points='17 18 12 13 7 18'/%3E%3C/svg%3E");
+	--icon-close: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E");
+}
+
+/* ---------- Buttons ---------- */
+.deck-dock {
+	position: fixed;
+	z-index: 200; /* above reveal.js's blackout, so it can be undone */
+	display: flex;
+	gap: 6px;
+}
+
+.deck-dock-top-right {
+	top: 10px;
+	right: 10px;
+}
+
+.deck-dock-bottom-left {
+	bottom: 12px;
+	left: 10px;
+}
+
+.deck-button {
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	border: 0;
+	border-radius: 6px;
+	background: transparent;
+	cursor: pointer;
+	opacity: 0.55;
+	transition: opacity 0.15s, background-color 0.15s;
+}
+
+.deck-button:hover,
+.deck-button:focus-visible {
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.06);
+}
+
+.deck-button::before {
+	content: "";
+	display: block;
+	width: 22px;
+	height: 22px;
+	margin: auto;
+	background: var(--dock-colour);
+	-webkit-mask: var(--icon, none) center / contain no-repeat;
+	mask: var(--icon, none) center / contain no-repeat;
+}
+
+/* On the black screen the buttons turn grey to stay visible */
+body:has(.reveal.paused) .deck-dock .deck-button::before {
+	background: #8a8a8a;
+}
+
+.deck-fullscreen { --icon: var(--icon-maximize); }
+.deck-fullscreen.on { --icon: var(--icon-minimize); }
+.deck-blackout { --icon: var(--icon-eye-off); }
+.deck-blackout.on { --icon: var(--icon-eye); }
+.deck-overview { --icon: var(--icon-grid); }
+.deck-menu { --icon: var(--icon-list); }
+.deck-home { --icon: var(--icon-home); }
+.deck-toc { --icon: var(--icon-book); }
+.deck-expand { --icon: var(--icon-chevrons-down); }
+.deck-collapse { --icon: var(--icon-chevrons-up); }
+.deck-side { --icon: var(--icon-sidebar); }
+.deck-close { --icon: var(--icon-close); }
+
+/* ---------- Slide list sidebar ----------
+ * While open, the slides move over and shrink to fit beside it. */
+.deck-sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 150;
+	display: none;
+	flex-direction: column;
+	width: var(--deck-sidebar-width);
+	box-sizing: border-box;
+	background: #fff;
+	color: var(--ink, #222);
+	font: 15px/1.5 system-ui, "Segoe UI", sans-serif;
+}
+
+.deck-sidebar-open .deck-sidebar {
+	display: flex;
+}
+
+.deck-sidebar-left .deck-sidebar {
+	left: 0;
+	border-right: 1px solid #d5dbe6;
+}
+
+.deck-sidebar-right .deck-sidebar {
+	right: 0;
+	border-left: 1px solid #d5dbe6;
+}
+
+.deck-sidebar-open.deck-sidebar-left .reveal {
+	width: calc(100% - var(--deck-sidebar-width));
+	margin-left: var(--deck-sidebar-width);
+}
+
+.deck-sidebar-open.deck-sidebar-right .reveal {
+	width: calc(100% - var(--deck-sidebar-width));
+	margin-right: var(--deck-sidebar-width);
+}
+
+.deck-sidebar-open.deck-sidebar-left .deck-dock-bottom-left {
+	left: calc(var(--deck-sidebar-width) + 10px);
+}
+
+.deck-sidebar-open.deck-sidebar-right .deck-dock-top-right {
+	right: calc(var(--deck-sidebar-width) + 10px);
+}
+
+.deck-sidebar-toolbar {
+	display: flex;
+	justify-content: flex-end;
+	gap: 2px;
+	padding: 6px 8px;
+	border-bottom: 1px solid #d5dbe6;
+}
+
+.deck-sidebar-tree,
+.deck-sidebar-tree ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.deck-sidebar-tree {
+	flex: 1;
+	padding: 6px 0 24px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.deck-sidebar-tree ol {
+	padding-left: 18px;
+}
+
+/* One line per slide: cut off, never wrapped, never scrolled sideways */
+.deck-sidebar-link {
+	display: flex;
+	gap: 0.3em;
+	min-width: 0;
+	padding: 2px 10px 2px 26px;
+	overflow: hidden;
+	color: inherit;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.deck-sidebar-link:hover {
+	background: #eef2f8;
+}
+
+.deck-sidebar-link.current {
+	background: #dfe7f3;
+	box-shadow: inset 3px 0 0 var(--dock-hover);
+	font-weight: 600;
+}
+
+.deck-sidebar-number {
+	flex: none;
+	color: var(--navy-soft, #3b5a8c);
+	font-variant-numeric: tabular-nums;
+}
+
+.deck-sidebar-title {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* The triangle opens and closes a stack; the title goes to the slide */
+.deck-sidebar-tree summary {
+	position: relative;
+	display: block;
+	list-style: none;
+	cursor: pointer;
+}
+
+.deck-sidebar-tree summary::-webkit-details-marker {
+	display: none;
+}
+
+.deck-sidebar-tree summary::before {
+	content: "";
+	position: absolute;
+	top: 0.55em;
+	left: 10px;
+	z-index: 1;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 7px solid var(--navy-soft, #3b5a8c);
+	transition: transform 0.15s;
+}
+
+.deck-sidebar-tree details[open] > summary::before {
+	transform: rotate(90deg);
+}
+
+.deck-sidebar-tree li li .deck-sidebar-link {
+	padding-left: 12px;
+}
+
+/* ---------- Go to slide: the number being typed ---------- */
+.deck-typed {
+	position: fixed;
+	bottom: 56px;
+	left: 50%;
+	z-index: 250;
+	display: none;
+	padding: 6px 14px;
+	border-radius: 6px;
+	background: var(--dock-colour);
+	color: #fff;
+	font: 600 18px/1.4 system-ui, "Segoe UI", sans-serif;
+	transform: translateX(-50%);
+}
+
+.deck-typed.on {
+	display: block;
+}
+
+/* ---------- Contents slides: thumbnail grid ----------
+ * Column widths and the scale are set by deck-controls.js from the deck size */
+.reveal .deck-contents h2 {
+	margin-bottom: 0.4em;
+}
+
+.reveal ol.deck-thumbs {
+	display: grid;
+	justify-content: center;
+	gap: var(--gap-y, 14px) var(--gap-x, 24px);
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	counter-reset: none;
+}
+
+.reveal ol.deck-thumbs li {
+	margin: 0;
+	padding: 0;
+}
+
+.reveal ol.deck-thumbs li::before {
+	content: none;
+}
+
+.reveal a.deck-thumb {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+/* The slide copy is full size, scaled down to the frame */
+.deck-thumb-frame {
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	border: 2px solid #c9d5ea;
+	border-radius: 6px;
+	background: #fff;
+	transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.reveal a.deck-thumb:hover .deck-thumb-frame,
+.reveal a.deck-thumb:focus-visible .deck-thumb-frame {
+	border-color: var(--dock-hover);
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .deck-thumb-frame > .deck-thumb-slide {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	display: block !important;
+	width: var(--slide-width, 1280px) !important;
+	height: var(--slide-height, 720px) !important;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	transform: scale(var(--thumb-scale, 0.25));
+	transform-origin: top left;
+	pointer-events: none;
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+
+.reveal .deck-thumb-title {
+	display: block;
+	margin-top: 4px;
+	overflow: hidden;
+	font-size: 18px;
+	line-height: 1.3;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/* ---------- Never print ---------- */
+@media print {
+	.deck-dock,
+	.deck-sidebar,
+	.deck-typed {
+		display: none !important;
+	}
+
+	.reveal {
+		width: 100% !important;
+		margin: 0 !important;
+	}
+}
