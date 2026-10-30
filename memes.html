@@ -64,8 +64,14 @@
 			transition: 'none',
 			mouseWheel: false, // src/js/deck.js handles the wheel
 			stackBarLinks: true, // src/js/deck.js: click a grey bar to go to that slide
-			// Slide list, contents slides and buttons: src/js/deck-controls.js
-			deckControls: { contentsPerSlide: 9, sidebarSide: 'left' },
+			tapZones: true, // src/js/deck.js: on a touch screen, tap left to go back, right to go on
+			// Keep the slides on a phone. reveal.js otherwise switches to one long
+			// scrolling page when the slides are under 435px wide: upright on a
+			// phone, or with the slide list open, and swiping, the overview and
+			// the contents stop working
+			scrollActivationWidth: null,
+			// Slide list, contents slides, numbering and buttons: src/js/deck-controls.js
+			deckControls: { contentsPerSlide: 9, contentsPerSlidePortrait: 4, sidebarSide: 'left', numberHeadings: true },
 			plugins: [RevealMarkdown, RevealNotes],
 		}).then(function () {
 			// Give each field line a class from its label: "**Use it for:**" -> field-use-it-for
@@ -90,6 +96,70 @@
 			document.querySelectorAll('.reveal .slides a[href^="http"]').forEach(function (link) {
 				link.target = '_blank';
 				link.rel = 'noopener';
+			});
+
+			/* Link icons: each website's own icon (favicon, src/img/favicons/).
+			 * Four styles to compare, a different one on each topic in turn
+			 * (styles in src/css/memes.css). ?links=favicon-after in the address
+			 * shows one style everywhere. */
+			const SITES = {
+				'imdb.com': ['imdb.png', 'IMDb'],
+				'chakoteya.net': ['chakoteya.png', 'chakoteya.net'],
+				'springfieldspringfield.co.uk': ['springfield.png', 'Springfield! Springfield!'],
+				'knowyourmeme.com': ['knowyourmeme.png', 'Know Your Meme'],
+				'wikiquote.org': ['wikiquote.png', 'Wikiquote'],
+				'wikimedia.org': ['commons.png', 'Wikimedia Commons'],
+				'wikipedia.org': ['wikipedia.png', 'Wikipedia'],
+				'youtube.com': ['youtube.png', 'YouTube'],
+				'youtu.be': ['youtube.png', 'YouTube'],
+				'imgflip.com': ['imgflip.png', 'imgflip'],
+				'revealjs.com': ['revealjs.svg', 'reveal.js'],
+				'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
+				'incompetech.com': ['incompetech.png', 'Incompetech'],
+			};
+			// Labels the favicon-label style replaces with the site's icon
+			const LABELS = { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' };
+			const PLAIN_LINK = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233b5a8c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E\")";
+			const STYLES = ['favicon-before', 'favicon-after', 'link-icon', 'favicon-label'];
+			const forced = new URLSearchParams(window.location.search).get('links');
+
+			function siteOf(href) {
+				let host = '';
+				try { host = new URL(href).hostname.replace(/^www\./, ''); } catch (e) { return null; }
+				const key = Object.keys(SITES).find(k => host === k || host.endsWith('.' + k));
+				return key ? SITES[key] : null;
+			}
+
+			let topic = 0;
+			document.querySelectorAll('.reveal .slides > section').forEach(function (top) {
+				const first = top.querySelector(':scope > section') || top;
+				if (first.querySelector(':scope > figure.topic-photo')) topic++;
+				const style = STYLES.indexOf(forced) >= 0 ? forced : (topic ? STYLES[(topic - 1) % STYLES.length] : STYLES[0]);
+				top.dataset.links = style;
+
+				// Not on a link that is a picture (the QR code). The address is made
+				// absolute: a relative one in a CSS variable is read from the CSS file
+				top.querySelectorAll('a[href^="http"]:not(:has(img))').forEach(function (link) {
+					const site = siteOf(link.href);
+					link.classList.add('site-link');
+					link.style.setProperty('--favicon', site ? 'url("' + new URL('src/img/favicons/' + site[0], document.baseURI).href + '")' : PLAIN_LINK);
+				});
+
+				if (style !== 'favicon-label') return;
+				top.querySelectorAll('li.field').forEach(function (item) {
+					const name = Array.from(item.classList).find(c => c.indexOf('field-') === 0 && c !== 'field');
+					const domain = name && LABELS[name.slice(6)];
+					const label = item.querySelector(':scope > strong:first-child');
+					if (!domain || !label) return;
+					const site = SITES[domain];
+					const icon = document.createElement('img');
+					icon.className = 'label-favicon';
+					icon.src = 'src/img/favicons/' + site[0];
+					icon.alt = site[1];
+					icon.title = site[1];
+					label.replaceChildren(icon, ':');
+					item.querySelectorAll('a.site-link').forEach(link => link.classList.add('labelled'));
+				});
 			});
 
 			// Long quotes: shrink the text on a slide until it fits, in small steps

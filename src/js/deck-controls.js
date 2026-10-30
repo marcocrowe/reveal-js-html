@@ -23,6 +23,24 @@
  *     sidebarSide: 'left',   // or 'right'; the viewer can switch, and it is remembered
  *     sidebarWidth: 340,     // pixels
  *   }
+ * is dropped from the sidebar and contents, as the deck numbers them.
+ *
+ * Load after Reveal.initialize has finished (the slides must exist), and
+ * before scripts that decorate slides (src/js/deck.js), so they see the
+ * contents slides too. Settings, all optional, in Reveal.initialize:
+ *   deckControls: {
+ *     contents: true,              // make the contents slides
+ *     contentsPerSlide: 9,         // thumbnails on each contents slide
+ *     contentsPerSlidePortrait: 4, // ... when the screen is upright
+ *     contentsTitle: 'Contents',
+ *     contentsAfter: 0,            // put them after this slide (0 = the title slide)
+ *     sidebar: true,
+ *     sidebarSide: 'left',         // or 'right'; the viewer can switch, and it is remembered
+ *     sidebarWidth: 340,           // pixels
+ *     numbering: true,             // number sections and the slides under them
+ *     autoNumber: true,            // number every slide not marked <!-- no-number -->
+ *     numberHeadings: false,       // also put "1 – " before each section's heading
+ *   }
  *********************************************************/
 (function () {
 	'use strict';
@@ -30,11 +48,15 @@
 	const settings = Object.assign({
 		contents: true,
 		contentsPerSlide: 9,
+		contentsPerSlidePortrait: 4,
 		contentsTitle: 'Contents',
 		contentsAfter: 0,
 		sidebar: true,
 		sidebarSide: 'left',
 		sidebarWidth: 340,
+		numbering: true,
+		autoNumber: true,
+		numberHeadings: false,
 	}, Reveal.getConfig().deckControls || {});
 
 	const printing = /print-pdf/i.test(window.location.search);
@@ -51,13 +73,99 @@
 		return Array.from(document.querySelectorAll('.reveal .slides > section'));
 	}
 
+	function childSlides(top) {
+		return Array.from(top.children).filter(el => el.tagName === 'SECTION');
+	}
+
 	function firstOf(slide) {
 		return slide.querySelector(':scope > section') || slide;
 	}
 
+	function portrait() {
+		return window.innerHeight > window.innerWidth;
+	}
+
+	/* ---------- Numbering ---------- */
+	const numbers = new Map(); // slide -> "2" or "2.1", or "" when not numbered
+
+	// The marks in a slide: <!-- no-number -->, <!-- no-list -->, <!-- number -->
+	function marksOf(slide) {
+		const marks = new Set();
+		slide.childNodes.forEach(function (node) {
+			if (node.nodeType !== Node.COMMENT_NODE) return;
+			const mark = node.textContent.trim().toLowerCase();
+			if (mark === 'no-number' || mark === 'no-list' || mark === 'number') marks.add(mark);
+		});
+		return marks;
+	}
+
+	function listed(slide) {
+		return !marksOf(slide).has('no-list');
+	}
+
+	function counted(slide, isHome) {
+		const marks = marksOf(slide);
+		if (marks.has('no-list') || marks.has('no-number')) return false;
+		if (marks.has('number')) return true;
+		return settings.autoNumber && !isHome;
+	}
+
+	function numberSlides() {
+		numbers.clear();
+		if (!settings.numbering) return;
+		let section = 0;
+		topSlides().forEach(function (top, h) {
+			if (top.classList.contains('deck-contents-stack')) return;
+			const slides = childSlides(top);
+			const first = firstOf(top);
+			const label = counted(first, h === 0) ? String(++section) : '';
+			numbers.set(first, label);
+			let sub = 0;
+			slides.slice(1).forEach(function (slide) {
+				numbers.set(slide, label && counted(slide, false) ? label + '.' + (++sub) : '');
+			});
+		});
+	}
+
+	function numberOf(slide) {
+		return numbers.get(slide) || '';
+	}
+
+	// The heading, without a number typed into it ("1. Topic" or "1 – Topic")
 	function titleOf(slide) {
 		const heading = slide.querySelector('h1, h2, h3');
-		return heading ? heading.textContent.trim() : '';
+		if (!heading) return '';
+		const copy = heading.cloneNode(true);
+		copy.querySelectorAll('.heading-number, .stack-bar').forEach(el => el.remove());
+		return copy.textContent.trim().replace(/^\d+(\.\d+)*\s*[.)–-]\s+/, '');
+	}
+
+	function labelled(slide) {
+		const number = numberOf(slide);
+		const title = titleOf(slide);
+		return number ? number + ' – ' + title : title;
+	}
+
+	// "1 – " before each numbered section's heading, on the slide itself
+	function numberHeadings() {
+		if (!settings.numberHeadings) return;
+		topSlides().forEach(function (top) {
+			const first = firstOf(top);
+			const number = numberOf(first);
+			const heading = first.querySelector('h1, h2');
+			if (!number || !heading || heading.querySelector('.heading-number')) return;
+			heading.innerHTML = heading.innerHTML.replace(/^\s*\d+(\.\d+)*\s*[.)–-]\s+/, '');
+			const span = document.createElement('span');
+			span.className = 'heading-number';
+			span.textContent = number + ' – ';
+			heading.prepend(span);
+		});
+	}
+
+	// The slide number, bottom of the screen, follows the same numbering
+	function useNumbersForSlideNumber() {
+		if (!settings.numbering || !Reveal.getConfig().slideNumber) return;
+		Reveal.configure({ slideNumber: slide => [numberOf(slide)] });
 	}
 
 	// A scene line ("**Scene: ...**") adds to the title in the sidebar's tooltip
@@ -73,8 +181,9 @@
 	/* ---------- Contents slides ----------
 	 * One thumbnail for each horizontal slide (a vertical stack shows its first
 	 * slide). The thumbnail is a scaled-down copy of the slide itself, so it
+	 * slide itself, so it always matches. The pages form one vertical stack.
 	 * always matches. The pages form one vertical stack: 2, 2.2, 2.3 ... */
-	let contentsStack = null;
+	let contentsStack = null, contentsPerSlide = 0;
 
 	// A <div>, not a <section>, so reveal.js and the sidebar don't count it as a slide
 	function makeThumbnail(slide) {
@@ -89,10 +198,13 @@
 	}
 
 	function buildContents() {
-		const slides = topSlides();
-		const perSlide = Math.max(1, settings.contentsPerSlide);
+		const all = topSlides();
+		const after = all[settings.contentsAfter];
+		const slides = all.slice(settings.contentsAfter + 1).filter(top => listed(firstOf(top)));
+		const perSlide = Math.max(1, portrait() ? settings.contentsPerSlidePortrait : settings.contentsPerSlide);
 		const pages = Math.ceil(slides.length / perSlide);
 		const config = Reveal.getConfig();
+		contentsPerSlide = perSlide;
 
 		// Size the thumbnails so a full grid fits under the heading
 		const columns = Math.ceil(Math.sqrt(perSlide));
@@ -127,7 +239,7 @@
 				const link = document.createElement('a');
 				link.href = '#';
 				link.className = 'deck-thumb';
-				link.title = titleOf(firstOf(slide));
+				link.title = labelled(firstOf(slide));
 				link.addEventListener('click', function (event) {
 					event.preventDefault();
 					event.stopPropagation();
@@ -144,7 +256,7 @@
 
 				const caption = document.createElement('span');
 				caption.className = 'deck-thumb-title';
-				caption.textContent = titleOf(firstOf(slide));
+				caption.textContent = labelled(firstOf(slide));
 				link.appendChild(caption);
 
 				item.appendChild(link);
@@ -155,14 +267,37 @@
 			contentsStack.appendChild(section);
 		}
 
-		const after = slides[settings.contentsAfter];
 		if (after) after.after(contentsStack);
 		else document.querySelector('.reveal .slides').prepend(contentsStack);
 		Reveal.sync();
-		// reveal.js read the address (#/4/2) before the contents went in, so
-		// read it again now that the slide numbers include them
-		goToAddress();
 	}
+
+	// Turned the screen: rebuild the contents if the number per page changes
+	function rebuildContents() {
+		if (!contentsStack || printing) return;
+		const wanted = Math.max(1, portrait() ? settings.contentsPerSlidePortrait : settings.contentsPerSlide);
+		if (wanted === contentsPerSlide) return;
+		const at = Reveal.getIndices();
+		const onContents = Reveal.getCurrentSlide().closest('.deck-contents-stack') === contentsStack;
+		contentsStack.remove();
+		buildContents();
+		if (onContents) goTo(contentsStack, 0);
+		else Reveal.slide(at.h, at.v || 0);
+		if (sidebar) {
+			const list = buildSidebarList();
+			sidebarList.replaceWith(list);
+			sidebarList = list;
+			markCurrent();
+		}
+		// reveal.js read the address (#/4/2) before the contents went in, so
+		document.dispatchEvent(new CustomEvent('deck:stack-rebuilt', { detail: contentsStack }));
+	}
+
+	let resizeTimer = null;
+	window.addEventListener('resize', function () {
+		clearTimeout(resizeTimer);
+		resizeTimer = setTimeout(rebuildContents, 250);
+	});
 
 	// reveal.js drops an address it can't find yet, such as #/contents, so a
 	// deck can note it before Reveal.initialize: window.deckStartHash = location.hash
@@ -170,9 +305,9 @@
 		const start = window.deckStartHash || window.location.hash;
 		window.deckStartHash = null;
 		const hash = decodeURIComponent(start.replace(/^#\/?/, ''));
-		const numbers = hash.match(/^(\d+)(?:\/(\d+))?/);
-		if (numbers) {
-			Reveal.slide(parseInt(numbers[1], 10), parseInt(numbers[2] || '0', 10));
+		const indices = hash.match(/^(\d+)(?:\/(\d+))?/);
+		if (indices) {
+			Reveal.slide(parseInt(indices[1], 10), parseInt(indices[2] || '0', 10));
 			return;
 		}
 		const target = hash && document.getElementById(hash.split('/')[0]);
@@ -181,7 +316,7 @@
 			return;
 		}
 		const top = target.parentElement.matches('.slides') ? target : target.parentElement;
-		const v = Array.from(top.children).filter(el => el.tagName === 'SECTION').indexOf(target);
+		const v = childSlides(top).indexOf(target);
 		Reveal.slide(topSlides().indexOf(top), Math.max(v, 0));
 	}
 
@@ -193,28 +328,27 @@
 	 * fit, rather than over them. */
 	let sidebar = null, sidebarList = null;
 
-	function slideNumber(h, v, inStack) {
-		return inStack ? (h + 1) + '.' + (v + 1) : String(h + 1);
-	}
-
-	function sidebarItem(slide, h, v, inStack) {
+	function sidebarItem(slide, h, v) {
 		const link = document.createElement('a');
 		link.href = '#';
 		link.className = 'deck-sidebar-link';
 		link.dataset.h = h;
 		link.dataset.v = v;
-		const number = slideNumber(h, v, inStack);
-		const title = titleOf(slide) || 'Slide ' + number;
+		const number = numberOf(slide);
+		const title = titleOf(slide) || 'Slide ' + (h + 1) + (v ? '.' + (v + 1) : '');
 		const scene = sceneOf(slide);
-		link.title = number + ' – ' + title + (scene ? ' – ' + scene : '');
+		link.title = (number ? number + ' – ' : '') + title + (scene ? ' – ' + scene : '');
 
-		const num = document.createElement('span');
-		num.className = 'deck-sidebar-number';
-		num.textContent = number;
+		if (number) {
+			const num = document.createElement('span');
+			num.className = 'deck-sidebar-number';
+			num.textContent = number;
+			link.append(num, ' – ');
+		}
 		const text = document.createElement('span');
 		text.className = 'deck-sidebar-title';
 		text.textContent = title + (scene ? ' · ' + scene : '');
-		link.append(num, ' – ', text);
+		link.append(text);
 
 		link.addEventListener('click', function (event) {
 			event.preventDefault();
@@ -227,19 +361,22 @@
 		const list = document.createElement('ol');
 		list.className = 'deck-sidebar-tree';
 		topSlides().forEach(function (top, h) {
+			const children = childSlides(top);
+			const first = firstOf(top);
+			if (!listed(first)) return;
 			const item = document.createElement('li');
-			const children = Array.from(top.children).filter(el => el.tagName === 'SECTION');
 			if (children.length < 2) {
-				item.appendChild(sidebarItem(firstOf(top), h, 0, false));
+				item.appendChild(sidebarItem(first, h, 0));
 			} else {
 				const group = document.createElement('details');
 				const summary = document.createElement('summary');
-				summary.appendChild(sidebarItem(children[0], h, 0, true));
+				summary.appendChild(sidebarItem(children[0], h, 0));
 				group.appendChild(summary);
 				const sub = document.createElement('ol');
-				children.slice(1).forEach(function (child, i) {
+				children.forEach(function (child, v) {
+					if (v === 0 || !listed(child)) return;
 					const subItem = document.createElement('li');
-					subItem.appendChild(sidebarItem(child, h, i + 1, true));
+					subItem.appendChild(sidebarItem(child, h, v));
 					sub.appendChild(subItem);
 				});
 				group.appendChild(sub);
@@ -287,9 +424,11 @@
 		sidebar.setAttribute('data-no-click', '');
 		document.documentElement.style.setProperty('--deck-sidebar-width', settings.sidebarWidth + 'px');
 
+		// Close first: on the outer edge, away from the other buttons
 		const toolbar = document.createElement('div');
 		toolbar.className = 'deck-sidebar-toolbar';
 		toolbar.append(
+			button('close', 'Close the slide list', function () { setSidebar(false); }),
 			button('expand', 'Open all sections', function () {
 				sidebar.querySelectorAll('details').forEach(d => { d.open = true; });
 			}),
@@ -299,8 +438,7 @@
 			}),
 			button('side', 'Move the slide list to the other side', function () {
 				setSide(document.body.classList.contains('deck-sidebar-left') ? 'right' : 'left');
-			}),
-			button('close', 'Close the slide list', function () { setSidebar(false); })
+			})
 		);
 		sidebar.appendChild(toolbar);
 
@@ -380,6 +518,7 @@
 	/* ---------- Type a slide number, then Enter ----------
 	 * 4 then Enter goes to slide 4; 40 goes to slide 40, or the last slide if
 	 * there are fewer. 4.2 goes to the second slide of stack 4. Backspace
+	 * slide. Without numbering, the same with reveal.js's own slide numbers.
 	 * corrects, Esc cancels. */
 	let typed = '', typedTimer = null;
 	const typedBox = document.createElement('div');
@@ -394,13 +533,38 @@
 		if (typed) typedTimer = setTimeout(function () { typed = ''; showTyped(); }, 4000);
 	}
 
+	// Numbered slides as [{ h, v, number }] in deck order
+	function numberedSlides() {
+		const found = [];
+		topSlides().forEach(function (top, h) {
+			childSlides(top).concat(childSlides(top).length ? [] : [top]).forEach(function (slide, v) {
+				const number = numberOf(slide);
+				if (number) found.push({ h: h, v: v, number: number });
+			});
+		});
+		return found;
+	}
+
 	function jumpToTyped() {
 		const parts = typed.split('.');
+		const section = parseInt(parts[0], 10);
+		const sub = parts[1] ? parseInt(parts[1], 10) : 0;
+		const numbered = numberedSlides();
+
+		if (numbered.length) {
+			if (section === 0) { Reveal.slide(0, 0); return; }
+			const sections = numbered.filter(s => s.number.indexOf('.') < 0);
+			const target = sections[Math.min(section, sections.length) - 1];
+			const under = numbered.filter(s => s.number.indexOf(target.number + '.') === 0);
+			const to = sub && under.length ? under[Math.min(sub, under.length) - 1] : target;
+			Reveal.slide(to.h, to.v);
+			return;
+		}
+
 		const slides = topSlides();
-		const h = Math.min(Math.max(parseInt(parts[0], 10) - 1, 0), slides.length - 1);
-		let v = parts[1] ? parseInt(parts[1], 10) - 1 : 0;
-		const stackSize = Array.from(slides[h].children).filter(el => el.tagName === 'SECTION').length;
-		v = Math.min(Math.max(v || 0, 0), Math.max(stackSize - 1, 0));
+		const h = Math.min(Math.max(section - 1, 0), slides.length - 1);
+		const stackSize = childSlides(slides[h]).length;
+		const v = Math.min(Math.max(sub - 1, 0), Math.max(stackSize - 1, 0));
 		Reveal.slide(h, v);
 	}
 
@@ -429,7 +593,15 @@
 	}, true);
 
 	/* ---------- Start ---------- */
-	if (settings.contents) buildContents();
+	numberSlides();
+	numberHeadings();
+	useNumbersForSlideNumber();
+	if (settings.contents) {
+		buildContents();
+		// reveal.js read the address (#/4/2) before the contents went in, so
+		// read it again now that the slide indices include them
+		goToAddress();
+	}
 
 	if (!printing) {
 		if (settings.sidebar) buildSidebar();

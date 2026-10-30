@@ -9,6 +9,8 @@ Film and TV quotes, and internet memes, to drop into presentations and training.
 
 Slides: [memes.html](memes.html) renders this file. Built with [reveal.js](https://revealjs.com/)
 
+<figure class="deck-qr"><a href="https://marcocrowe.github.io/reveal-js-html/memes.html"><img src="src/img/qr/memes-deck.svg" alt="QR code: this deck online" /></a><figcaption><a href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></figcaption></figure>
+
 <!--
 HOW THIS FILE BECOMES SLIDES (memes.html)
   ---    on its own line, with blank lines around it: a new topic (goes across)
@@ -21,11 +23,11 @@ HOW THIS FILE BECOMES SLIDES (memes.html)
 
 ---
 
-# 1. Training needs and skills
+# Training needs and skills
 
 Quotes for the TNA, skills audits and learner feedback
 
-<figure class="topic-photo"><img src="src/img/topics/training.jpg" alt="A lecture in a classroom" /><figcaption>Photo: RainaKate, <a href="https://commons.wikimedia.org/wiki/File:Lecture_at_MRU.jpg">CC BY-SA 4.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/training-hurling.jpg" alt="A hurling match at Cusack Park, Ennis" /><figcaption><a class="ref media" href="#/media-used"><sup>1</sup></a> – Hurling at Cusack Park, Ennis</figcaption></figure>
 
 ----
 
@@ -141,11 +143,11 @@ Quotes for the TNA, skills audits and learner feedback
 
 ---
 
-# 2. Projects, scope and deadlines
+# Projects, scope and deadlines
 
 Plans, scope creep and the submission date
 
-<figure class="topic-photo"><img src="src/img/topics/projects.png" alt="A Gantt chart" /><figcaption>Photo: HarryTruinkers, <a href="https://commons.wikimedia.org/wiki/File:Gantt_Chart_Template_for_Film_Production.png">CC BY-SA 4.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/projects.png" alt="A Gantt chart" /><figcaption><a class="ref media" href="#/media-used"><sup>2</sup></a> – A Gantt chart</figcaption></figure>
 
 ----
 
@@ -265,11 +267,11 @@ Plans, scope creep and the submission date
 
 ---
 
-# 3. Presentations and demos
+# Presentations and demos
 
 Nerves, live demos and quiet rooms
 
-<figure class="topic-photo"><img src="src/img/topics/presentations.jpg" alt="A speaker giving a keynote" /><figcaption>Photo: Mozel W., <a href="https://commons.wikimedia.org/wiki/File:Snjezana_Kordic_keynote_presentation_Japan.jpg">CC BY-SA 4.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/presentations.jpg" alt="A speaker giving a keynote" /><figcaption><a class="ref media" href="#/media-used"><sup>3</sup></a> – A keynote talk</figcaption></figure>
 
 ----
 
@@ -353,13 +355,28 @@ Nerves, live demos and quiet rooms
 - **Use it for:** course rules on day one. The Bible-quoting scene works as *"So, you know your memes"*
 - **Check:** the wording of the Bible-quoting exchange
 
+----
+
+## The Outer Limits: "The Galaxy Being" (1963)
+<!-- 311 -->
+
+**Scene: the opening narration**
+
+> Control Voice: "**There is nothing wrong with your television set. Do not attempt to adjust the picture. We are controlling transmission.** If we wish to make it louder, we will bring up the volume. If we wish to make it softer, we will tune it to a whisper. We will control the horizontal. We will control the vertical. We can roll the image, make it flutter. We can change the focus to a soft blur or sharpen it to crystal clarity. **For the next hour, sit quietly and we will control all you see and hear.**"
+
+- **Who:** the Control Voice (Vic Perrin), over the opening of each episode of the first series
+- **Episode:** season 1, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0667834/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-outer-limits-1963&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/the-outer-limits-1963/s01e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Outer_Limits_(1963_TV_series)) [🔗](<../my-fetches/wikiquote/The_Outer_Limits_(1963_TV_series).wiki>)
+- **Use it for:** when the projector or the screen share fails at the start of a presentation
+
 ---
 
-# 4. Teamwork, feedback and credits
+# Teamwork, feedback and credits
 
 Group work, thanks and banter
 
-<figure class="topic-photo"><img src="src/img/topics/teamwork.jpg" alt="A team meeting round a table" /><figcaption>Photo: Foreign and Commonwealth Office, <a href="https://commons.wikimedia.org/wiki/File:FCO_Ministerial_team_meeting_(4621624854).jpg">OGL v1.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/teamwork.jpg" alt="A team meeting round a table" /><figcaption><a class="ref media" href="#/media-used"><sup>4</sup></a> – A team meeting</figcaption></figure>
 
 ----
 
@@ -474,13 +491,31 @@ Group work, thanks and banter
 - **Use it for:** common mistakes. "You're not the first to lose your work"
 - **Check:** which film or game, and the full line
 
+----
+
+## Street Fighter (1994)
+<!-- 254 -->
+
+**Scene: Bison's quarters, Chun-Li's story**
+
+> Bison: "I'm sorry. I don't remember any of it."
+>
+> Chun-Li: "You don't remember?"
+>
+> Bison: "**For you... the day Bison graced your village... was the most important day of your life. But for me... it was Tuesday.**"
+
+- **Who:** M. Bison (Raúl Juliá) and Chun-Li (Ming-Na Wen). It's Street Fighter, not Mortal Kombat. The dots are the subtitles' own
+- **IMDb:** [Street Fighter](https://www.imdb.com/title/tt0111301/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=street-fighter) [🔗](<../my-fetches/springfield-scripts/street-fighter.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Street_Fighter_(1994_film)) [🔗](<../my-fetches/wikiquote/Street_Fighter_(1994_film).wiki>)
+- **Use it for:** the learner's viva or first presentation, against the examiner's tenth of the day. Remember which side you're on
+
 ---
 
-# 5. IT and tech
+# IT and tech
 
 Code, backups and things that break
 
-<figure class="topic-photo"><img src="src/img/topics/it.jpg" alt="Rows of servers in a data centre" /><figcaption>Photo: BalticServers.com, <a href="https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg">CC BY-SA 3.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/it.jpg" alt="Rows of servers in a data centre" /><figcaption><a class="ref media" href="#/media-used"><sup>5</sup></a> – A data centre</figcaption></figure>
 
 ----
 
@@ -592,13 +627,101 @@ Code, backups and things that break
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/x-x-everywhere)
 - **Use it for:** "Bugs, bugs everywhere"
 
+----
+
+## Office Space (1999)
+<!-- 255 -->
+
+**Scene: Peter's cubicle, Lumbergh on a Friday**
+
+> Lumbergh: "Hello, Peter. What's happening? Um... **I'm gonna need you... to go ahead and come in tomorrow...** so if you could be here around... nine, that would be great. OK? Oh, oh, and I almost forgot. Um... **I'm also gonna need you to go ahead and come in... on Sunday, too, OK?** We, um... lost some people this week... and, uh... we need to sort of play catch-up. Thanks."
+
+- **Who:** Bill Lumbergh (Gary Cole) to Peter Gibbons (Ron Livingston). Written and directed by Mike Judge. The dots are the subtitles' own
+- **IMDb:** [Office Space](https://www.imdb.com/title/tt0151804/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>)
+- **Use it for:** weekend work, and how not to ask for it
+
+----
+
+## Office Space (1999)
+<!-- 256 -->
+
+**Scene: the interview with the two Bobs**
+
+> Peter: "Well, I generally come in at least fifteen minutes late. Uh, I use the side door. That way Lumbergh can't see me. And after that, I just sort of space out for about an hour."
+>
+> Bob: "Uh, "space out"?"
+>
+> Peter: "Yeah. I just stare at my desk. But it looks like I'm working. I do that for probably another hour after lunch, too. **I'd say in a given week... I probably only do about fifteen minutes... of real, actual work.**"
+
+- **Who:** Peter Gibbons and the consultants, Bob Slydell (John C. McGinley) and Bob Porter (Paul Willson). The dots are the subtitles' own
+- **IMDb:** [Office Space](https://www.imdb.com/title/tt0151804/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Office_Space) [🔗](<../my-fetches/wikiquote/Office_Space.wiki>)
+- **Use it for:** a timesheet, or a learning log. Honest, at least
+
+----
+
+## Office Space (1999)
+<!-- 257 -->
+
+**Scene: the interview, later**
+
+> Peter: "The thing is, Bob, **it's not that I'm lazy. It's that I just don't care.**"
+>
+> Bob: "Don't... don't care?"
+>
+> Peter: "**It's a problem of motivation, all right?** Now, if I work my ass off... and Initech ships a few extra units... I don't see another dime. So where's the motivation? And here's something else, Bob... **I have eight different bosses right now.**"
+>
+> Bob: "I beg your pardon?"
+>
+> Peter: "Eight bosses."
+>
+> Bob: "Eight?"
+>
+> Peter: "Eight, Bob. So that means that when I make a mistake... **I have eight different people coming by to tell me about it.** That's my only real motivation, is not to be hassled. That and the fear of losing my job. But you know, Bob... **that'll only make someone work just hard enough... not to get fired.**"
+
+- **Who:** Peter Gibbons and the two Bobs. The subtitles don't say which Bob speaks. The dots are the subtitles' own
+- **IMDb:** [Office Space](https://www.imdb.com/title/tt0151804/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Office_Space) [🔗](<../my-fetches/wikiquote/Office_Space.wiki>)
+- **Use it for:** motivation theory: Herzberg, extrinsic and intrinsic. And a group project with eight people giving feedback
+
+----
+
+## Silicon Valley: "Sand Hill Shuffle" (2015)
+<!-- 312 -->
+
+**Scene: Gavin Belson rallies his engineers**
+
+> Gavin: "At the current rate, the world's data storage capacity will be overtaken by next spring. It will be nothing short of a catastrophe. Data shortages, data rationing, data black markets. Someone's compression will save the world from data-geddon, and it sure as hell better be Nucleus and not goddamn Pied Piper! **I don't know about you people, but I don't wanna live in a world where someone else makes the world a better place better than we do.**"
+
+- **Who:** Gavin Belson (Matt Ross), the head of Hooli
+- **Episode:** season 2, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt3682540/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=silicon-valley-2014&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/silicon-valley-2014/s02e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Silicon_Valley_(TV_series)) [🔗](<../my-fetches/wikiquote/Silicon_Valley_(TV_series).wiki>)
+- **Use it for:** mission statements, and tech companies' talk of changing the world
+
+----
+
+## Mr. Robot: "eps2.5_h4ndshake.sme" (2016)
+<!-- 313 -->
+
+**Scene: Elliot's narration**
+
+> Elliot: "Robot was right. **Control can sometimes be an illusion. But sometimes you need illusion to gain control. Fantasy is an easy way to give meaning to the world, to cloak our harsh reality with escapist comfort. After all, isn't that why we surround ourselves with so many screens?**"
+
+- **Who:** Elliot Alderson (Rami Malek), to the audience
+- **Episode:** season 2, episode 7
+- **IMDb:** [episode](https://www.imdb.com/title/tt5347278/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=mr-robot-2015&episode=s02e07) [🔗](<../my-fetches/springfield-scripts/mr-robot-2015/s02e07.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Mr._Robot) [🔗](<../my-fetches/wikiquote/Mr._Robot.wiki>)
+- **Use it for:** screen time and digital wellbeing, or a class on social media
+
 ---
 
-# 6. Star Trek: the films
+# Star Trek: the films
 
 The original crew and The Next Generation, in film order and scene order. Nothing after 2009
 
-<figure class="topic-photo"><img src="src/img/topics/star-trek-films.jpg" alt="A model of the starship Enterprise" /><figcaption>Photo: Paulch, <a href="https://commons.wikimedia.org/wiki/File:Model_NCC_1701.jpg">CC BY-SA 4.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/star-trek-films.jpg" alt="A model of the starship Enterprise" /><figcaption><a class="ref media" href="#/media-used"><sup>6</sup></a> – A model of the starship Enterprise</figcaption></figure>
 
 ----
 
@@ -1420,11 +1543,82 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 ---
 
-# 7. Star Trek: the series
+# Star Trek: the series
 
 The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
-<figure class="topic-photo"><img src="src/img/topics/star-trek-series.jpg" alt="The Deep Space Nine filming model" /><figcaption>Photo: Joe Ross, <a href="https://commons.wikimedia.org/wiki/File:Deep_Space_Nine_filming_model_-_Star_Trek_-_Exploring_New_Worlds_Exhibit_at_the_Henry_Ford_Museum,_Dearborn,_Michigan.jpg">CC BY-SA 2.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/star-trek-series.jpg" alt="The Deep Space Nine filming model" /><figcaption><a class="ref media" href="#/media-used"><sup>7</sup></a> – The Deep Space Nine filming model</figcaption></figure>
+
+----
+
+## The Next Generation: "The Defector" (1990)
+<!-- 216 -->
+
+**Scene: Picard questions Jarok**
+
+> Jarok: "I cannot betray my people."
+>
+> Picard: "**You've already betrayed your people, Admiral. You've made your choices, sir. You're a traitor.** Now, if the bitter taste of that is unpalatable to you, I am truly sorry. But I will not risk the lives of my crew because you think you can dance on the edge of the Neutral Zone. **You've crossed over, Admiral. You make yourself comfortable with that.**"
+
+- **Who:** Picard (Patrick Stewart) and Admiral Jarok (James Sloyan), a Romulan admiral who has come over to the Federation
+- **Episode:** season 3, episode 10
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708792/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/158.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/158.htm>)
+- **Use it for:** the student who changes project, or framework, in week 8. You've crossed over. Make yourself comfortable with that
+
+----
+
+## The Next Generation: "The Defector" (1990)
+<!-- 217 -->
+
+**Scene: the observation lounge, the briefing**
+
+> Picard: "Admiral Jarok has provided me with the locations, strengths and tactical plans of the Romulan fleet. Mister La Forge, he is prepared to give you data regarding engines, weapons and the cloaking systems of the warbird class starship. But I believe his experience as a field commander will be more valuable for its strategic sense than in the technical areas."
+>
+> La Forge: "**Any edge'll help, Captain.**"
+>
+> Picard: "**Don't depend on it. For all we know, he may still be lying, but we shall find that out soon enough.** Number One, set course for Nelvana Three."
+
+- **Who:** Picard and Geordi La Forge (LeVar Burton)
+- **Episode:** season 3, episode 10
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708792/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/158.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/158.htm>)
+- **Use it for:** code from ChatGPT or Stack Overflow. Any edge helps; don't depend on it until it's tested
+
+----
+
+## The Next Generation: "The Defector" (1990)
+<!-- 218 -->
+
+**Scene: the bridge, Tomalak's ambush**
+
+> Tomalak: "I urge you, Captain Picard, surrender. Consider the men and women you would lead into a lost cause."
+>
+> Picard: "If the cause is just and honourable, they are prepared to give their lives. **Are you prepared to die today, Tomalak?**"
+>
+> Tomalak: "I expected more from you than an idle threat, Picard."
+>
+> Picard: "Then you shall have it. Mister Worf."
+>
+> Worf: "Aye, sir."
+>
+> *Three mean Klingon vessels uncloak around the Enterprise and Romulans*
+>
+> Worf: "Klingon warships armed and ready, sir."
+>
+> Picard: "What shall it be, Tomalak?"
+>
+> Tomalak: "**You will still not survive our assault.**"
+>
+> Picard: "**You will not survive ours. Shall we die together?**"
+>
+> Tomalak: "I look forward to our next meeting, Captain."
+
+- **Who:** Picard and Commander Tomalak (Andreas Katsulas)
+- **Episode:** season 3, episode 10
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708792/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/158.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/158.htm>). The stage direction is the transcript's
+- **Use it for:** a group project standoff before the deadline. Nobody wins if the project fails
 
 ----
 
@@ -1446,6 +1640,317 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **Checked:** [transcript](http://www.chakoteya.net/NextGen/161.htm)
 - **Use it for:** "It works on my machine", "final-FINAL-v2.docx". The friend line for the student who only emails you when something breaks
 - **Check:** which line Picard's facepalm follows. The transcript doesn't mark it
+
+----
+
+## The Next Generation: "The Best of Both Worlds, Part I" (1990)
+<!-- 246 -->
+
+**Scene: Picard and Guinan, before the battle**
+
+> Guinan: "Do you expect this battle to be won?"
+>
+> Picard: "**We may yet prevail. That's a conceit, but it's a healthy one.** I wonder if the Emperor Honorious, watching the Visigoths coming over the seventh hill, truly realised that the Roman Empire was about to fall. This is just another page in history, isn't it? Will this be the end of our civilisation? **Turn the page.**"
+>
+> Guinan: "**This isn't the end.**"
+>
+> Picard: "You say that with remarkable assuredness."
+>
+> Guinan: "With experience. When the Borg destroyed my world, my people scattered throughout the universe. We survived. As will humanity survive. **As long as there's a handful of you to keep the spirit alive, you will prevail. Even if it takes a millennium.**"
+
+- **Who:** Guinan (Whoopi Goldberg) and Picard, with the Borg on their way. "Honorious" is the transcript's spelling
+- **Episode:** season 3, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708785/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/174.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/174.htm>)
+- **Use it for:** a hard year, a cut in funding, a class that's struggling. A handful who keep the spirit alive is enough
+
+----
+
+## The Next Generation: "The Best of Both Worlds, Part I" (1990)
+<!-- 219 -->
+
+**Scene: the bridge, leaving the nebula**
+
+> Worf: "Direct hit, deck nine."
+>
+> Riker: "Damage report?"
+>
+> Worf: "Structural latching system integrity breached."
+>
+> Picard: "**Prepare to take us out of here, Number One.**"
+>
+> Riker: "**Fire up the engines. Half impulse until we clear the nebula, then punch it to warp nine.**"
+>
+> Picard: "**Ready phasers. Load forward torpedo bays. Engage.**"
+
+- **Who:** Picard, Riker (Jonathan Frakes) and Worf (Michael Dorn), hiding from the Borg in a nebula. Riker gives the speed, not Picard; it's half impulse, not full
+- **Episode:** season 3, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708785/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/174.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/174.htm>)
+- **Use it for:** the last week before submission. Stop hiding, power up, engage
+
+----
+
+## The Next Generation: "Reunion" (1990)
+<!-- 220 -->
+
+**Scene: K'mpec's ship, his dying request**
+
+> K'mpec: "If you refuse the dying request of the Klingon Supreme Commander it will be a insult by the Federation to all Klingons. Besides, I've already sent the order to the leaders of the two opposing factions. They're on their way."
+>
+> Picard: "**You had no right to involve me without my permission.**"
+>
+> K'mpec: "**If I'd asked, you would have said no.**"
+
+- **Who:** K'mpec (Charles Cooper), the dying leader of the Klingon Council, and Picard. "a insult" is as the transcript has it
+- **Episode:** season 4, episode 7
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708766/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/181.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/181.htm>)
+- **Use it for:** being volunteered as group leader, or for the staff committee
+
+----
+
+## The Next Generation: "Reunion" (1990)
+<!-- 221 -->
+
+**Scene: Picard begins the ja'chuq**
+
+> Picard: "It is my choice to respect the ancient rituals. Each of you will have to prove your worthiness to lead the High Council."
+>
+> Gowron: "**That will take hours.**"
+>
+> K'Ehleyr: "**Or days, depending on your cooperation.**"
+
+- **Who:** Picard, Gowron (Robert O'Reilly) and K'Ehleyr (Suzie Plakson)
+- **Episode:** season 4, episode 7
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708766/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/181.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/181.htm>)
+- **Use it for:** the full assessment process, rubric and all. The class asks how long it takes
+
+----
+
+## The Next Generation: "Data's Day" (1991)
+<!-- 222 -->
+
+**Scene: the decision to go after the Romulans**
+
+> Data (log): "The safest and most logical decision in this situation is to contact Starfleet and await further instructions. **However, based on past experience, I project only a seventeen percent chance Captain Picard will choose that alternative.**"
+>
+> Picard: "**Red Alert. All hands stand to battle stations.**"
+>
+> Picard: "Lay in an intercept course for the Romulan ship."
+>
+> Riker: "Shields up. Load all torpedo bays. Stand by phasers."
+>
+> Picard: "Warp factor eight. Engage."
+
+- **Who:** Data (Brent Spiner), in his log, then Picard and Riker. The Vulcan ambassador they were escorting has been taken by the Romulans. It's season 4, not 3
+- **Episode:** season 4, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708697/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/185.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/185.htm>)
+- **Use it for:** predicting what the boss, or the external examiner, will actually do, as against the safe option
+
+----
+
+## The Next Generation: "Data's Day" (1991)
+<!-- 223 -->
+
+**Scene: the bridge, the ambassador was a spy**
+
+> Mendak: "You see now that we are not holding one of your citizens, and we thank you for returning our sister to us. But my patience has limits. **The game is over.** I expect you to leave peacefully. Now."
+>
+> Worf: "Captain, long range sensors detect three Romulan warbirds entering this sector."
+>
+> Riker: "**Some days you get the bear, and some days the bear gets you.**"
+>
+> Picard: "Reverse course. Take us back to Federation territory, warp six. Engage."
+
+- **Who:** Admiral Mendak (Alan Scarfe), then Worf, Riker and Picard. "Ambassador T'Pel" was Sub-Commander Selok, a Romulan agent
+- **Episode:** season 4, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708697/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/185.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/185.htm>)
+- **Use it for:** the demo that went wrong. Some days you get the bear
+
+----
+
+## The Next Generation: "Redemption" (1991)
+<!-- 224 -->
+
+**Scene: Picard comes to Worf as his cha'DIch, not his captain**
+
+> Worf: "I have been told that patience is sometimes a more effective weapon than the sword."
+>
+> Picard: "Patience is a human virtue, one which I am glad to see you've taken to heart. But doesn't this situation require a more Klingon response? **Your discommendation is a facade to protect less honourable men. It is a lie. Lies must be challenged.**"
+>
+> Worf: "I have grown weary of bearing this dishonour."
+
+- **Who:** Picard and Worf. Worf accepted discommendation in "Sins of the Father"; this is the next time it comes up
+- **Episode:** season 4, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708762/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/200.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/200.htm>)
+- **Use it for:** an unfair result, a wrong mark, a myth about a learner. Lies must be challenged: use the appeals process
+
+----
+
+## The Next Generation: "Redemption" (1991)
+<!-- 225 -->
+
+**Scene: Worf resigns his commission**
+
+> Worf: "I was rescued from Khitomer by humans. Raised and loved by human parents. I've spent most of my life around humans, fought beside them. But I was born a Klingon. My heart is of that world. I do hear the cry of the warrior. I belong with my people."
+>
+> Picard: "Being the only Klingon ever to serve in Starfleet gave you a singular distinction, but I felt that what was unique about you was your humanity, compassion, generosity, fairness. **You took the best qualities of humanity and made them part of you. The result was a man who I was proud to call one of my officers.**"
+
+- **Who:** Worf and Picard
+- **Episode:** season 4, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708762/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/200.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/200.htm>)
+- **Use it for:** a reference, or the last day of a course. What a learner took from it and made their own
+
+----
+
+## The Next Generation: "Redemption II" (1991)
+<!-- 226 -->
+
+**Scene: the Sutherland, Data takes command**
+
+> Hobson: "Frankly, sir, I don't believe in your ability to command this ship. You're a fellow officer and I respect that, but no one would suggest that a Klingon would make a good ship's counsellor or that a Berellian could be an engineer. They're just not suited for those positions. By the same token, I don't think an android is a good choice to be captain."
+>
+> Data: "**I understand your concerns. Request denied.**"
+
+- **Who:** Lieutenant Commander Hobson (Timothy Carhart) asks for a transfer, and Data, in command of the USS Sutherland, a Nebula class ship
+- **Episode:** season 5, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0170501/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/201.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/201.htm>)
+- **Use it for:** the extension request, the change of group, the "can I skip the presentation"
+
+----
+
+## The Next Generation: "Redemption II" (1991)
+<!-- 227 -->
+
+**Scene: the ready room, afterwards**
+
+> Data: "Captain, I wish to submit myself for disciplinary action. I have disobeyed a direct order from a superior officer. Although the result of my actions proved positive, the ends cannot justify the means."
+>
+> Picard: "No, they can't. However, **the claim 'I was only following orders' has been used to justify too many tragedies in our history. Starfleet doesn't want officers who will blindly follow orders without analysing the situation.** Your actions were appropriate for the circumstances, and I have noted that in your record."
+>
+> Picard: "Mister Data. **Nicely done.**"
+
+- **Who:** Data and Picard. Data had stopped the Sutherland against fleet orders and found the cloaked Romulan ships
+- **Episode:** season 5, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0170501/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/201.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/201.htm>)
+- **Use it for:** critical thinking. Don't follow the brief, the tutorial or the AI blindly; analyse the situation
+
+----
+
+## The Next Generation: "Unification II" (1991)
+<!-- 228 -->
+
+**Scene: Romulus, Picard finds Spock**
+
+> Spock: "Quite simply, I am unwilling to risk anyone's life but my own on this occasion. So I ask you respect my wishes and leave."
+>
+> Picard: "Ambassador, your logic escapes me. If I didn't know better, I would say that your judgment is influenced by your emotions."
+>
+> Spock: "You speak as my father would if he were here, Picard."
+>
+> Picard: "I speak as a Starfleet officer, and I cannot ignore the risks to you."
+>
+> Spock: "**I was involved with cowboy diplomacy, as you describe it, long before you were born.**"
+>
+> Picard: "Nevertheless, sir, I'm not prepared to leave until your affairs are completed."
+>
+> Spock: "**In your own way, you are as stubborn as another Captain of the Enterprise I once knew.**"
+
+- **Who:** Spock (Leonard Nimoy) and Picard
+- **Episode:** season 5, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708836/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
+- **Use it for:** the mature student who was doing this before you were born, and the tutor who won't leave it
+
+----
+
+## The Next Generation: "Unification II" (1991)
+<!-- 229 -->
+
+**Scene: Spock and the reunification movement**
+
+> Picard: "Serious enough for the leaders to suddenly embrace a Vulcan peace initiative? I have some difficulty in accepting that."
+>
+> Spock: "**I sense you have a closed mind, Captain. Closed minds have kept these two worlds apart for centuries.** In the Federation, we have learned from experience to view the Romulans with distrust. We can either choose to live with that enmity or seek an opportunity to change it. I choose the latter."
+>
+> Picard: "I will be the first to cheer when the Neutral Zone is abolished. But I wonder if this movement is strong enough to reshape the entire Romulan political landscape."
+>
+> Spock: "**One can begin to reshape the landscape with a single flower, Captain.**"
+
+- **Who:** Picard and Spock
+- **Episode:** season 5, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708836/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
+- **Use it for:** changing a course, or a department, one small change at a time
+
+----
+
+## The Next Generation: "Unification II" (1991)
+<!-- 230 -->
+
+**Scene: breaking the Proconsul's codes, Data and Spock**
+
+> Spock: "Fascinating. You have an efficient intellect, superior physical skills and no emotional impediments. **There are Vulcans who aspire all their lives to achieve what you've been given by design.**"
+>
+> Data: "You are half human."
+>
+> Spock: "Yes."
+>
+> Data: "Yet you have chosen a Vulcan way of life."
+>
+> Spock: "I have."
+>
+> Data: "**In effect, you have abandoned what I have sought all my life.**"
+
+- **Who:** Spock and Data
+- **Episode:** season 5, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708836/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>). Later in the same scene: "As you examine your life, do you find you have missed your humanity?" "I have no regrets." "No regrets. That is a human expression." "Yes. Fascinating."
+- **Use it for:** two learners who each want what the other has: the coder who wants to present, the presenter who wants to code
+
+----
+
+## The Next Generation: "Unification II" (1991)
+<!-- 231 -->
+
+**Scene: Sela's statement**
+
+> Sela: "If you do not, you will die. All of you will die."
+>
+> Spock: "**Since it is logical to conclude that you will kill us in any event, I choose not to cooperate.**"
+>
+> Sela: "**I hate Vulcans. I hate the logic. I hate the arrogance.** Very well. Computer, holographic programme Spock One."
+
+- **Who:** Sela (Denise Crosby) and Spock, who won't read her statement. She makes a hologram of him read it instead
+- **Episode:** season 5, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708836/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
+- **Use it for:** a deepfake, in an IT security class. And the learner who has had enough of logic gates
+
+----
+
+## The Next Generation: "Unification II" (1991)
+<!-- 232 -->
+
+**Scene: the bridge, Spock's real message**
+
+> Spock (on the viewscreen): "This is Ambassador Spock of Vulcan. By now, Federation sensors are tracking three Vulcan ships crossing the Neutral Zone. **These ships carry a Romulan invasion force and must be stopped.** I repeat, these ships carry a Romulan"
+>
+> *The transmission ends*
+
+- **Who:** Spock, broadcast from Romulus. Sela's hologram of him had started with the same words and said the ships "carry the future of the Romulan and Vulcan people"
+- **Episode:** season 5, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708836/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/207.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/207.htm>)
+- **Use it for:** phishing and fake messages. Same sender, same opening, opposite message: check the source
 
 ----
 
@@ -1584,6 +2089,122 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ----
 
+## Deep Space Nine: "The Homecoming" (1993)
+<!-- 247 -->
+
+**Scene: Sisko and Li Nalas, the legend**
+
+> Li: "But I am not the man that they think I am."
+>
+> Sisko: "Perhaps not. **But Bajor doesn't need a man. It needs a symbol, and that's what you are.** No one's asking you to lead troops into battle, or to kill a hundred Cardassians with your bare hands. I saw you in front of the crowd on the Promenade. They look at you and they see strength, and honour, and decency. **They look at you and they see the best in themselves.**"
+>
+> Li: "But it's all based on a lie."
+>
+> Sisko: "No. **It's based on a legend. And legends are as powerful as any truth.** Bajor still needs that legend. It needs you."
+
+- **Who:** Sisko and Li Nalas (Richard Beymer), the resistance hero, who has just told Sisko his legend began with shooting an unarmed Cardassian in his underwear
+- **Episode:** season 2, episode 1, the first of three with "The Circle" and "The Siege"
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708625/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/421.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/421.htm>)
+- **Use it for:** role models, and impostor syndrome. A learner who doesn't feel like the person others see
+
+----
+
+## Deep Space Nine: "The Circle" (1993)
+<!-- 248 -->
+
+**Scene: Kira is recalled to Bajor**
+
+> Kira: "You break the rules, you pay."
+>
+> Odo: "Wait a minute. I want to be sure I heard that correctly. Because it doesn't sound like the Kira Nerys who has made a career out of breaking the rules."
+>
+> Kira: "Well, I guess I broke one too many."
+>
+> Odo: "Major, you've been breaking one too many for fourteen and a half years. **Cardassian rules, Bajoran rules, Federation rules, they're all meaningless to you because you have a personal code that's always mattered more.** And I'm sorry to say you're in slim company."
+>
+> Kira: "I'll miss you too, Odo."
+
+- **Who:** Kira and Odo (René Auberjonois), after Kira is recalled from the station
+- **Episode:** season 2, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708618/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/422.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/422.htm>)
+- **Use it for:** values and professional ethics. Rules change; a personal code shouldn't
+
+----
+
+## Deep Space Nine: "The Circle" (1993)
+<!-- 249 -->
+
+**Scene: Jaro questions Kira**
+
+> Kira: "How can you betray your own government?"
+>
+> Jaro: "Major, I don't have to tell you. I've heard your opinion of this government. Government. **They can't even agree it is a government, so they call it provisional. It's just another word for powerless.** I won't allow the Bajoran people to be powerless any more. We have been doormats to the Cardassians and now the Federation. Any great power that happens by. We will not be that again. We are a people who brought art and architecture to countless planets. We don't deserve to be victims."
+>
+> Kira: "**If you want to change the government, Minister Jaro, you vote to change it. You don't sneak up from behind it with a dagger.**"
+
+- **Who:** Minister Jaro (Frank Langella), the leader behind the Circle, and Kira, his prisoner
+- **Episode:** season 2, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708618/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/422.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/422.htm>)
+- **Use it for:** changing a policy you disagree with: use the committee, the vote, the class rep. Not the group chat
+
+----
+
+## Deep Space Nine: "The Siege" (1993)
+<!-- 250 -->
+
+**Scene: the airlock, the evacuation**
+
+> Sisko: "Don't you understand? There isn't room for everyone. We have to get our families, our children and non-Bajorans"
+>
+> Li: "**Where are you running to? This is Bajor. We are Bajorans.** We fought a war to regain our homeland. How can you abandon it like frightened Cardassian voles? These ships are for our guests who must leave because it is no longer safe for them here. However, we are Bajorans. **And I say that we stay and we solve our problems together. Are you willing to join me?**"
+
+- **Who:** Sisko, cut off mid-sentence, and Li Nalas, to the Bajorans crowding the evacuation ships
+- **Episode:** season 2, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708639/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/423.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/423.htm>)
+- **Use it for:** a team in trouble. Stay and solve it together, rather than switch group
+
+----
+
+## Deep Space Nine: "The Siege" (1993)
+<!-- 251 -->
+
+**Scene: Sisko and Li, before they face the general**
+
+> Li: "I've done everything I can to help. I'd die for my people but"
+>
+> Sisko: "**Sure you would. Dying gets you off the hook. Question is, are you willing to live for your people? Live the role they want you to play. That's what they need from you right now.**"
+
+- **Who:** Li Nalas, cut off, and Sisko
+- **Episode:** season 2, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708639/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/423.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/423.htm>)
+- **Use it for:** commitment over a whole course, not one heroic all-nighter
+
+----
+
+## Deep Space Nine: "The Siege" (1993)
+<!-- 252 -->
+
+**Scene: Sisko and O'Brien, afterwards**
+
+> O'Brien: "Listening to Kira talk about all he was, all he did, all he was going to do, she makes him sound like he was larger than life. like he was some kind of military genius. But the Li Nalas I"
+>
+> Sisko: "Chief, **Li Nalas was the hero of the Bajoran resistance. He performed extraordinary acts of courage for his people and died for their freedom. That's how the history books on Bajor will be written, and that's how I'll remember him when anybody asks.**"
+>
+> O'Brien: "Yes, sir."
+
+- **Who:** O'Brien (Colm Meaney), cut off, and Sisko. Li Nalas died saving Kira and Sisko. The small "like" is the transcript's
+- **Episode:** season 2, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708639/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/423.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/423.htm>)
+- **Use it for:** a reference for a colleague, a eulogy, or how you talk about a former learner. Choose what's remembered
+
+----
+
 ## Deep Space Nine: "The Maquis, Part II" (1994)
 <!-- 87 -->
 
@@ -1596,6 +2217,29 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [Deep Space Nine](https://www.imdb.com/title/tt0106145/)
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/441.htm)
 - **Use it for:** theory and practice. Policy written in the office against teaching in a real classroom
+
+----
+
+## Deep Space Nine: "The Maquis, Part II" (1994)
+<!-- 233 -->
+
+**Scene: Quark and Sakonna, the price of peace**
+
+> Quark: "Now, the third rule clearly states, '**Never spend more for an acquisition than you have to.**'"
+>
+> Sakonna: "Logical, but I fail to see how that applies to my situation."
+>
+> Quark: "**You want to acquire peace. Fine. Peace is good. But how much are you willing to pay for it?**"
+>
+> Sakonna: "Whatever it costs."
+>
+> Quark: "That's the kind of irresponsible spending that causes so many business ventures to fail. You're forgetting the third rule. **Right now peace could be bought at a bargain price and you don't even realise it.**"
+
+- **Who:** Quark (Armin Shimerman) and Sakonna, a Vulcan in the Maquis. Later in the scene: "Attacking the Cardassians now will only escalate the conflict and make peace more expensive in the long run. Now, I ask you, is that logical?"
+- **Episode:** season 2, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708630/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/441.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/441.htm>)
+- **Use it for:** fixing problems early: a group falling out, a bug, a learner falling behind. It only gets more expensive
 
 ----
 
@@ -1613,6 +2257,100 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0708658/)
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/463.htm)
 - **Use it for:** time zones, date formats, daylight saving bugs, Git rebase
+
+----
+
+## Deep Space Nine: "The Way of the Warrior" (1995)
+<!-- 234 -->
+
+**Scene: the Defiant, cloaked, at the wreckage**
+
+> Worf: "Sir, I strongly recommend against that. It is likely there are cloaked Klingon warships in the vicinity, lying in wait."
+>
+> Bashir: "**Well that doesn't sound very honourable to me.**"
+>
+> Worf: "**In war, there is nothing more honourable than victory.**"
+
+- **Who:** Worf, Dr Bashir (Alexander Siddig), then Sisko orders them on past the survivors
+- **Episode:** season 4, episodes 1 and 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394906/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
+- **Use it for:** a hackathon, a debate, a competitive assignment. The rules still apply
+
+----
+
+## Deep Space Nine: "The Way of the Warrior" (1995)
+<!-- 235 -->
+
+**Scene: the Defiant, Dukat rescued**
+
+> Dukat: "Captain, are you aware that there's a Klingon on your bridge?"
+>
+> Sisko: "**He's not the Klingon you should be worried about.** Switch to aft view, maximum magnification."
+>
+> *The final Klingon ship is still chasing them*
+>
+> Dukat: "**I'd suggest you cloak immediately.**"
+>
+> Worf: "**We lost our cloaking device rescuing you.**"
+
+- **Who:** Gul Dukat (Marc Alaimo), Sisko (Avery Brooks) and Worf. "Cloaking device", not "cloak"
+- **Episode:** season 4, episodes 1 and 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394906/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
+- **Use it for:** the learner complaining about the helper, not the deadline behind them
+
+----
+
+## Deep Space Nine: "The Way of the Warrior" (1995)
+<!-- 236 -->
+
+**Scene: Quark's, root beer**
+
+> Quark: "A human drink. It's called root beer."
+>
+> Garak: "I don't know."
+>
+> Quark: "Come on. Aren't you just a little bit curious?"
+>
+> *Garak sips*
+>
+> Quark: "What do you think?"
+>
+> Garak: "**It's vile.**"
+>
+> Quark: "I know. **It's so bubbly and cloying and happy.**"
+>
+> Garak: "**Just like the Federation.**"
+>
+> Quark: "But you know what's really frightening? **If you drink enough of it, you begin to like it.**"
+>
+> Garak: "**It's insidious.**"
+>
+> Quark: "Just like the Federation."
+
+- **Who:** Quark and Garak (Andrew Robinson), with Cardassia under attack
+- **Episode:** season 4, episodes 1 and 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394906/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
+- **Use it for:** a new system everyone has to use: Teams, Moodle, a new IDE. Vile at first; use it enough and you begin to like it
+
+----
+
+## Deep Space Nine: "The Way of the Warrior" (1995)
+<!-- 237 -->
+
+**Scene: Ops, the Klingons board the station**
+
+> Gowron (on the viewscreen): "Captain, your shields have been weakened, your station boarded, and more Klingon ships are on their way. Surrender while you can."
+>
+> Sisko: "I don't think so. **My shields are holding, your boarding parties are contained, and my reinforcements are closer than yours.** You're facing a war on two fronts. Is that what you really want?"
+
+- **Who:** Gowron (Robert O'Reilly) and Sisko. Sisko says it to Gowron; Martok then answers "We will not surrender!"
+- **Episode:** season 4, episodes 1 and 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394906/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
+- **Use it for:** a project status update under pressure. Backups holding, bugs contained, help on the way
 
 ----
 
@@ -1634,6 +2372,33 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0708653/)
 - **Checked:** [transcript](http://www.chakoteya.net/DS9/496.htm)
 - **Use it for:** the start of exam season. O'Brien for the student who won't panic
+
+----
+
+## Deep Space Nine: "By Inferno's Light" (1997)
+<!-- 238 -->
+
+**Scene: the Defiant's bridge, Dukat's Bird of Prey breaks formation**
+
+> Dax: "Dukat's ship is breaking formation. He's going after the Dominion fleet."
+>
+> Kira: "Open a channel. Dukat, stop trying to be a hero. Get back to the station."
+>
+> Dukat: "Your concern is touching, Major, but I think you misunderstand me. **I'm not attacking the Dominion fleet I'm joining it.**"
+>
+> Kira: "What are you talking about?"
+>
+> Dukat: "I'm afraid I have a confession to make, Major. For the past few months, I've been conducting secret negotiations between the Dominion and Cardassia. And as of last week, Cardassia has agreed to become part of the Dominion."
+>
+> Kira: "You can't be serious."
+>
+> Dukat: "Goodbye, Major. **You and I on the same side. It never seemed quite right, did it?**"
+
+- **Who:** Dax (Terry Farrell), Kira (Nana Visitor) and Dukat, on the viewscreen from his Klingon Bird of Prey. The missing comma after "fleet" is the transcript's
+- **Episode:** season 5, episode 15
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708511/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/513.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/513.htm>)
+- **Use it for:** the team member who leaves the group for another one. Or the colleague who takes the job with the competition
 
 ----
 
@@ -1694,6 +2459,48 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ----
 
+## Deep Space Nine: "Call to Arms" (1997)
+<!-- 239 -->
+
+**Scene: the Promenade, Sisko's farewell**
+
+> Sisko: "**When I first took command of this post, all I wanted was to be somewhere else, anywhere but here. But now, five years later, this has become my home and you have become my family.**"
+
+- **Who:** Sisko, to the people of the station before he leaves it to the Dominion. The speech goes on, cut with scenes on the Defiant
+- **Episode:** season 5, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708512/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/524.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/524.htm>)
+- **Use it for:** the last class of the year, or leaving a job
+
+----
+
+## Deep Space Nine: "Call to Arms" (1997)
+<!-- 240 -->
+
+**Scene: the captain's office, the Dominion move in**
+
+> Weyoun: "**I assume Captain Sisko removed or destroyed everything of value?**"
+>
+> Dukat: "Not everything."
+>
+> *Dukat picks up Sisko's baseball*
+>
+> Weyoun: "What is that?"
+>
+> Dukat: "A message from Sisko."
+>
+> Weyoun: "I don't understand."
+>
+> Dukat: "**He's letting me know he'll be back.**"
+
+- **Who:** Weyoun (Jeffrey Combs) and Dukat, in Sisko's office
+- **Episode:** season 5, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708512/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/524.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/524.htm>)
+- **Use it for:** handing over a class, or a lab you will want back. Leave one thing on the desk
+
+----
+
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 85 -->
 
@@ -1726,6 +2533,138 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ----
 
+## Deep Space Nine: "Strange Bedfellows" (1999)
+<!-- 241 -->
+
+**Scene: the cell, Worf kills Weyoun**
+
+> *Worf grabs Weyoun's head and breaks his neck. A Cardassian guard knocks Worf down and aims his weapon*
+>
+> Damar: "Wait!"
+>
+> *Damar checks that Weyoun is dead, then bursts out laughing*
+>
+> Damar: "**Overconfidence. The hallmark of the Weyouns.** Maybe the Founders should eliminate that from your genetic recipe next time. **They'll just make another copy of him, you know. You should've killed me. There's only one Damar.**"
+>
+> Worf: "**I will keep that in mind.**"
+>
+> Damar: "I'm sure you will."
+
+- **Who:** Worf, Damar (Casey Biggs) and a Weyoun clone, with Ezri Dax (Nicole de Boer) in the cell. The stage directions are the transcript's
+- **Episode:** season 7, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708607/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/569.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/569.htm>)
+- **Use it for:** backups. Weyoun has copies; there's only one Damar. Which is your project?
+
+----
+
+## Deep Space Nine: "The Changing Face of Evil" (1999)
+<!-- 253 -->
+
+**Scene: Damar's broadcast to Cardassia**
+
+> Damar: "**Instead of the invaders, we have become the invaded. Our allies have conquered us without firing a shot. Well, no longer.** This morning, detachments of the Cardassian First, Third, and Ninth Orders attacked Dominion outposts on Rondac Three."
+>
+> Damar: "This assault marks the first step toward the liberation of our homeland"
+>
+> Sisko: "Colonel, see if you can get confirmation on that."
+>
+> Damar: "From the true oppressors of the Alpha Quadrant."
+>
+> Damar: "**I call upon Cardassians everywhere. Resist! Resist today. Resist tomorrow! Resist till the last Dominion soldier has been driven**"
+>
+> Damar: "**From our soil.**"
+
+- **Who:** Legate Damar (Casey Biggs), on every screen. The transcript cuts between the rooms watching him: Ops, the security office, the Promenade, the Dominion briefing room, his own hideout. It's Damar's speech, not Weyoun's
+- **Episode:** season 7, episode 20
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708617/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/570.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/570.htm>)
+- **Use it for:** a rallying call: the first day of a campaign, or the last push before the exams
+
+----
+
+## Deep Space Nine: "Tacking Into the Wind" (1999)
+<!-- 242 -->
+
+**Scene: Dominion headquarters on Cardassia**
+
+> Weyoun: "An excellent plan."
+>
+> Founder: "**Your opinion was not solicited.**"
+
+- **Who:** Weyoun and the Female Changeling (Salome Jens), after she has laid out how to crush Damar's rebellion
+- **Episode:** season 7, episode 22
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708608/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/572.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/572.htm>)
+- **Use it for:** unasked-for feedback, on a group chat or a pull request
+
+----
+
+## Deep Space Nine: "The Dogs of War" (1999)
+<!-- 243 -->
+
+**Scene: Dominion headquarters, after the rebellion**
+
+> Founder: "Now that the rebellion has been crushed, it is time to turn our attention to strategic matters. The enemy has devised a countermeasure to our energy-dampening weapons. Therefore we must alter our tactics. **We're falling back.**"
+>
+> Thot Pran: *(electronic noise)*
+>
+> Founder: "**No, I don't mean surrender.**"
+>
+> Weyoun: "**Perish the thought.** The Dominion has never surrendered in battles since its founding ten thousand years ago."
+>
+> Founder: "I am ordering our troops to retreat to Cardassian space. We will establish a new line of defence along this perimeter. **With less territory to defend, we can concentrate our troops and hold off any attack if the enemy attacks at all.**"
+
+- **Who:** the Female Changeling and Weyoun, with the Breen Thot Pran
+- **Episode:** season 7, episode 24
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708622/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/574.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/574.htm>)
+- **Use it for:** cutting the scope of a final year project. Less to defend, so you can defend it
+
+----
+
+## Deep Space Nine: "What You Leave Behind" (1999)
+<!-- 244 -->
+
+**Scene: Dominion headquarters, before the last battle**
+
+> Founder: "**Our brave Jem'Hadar soldiers have a motto. Victory is Life.**"
+>
+> Gor: *(electronic noise)*
+>
+> Founder: "I'm glad you're familiar with it. Because today, those words have meaning for us all. **The outcome of this battle will determine the outcome of the war. Either we destroy their invasion forces or they destroy us. There is no other option.**"
+
+- **Who:** the Female Changeling, to Weyoun and the Breen general
+- **Episode:** season 7, episodes 25 and 26, the finale
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394907/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/575.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/575.htm>)
+- **Use it for:** the final exam, or the final demo
+
+----
+
+## Deep Space Nine: "What You Leave Behind" (1999)
+<!-- 245 -->
+
+**Scene: Dominion headquarters, Weyoun's territories**
+
+> Weyoun: "Apparently, I was under the mistaken impression that all Federation territories would fall under my jurisdiction, including Earth."
+>
+> Founder: "And so they shall."
+>
+> Weyoun: "But you promised the Breen."
+>
+> Founder: "**I would promise the Breen the entire Alpha Quadrant if I thought it would help win this war.**"
+>
+> Weyoun: "**The Founder is wise in all things.**"
+
+- **Who:** Weyoun and the Female Changeling
+- **Episode:** season 7, episodes 25 and 26, the finale
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394907/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/575.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/575.htm>)
+- **Use it for:** promising the same thing to two people: two groups, one lab, one Friday
+
+----
+
 ## Deep Space Nine: O'Brien memes
 <!-- 93 -->
 
@@ -1735,6 +2674,27 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [Deep Space Nine](https://www.imdb.com/title/tt0106145/)
 - **Use it for:** IT support, maintenance, any Irish audience
 - **Check:** the caption's wording, and the site that collects them (possibly "Chief O'Brien at Work"). I couldn't reach it
+
+----
+
+## Voyager: "The Cloud" (1995)
+<!-- 298 -->
+
+**Scene: the bridge, a nebula ahead**
+
+> Tuvok: "There are unusually high levels of omicron particles within this nebula, Captain."
+>
+> Janeway: "Are you thinking we could collect these omicron particles to provide an additional antimatter reserve, Lieutenant?"
+>
+> Tuvok: "Precisely."
+>
+> Janeway: "Senior bridge officers, report for duty. Commander, set a new course. **There's coffee in that nebula.**"
+
+- **Who:** Tuvok (Tim Russ) and Captain Janeway (Kate Mulgrew). Voyager has been rationing replicator power, coffee included
+- **Episode:** season 1, episode 5
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708978/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/105.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/105.htm>)
+- **Use it for:** the staff room on a Monday
 
 ----
 
@@ -1750,6 +2710,23 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0708848/)
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/211.htm). Your template's wording matches it
 - **Use it for:** a style guide, a referencing guide, class rules for an online course
+
+----
+
+## Voyager: "Hunters" (1998)
+<!-- 299 -->
+
+**Scene: Janeway and Chakotay, waiting for mail from home**
+
+> Chakotay: "If I'm not mistaken that's your third cup this morning."
+>
+> Janeway: "**Fourth. And on a day like today, it won't be my last. Coffee - the finest organic suspension ever devised. It's got me through the worst of the last three years. I beat the Borg with it.**"
+
+- **Who:** Chakotay (Robert Beltran) and Janeway
+- **Episode:** season 4, episode 15
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708910/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/413.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/413.htm>)
+- **Use it for:** exam week, marking week, the night before submission
 
 ----
 
@@ -1772,11 +2749,229 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ---
 
-# 8. Batman
+# Batman
 
 Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene order
 
-<figure class="topic-photo"><img src="src/img/topics/batman.jpg" alt="The Tumbler Batmobile from Nolan&#x27;s films" /><figcaption>Photo: Tim-desser, <a href="https://commons.wikimedia.org/wiki/File:Nolan_Original_Batmobile_With_Schumacher,_Near_Warners.jpg">CC0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/batman.jpg" alt="The Tumbler Batmobile from Nolan&#x27;s films" /><figcaption><a class="ref media" href="#/media-used"><sup>8</sup></a> – The Tumbler, from Nolan's Batman films</figcaption></figure>
+
+----
+
+## Batman: The Animated Series: "Christmas with the Joker" (1992)
+<!-- 284 -->
+
+**Scene: the Batcave, Christmas Eve**
+
+> Robin: "Okay, I'll make a deal with you. If we go out on patrol, and Gotham is quiet with no sign of the Joker we come back here, have Christmas dinner and watch It's a Wonderful Life."
+>
+> Batman: "**You know, I've never seen that. I could never get past the title.**"
+>
+> Robin: "It's a deal, then?"
+>
+> Batman: "Deal."
+
+- **Who:** Robin, Dick Grayson (Loren Lester), and Batman (Kevin Conroy)
+- **Episode:** season 1, "Christmas with the Joker"
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519578/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman&episode=s01e38) [🔗](<../my-fetches/springfield-scripts/batman/s01e38.txt>)
+- **Use it for:** the last class before Christmas, with the grumpy colleague
+
+----
+
+## Batman: The Animated Series: "Christmas with the Joker" (1992)
+<!-- 285 -->
+
+**Scene: Wayne Manor, Christmas dinner**
+
+> Bruce: "You know, we really should've done one more sweep of the city."
+>
+> Dick: "Now just relax, Bruce. You're gonna love It's a Wonderful Life. It's a great movie."
+>
+> Bruce: "**It's not relentlessly cheerful, is it?**"
+>
+> Dick: "**No, it's about how much of a difference one man can make to a city. Sound familiar?**"
+
+- **Who:** Bruce and Dick. Then the Joker takes over the television
+- **Episode:** season 1, "Christmas with the Joker"
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519578/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman&episode=s01e38) [🔗](<../my-fetches/springfield-scripts/batman/s01e38.txt>)
+- **Use it for:** the difference one tutor makes. Sound familiar?
+
+----
+
+## Batman Beyond: "Rebirth, Part 2" (1999)
+<!-- 258 -->
+
+**Scene: the Batcave, Bruce takes Terry on**
+
+> Bruce: "I warn you. **I can be a difficult task master. I accept nothing short of excellence, from all who work for me.**"
+>
+> Terry: "I think, I can handle it."
+>
+> Bruce: "Very good then, Mr. McGinnis. **Welcome to my world.**"
+
+- **Who:** Bruce Wayne (Kevin Conroy) and Terry McGinnis (Will Friedle). Spelling and commas are the subtitles'
+- **Episode:** season 1, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519426/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s01e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
+- **Use it for:** the first class. Expectations, set kindly but clearly
+
+----
+
+## Batman Beyond: "Ascension" (1999)
+<!-- 259 -->
+
+**Scene: the submarine, Batman corners Blight**
+
+> Blight: "Why do you persist in tormenting me? All I want is to be left alone!"
+>
+> Batman: "Can't let you run around like this. We've got rules about radioactive waste. And besides, this is personal."
+>
+> Blight: "Who are you?"
+>
+> Batman: "You really want to know?"
+>
+> Blight: "Yes."
+>
+> Batman: "**You killed my father.**"
+>
+> Blight: "**Do you have the slightest idea how little that narrows it down?**"
+>
+> Batman: "Too bad. It's all you get."
+
+- **Who:** Terry as Batman, and Blight, who is Derek Powers. It's Blight, not Mr Freeze
+- **Episode:** season 1, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519397/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s01e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
+- **Use it for:** a complaint about "the lecturer who failed me". Can you narrow it down?
+
+----
+
+## Batman Beyond: "Lost Soul" (1999)
+<!-- 260 -->
+
+**Scene: the Batcave, the computer shut down**
+
+> Bruce: "I had to shut down the computer when Vance's program tried to get in. If you want out of the cave, you're going to have to do it the old-fashioned way."
+>
+> Terry: "You're kidding."
+>
+> Bruce: "**None of the Robins ever complained.**"
+
+- **Who:** Bruce and Terry
+- **Episode:** season 2, episode 4
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519417/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s02e04) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s02e04.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
+- **Use it for:** the Wi-Fi is down, so it's pen and paper. Last year's class never complained
+
+----
+
+## Batman Beyond: "Where's Terry?" (2000)
+<!-- 261 -->
+
+**Scene: the villain's speech is cut short**
+
+> "All for nothing. All that effort wasted, but at least it allows me the pleasure of dispatching you myself."
+>
+> Bruce: "**Why do they always talk so much?**"
+
+- **Who:** the villain, then Bruce Wayne, arriving to save Dak
+- **Episode:** season 2, episode 25
+- **IMDb:** [episode](https://www.imdb.com/title/tt0519443/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s02e25) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s02e25.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
+- **Use it for:** a presentation that runs over. Or my own
+
+----
+
+## Batman Beyond: Return of the Joker (2000)
+<!-- 262 -->
+
+**Scene: the Joker's hideout, Terry gets under his skin**
+
+> Batman: "I mean, joy buzzers, squirting flowers? Lame! **Where's the A material?** Make a face, drop your pants, something!"
+>
+> Joker: "Show yourself!"
+>
+> Batman: "You make me laugh, but only because I think you're kind of pathetic."
+>
+> Joker: "Stop that!"
+>
+> Batman: "You fell in a tank of acid, got your skin bleached... ...then decided to become a super villain. **What? You couldn't get work as a rodeo clown?**"
+>
+> Joker: "Don't you dare laugh at me!"
+>
+> Batman: "**Why? I thought the Joker always wanted to make Batman laugh.**"
+>
+> Joker: "You're not Batman!"
+
+- **Who:** Terry as Batman, and the Joker (Mark Hamill). The dots are the subtitles' own
+- **Time:** 1:08:18 to 1:08:55 in your copy
+- **IMDb:** [Batman Beyond: Return of the Joker](https://www.imdb.com/title/tt0233298/)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Beyond; Return of the Joker [2000] -imdb-tt0233298.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond:_Return_of_the_Joker) [🔗](<../my-fetches/wikiquote/Batman_Beyond__Return_of_the_Joker.wiki>)
+- **Use it for:** heckling, and why it works. Find what someone needs and take it away
+
+----
+
+## Justice League: "A Better World, Part 2" (2003)
+<!-- 286 -->
+
+**Scene: Batman meets the Justice Lords' Batman**
+
+> Lord Batman: "Think about it. A world where there's no crime, no victims, no pain."
+>
+> Batman: "**And no choice. Who elected you anyway?**"
+>
+> Lord Batman: "**Who elected you? The problem with democracy is, it doesn't keep you very safe.**"
+>
+> Batman: "**It has other virtues.** But you seem to have forgotten."
+>
+> Lord Batman: "I didn't forget. **I just chose peace and security instead.**"
+>
+> Batman: "**You grabbed power!**"
+>
+> Lord Batman: "And with that power, we've made a world where no 8-year-old boy will ever lose his parents because of some punk with a gun."
+>
+> Batman: "You win."
+
+- **Who:** Batman and his double from a world where the Justice League took over, both Kevin Conroy. Batman's "You win" is a feint
+- **Episode:** season 2, episode 12
+- **IMDb:** [episode](https://www.imdb.com/title/tt0618124/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league-2001&episode=s02e12) [🔗](<../my-fetches/springfield-scripts/justice-league-2001/s02e12.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_(TV_series)) [🔗](<../my-fetches/wikiquote/Justice_League_(TV_series).wiki>)
+- **Use it for:** civics, data protection and surveillance. Safety against freedom; who decides?
+
+----
+
+## Justice League Unlimited: "Destroyer" (2006)
+<!-- 287 -->
+
+**Scene: Superman fights Darkseid**
+
+> Darkseid: "You still try to fight? Can't you see that it's hopeless?"
+>
+> Superman: "That man won't quit as long as he can still draw a breath. None of my teammates will. Me, I've got a different problem. **I feel like I live in a world made of cardboard. Always taking constant care not to break something. To break someone. Never allowing myself to lose control even for a moment, or someone could die.** But you can take it, can't you, big man? **What we have here is a rare opportunity for me to cut loose** and show you just how powerful I really am."
+
+- **Who:** Superman (George Newbern) and Darkseid (Michael Ironside). "That man" is Batman
+- **Episode:** season 3, episode 13, the last episode
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s03e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s03e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
+- **Check:** the IMDb link; Wikidata's entry for the series doesn't look right
+- **Use it for:** the strong student held back in a mixed class. Give them the harder problem
+
+----
+
+## Justice League Unlimited: "Destroyer" (2006)
+<!-- 288 -->
+
+**Scene: the Source Wall, Metron and Luthor**
+
+> Metron: "Behold the Source Wall. Behind it is the single greatest secret of the universe. This is as far as I dare to go. I warn you one final time. **Only a 12th-level intellect has the slightest hope of surviving what you are about to experience.**"
+>
+> Luthor: "**Then I'm overqualified.**"
+
+- **Who:** Metron and Lex Luthor (Clancy Brown)
+- **Episode:** season 3, episode 13
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s03e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s03e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
+- **Check:** the IMDb link, as above
+- **Use it for:** entry requirements, and the learner who's sure they don't need the intro module
 
 ----
 
@@ -2058,11 +3253,11 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 ---
 
-# 9. X-Men
+# X-Men
 
 From X-Men (2000) to Apocalypse, in film order and scene order
 
-<figure class="topic-photo"><img src="src/img/topics/x-men.jpg" alt="A Lego Wolverine costume" /><figcaption>Photo: Angel Vaughn, <a href="https://commons.wikimedia.org/wiki/File:Cosplay_World_2024_-_Cosplay_of_Lego_Wolverine.jpg">Public domain, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/x-men.jpg" alt="A Lego Wolverine costume" /><figcaption><a class="ref media" href="#/media-used"><sup>9</sup></a> – Lego Wolverine, for X-Men</figcaption></figure>
 
 ----
 
@@ -2289,20 +3484,19 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 ## X-Men: Days of Future Past (2014)
 <!-- 116 -->
 
-**Scene: Hank's lab**
+**Scene: before the Sentinels attack**
 
-> Hank: "I know it's complicated, and there's probably all kinds of rules and reasons for what you can and can't say, but I was wondering if you could tell me: **in the future, do I make it?**"
+> Hank: "Probably not supposed to ask this kind of a thing. But **in the future, do I make it?**"
 >
 > Logan: "**No.**"
 >
-> Hank: "Oh. Okay. It's okay. Thanks."
->
-> Logan: "Hey, kid? **It's just the world I came from.**"
+> Logan: "**But we can change that, right?**"
 
-- **Who:** Hank (Nicholas Hoult) and Logan. "But we can change that, right?" isn't in the subtitles; Logan's last line is the hope
+- **Who:** Hank (Nicholas Hoult) and Logan (Hugh Jackman). Logan's last line as you remember it; the subtitles don't name speakers
+- **Time:** 1:44:56 to 1:45:05 in your copy (the cinema version, not the Rogue Cut)
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-days-of-future-past)
-- **Use it for:** the FYP plan in week 3. *"With this Gantt chart, do I make the deadline?" "No."*
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
+- **Use it for:** the FYP plan in week 3. *"With this Gantt chart, do I make the deadline?" "No. But we can change that."*
 
 ----
 
@@ -2451,11 +3645,11 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 ---
 
-# 10. Invincible
+# Invincible
 
 Omni-Man and Mark, from the animated series (2021), in episode order
 
-<figure class="topic-photo"><img src="src/img/topics/invincible.png" alt="Comic book covers" /><figcaption>Photo: FlynnsClu, <a href="https://commons.wikimedia.org/wiki/File:Avian_Knights_comic_book_covers.png">CC0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/invincible.png" alt="Comic book covers" /><figcaption><a class="ref media" href="#/media-used"><sup>10</sup></a> – Comic book covers</figcaption></figure>
 
 ----
 
@@ -2533,11 +3727,11 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 
 ---
 
-# 11. The Simpsons, Futurama and SpongeBob
+# Cartoons: The Simpsons, Futurama, SpongeBob and Archer
 
 Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
-<figure class="topic-photo"><img src="src/img/topics/cartoons.jpg" alt="The Simpsons sign at Universal Studios" /><figcaption>Photo: apasciuto, <a href="https://commons.wikimedia.org/wiki/File:The_Simpsons,_Universal_Studios,_Orlando.jpg">CC BY 2.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/cartoons.jpg" alt="The Simpsons sign at Universal Studios" /><figcaption><a class="ref media" href="#/media-used"><sup>11</sup></a> – The Simpsons sign, Universal Studios</figcaption></figure>
 
 ----
 
@@ -2788,13 +3982,83 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/imagination-spongebob)
 - **Use it for:** *"The brief says the project must be innovative"*, or a prototype on paper
 
+----
+
+## Archer: "Skytanic" (2010)
+<!-- 300 -->
+
+**Scene: the airship Excelsior, the bomb, over the radio**
+
+> "You said the letters after the dash were Oscar Kilo!"
+>
+> "Who?"
+>
+> "What?"
+>
+> "O-K! Oscar Kilo!"
+>
+> "No, "Okay!" Like: "Okay, now I'm gonna tell you what they are!""
+>
+> "Then you didn't!"
+>
+> "I thought we skipped that part!"
+>
+> "**Skipped a step in disarming a bomb?**"
+>
+> "**Which I thought was pretty irresponsible on your part.**"
+
+- **Who:** Archer (H. Jon Benjamin) and Ray Gillette (Adam Reed), one at the bomb and one reading the serial number, with "the teeny bit blue" wire still to cut. The subtitles don't name the speakers
+- **Episode:** season 1, episode 7
+- **IMDb:** [episode](https://www.imdb.com/title/tt1564607/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s01e07) [🔗](<../my-fetches/springfield-scripts/archer/s01e07.txt>)
+- **Check:** who is at the bomb and who is on the radio
+- **Use it for:** instructions in a lab sheet, and why every step is numbered
+
+----
+
+## Archer: "Legs" (2013)
+<!-- 301 -->
+
+**Scene: after an explosion**
+
+> Cyril: "**Why is your instinctive response to run toward explosions?!**"
+>
+> Lana: "**Mmm because I'm not a giant pussy?**"
+>
+> Cyril: "**Although, somehow, incredibly single.**"
+
+- **Who:** Cyril Figgis (Chris Parnell) and Lana Kane (Aisha Tyler)
+- **Episode:** season 4, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt2633154/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s04e03) [🔗](<../my-fetches/springfield-scripts/archer/s04e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_4)) [🔗](<../my-fetches/wikiquote/Archer_(season_4).wiki>), which has "And yet, somehow"
+- **Use it for:** the learner who volunteers for the hardest bug, the demo, the presentation
+
+----
+
+## Archer: "Archer Vice: Arrival/Departure" (2014)
+<!-- 302 -->
+
+**Scene: Lana's news**
+
+> Archer: "Yeah, sorry, for a second **I thought I was just now coming out of a coma from when I drowned saving your life eight months ago.**"
+>
+> Archer: "Lana? **Am I just now coming out of a coma from when I drowned saving your life eight months ago?**"
+>
+> Lana: "No."
+
+- **Who:** Archer and Lana. A running joke: he never lets her forget it. Then he meets his daughter
+- **Episode:** season 5, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt3411652/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s05e13) [🔗](<../my-fetches/springfield-scripts/archer/s05e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_5)) [🔗](<../my-fetches/wikiquote/Archer_(season_5).wiki>)
+- **Use it for:** the colleague who covered your class once, eight months ago
+
 ---
 
-# 12. British comedy
+# British comedy
 
 Peep Show, Mitchell and Webb, Blackadder and Bean
 
-<figure class="topic-photo"><img src="src/img/topics/british-comedy.jpg" alt="Rowan Atkinson driving a Mini" /><figcaption>Photo: Nathan Wong, <a href="https://commons.wikimedia.org/wiki/File:Rowan_Atkinson_on_a_Mini_at_Goodwood_Circuit_in_2009_(cropped).jpg">CC BY 2.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/british-comedy.jpg" alt="Rowan Atkinson driving a Mini" /><figcaption><a class="ref media" href="#/media-used"><sup>12</sup></a> – Rowan Atkinson in a Mini</figcaption></figure>
 
 ----
 
@@ -2970,13 +4234,320 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 - **Use it for:** the risk of a student left unsupervised, or "don't touch production"
 - **Check:** not on Wikiquote, and no script found. Wording, and who he goes to see
 
+----
+
+## Yes Minister: "Big Brother" (1980)
+<!-- 271 -->
+
+**Scene: Hacker's office, the database safeguards**
+
+> Humphrey: "Yes, but there are also formidable administrative problems. And all departments are affected."
+>
+> Humphrey: "**An interdepartmental committee**"
+>
+> Hacker: "**No. No. No, Humphrey.**"
+
+- **Who:** Sir Humphrey Appleby (Nigel Hawthorne) and Jim Hacker (Paul Eddington). The subtitles don't name the speakers. For the longer committee speech, see "Doing the Honours"
+- **Episode:** series 1, episode 4
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751807/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s01e04) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s01e04.txt>)
+- **Use it for:** a meeting that wants to set up a working group instead of deciding
+
+----
+
+## Yes Minister: "The Writing on the Wall" (1980)
+<!-- 272 -->
+
+**Scene: Hacker's office, Europe**
+
+> Hacker: "What are you talking about?"
+>
+> Humphrey: "Minister, **Britain has had the same foreign policy objective for at least the last 500 years: To create a disunited Europe.** We have fought with the Dutch against the Spanish, with the Germans against the French and with the French against the Germans and the Italians. **Divide and rule, you see. Why should we change now, when it's worked so well?**"
+>
+> Hacker: "That's all ancient history surely?"
+>
+> Humphrey: "**Yes, and current policy.** We had to break the whole thing up, so we had to get inside. We tried from the outside, but it wouldn't work. Now, we can make a complete pig's breakfast of the whole thing."
+
+- **Who:** Hacker and Sir Humphrey, on the Common Market. The subtitles run some words together ("forat", "itwouldn'twork"); spaces put back
+- **Episode:** series 1, episode 5
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751827/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s01e05) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s01e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Yes,_Minister) [🔗](<../my-fetches/wikiquote/Yes,_Minister.wiki>)
+- **Use it for:** a group member who joins the team to slow it down. Or office politics
+
+----
+
+## Yes Minister: "Doing the Honours" (1981)
+<!-- 273 -->
+
+**Scene: Hacker's office, blocking the honours**
+
+> Humphrey: "No, Minister! I'm fully seized of your aims, and I'll try to put them into practice. To that end, **I recommend we set up a committee with broad terms of reference, so we're in a position to think through the various implications and decide based on long-term considerations rather than rush prematurely into precipitate and ill-conceived actions which might have unforeseen repercussions.**"
+>
+> Hacker: "**You mean "no"?**"
+>
+> Humphrey: "I mean, as far as one can see, in the fullness of time"
+>
+> Hacker: "No, no, no, Humphrey. You know me: Action now!"
+
+- **Who:** Sir Humphrey and Hacker. The subtitles have "a committee"; Wikiquote has "an interdepartmental committee with fairly broad terms of reference"
+- **Episode:** series 2, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751808/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s02e02) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s02e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Yes,_Minister) [🔗](<../my-fetches/wikiquote/Yes,_Minister.wiki>)
+- **Use it for:** reading between the lines of an email from management. You mean "no"?
+
+----
+
+## Yes Minister: "The Challenge" (1982)
+<!-- 274 -->
+
+**Scene: Hacker's plan for council spending**
+
+> "What's this all about?"
+>
+> Hacker: "Controlling council expenditure. **I'm proposing that all council officials responsible for a new project list their criteria for failure before getting the go-ahead.**"
+>
+> "What do you mean?"
+>
+> Hacker: "It's a basic scientific approach. **You must establish a method of measuring the success or failure of an experiment. When it's completed, you know if it's succeeded or failed.** A proposer states "This scheme would fail if it lasts longer than this "or costs more than that, if it employs more staff than these "or fails to meet pre-set standards."
+
+- **Who:** Hacker, explaining his "failure standards". The subtitles don't name who asks
+- **Episode:** series 3, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751814/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-minister-1980&episode=s03e02) [🔗](<../my-fetches/springfield-scripts/yes-minister-1980/s03e02.txt>)
+- **Use it for:** success criteria and project evaluation. Write down what failure looks like before you start
+
+----
+
+## Yes, Prime Minister: "The Grand Design" (1986)
+<!-- 275 -->
+
+**Scene: the conscription plan reaches the army**
+
+> "I'm surprised you're happy about reintroducing conscription."
+>
+> "He didn't say anything about conscription."
+>
+> "Slashes unemployment, wins votes."
+>
+> "**We're an elite army, best in the world. Professional, tough, disciplined. We can't bring in a mob of punks and freaks and junkies and riff-raff.**"
+>
+> "A quarter of a million football hooligans?"
+>
+> "Peeling potatoes in Aldershot?"
+
+- **Who:** Sir Humphrey, turning the army's General Howard against the Prime Minister's plan. The subtitles don't name the speakers
+- **Episode:** series 1, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751837/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-prime-minister-1986&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/yes-prime-minister-1986/s01e01.txt>)
+- **Check:** which lines are Humphrey's and which the General's
+- **Use it for:** open access to a course, and the staff who worry about standards
+
+----
+
+## Yes, Prime Minister: "The Ministerial Broadcast" (1986)
+<!-- 276 -->
+
+**Scene: Humphrey shows Bernard how to run a survey**
+
+> Humphrey: "So she starts asking you some questions. **Mr Woolley, are you worried about the number of young people without jobs?**" Bernard: "Yes."
+>
+> Humphrey: "Are you worried about rising crime among teenagers?" Bernard: "Yes."
+>
+> Humphrey: "Do you think our schools lack discipline?" Bernard: "Yes."
+>
+> Humphrey: "Do you think young people welcome authority and leadership?" Bernard: "Yes."
+>
+> Humphrey: "They like a challenge?" Bernard: "Yes."
+>
+> Humphrey: "**Would you be in favour of national service?**" Bernard: "I suppose I might be."
+>
+> Humphrey: "Yes or no?" Bernard: "Yes."
+>
+> Humphrey: "After all you've told me, you can't say no. **They don't mention the first five questions and publish the last one.**"
+
+- **Who:** Sir Humphrey and Bernard Woolley (Derek Fowlds), who has been asked to picture "a nice young lady" with a clipboard. Five different questions then get "No": "The perfect balanced sample."
+- **Episode:** series 1, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751839/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-prime-minister-1986&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/yes-prime-minister-1986/s01e02.txt>)
+- **Use it for:** writing a TNA survey or a feedback form. Leading questions, and how they fix the answer
+
+----
+
+## Yes, Prime Minister: "A Victory for Democracy" (1986)
+<!-- 277 -->
+
+**Scene: the Foreign Office and the island of St George's**
+
+> Bernard: "What if St George's appeals to us?"
+>
+> "**We'll give them every support, short of help.**"
+>
+> Bernard: "What if the Prime Minister insists?"
+>
+> "**Then we follow the four-stage strategy.**"
+>
+> Bernard: "What's that?"
+>
+> "Standard F.O. response in a time of crisis. **In stage one we say nothing is going to happen. Stage two, it may happen, but we should do nothing. Stage three, maybe we should do something, but there's nothing we CAN do. Stage four, maybe there was something we could have done, but it's too late now.**"
+
+- **Who:** Bernard, with Sir Humphrey and Sir Richard Wharton (Antony Carrick) of the Foreign Office, who share the four stages between them. The subtitles break "F.O." over two lines
+- **Episode:** series 1, episode 6
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751831/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-prime-minister-1986&episode=s01e06) [🔗](<../my-fetches/springfield-scripts/yes-prime-minister-1986/s01e06.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Yes,_Minister) [🔗](<../my-fetches/wikiquote/Yes,_Minister.wiki>)
+- **Use it for:** a learner falling behind, and how not to respond. Stage one to stage four in a term
+
+----
+
+## Father Ted: "The Passion of St Tibulus" (1995)
+<!-- 278 -->
+
+**Scene: the parochial house, Bishop Brennan's visit**
+
+> Ted: "Your Grace. This isn't really my area."
+>
+> Brennan: "**Nothing is your area, Crilly. You do not have an area. Unless it's a kind of a play area, with sandcastles, buckets and spades!** Now, do what you're told, right?"
+
+- **Who:** Father Ted Crilly (Dermot Morgan) and Bishop Brennan (Jim Norton). Earlier in the same scene: "I don't care if it's any good or not. All I know is we have to be seen to be making a stand against it."
+- **Episode:** series 1, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0578522/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s01e03) [🔗](<../my-fetches/springfield-scripts/father-ted/s01e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
+- **Use it for:** being handed a module outside your subject
+
+----
+
+## Father Ted: "Hell" (1996)
+<!-- 279 -->
+
+**Scene: the caravan, the toy cows**
+
+> Ted: "OK, one last time. **These are small, but the ones out there are far away.** Small"
+>
+> Ted: "far away."
+>
+> Ted: "**Ah, forget it!**"
+
+- **Who:** Ted, holding up toy cows to Father Dougal (Ardal O'Hanlon), with real cows outside the caravan window
+- **Episode:** series 2, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0578512/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
+- **Use it for:** explaining a concept for the fifth time: scope in Python, pointers, references. Try a new example, not the same one louder
+
+----
+
+## Father Ted: "Tentacles of Doom" (1996)
+<!-- 280 -->
+
+**Scene: the parochial house, the three bishops**
+
+> "Do you think a close relationship with the lay community is desirable, or should a certain distance be maintained?"
+>
+> Ted: "Yes, er good question. Well, you know, I think we should **involve the lay community but keep them at a distance.**"
+>
+> "**How much of a distance?**"
+>
+> Ted: "**Couple of miles?**"
+
+- **Who:** one of the three visiting bishops, and Ted
+- **Episode:** series 2, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0578519/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e03) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>), which gives the question to Bishop Fachs
+- **Use it for:** stakeholder engagement, and employers on a programme board
+
+----
+
+## Father Ted: "Tentacles of Doom" (1996)
+<!-- 281 -->
+
+**Scene: the bishops' walk with Father Jack**
+
+> Bishop: "So many people are cynical about such things. You can hardly open a newspaper these days without reading some anti-clerical article written by some bearded leftie!"
+>
+> Jack: "Yes!"
+>
+> Bishop: "A spell in the army would do them good!"
+>
+> Jack: "**That would be an ecumenical matter.**"
+>
+> Bishop: "**Oh, of course, Father!** It's the media that's the real enemy, involving earthly, unspiritual pleasures!"
+
+- **Who:** Bishop Facks, and Father Jack (Frank Kelly), who Ted has trained to say only "Yes!" and "That would be an ecumenical matter"
+- **Episode:** series 2, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0578519/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e03) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
+- **Use it for:** a viva answer that sounds good and says nothing. Examiners: probe it
+
+----
+
+## Father Ted: "A Song for Europe" (1996)
+<!-- 282 -->
+
+**Scene: the parochial house, writing the song**
+
+> Ted: "Dougal, don't take it so seriously, it's it's just a bit of fun."
+>
+> *Later, the room full of cigarette smoke*
+>
+> Ted: "**Just play the f---ing note!**"
+>
+> Dougal: "The first one?"
+>
+> Ted: "**No, not the f---ing first one! That's already f---ing down!** Play the f---ing note you were f---ing playing. I'm playing the f---ing first one! We have the f---ing first one!"
+
+- **Who:** Ted and Dougal, hours later, writing "My Lovely Horse". The broadcast bleeps the swearing; the subtitles write it as "f---ing"
+- **Episode:** series 2, episode 5
+- **IMDb:** [episode](https://www.imdb.com/title/tt0578517/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s02e05) [🔗](<../my-fetches/springfield-scripts/father-ted/s02e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
+- **Use it for:** pair programming at 2am. "It's just a bit of fun"
+
+----
+
+## Father Ted: "Are You Right There, Father Ted?" (1998)
+<!-- 283 -->
+
+**Scene: the road, Colm and the rumour**
+
+> Colm: "I hear you're a racist now, Father."
+>
+> Ted: "What?"
+>
+> Colm: "How did you get interested in that?"
+>
+> Ted: "Who said I'm a racist?"
+>
+> Colm: "**Everyone's saying it, Father. Should we all be racists? What's the official line the Church is taking?**"
+>
+> Ted: "No, no"
+>
+> Colm: "**Only the farm takes up most of the day and at night I just like a cup of tea. I might not be able to devote myself full time to the old racism.**"
+
+- **Who:** Ted and Colm, a farmer, after Ted was seen doing an impression at the window. It ends with Ted shouting "I'm not a racist, all right?!"
+- **Episode:** series 3, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0578502/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=father-ted&episode=s03e01) [🔗](<../my-fetches/springfield-scripts/father-ted/s03e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Father_Ted) [🔗](<../my-fetches/wikiquote/Father_Ted.wiki>)
+- **Use it for:** how a rumour spreads in a staff room or a class group chat, and why denying it louder doesn't help
+
+----
+
+## Outnumbered: "The School Run" (2007)
+<!-- 314 -->
+
+**Scene: Sue on the phone to Veronica**
+
+> Sue: "I'm really sorry, Veronica, it's my fault. **I should never have shown Ben how to reply to an email.** He keeps Yeah, yeah, **he does know words like that.**"
+
+- **Who:** Sue (Claire Skinner), after her son Ben (Daniel Roche) has emailed another parent pretending to be her
+- **Episode:** series 1, episode 1
+- **IMDb:** [Outnumbered](https://www.imdb.com/title/tt1086191/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=outnumbered-2007&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/outnumbered-2007/s01e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Outnumbered) [🔗](<../my-fetches/wikiquote/Outnumbered.wiki>)
+- **Use it for:** account security and logging out of shared computers. Or teaching email to beginners
+
 ---
 
-# 13. James Bond, and Daniel Craig before Bond
+# James Bond, and Daniel Craig before Bond
 
 Villains, Q and the vivas
 
-<figure class="topic-photo"><img src="src/img/topics/bond.jpg" alt="The Aston Martin DB5 from Skyfall" /><figcaption>Photo: DeFacto, <a href="https://commons.wikimedia.org/wiki/File:Aston_Martin_DB5_(Skyfall).jpg">CC BY-SA 4.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/bond.jpg" alt="The Aston Martin DB5 from Skyfall" /><figcaption><a class="ref media" href="#/media-used"><sup>13</sup></a> – The Aston Martin DB5 from Skyfall</figcaption></figure>
 
 ----
 
@@ -3070,11 +4641,11 @@ Villains, Q and the vivas
 
 ---
 
-# 14. From your own documents
+# From your own documents
 
 Quotes you have already used in templates and reports
 
-<figure class="topic-photo"><img src="src/img/topics/documents.jpg" alt="An old typewriter advertisement" /><figcaption>Photo: Internet Archive Book Images, <a href="https://commons.wikimedia.org/wiki/File:Remington_Typewriter_Company_-_New_Models_10_and_11,_1909.jpg">No restrictions, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/documents.jpg" alt="An old typewriter advertisement" /><figcaption><a class="ref media" href="#/media-used"><sup>14</sup></a> – A 1909 typewriter advert</figcaption></figure>
 
 ----
 
@@ -3134,11 +4705,11 @@ Quotes you have already used in templates and reports
 
 ---
 
-# 15. Shakespeare
+# Shakespeare
 
 Out of copyright, so quote freely. Act and scene numbers follow the Folger editions
 
-<figure class="topic-photo"><img src="src/img/topics/shakespeare.jpg" alt="The Chandos portrait of Shakespeare" /><figcaption>Photo: Attributed to John Taylor, <a href="https://commons.wikimedia.org/wiki/File:Shakespeare.jpg">Public domain, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/shakespeare.jpg" alt="The Chandos portrait of Shakespeare" /><figcaption><a class="ref media" href="#/media-used"><sup>15</sup></a> – The Chandos portrait of Shakespeare</figcaption></figure>
 
 ----
 
@@ -3243,11 +4814,11 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 
 ---
 
-# 16. Real people and internet originals
+# Real people and internet originals
 
 Memes that started as photos, clips and cartoons
 
-<figure class="topic-photo"><img src="src/img/topics/internet.jpg" alt="Social media apps on a phone" /><figcaption>Photo: mikemacmarketing, <a href="https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg">CC BY 2.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/internet.jpg" alt="Social media apps on a phone" /><figcaption><a class="ref media" href="#/media-used"><sup>16</sup></a> – Social media apps on a phone</figcaption></figure>
 
 ----
 
@@ -3318,11 +4889,11 @@ Memes that started as photos, clips and cartoons
 
 ---
 
-# 17. Music, sound and clips
+# Music, sound and clips
 
 A few seconds of sound, and the law on clips in class
 
-<figure class="topic-photo"><img src="src/img/topics/music.jpg" alt="A film clapperboard" /><figcaption>Photo: Mattbr, <a href="https://commons.wikimedia.org/wiki/File:Clapperboard,_O2_film,_September_2008.jpg">CC BY 2.0, Wikimedia Commons</a></figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/music.jpg" alt="A film clapperboard" /><figcaption><a class="ref media" href="#/media-used"><sup>17</sup></a> – A film clapperboard</figcaption></figure>
 
 ----
 
@@ -3360,12 +4931,554 @@ A few seconds of sound, and the law on clips in class
 
 ---
 
+# Transformers
+
+The 1986 animated film and the live-action films, in date order
+
+<figure class="topic-photo"><img src="src/img/topics/transformers.jpg" alt="Megatron and Optimus Prime cosplayers at WonderCon" /><figcaption><a class="ref media" href="#/media-used"><sup>18</sup></a> – Megatron and Optimus Prime, at WonderCon</figcaption></figure>
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 263 -->
+
+**Scene: Autobot City, Prime arrives**
+
+> Optimus Prime: "Megatron must be stopped... no matter the cost."
+>
+> Megatron: "Prime!"
+>
+> Optimus Prime: "**One shall stand, one shall fall.**"
+>
+> Megatron: "Why throw away your life so recklessly?"
+>
+> Optimus Prime: "**That's a question you should ask yourself, Megatron.**"
+
+- **Who:** Optimus Prime (Peter Cullen) and Megatron (Frank Welker). The dots are the subtitles' own
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>), which doesn't name most speakers, and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
+- **Use it for:** exam day, or two groups pitching for the same project
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 264 -->
+
+**Scene: Autobot City, the battle**
+
+> Megatron: "Their defenses are broken, let the slaughter begin!"
+>
+> "**Dinobots, destroy Devastator!**"
+>
+> Grimlock: "**Me, Grimlock, love challenge!**"
+>
+> "Dinobots transform!"
+
+- **Who:** Megatron, then an Autobot sends in the Dinobots, and Grimlock answers
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
+- **Check:** who gives the order to the Dinobots; the subtitles don't say
+- **Use it for:** the hardest bug, given to the learner who loves a challenge
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 265 -->
+
+**Scene: deep space, Unicron finds Megatron**
+
+> Unicron: "Destroy it for me."
+>
+> Megatron: "Why should I? What's in it for me?"
+>
+> Unicron: "**Your bargaining posture is highly dubious.** Very well, I will provide you with a new body. And new troops to command."
+>
+> Megatron: "And?"
+>
+> Unicron: "**And nothing! You belong to me now.**"
+>
+> Megatron: "**I belong to nobody!**"
+>
+> Unicron: "Perhaps I misjudged you. Proceed... **on your way to oblivion.**"
+>
+> Megatron: "Ah! No! No! **I accept your terms! I accept!**"
+>
+> Unicron: "Excellent."
+
+- **Who:** Unicron (Orson Welles) and the wrecked Megatron, who becomes Galvatron. The dots are the subtitles' own
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
+- **Use it for:** terms and conditions, a software licence, an unpaid internship. Your bargaining posture is highly dubious
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 266 -->
+
+**Scene: the Quintesson court**
+
+> "Silence or you will be held in contempt of this court!"
+>
+> Kup: "**I have nothing but contempt for this court.**"
+>
+> "Guilty or innocent?"
+
+- **Who:** a Quintesson judge, and Kup (Lionel Stander), on trial with Hot Rod
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
+- **Check:** that it's Kup; the subtitles don't name the speaker
+- **Use it for:** a disciplinary hearing, or the appeals board, from the learner's side
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 267 -->
+
+**Scene: Unicron, Galvatron and the Matrix**
+
+> Galvatron: "See this? The Matrix! I now possess that which you most fear."
+>
+> *[rumbling]*
+>
+> Galvatron: "You will do my bidding or taste my wrath."
+>
+> Unicron: "You underestimate me, Galvatron. **For a time... I considered sparing your wretched little planet, Cybertron. But now... You shall witness... its dismemberment!**"
+
+- **Who:** Galvatron (Leonard Nimoy) and Unicron. The dots are the subtitles' own
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
+- **Use it for:** the assignment you were going to go easy on, before the class threatened you with a petition
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 268 -->
+
+**Scene: inside Unicron, Galvatron and Hot Rod**
+
+> Galvatron: "**Come out, Autobot! We all must die sometime.**"
+>
+> Hot Rod: "**Not today, Galvatron!**"
+
+- **Who:** Galvatron and Hot Rod (Judd Nelson), just before Hot Rod opens the Matrix. "We all must die", not "We must all die"
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
+- **Use it for:** the deadline. We all must die sometime. Not today
+
+----
+
+## Transformers (2007)
+<!-- 269 -->
+
+**Scene: the Autobots, before the battle for the Cube**
+
+> Ironhide: "Why are we fighting to save the humans? They're a primitive and violent race."
+>
+> Optimus Prime: "**Were we so different?** They're a young species. They have much to learn. But I've seen goodness in them. **Freedom is the right of all sentient beings.** You all know there's only one way to end this war. We must destroy the Cube."
+
+- **Who:** Ironhide (Jess Harnell) and Optimus Prime (Peter Cullen)
+- **IMDb:** [Transformers](https://www.imdb.com/title/tt0418279/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers) [🔗](<../my-fetches/springfield-scripts/transformers.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers_(film)) [🔗](<../my-fetches/wikiquote/Transformers_(film).wiki>)
+- **Use it for:** first years, from the second years' point of view. They have much to learn, but were we so different?
+
+----
+
+## Transformers: Dark of the Moon (2011)
+<!-- 270 -->
+
+**Scene: Chicago, the end**
+
+> Megatron: "**We need a truce.** All I wanted was to be back in charge. **Besides... Who would you be without me? Prime.**"
+>
+> Optimus Prime: "**Time to find out.**"
+>
+> Sentinel Prime: "Optimus. All I ever wanted, was the survival of our race. You must see why I had to betray you."
+>
+> Optimus Prime: "**You didn't betray me. You betrayed yourself.**"
+
+- **Who:** Megatron (Hugo Weaving), Optimus Prime and Sentinel Prime (Leonard Nimoy). Wikiquote has "All I want is to be back in charge"; the subtitles have "All I wanted was"
+- **IMDb:** [Transformers: Dark of the Moon](https://www.imdb.com/title/tt1399103/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-dark-of-the-moon) [🔗](<../my-fetches/springfield-scripts/transformers-dark-of-the-moon.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Dark_of_the_Moon) [🔗](<../my-fetches/wikiquote/Transformers__Dark_of_the_Moon.wiki>)
+- **Use it for:** plagiarism. You didn't cheat me, you cheated yourself
+
+---
+
+# TV drama and sci-fi
+
+Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mandalorian, Chernobyl, The Boys and Wednesday, in date order
+
+<figure class="topic-photo"><img src="src/img/topics/tv-drama.jpg" alt="An old television set on a suburban road" /><figcaption><a class="ref media" href="#/media-used"><sup>19</sup></a> – An old television set</figcaption></figure>
+
+----
+
+## Andromeda: "Forced Perspective" (2001)
+<!-- 289 -->
+
+**Scene: the opening quotation**
+
+> "**Humans say the road to hell is paved with good intentions. Why? Do they think there's a shortage of bad ones?**"
+
+- **Who:** on screen at the start of the episode: Karm'Luk P'an Ku, "The Joy of Lucidity". Every episode of Andromeda opens with a made-up quotation like this
+- **Episode:** season 1, episode 15
+- **IMDb:** [episode](https://www.imdb.com/title/tt0512242/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s01e15) [🔗](<../my-fetches/springfield-scripts/andromeda/s01e15.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Andromeda_(TV_series)) [🔗](<../my-fetches/wikiquote/Andromeda_(TV_series).wiki>)
+- **Check:** the "best diplomat is a fully armed Lancer brigade" opener; it isn't on Wikiquote, so I haven't found its episode
+- **Use it for:** "I meant well" on a missed deadline
+
+----
+
+## Buffy the Vampire Slayer: "The Gift" (2001)
+<!-- 303 -->
+
+**Scene: planning to stop Glory**
+
+> Giles: "If the ritual starts, every living creature in this and every other dimension imaginable will suffer unbearable torment and death. Including Dawn."
+>
+> Buffy: "**Then the last thing she'll see is me protecting her.**"
+>
+> Giles: "You'll fail. You'll die. We all will."
+
+- **Who:** Giles (Anthony Head) and Buffy (Sarah Michelle Gellar). If Dawn dies, the ritual stops; Buffy won't let it happen
+- **Episode:** season 5, episode 22
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533499/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s05e22) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s05e22.txt>)
+- **Check:** that it's Giles who answers "You'll fail"; the subtitles don't name speakers
+- **Use it for:** a learner you won't give up on
+
+----
+
+## Buffy the Vampire Slayer: "The Gift" (2001)
+<!-- 304 -->
+
+**Scene: after the fight, Giles and Ben**
+
+> Ben: "She could've killed me."
+>
+> Giles: "No, she couldn't. Never. And sooner or later Glory will re-emerge, and make Buffy pay for that mercy. And the world with her. **Buffy even knows that. And still she couldn't take a human life. She's a hero, you see. She's not like us.**"
+>
+> Ben: "Us?"
+
+- **Who:** Giles and Ben (Charlie Weber), who shares a body with Glory. Giles then kills him
+- **Episode:** season 5, episode 22
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533499/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s05e22) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s05e22.txt>)
+- **Use it for:** the manager who makes the hard call so the team doesn't have to
+
+----
+
+## Andromeda: "Belly of the Beast" (2002)
+<!-- 290 -->
+
+**Scene: the bridge, Dylan missing**
+
+> "I don't believe he's dead."
+>
+> "When did you find the faith?"
+>
+> Tyr: "**I have faith in nothing but this-- when the universe collapses and dies, there will be three survivors, Tyr Anasazi, the cockroaches, and Dylan Hunt trying to save the cockroaches.**"
+
+- **Who:** Tyr Anasazi (Keith Hamilton Cobb), after Captain Dylan Hunt (Kevin Sorbo) seems to have died. The subtitles don't name who speaks first
+- **Episode:** season 2, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0769837/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s02e19) [🔗](<../my-fetches/springfield-scripts/andromeda/s02e19.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Andromeda_(TV_series)) [🔗](<../my-fetches/wikiquote/Andromeda_(TV_series).wiki>)
+- **Use it for:** the colleague who'll be marking scripts when the building falls down. Or the tutor saving every last learner
+
+----
+
+## 24: "Day 7: 8:00 a.m. – 9:00 a.m." (2009)
+<!-- 291 -->
+
+**Scene: the Senate hearing**
+
+> Senator Mayer: "...Bauer is that the ends justify the means and that you are above the law."
+>
+> Jack: "When I am activated, when I am brought into a situation, there is a reason and that reason is to complete the objectives of my mission at all costs."
+>
+> Senator Mayer: "Even if it means breaking the law."
+>
+> Jack: "**For a combat soldier, the difference between success and failure is your ability to adapt to your enemy.** The people that I deal with, they don't care about your rules. All they care about is a result. My job is to stop them from accomplishing their objectives. I simply adapted. **In answer to your question, am I above the law? No, sir. I am more than willing to be judged by the people you claim to represent.** I will let them decide what price I should pay. But please do not sit there with that smug look on your face and expect me to regret the decisions that I have made because, sir, the truth is, I don't."
+
+- **Who:** Senator Blaine Mayer (Kurtwood Smith) and Jack Bauer (Kiefer Sutherland). The senator's first line starts mid-sentence in the subtitles
+- **Episode:** day 7, the first hour
+- **IMDb:** [24](https://www.imdb.com/title/tt0285331/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=24&episode=s07e01) [🔗](<../my-fetches/springfield-scripts/24/s07e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/24_(TV_series)) [🔗](<../my-fetches/wikiquote/24_(TV_series).wiki>)
+- **Use it for:** ethics in IT and security: ends and means
+
+----
+
+## 24: "Day 7: 9:00 p.m. – 10:00 p.m." (2009)
+<!-- 292 -->
+
+**Scene: Jack and Senator Mayer, that night**
+
+> Jack: "Of course I have regrets, Senator. I regret losing my family. My wife was murdered because I was responsible for protecting David Palmer during an assassination attempt. My daughter can't even look at me. Every day, I regret looking into the eyes of men, women and children knowing that any moment their lives might be deemed expendable in an effort to protect the greater good. I regret every decision or mistake I might have made that resulted in the loss of a single innocent life. **But you know, what I regret the most is that this world even needs people like me.**"
+
+- **Who:** Jack Bauer, to Senator Mayer, who said at the hearing he saw "a man full of regret"
+- **Episode:** day 7, episode 14
+- **IMDb:** [24](https://www.imdb.com/title/tt0285331/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=24&episode=s07e14) [🔗](<../my-fetches/springfield-scripts/24/s07e14.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/24_(TV_series)) [🔗](<../my-fetches/wikiquote/24_(TV_series).wiki>)
+- **Use it for:** a cyber security class: why the job exists at all
+
+----
+
+## Hannibal: "Fromage" (2013)
+<!-- 305 -->
+
+**Scene: Hannibal's dining room, Tobias**
+
+> Tobias: "I could use a friend. Someone who can understand me. Who thinks like I do and can see the world and the people in it the way I do."
+>
+> Hannibal: "I know exactly how you feel. **But I don't want to be your friend.**"
+>
+> Tobias: "Then why did you invite me here for dinner? Wasn't just to restring your harpsichord."
+>
+> Hannibal: "**I was going to kill you. I didn't poison you, Tobias. I wouldn't do that to the food.**"
+
+- **Who:** Tobias Budge (Demore Barnes), another killer, and Hannibal Lecter (Mads Mikkelsen)
+- **Episode:** season 1, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt2373039/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=hannibal&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/hannibal/s01e08.txt>)
+- **Use it for:** standards. Some things you won't compromise, even in a crisis: the marking scheme, the code review
+
+----
+
+## House of Cards: "Chapter 15" (2014)
+<!-- 293 -->
+
+**Scene: the swearing-in as Vice President**
+
+> *The oath goes on behind him*
+>
+> Frank: "**One heartbeat away from the presidency, and not a single vote cast in my name. Democracy is so overrated.**"
+
+- **Who:** Frank Underwood (Kevin Spacey), to the camera. Wikiquote puts it in Chapter 15; the subtitle script on the site's page for season 2, episode 2
+- **Episode:** season 2, episode 2
+- **IMDb:** [House of Cards](https://www.imdb.com/title/tt1856010/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=house-of-cards-2013&episode=s02e02) [🔗](<../my-fetches/springfield-scripts/house-of-cards-2013/s02e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/House_of_Cards_(season_2)) [🔗](<../my-fetches/wikiquote/House_of_Cards_(season_2).wiki>)
+- **Use it for:** the group leader nobody voted for
+
+----
+
+## The Expanse: "Immolation" (2018)
+<!-- 294 -->
+
+**Scene: the airlock, Dr Strickland**
+
+> Strickland: "Please, I'm begging you. Please. Please?"
+>
+> Amos: "**You're not that guy.**"
+>
+> Amos: "You're not that guy."
+>
+> Strickland: "Oh, thank you. Oh, thank you."
+>
+> Amos: "**I am that guy.**"
+
+- **Who:** Dr Strickland, Amos Burton (Wes Chatham) stopping Prax (Terry Chen) from shooting him, then shooting him himself. Strickland had taken Prax's daughter
+- **Episode:** season 3, episode 6
+- **IMDb:** [The Expanse](https://www.imdb.com/title/tt3230854/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-expanse-2015&episode=s03e06) [🔗](<../my-fetches/springfield-scripts/the-expanse-2015/s03e06.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Expanse_(TV_series)) [🔗](<../my-fetches/wikiquote/The_Expanse_(TV_series).wiki>)
+- **Use it for:** the team member who does the unpopular job so others don't have to: the late submissions, the fail grade
+
+----
+
+## Cobra Kai: "Strike First" (2018)
+<!-- 295 -->
+
+**Scene: the dojo, the first lesson**
+
+> Johnny: "All right, are you ready to begin your training?"
+>
+> Miguel: "Yes, Sensei."
+>
+> Johnny: "**Lesson one, strike first. Never wait for the enemy to attack.**"
+>
+> Miguel: "You could have gave me, like, a warning."
+>
+> Johnny: "Quiet! **We do not train to be merciful here. Mercy is for the weak.**"
+
+- **Who:** Johnny Lawrence (William Zabka) and Miguel (Xolo Maridueña). Later in the episode: "Cobra Kai isn't just about karate. It's about a way of life"
+- **Episode:** season 1, episode 2
+- **IMDb:** [Cobra Kai](https://www.imdb.com/title/tt7221388/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=cobra-kai-2018&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/cobra-kai-2018/s01e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Cobra_Kai) [🔗](<../my-fetches/wikiquote/Cobra_Kai.wiki>)
+- **Use it for:** starting an assignment the day it's set, not the day before it's due. Strike first
+
+----
+
+## Chernobyl: "1:23:45" (2019)
+<!-- 296 -->
+
+**Scene: Legasov's tapes, the opening**
+
+> Legasov: "**What is the cost of lies? It's not that we'll mistake them for the truth. The real danger is that if we hear enough lies, then we no longer recognize the truth at all.** What can we do then? What else is left but to abandon even the hope of truth and content ourselves instead with stories?"
+
+- **Who:** Valery Legasov (Jared Harris), recording his account before he dies
+- **Episode:** episode 1
+- **IMDb:** [Chernobyl](https://www.imdb.com/title/tt7366338/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=chernobyl-2019&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/chernobyl-2019/s01e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Chernobyl_(miniseries)) [🔗](<../my-fetches/wikiquote/Chernobyl_(miniseries).wiki>)
+- **Use it for:** misinformation, sources and referencing. Why we cite
+
+----
+
+## Chernobyl: "The Happiness of All Mankind" (2019)
+<!-- 297 -->
+
+**Scene: the West German robot fails on the roof**
+
+> Shcherbina: "Of course I know they're listening! **I want them to hear! I want them to hear it all!** Do you know what we're doing here?! Tell those geniuses what they have done! I don't give a fuck! Tell them! Go tell them! Ryzhkov! Go tell them he's a joke! Tell fucking Gorbachev! Tell them! **The official position of the State is that a global nuclear catastrophe is not possible in the Soviet Union. They told the Germans that the highest detected level of radiation was 2,000 roentgen. They gave them the propaganda number. That robot was never going to work.**"
+>
+> Shcherbina: "**We need a new phone.**"
+
+- **Who:** Boris Shcherbina (Stellan Skarsgård), on the phone to Moscow, then to Legasov and General Tarakanov. He smashes the phone between the two lines
+- **Episode:** episode 4
+- **IMDb:** [Chernobyl](https://www.imdb.com/title/tt7366338/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=chernobyl-2019&episode=s01e04) [🔗](<../my-fetches/springfield-scripts/chernobyl-2019/s01e04.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Chernobyl_(miniseries)) [🔗](<../my-fetches/wikiquote/Chernobyl_(miniseries).wiki>)
+- **Use it for:** a project built on the official numbers instead of the real ones. Garbage in, garbage out
+
+----
+
+## The Mandalorian: "Chapter 3: The Sin" (2019)
+<!-- 306 -->
+
+**Scene: the covert, the Armorer stops a fight**
+
+> Armorer: "When one chooses to walk the Way of the Mandalore, you are both hunter and prey. How can one be a coward if one chooses this way of life? Have you ever removed your helmet?"
+>
+> Mando: "No."
+>
+> Armorer: "Has it ever been removed by others?"
+>
+> Mando: "Never."
+>
+> Armorer: "**This is the Way.**"
+>
+> Mandalorians: "**This is the Way.**"
+
+- **Who:** the Armorer (Emily Swallow), the Mandalorian (Pedro Pascal) and the covert
+- **Episode:** season 1, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt9121534/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-mandalorian-2019&episode=s01e03) [🔗](<../my-fetches/springfield-scripts/the-mandalorian-2019/s01e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Mandalorian) [🔗](<../my-fetches/wikiquote/The_Mandalorian.wiki>)
+- **Use it for:** a house style or a coding standard. Why we do it this way: this is the Way
+
+----
+
+## The Mandalorian: "Chapter 8: Redemption" (2019)
+<!-- 307 -->
+
+**Scene: the lava river, IG-11's last order**
+
+> Mando: "But you'll be destroyed."
+>
+> IG-11: "And you will live, and I will have served my purpose."
+>
+> Mando: "No. We need you."
+>
+> IG-11: "There is nothing to be sad about. I have never been alive."
+>
+> Mando: "I'm not sad."
+>
+> IG-11: "**Yes, you are. I'm a nurse droid. I've analyzed your voice.**"
+
+- **Who:** the Mandalorian and IG-11 (Taika Waititi), a hunter droid reprogrammed as the Child's nurse
+- **Episode:** season 1, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt9121546/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-mandalorian-2019&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/the-mandalorian-2019/s01e08.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Mandalorian) [🔗](<../my-fetches/wikiquote/The_Mandalorian.wiki>)
+- **Use it for:** AI and sentiment analysis, in a lighter moment
+
+----
+
+## The Boys: "Payback" (2022)
+<!-- 308 -->
+
+**Scene: Homelander visits Butcher**
+
+> Homelander: "Treat us like we're obsolete. Doesn't that make you angry?"
+>
+> Butcher: "Yeah. It does."
+>
+> Homelander: "What if What if it doesn't have to be that way? What if you and I Well, what if we share a different destiny? Something a little more **scorched earth, shock and awe, blood and bone. And in the end, only one of us left standing.** Isn't that what you want?"
+>
+> Butcher: "**Too fucking right. More than anything.**"
+
+- **Who:** Homelander (Antony Starr) and Billy Butcher (Karl Urban). The broken-off sentences are the subtitles'
+- **Episode:** season 3, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt12312450/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-boys-2019&episode=s03e01) [🔗](<../my-fetches/springfield-scripts/the-boys-2019/s03e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Boys_(TV_series)/Season_3) [🔗](<../my-fetches/wikiquote/The_Boys_(TV_series)_Season_3.wiki>)
+- **Use it for:** two rival groups in a hackathon. Or two departments
+
+----
+
+## The Boys: "The Only Man in the Sky" (2022)
+<!-- 309 -->
+
+**Scene: the live broadcast, Homelander goes off script**
+
+> Homelander: "All my life, people have tried to control me. My whole life. Rich people, powerful people have tried to muzzle me, cancel me, keep me impotent and obedient, like I'm a fucking puppet. You know what? It worked. Because I allowed it to work. And guess what. **If they can control me, then you can bet your ass they can control you. They already do. You just don't realize it.** I'm done. I am done apologizing. I am done being persecuted for my strength. You people should be thanking Christ that I am who and what I am, **because you need me. You need me to save you.** You do. I am the only one who possibly can. You're not the real heroes. **I'm the real hero.**"
+
+- **Who:** Homelander, to a live audience, telling them what they want to hear
+- **Episode:** season 3, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt13609680/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-boys-2019&episode=s03e02) [🔗](<../my-fetches/springfield-scripts/the-boys-2019/s03e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Boys_(TV_series)/Season_3) [🔗](<../my-fetches/wikiquote/The_Boys_(TV_series)_Season_3.wiki>)
+- **Use it for:** media literacy and populist speeches: find the techniques
+
+----
+
+## Wednesday: "This Means Woe" (2025)
+<!-- 310 -->
+
+**Scene: Tyler and his mother**
+
+> Francoise: "It's your mommy."
+>
+> Wednesday: "**I haven't enjoyed a mother-son relationship like this since Psycho.**"
+>
+> Francoise: "Tyler? Honey?"
+
+- **Who:** Francoise (Frances O'Connor) and her son Tyler, who turns into the Hyde, watched by Wednesday (Jenna Ortega). "Enjoyed", not "been this invested in"
+- **Episode:** season 2, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt33310268/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=wednesday-2022&episode=s02e08) [🔗](<../my-fetches/springfield-scripts/wednesday-2022/s02e08.txt>)
+- **Check:** that the line is Wednesday's; the subtitles don't name her
+- **Use it for:** parents' evening, quietly
+
+---
+
 # Sources and notes
+<!-- no-number -->
 
 - IMDb IDs: taken from Wikidata (property P345) on 29 and 30 October 2026, not guessed. Episode links only where Wikidata had one
 - Meme pages: each Know Your Meme link was checked to exist on the same day
 - Scripts: [chakoteya.net](http://www.chakoteya.net/) for Star Trek, [Wikiquote](https://en.wikiquote.org/), and subtitle scripts on [springfieldspringfield.co.uk](https://www.springfieldspringfield.co.uk/), which don't name speakers. IMDb itself blocks automated reading
 - Quotes: entries with **Checked:** were compared word for word with a transcript, Wikiquote or a subtitle script on 30 October 2026. The rest are from memory, and lines marked **Check** could not be confirmed
 - Times: send me the subtitle file (.srt) for a film or episode and I can find the exact time of each quote in your copy
-- Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in `src/img/meme/readme.md`
+- Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in [src/img/meme/readme.md](src/img/meme/readme.md)
 - Stills and clips are copyrighted. Keep them to teaching use, and credit each one on a Media used slide
+- Topic pictures: credits on Media used, below, and in [src/img/topics/readme.md](src/img/topics/readme.md)
+- Link icons: each website's own icon (favicon), saved in [src/img/favicons/](src/img/favicons/). Four styles to compare, a different one on each topic in turn: icon before the link, icon after it, a plain link icon after it, and the icon in place of the label ("IMDb:"). Add `?links=favicon-before`, `favicon-after`, `link-icon` or `favicon-label` to the address to see one style everywhere
+
+----
+
+## Media used
+<!-- .slide: id="media-used" -->
+
+<ol class="reflist media-list">
+<li data-m="1"><a href="https://commons.wikimedia.org/wiki/File:Hurling_game,_Cusack_Park,_Ennis.jpg">Hurling at Cusack Park, Ennis. Photo: Sheila1988, CC BY-SA 4.0, Wikimedia Commons</a></li>
+<li data-m="2"><a href="https://commons.wikimedia.org/wiki/File:Gantt_Chart_Template_for_Film_Production.png">A Gantt chart. Photo: HarryTruinkers, CC BY-SA 4.0, Wikimedia Commons</a></li>
+<li data-m="3"><a href="https://commons.wikimedia.org/wiki/File:Snjezana_Kordic_keynote_presentation_Japan.jpg">A keynote talk. Photo: Mozel W., CC BY-SA 4.0, Wikimedia Commons</a></li>
+<li data-m="4"><a href="https://commons.wikimedia.org/wiki/File:FCO_Ministerial_team_meeting_(4621624854).jpg">A team meeting. Photo: Foreign and Commonwealth Office, OGL v1.0, Wikimedia Commons</a></li>
+<li data-m="5"><a href="https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg">A data centre. Photo: BalticServers.com, CC BY-SA 3.0, Wikimedia Commons</a></li>
+<li data-m="6"><a href="https://commons.wikimedia.org/wiki/File:Model_NCC_1701.jpg">A model of the starship Enterprise. Photo: Paulch, CC BY-SA 4.0, Wikimedia Commons</a></li>
+<li data-m="7"><a href="https://commons.wikimedia.org/wiki/File:Deep_Space_Nine_filming_model_-_Star_Trek_-_Exploring_New_Worlds_Exhibit_at_the_Henry_Ford_Museum,_Dearborn,_Michigan.jpg">The Deep Space Nine filming model. Photo: Joe Ross, CC BY-SA 2.0, Wikimedia Commons</a></li>
+<li data-m="8"><a href="https://commons.wikimedia.org/wiki/File:Nolan_Original_Batmobile_With_Schumacher,_Near_Warners.jpg">The Tumbler, from Nolan's Batman films. Photo: Tim-desser, CC0, Wikimedia Commons</a></li>
+<li data-m="9"><a href="https://commons.wikimedia.org/wiki/File:Cosplay_World_2024_-_Cosplay_of_Lego_Wolverine.jpg">Lego Wolverine, for X-Men. Photo: Angel Vaughn, Public domain, Wikimedia Commons</a></li>
+<li data-m="10"><a href="https://commons.wikimedia.org/wiki/File:Avian_Knights_comic_book_covers.png">Comic book covers. Photo: FlynnsClu, CC0, Wikimedia Commons</a></li>
+<li data-m="11"><a href="https://commons.wikimedia.org/wiki/File:The_Simpsons,_Universal_Studios,_Orlando.jpg">The Simpsons sign, Universal Studios. Photo: apasciuto, CC BY 2.0, Wikimedia Commons</a></li>
+<li data-m="12"><a href="https://commons.wikimedia.org/wiki/File:Rowan_Atkinson_on_a_Mini_at_Goodwood_Circuit_in_2009_(cropped).jpg">Rowan Atkinson in a Mini. Photo: Nathan Wong, CC BY 2.0, Wikimedia Commons</a></li>
+<li data-m="13"><a href="https://commons.wikimedia.org/wiki/File:Aston_Martin_DB5_(Skyfall).jpg">The Aston Martin DB5 from Skyfall. Photo: DeFacto, CC BY-SA 4.0, Wikimedia Commons</a></li>
+<li data-m="14"><a href="https://commons.wikimedia.org/wiki/File:Remington_Typewriter_Company_-_New_Models_10_and_11,_1909.jpg">A 1909 typewriter advert. Photo: Internet Archive Book Images, No restrictions, Wikimedia Commons</a></li>
+<li data-m="15"><a href="https://commons.wikimedia.org/wiki/File:Shakespeare.jpg">The Chandos portrait of Shakespeare. Photo: Attributed to John Taylor, Public domain, Wikimedia Commons</a></li>
+<li data-m="16"><a href="https://commons.wikimedia.org/wiki/File:Social_Media_App_Icons_On_The_Screen_of_A_Smartphone.jpg">Social media apps on a phone. Photo: mikemacmarketing, CC BY 2.0, Wikimedia Commons</a></li>
+<li data-m="17"><a href="https://commons.wikimedia.org/wiki/File:Clapperboard,_O2_film,_September_2008.jpg">A film clapperboard. Photo: Mattbr, CC BY 2.0, Wikimedia Commons</a></li>
+<li data-m="18"><a href="https://commons.wikimedia.org/wiki/File:WonderCon_2019_-_Megatron_and_Optimus_Prime_cosplay_(2).jpg">Megatron and Optimus Prime, at WonderCon. Photo: William Tung, CC BY-SA 2.0, Wikimedia Commons</a></li>
+<li data-m="19"><a href="https://commons.wikimedia.org/wiki/File:Retro_TV_on_suburban_road_(Unsplash).jpg">An old television set. Photo: Frank Okay, CC0, Wikimedia Commons</a></li>
+</ol>

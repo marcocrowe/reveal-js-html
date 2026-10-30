@@ -88,12 +88,13 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 .deck-close { --icon: var(--icon-close); }
 
 /* ---------- Slide list sidebar ----------
- * While open, the slides move over and shrink to fit beside it. */
+ * While open, the slides move over and shrink to fit beside it. It sits
+ * above the buttons, so its own buttons can always be pressed. */
 .deck-sidebar {
 	position: fixed;
 	top: 0;
 	bottom: 0;
-	z-index: 150;
+	z-index: 260;
 	display: none;
 	flex-direction: column;
 	width: var(--deck-sidebar-width);
@@ -135,12 +136,16 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 	right: calc(var(--deck-sidebar-width) + 10px);
 }
 
+/* Its buttons on the outer edge, close first, away from the other buttons */
 .deck-sidebar-toolbar {
 	display: flex;
-	justify-content: flex-end;
 	gap: 2px;
 	padding: 6px 8px;
 	border-bottom: 1px solid #d5dbe6;
+}
+
+.deck-sidebar-right .deck-sidebar-toolbar {
+	flex-direction: row-reverse;
 }
 
 .deck-sidebar-tree,
@@ -225,6 +230,57 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 
 .deck-sidebar-tree li li .deck-sidebar-link {
 	padding-left: 12px;
+}
+
+/* ---------- Phones and small tablets ----------
+ * Sideways (landscape): a narrower list, still beside the slides.
+ * Upright, or anything under 700px wide: the list covers the slides
+ * rather than squeezing them to nothing. */
+@media (max-height: 500px) {
+	:root {
+		--deck-sidebar-width: 260px !important;
+	}
+
+	.deck-sidebar {
+		font-size: 14px;
+	}
+
+	.deck-button {
+		width: 32px;
+		height: 32px;
+	}
+
+	.deck-button::before {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+@media (max-width: 699px) {
+	.deck-sidebar {
+		width: min(var(--deck-sidebar-width), 88vw);
+		box-shadow: 0 0 24px rgba(0, 0, 0, 0.25);
+	}
+
+	.deck-sidebar-open.deck-sidebar-left .reveal,
+	.deck-sidebar-open.deck-sidebar-right .reveal {
+		width: 100%;
+		margin: 0;
+	}
+
+	.deck-sidebar-open.deck-sidebar-left .deck-dock-bottom-left {
+		left: 10px;
+	}
+
+	.deck-sidebar-open.deck-sidebar-right .deck-dock-top-right {
+		right: 10px;
+	}
+}
+
+/* Section number before a heading (numberHeadings: true) */
+.reveal .heading-number {
+	color: var(--navy-soft, #3b5a8c);
+	font-variant-numeric: tabular-nums;
 }
 
 /* ---------- Go to slide: the number being typed ---------- */

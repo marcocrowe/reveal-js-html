@@ -18,7 +18,8 @@
 	color: var(--muted);
 }
 
-/* Topic slides: one picture, with its credit underneath (src/img/topics/readme.md) */
+/* Topic slides: one picture, with a numbered caption underneath. The credit
+ * is on Media used (the picture marker jumps there) and in src/img/topics/readme.md */
 .reveal figure.topic-photo {
 	margin: 0.6em 0 0;
 }
@@ -26,7 +27,7 @@
 .reveal figure.topic-photo img {
 	display: block;
 	max-width: 100%;
-	height: 400px;
+	height: calc(400px * var(--fit, 1));
 	margin: 0;
 	object-fit: cover;
 	border-radius: 6px;
@@ -34,7 +35,7 @@
 
 .reveal figure.topic-photo figcaption {
 	margin-top: 6px;
-	font-size: 16px;
+	font-size: 22px;
 	color: var(--muted);
 }
 
@@ -83,6 +84,11 @@
 .reveal p.scene strong {
 	font-weight: 600;
 	color: var(--navy-soft);
+}
+
+/* Plain lists (the title slide, Sources and notes) shrink with the rest */
+.reveal .slides section > ul > li:not(.field) {
+	font-size: calc(30px * var(--fit, 1));
 }
 
 /* Field lines: "**Label:** value" */
@@ -169,4 +175,153 @@
 
 .reveal .stack-bar span.on {
 	background: var(--gold);
+}
+
+/*********************************************************
+ * Title slide: QR code to the deck online, top right
+ *********************************************************/
+.reveal figure.deck-qr {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 250px;
+	margin: 0;
+	text-align: center;
+}
+
+.reveal figure.deck-qr img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.reveal figure.deck-qr figcaption {
+	font-size: 15px;
+	line-height: 1.3;
+	overflow-wrap: anywhere;
+}
+
+.reveal section:has(> figure.deck-qr) > :not(figure) {
+	max-width: calc(100% - 290px);
+}
+
+/*********************************************************
+ * Picture markers, as in asg2.html: a small picture icon and a number at
+ * the start of a caption. Click it to jump to its line on Media used, hover
+ * for the credit (src/js/deck.js). A bit smaller than the asg2 deck's.
+ * Icon: Feather Icons (MIT).
+ *********************************************************/
+:root {
+	--icon-media: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Ccircle cx='8.5' cy='8.5' r='1.5'/%3E%3Cpolyline points='21 15 16 10 5 21'/%3E%3C/svg%3E");
+	--icon-external: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+	--icon-link: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");
+}
+
+.reveal a.ref.media {
+	font-weight: bold;
+	color: var(--navy-soft);
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.reveal a.ref.media sup {
+	font-size: 1em;
+	vertical-align: baseline;
+}
+
+.reveal a.ref.media::before {
+	content: "";
+	display: inline-block;
+	width: 0.7em;
+	height: 0.7em;
+	margin-right: 0.1em;
+	vertical-align: -0.02em;
+	background: currentColor;
+	-webkit-mask: var(--icon-media) center / contain no-repeat;
+	mask: var(--icon-media) center / contain no-repeat;
+}
+
+/* Media used: numbered, two columns, each line opens the picture's page */
+.reveal ol.reflist {
+	margin: 0;
+	padding-left: 1.6em;
+	font-size: calc(20px * var(--fit, 1));
+	line-height: 1.3;
+	columns: 2;
+	column-gap: 40px;
+}
+
+.reveal ol.reflist li {
+	margin-bottom: 0.5em;
+	break-inside: avoid;
+}
+
+.reveal ol.reflist a {
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.reveal ol.reflist a:hover,
+.reveal ol.reflist a:focus-visible {
+	color: var(--navy-soft);
+	text-decoration: underline;
+}
+
+.reveal li.entry-target {
+	background: #fff6dd;
+	outline: 6px solid #fff6dd;
+}
+
+/*********************************************************
+ * Links to other websites: the site's own icon (favicon). memes.html sets
+ * --favicon on each link and data-links on each topic, to compare styles:
+ *   favicon-before   icon, then the link
+ *   favicon-after    the link, then the icon
+ *   link-icon        the link, then a plain link icon
+ *   favicon-label    the icon in place of a label ("IMDb:"), and a plain
+ *                    external-link icon after each link
+ *********************************************************/
+.reveal a.site-link::before,
+.reveal a.site-link::after {
+	display: inline-block;
+	width: 0.8em;
+	height: 0.8em;
+	vertical-align: -0.08em;
+}
+
+.reveal [data-links="favicon-before"] a.site-link::before,
+.reveal [data-links="favicon-label"] a.site-link:not(.labelled)::before {
+	content: "";
+	margin-right: 0.25em;
+	background: var(--favicon) center / contain no-repeat;
+}
+
+.reveal [data-links="favicon-after"] a.site-link::after {
+	content: "";
+	margin-left: 0.25em;
+	background: var(--favicon) center / contain no-repeat;
+}
+
+.reveal [data-links="link-icon"] a.site-link::after,
+.reveal [data-links="favicon-label"] a.site-link::after {
+	content: "";
+	margin-left: 0.2em;
+	background: var(--navy-soft);
+	-webkit-mask: var(--icon-external) center / contain no-repeat;
+	mask: var(--icon-external) center / contain no-repeat;
+}
+
+.reveal [data-links="link-icon"] a.site-link::after {
+	-webkit-mask-image: var(--icon-link);
+	mask-image: var(--icon-link);
+}
+
+.reveal img.label-favicon {
+	display: inline-block;
+	width: 0.9em;
+	height: 0.9em;
+	margin: 0;
+	vertical-align: -0.1em;
+	box-shadow: none;
 }

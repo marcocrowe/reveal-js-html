@@ -23,6 +23,11 @@
  * On a phone (under 435px wide) reveal.js switches to its scroll
  * view, where the deck is one long page. The mouse handlers stand
  * down there, so the page scrolls and taps work normally.
+ * keep the slides instead with scrollActivationWidth: null.
+ *
+ * Touch screens, with tapZones: true in Reveal.initialize: tap the
+ * left third of the slide to go back, the right third to go on. The
+ * middle third does nothing, so text can still be selected.
  *********************************************************/
 (function () {
 	const deck = document.querySelector('.reveal');
@@ -42,8 +47,12 @@
 	backLink.type = 'button';
 	backLink.className = 'ref-back';
 
+	// The number the slide shows: the deck's own numbering when slideNumber is a
+	// function (src/js/deck-controls.js), otherwise reveal.js's h.v
 	function slideLabel(indices) {
-		return (indices.h + 1) + (indices.v ? '.' + (indices.v + 1) : '');
+		const number = Reveal.getConfig().slideNumber;
+		const own = typeof number === 'function' && number(Reveal.getSlide(indices.h, indices.v))[0];
+		return own || (indices.h + 1) + (indices.v ? '.' + (indices.v + 1) : '');
 	}
 
 	function clearTarget() {
@@ -114,11 +123,22 @@
 	/* ---------- Left click: next ----------
 	 * Double and triple click are not used: telling them apart would delay
 	 * every single click, and they are how you select a word or a line. */
+	const tapZones = !!Reveal.getConfig().tapZones;
+
 	deck.addEventListener('click', function (event) {
 		if (event.button !== 0 || event.defaultPrevented) return;
 		if (scrollView() || Reveal.isOverview()) return;
 		if (event.target.closest(LEAVE_ALONE)) return;
 		if (String(window.getSelection())) return; // the user was selecting text
+
+		// A tap: left third back, right third on, the middle nothing
+		if (tapZones && event.pointerType === 'touch') {
+			const box = deck.getBoundingClientRect();
+			const x = (event.clientX - box.left) / box.width;
+			if (x < 1 / 3) back();
+			else if (x > 2 / 3) Reveal.next();
+			return;
+		}
 
 		if (event.altKey && event.shiftKey) Reveal.left();
 		else if (event.altKey) Reveal.right();
@@ -318,7 +338,7 @@
 		return heading ? heading.textContent.trim() : '';
 	}
 
-	document.querySelectorAll('.reveal .slides > section').forEach(function (stack) {
+	function addStackBars(stack) {
 		const slides = Array.from(stack.children).filter(function (el) { return el.tagName === 'SECTION'; });
 		if (slides.length < 2) return;
 
@@ -336,6 +356,10 @@
 					piece.type = 'button';
 					piece.dataset.tip = slideHeading(target);
 					piece.setAttribute('aria-label', 'Go to ' + slideHeading(target));
+					piece.addEventListener('mouseenter', function () { showTip(piece); });
+					piece.addEventListener('focus', function () { showTip(piece); });
+					piece.addEventListener('mouseleave', hideTip);
+					piece.addEventListener('blur', hideTip);
 					piece.addEventListener('click', function (event) {
 						event.stopPropagation();
 						// Found when clicked: slides added later move the stack along
@@ -348,6 +372,14 @@
 			heading.classList.add('has-stack-bar');
 			heading.insertAdjacentElement('afterend', bar);
 		});
+	}
+
+	document.querySelectorAll('.reveal .slides > section').forEach(addStackBars);
+
+	// src/js/deck-controls.js rebuilds the contents when the screen turns
+	document.addEventListener('deck:stack-rebuilt', function (event) {
+		addStackBars(event.detail);
+		Reveal.layout();
 	});
 
 	Reveal.layout();
