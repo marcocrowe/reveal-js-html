@@ -5,24 +5,24 @@
  *   - Top right, reveal.js's own features: blackout, all slides (overview)
  *     and full screen
  *   - Sidebar: every slide as a tree, vertical slides under their stack.
- *     It stays open beside the slides until closed, on the left or right
+ *     It stays open beside the slides until closed, on the left or right.
+ *     On a narrow screen (a phone upright) it covers the slides instead
  *   - Contents slides, made automatically: a vertical stack of thumbnail
- *     grids, like PowerPoint's Summary Zoom
- *   - Type a slide number and press Enter to go there (4, 40, or 4.2)
+ *     grids, like PowerPoint's Summary Zoom. Fewer, bigger thumbnails
+ *     when the screen is upright (portrait)
+ *   - Numbering: sections 1, 2, 3 and the slides under them 2.1, 2.2,
+ *     shown in the sidebar, the contents, the slide number and, if set,
+ *     before the section heading. Type a number and press Enter to go
+ *     there (4, 40 or 4.2)
  * None of it prints.
  *
- * Load after Reveal.initialize has finished (the slides must exist), and
- * before scripts that decorate slides (src/js/deck.js), so they see the
- * contents slides too. Settings, all optional, in Reveal.initialize:
- *   deckControls: {
- *     contents: true,        // make the contents slides
- *     contentsPerSlide: 9,   // thumbnails on each contents slide
- *     contentsTitle: 'Contents',
- *     contentsAfter: 0,      // put them after this slide (0 = the title slide)
- *     sidebar: true,
- *     sidebarSide: 'left',   // or 'right'; the viewer can switch, and it is remembered
- *     sidebarWidth: 340,     // pixels
- *   }
+ * Numbering, with HTML comments in a slide (in Markdown, under its heading):
+ *   <!-- no-number -->   leave this slide out of the numbering
+ *   <!-- no-list -->     leave it out of the sidebar and contents too
+ *   <!-- number -->      number it even when autoNumber is false
+ * The first slide (home) and the contents are never numbered. Every other
+ * slide is numbered unless marked (autoNumber: true), or only the marked
+ * ones are (autoNumber: false). A number typed into a heading ("1. Topic")
  * is dropped from the sidebar and contents, as the deck numbers them.
  *
  * Load after Reveal.initialize has finished (the slides must exist), and
@@ -30,22 +30,23 @@
  * contents slides too. Settings, all optional, in Reveal.initialize:
  *   deckControls: {
  *     contents: true,              // make the contents slides
- *     contentsPerSlide: 9,         // thumbnails on each contents slide
- *     contentsPerSlidePortrait: 4, // ... when the screen is upright
+ *     contentsColumns: 3,          // thumbnails across each contents slide
+ *     contentsRows: 3,             // ... and down
+ *     contentsColumnsPortrait: 2,  // the same when the screen is upright
+ *     contentsRowsPortrait: 2,
+ *     contentsCaptions: true,      // the title under each thumbnail (it's also in the thumbnail)
  *     contentsTitle: 'Contents',
+ *     contentsPageCount: true,     // "Contents (1 of 3)", or just "Contents" on every page
  *     contentsAfter: 0,            // put them after this slide (0 = the title slide)
  *     sidebar: true,
  *     sidebarSide: 'left',         // or 'right'; the viewer can switch, and it is remembered
  *     sidebarWidth: 340,           // pixels
  *     numbering: true,             // number sections and the slides under them
  *     autoNumber: true,            // number every slide not marked <!-- no-number -->
- *     numberHeadings: false,       // also put "1 – " before each section's heading
- *   }
- *     numbering: true,             // number sections and the slides under them
- *     autoNumber: true,            // number every slide not marked <!-- no-number -->
  *     numberHeadings: false,       // also show the section number on its slide:
- *                                  // 'corner' in a circle in the top left, or
- *                                  // true for "1 – " before the heading
+ *                                  // 'bullet' as "(1)" on the left of the heading
+ *                                  // line, the title still centred; 'corner' in a
+ *                                  // circle in the top left; true for "1 – " 
  *   }
  *********************************************************/
 (function () {
@@ -156,11 +157,14 @@
 		return number ? number + ' – ' + title : title;
 	}
 
-	// "1 – " before each numbered section's heading, on the slide itself
-	// (numberHeadings: 'corner'), or "1 – " before the heading (true)
+	// The section number on its own slide (numberHeadings):
+	//   'bullet'  "(1)" at the left of the heading line, like a numbered
+	//             bullet; the title stays centred (src/css/memes.css)
+	//   'corner'  in a circle in the top left corner of the slide
+	//   true      "1 – " before the heading
 	function numberHeadings() {
-		if (!settings.numberHeadings) return;
-		const corner = settings.numberHeadings === 'corner';
+		const style = settings.numberHeadings;
+		if (!style) return;
 		topSlides().forEach(function (top) {
 			const first = firstOf(top);
 			const number = numberOf(first);
@@ -168,10 +172,24 @@
 			if (!number || !heading || first.querySelector('.heading-number')) return;
 			heading.innerHTML = heading.innerHTML.replace(/^\s*\d+(\.\d+)*\s*[.)–-]\s+/, '');
 			const span = document.createElement('span');
-			span.className = 'heading-number' + (corner ? ' corner' : '');
-			span.textContent = corner ? number : number + ' – ';
-			if (corner) first.prepend(span);
-			else heading.prepend(span);
+			if (style === 'bullet') {
+				span.className = 'heading-number bullet';
+				span.textContent = '(' + number + ')';
+				const title = document.createElement('span');
+				title.className = 'heading-title';
+				title.append(...heading.childNodes);
+				heading.append(span, title);
+				heading.classList.add('has-heading-number');
+				heading.dataset.number = span.textContent; // keeps the title centred
+			} else if (style === 'corner') {
+				span.className = 'heading-number corner';
+				span.textContent = number;
+				first.prepend(span);
+			} else {
+				span.className = 'heading-number';
+				span.textContent = number + ' – ';
+				heading.prepend(span);
+			}
 		});
 	}
 
@@ -192,10 +210,10 @@
 	}
 
 	/* ---------- Contents slides ----------
-	 * One thumbnail for each horizontal slide (a vertical stack shows its first
-	 * slide). The thumbnail is a scaled-down copy of the slide itself, so it
+	 * One thumbnail for each horizontal slide after the contents (a vertical
+	 * stack shows its first slide). The thumbnail is a scaled-down copy of the
 	 * slide itself, so it always matches. The pages form one vertical stack.
-	 * always matches. The pages form one vertical stack: 2, 2.2, 2.3 ... */
+	 * Turning a phone or tablet rebuilds them, with fewer per page upright. */
 	let contentsStack = null, contentsGrid = '';
 
 	// Columns and rows for the screen as it is now
@@ -314,7 +332,7 @@
 			sidebarList = list;
 			markCurrent();
 		}
-		// reveal.js read the address (#/4/2) before the contents went in, so
+		// src/js/deck.js adds the position bars to the new pages
 		document.dispatchEvent(new CustomEvent('deck:stack-rebuilt', { detail: contentsStack }));
 	}
 
@@ -346,11 +364,11 @@
 	}
 
 	/* ---------- Sidebar ----------
-	 * A tree of every slide, numbered as reveal.js numbers them (5, or 5.2 in
-	 * a stack), with a triangle to open and close each stack. Long titles are
-	 * cut off; the tooltip shows the whole title. The current slide is marked
-	 * and kept in view. While open it sits beside the slides, which shrink to
-	 * fit, rather than over them. */
+	 * A tree of every slide, numbered 5 or 5.1 (see Numbering), with a
+	 * triangle to open and close each stack. Long titles are cut off; the
+	 * tooltip shows the whole title. The current slide is marked and kept in
+	 * view. While open it sits beside the slides, which shrink to fit, rather
+	 * than over them; on a narrow screen it covers them. */
 	let sidebar = null, sidebarList = null;
 
 	function sidebarItem(slide, h, v) {
@@ -541,10 +559,10 @@
 	}
 
 	/* ---------- Type a slide number, then Enter ----------
-	 * 4 then Enter goes to slide 4; 40 goes to slide 40, or the last slide if
-	 * there are fewer. 4.2 goes to the second slide of stack 4. Backspace
+	 * With numbering: 4 then Enter goes to section 4, 4.2 to the second slide
+	 * under it; 40 goes to the last section if there are fewer, 0 to the first
 	 * slide. Without numbering, the same with reveal.js's own slide numbers.
-	 * corrects, Esc cancels. */
+	 * Backspace corrects, Esc cancels. */
 	let typed = '', typedTimer = null;
 	const typedBox = document.createElement('div');
 	typedBox.className = 'deck-typed';

@@ -32,8 +32,32 @@
 	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom center / 90px 8px;
 }
 
-/* The section number in a circle, top left (numberHeadings: 'corner' in
- * src/js/deck-controls.js); the contents thumbnails show it too */
+/* The section number as a numbered bullet, "(13)", on the heading's own
+ * line: left aligned, in blue, with the title centred (numberHeadings:
+ * 'bullet' in src/js/deck-controls.js). An invisible copy of the number
+ * on the right balances it, so the title sits in the true centre. */
+.reveal .slides .has-heading-number {
+	display: grid;
+	grid-template-columns: max-content 1fr max-content;
+	align-items: baseline;
+	column-gap: 0.4em;
+}
+
+.reveal .slides .has-heading-number::after {
+	content: attr(data-number);
+	visibility: hidden;
+}
+
+.reveal .heading-number.bullet {
+	color: var(--navy-soft);
+	font-variant-numeric: tabular-nums;
+}
+
+.reveal .heading-title {
+	text-align: center;
+}
+
+/* The other style, numberHeadings: 'corner': a circle, top left */
 .reveal .heading-number.corner {
 	position: absolute;
 	top: 8px;
