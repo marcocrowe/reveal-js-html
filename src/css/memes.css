@@ -12,24 +12,18 @@
 	padding-top: calc(28px * var(--fit, 1));
 }
 
-/* Headings in the centre, with the position bar under them */
+/* Headings in the centre. The position bar under them stays on the left
+ * and runs the full width of the slide (below) */
 .reveal .slides h1,
 .reveal .slides h2 {
 	text-align: center;
-	background-position: bottom center;
-}
-
-.reveal .slides .stack-bar {
-	justify-content: center;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /* Topic and opening slides: level 1 headings with the same gold bar */
 .reveal h1 {
 	font-size: 60px;
 	padding-bottom: 0.25em;
-	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom center / 90px 8px;
+	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
 }
 
 /* The section number as a numbered bullet, "(13)", on the heading's own
@@ -202,17 +196,18 @@
 	font-size: 0.85em;
 }
 
-/* Long topics: the position bar shrinks to fit the slide width */
+/* The position bar: one piece per slide in the stack, sharing the full
+ * width of the slide, so it is always one complete line from the left
+ * edge, whether a topic has 3 slides or 50 */
 .reveal .stack-bar {
-	max-width: 100%;
+	width: 100%;
 	gap: 6px;
 }
 
-/* Bars are buttons here (stackBarLinks): a bit bigger, same 7.5 : 1 shape,
- * with a taller invisible area to click */
+/* Bars are buttons here (stackBarLinks), with a taller invisible area to click */
 .reveal .stack-bar span,
 .reveal .stack-bar button {
-	flex: 0 1 75px;
+	flex: 1 1 0;
 	min-width: 6px;
 	height: 10px;
 	padding: 0;

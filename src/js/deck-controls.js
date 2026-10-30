@@ -10,10 +10,11 @@
  *   - Contents slides, made automatically: a vertical stack of thumbnail
  *     grids, like PowerPoint's Summary Zoom. Fewer, bigger thumbnails
  *     when the screen is upright (portrait)
- *   - Numbering: sections 1, 2, 3 and the slides under them 2.1, 2.2,
- *     shown in the sidebar, the contents, the slide number and, if set,
- *     before the section heading. Type a number and press Enter to go
- *     there (4, 40 or 4.2)
+ *   - Numbering: sections 1, 2, 3 and the slides under them 2.1, 2.2
+ *     (or one count, 1, 2, 3 ... through the whole deck), shown in the
+ *     sidebar, the contents, the slide number and, if set, on the slide
+ *     beside its heading. Type a number and press Enter to go there
+ *     (4, 40 or 4.2)
  * None of it prints.
  *
  * Numbering, with HTML comments in a slide (in Markdown, under its heading):
@@ -41,12 +42,18 @@
  *     sidebar: true,
  *     sidebarSide: 'left',         // or 'right'; the viewer can switch, and it is remembered
  *     sidebarWidth: 340,           // pixels
- *     numbering: true,             // number sections and the slides under them
+ *     numbering: true,             // number the slides at all
  *     autoNumber: true,            // number every slide not marked <!-- no-number -->
- *     numberHeadings: false,       // also show the section number on its slide:
- *                                  // 'bullet' as "(1)" on the left of the heading
- *                                  // line, the title still centred; 'corner' in a
- *                                  // circle in the top left; true for "1 – " 
+ *     numberFormat: 'multilevel',  // 5, 5.1, 5.2 (a section and the slides under
+ *                                  // it), or 'flat': 1, 2, 3 ... through the deck
+ *     numberHeadings: false,       // also show the number on the slide itself:
+ *                                  // 'bullet' "(5)" at the left of the heading line,
+ *                                  // the title still centred; 'corner' in a circle
+ *                                  // in the top left; true for "5 – " before it
+ *     numberHeadingLevels: ['h1', 'h2'], // which headings show it: a slide's first
+ *                                  // heading must be one of these. ['h1'] numbers
+ *                                  // only section slides in a Markdown deck;
+ *                                  // add 'h3' for decks that use h3 under h2
  *   }
  *********************************************************/
 (function () {
@@ -67,7 +74,9 @@
 		sidebarWidth: 340,
 		numbering: true,
 		autoNumber: true,
+		numberFormat: 'multilevel',
 		numberHeadings: false,
+		numberHeadingLevels: ['h1', 'h2'],
 	}, Reveal.getConfig().deckControls || {});
 
 	const printing = /print-pdf/i.test(window.location.search);
@@ -124,18 +133,32 @@
 	function numberSlides() {
 		numbers.clear();
 		if (!settings.numbering) return;
-		let section = 0;
+		const flat = settings.numberFormat === 'flat';
+		let section = 0, count = 0;
 		topSlides().forEach(function (top, h) {
 			if (top.classList.contains('deck-contents-stack')) return;
 			const slides = childSlides(top);
 			const first = firstOf(top);
-			const label = counted(first, h === 0) ? String(++section) : '';
+			const isCounted = counted(first, h === 0);
+			if (flat) {
+				numbers.set(first, isCounted ? String(++count) : '');
+				slides.slice(1).forEach(function (slide) {
+					numbers.set(slide, counted(slide, false) ? String(++count) : '');
+				});
+				return;
+			}
+			const label = isCounted ? String(++section) : '';
 			numbers.set(first, label);
 			let sub = 0;
 			slides.slice(1).forEach(function (slide) {
 				numbers.set(slide, label && counted(slide, false) ? label + '.' + (++sub) : '');
 			});
 		});
+	}
+
+	// Every slide, in deck order: each stack's slides, or the slide itself
+	function allSlides() {
+		return topSlides().flatMap(top => childSlides(top).length ? childSlides(top) : [top]);
 	}
 
 	function numberOf(slide) {
@@ -157,19 +180,22 @@
 		return number ? number + ' – ' + title : title;
 	}
 
-	// The section number on its own slide (numberHeadings):
-	//   'bullet'  "(1)" at the left of the heading line, like a numbered
+	// The slide's number on the slide itself (numberHeadings), for slides whose
+	// first heading is one of numberHeadingLevels:
+	//   'bullet'  "(5.1)" at the left of the heading line, like a numbered
 	//             bullet; the title stays centred (src/css/memes.css)
 	//   'corner'  in a circle in the top left corner of the slide
-	//   true      "1 – " before the heading
+	//   true      "5.1 – " before the heading
 	function numberHeadings() {
 		const style = settings.numberHeadings;
 		if (!style) return;
-		topSlides().forEach(function (top) {
-			const first = firstOf(top);
+		const levels = settings.numberHeadingLevels.map(l => l.toUpperCase());
+		allSlides().forEach(function (first) {
+			if (first.closest('.deck-contents-stack')) return;
 			const number = numberOf(first);
-			const heading = first.querySelector('h1, h2');
-			if (!number || !heading || first.querySelector('.heading-number')) return;
+			const heading = first.querySelector('h1, h2, h3, h4, h5, h6');
+			if (!number || !heading || levels.indexOf(heading.tagName) < 0) return;
+			if (first.querySelector('.heading-number')) return;
 			heading.innerHTML = heading.innerHTML.replace(/^\s*\d+(\.\d+)*\s*[.)–-]\s+/, '');
 			const span = document.createElement('span');
 			if (style === 'bullet') {

@@ -37,22 +37,10 @@
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+	<script src="src/js/deck-start.js"></script>
 	<script>
-		// Opened straight from disk: the Markdown can't be fetched, so say how to open it.
-		if (location.protocol === 'file:') {
-			document.querySelector('.slides').innerHTML =
-				'<section><h2>Open this through a web server</h2>' +
-				'<p>This deck loads <code>memes.md</code>, and browsers block that from a file.</p>' +
-				'<p>In this folder run <code>python -m http.server</code>, then open ' +
-				'<code>http://localhost:8000/memes.html</code>. Or use VS Code Live Server.</p>' +
-				'<p>Or read <a href="memes.md">memes.md</a> directly.</p></section>';
-		}
-
-		// The address before reveal.js starts: #/contents only exists once
-		// deck-controls.js has added the contents slides
-		window.deckStartHash = location.hash;
-
-		Reveal.initialize({
+		// Settings only. What each one does is described in the script it belongs to.
+		startDeck({
 			width: 1280,
 			height: 720,
 			margin: 0.06,
@@ -63,137 +51,30 @@
 			slideNumber: 'h.v',
 			transition: 'none',
 			mouseWheel: false, // src/js/deck.js handles the wheel
+			scrollActivationWidth: null, // keep the slides on a phone, not one long page
+			plugins: [RevealMarkdown, RevealNotes],
+
+			deckMarkdown: { fitMin: 0.55 }, // src/js/deck-markdown.js
+			linkIcons: { style: 'compare' }, // src/js/link-icons.js: a different style on each topic
 			stackBarLinks: true, // src/js/deck.js: click a grey bar to go to that slide
 			tapZones: true, // src/js/deck.js: on a touch screen, tap left to go back, right to go on
-			// Keep the slides on a phone. reveal.js otherwise switches to one long
-			// scrolling page when the slides are under 435px wide: upright on a
-			// phone, or with the slide list open, and swiping, the overview and
-			// the contents stop working
-			scrollActivationWidth: null,
-			// Slide list, contents slides, numbering and buttons: src/js/deck-controls.js
-			deckControls: {
-				contentsColumns: 4, contentsRows: 3, // thumbnails on each contents slide
-				contentsColumnsPortrait: 2, contentsRowsPortrait: 2, // ... on an upright phone
-				contentsCaptions: false, // the title is in the thumbnail already
-				contentsPageCount: false, // "Contents" on every page, not "Contents (1 of 2)"
-				numberHeadings: 'bullet', // the section number as "(1)" left of the centred title
+			deckControls: { // src/js/deck-controls.js
+				contentsColumns: 4, contentsRows: 3,
+				contentsColumnsPortrait: 2, contentsRowsPortrait: 2,
+				contentsCaptions: false,
+				contentsPageCount: false,
+				numberFormat: 'multilevel', // 5, 5.1, 5.2 ... or 'flat': 1, 2, 3 ...
+				numberHeadings: 'bullet', // "(5)" on the slide, left of the centred title
+				numberHeadingLevels: ['h1'], // which headings show it: add 'h2', 'h3' for (5.1)
 				sidebarSide: 'left',
 			},
-			plugins: [RevealMarkdown, RevealNotes],
-		}).then(function () {
-			// Give each field line a class from its label: "**Use it for:**" -> field-use-it-for
-			document.querySelectorAll('.reveal .slides li').forEach(function (item) {
-				const label = item.querySelector(':scope > strong:first-child');
-				if (!label) return;
-				const name = label.textContent.replace(/:\s*$/, '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '-');
-				item.classList.add('field', 'field-' + name);
-			});
 
-			// Topic slides (a level 1 heading) and the opening slide get their own look
-			document.querySelectorAll('.reveal .slides section').forEach(function (slide) {
-				if (slide.querySelector(':scope > h1')) slide.classList.add('topic');
-			});
-
-			// "**Scene: ...**" lines under the heading
-			document.querySelectorAll('.reveal .slides section > p').forEach(function (line) {
-				if (/^Scene:/.test(line.textContent.trim()) && line.children.length === 1) line.classList.add('scene');
-			});
-
-			// Links to other websites open in a new tab, so the deck stays open
-			document.querySelectorAll('.reveal .slides a[href^="http"]').forEach(function (link) {
-				link.target = '_blank';
-				link.rel = 'noopener';
-			});
-
-			/* Link icons: each website's own icon (favicon, src/img/favicons/).
-			 * Four styles to compare, a different one on each topic in turn
-			 * (styles in src/css/memes.css). ?links=favicon-after in the address
-			 * shows one style everywhere. */
-			const SITES = {
-				'imdb.com': ['imdb.png', 'IMDb'],
-				'chakoteya.net': ['chakoteya.png', 'chakoteya.net'],
-				'springfieldspringfield.co.uk': ['springfield.png', 'Springfield! Springfield!'],
-				'knowyourmeme.com': ['knowyourmeme.png', 'Know Your Meme'],
-				'wikiquote.org': ['wikiquote.png', 'Wikiquote'],
-				'wikimedia.org': ['commons.png', 'Wikimedia Commons'],
-				'wikipedia.org': ['wikipedia.png', 'Wikipedia'],
-				'youtube.com': ['youtube.png', 'YouTube'],
-				'youtu.be': ['youtube.png', 'YouTube'],
-				'imgflip.com': ['imgflip.png', 'imgflip'],
-				'revealjs.com': ['revealjs.svg', 'reveal.js'],
-				'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
-				'incompetech.com': ['incompetech.png', 'Incompetech'],
-			};
-			// Labels the favicon-label style replaces with the site's icon
-			const LABELS = { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' };
-			const PLAIN_LINK = "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233b5a8c' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E\")";
-			const STYLES = ['favicon-before', 'favicon-after', 'link-icon', 'favicon-label'];
-			const forced = new URLSearchParams(window.location.search).get('links');
-
-			function siteOf(href) {
-				let host = '';
-				try { host = new URL(href).hostname.replace(/^www\./, ''); } catch (e) { return null; }
-				const key = Object.keys(SITES).find(k => host === k || host.endsWith('.' + k));
-				return key ? SITES[key] : null;
-			}
-
-			let topic = 0;
-			document.querySelectorAll('.reveal .slides > section').forEach(function (top) {
-				const first = top.querySelector(':scope > section') || top;
-				if (first.querySelector(':scope > figure.topic-photo')) topic++;
-				const style = STYLES.indexOf(forced) >= 0 ? forced : (topic ? STYLES[(topic - 1) % STYLES.length] : STYLES[0]);
-				top.dataset.links = style;
-
-				// Not on a link that is a picture (the QR code). The address is made
-				// absolute: a relative one in a CSS variable is read from the CSS file
-				top.querySelectorAll('a[href^="http"]:not(:has(img))').forEach(function (link) {
-					const site = siteOf(link.href);
-					link.classList.add('site-link');
-					link.style.setProperty('--favicon', site ? 'url("' + new URL('src/img/favicons/' + site[0], document.baseURI).href + '")' : PLAIN_LINK);
-				});
-
-				if (style !== 'favicon-label') return;
-				top.querySelectorAll('li.field').forEach(function (item) {
-					const name = Array.from(item.classList).find(c => c.indexOf('field-') === 0 && c !== 'field');
-					const domain = name && LABELS[name.slice(6)];
-					const label = item.querySelector(':scope > strong:first-child');
-					if (!domain || !label) return;
-					const site = SITES[domain];
-					const icon = document.createElement('img');
-					icon.className = 'label-favicon';
-					icon.src = 'src/img/favicons/' + site[0];
-					icon.alt = site[1];
-					icon.title = site[1];
-					label.replaceChildren(icon, ':');
-					item.querySelectorAll('a.site-link').forEach(link => link.classList.add('labelled'));
-				});
-			});
-
-			// Long quotes: shrink the text on a slide until it fits, in small steps
-			function fit(slide) {
-				if (!slide || slide.dataset.fitted) return;
-				let size = 1;
-				while (slide.scrollHeight > 690 && size > 0.55) {
-					size -= 0.05;
-					slide.style.setProperty('--fit', size.toFixed(2));
-				}
-				slide.dataset.fitted = 'yes';
-			}
-			fit(Reveal.getCurrentSlide());
-			Reveal.on('slidechanged', function (event) { fit(event.currentSlide); });
-
-			// Once the slides exist: the deck controls (they add the contents
-			// slides), then mouse navigation, tooltips and stack bars
-			['src/js/deck-controls.js', 'src/js/deck.js'].reduce(function (previous, src) {
-				return previous.then(function () {
-					return new Promise(function (resolve) {
-						const script = document.createElement('script');
-						script.src = src;
-						script.onload = resolve;
-						document.body.appendChild(script);
-					});
-				});
-			}, Promise.resolve());
+			deckScripts: [
+				'src/js/deck-markdown.js',
+				'src/js/link-icons.js',
+				'src/js/deck-controls.js',
+				'src/js/deck.js',
+			],
 		});
 	</script>
 </body>
