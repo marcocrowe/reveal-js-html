@@ -41,15 +41,25 @@
  *     autoNumber: true,            // number every slide not marked <!-- no-number -->
  *     numberHeadings: false,       // also put "1 – " before each section's heading
  *   }
+ *     numbering: true,             // number sections and the slides under them
+ *     autoNumber: true,            // number every slide not marked <!-- no-number -->
+ *     numberHeadings: false,       // also show the section number on its slide:
+ *                                  // 'corner' in a circle in the top left, or
+ *                                  // true for "1 – " before the heading
+ *   }
  *********************************************************/
 (function () {
 	'use strict';
 
 	const settings = Object.assign({
 		contents: true,
-		contentsPerSlide: 9,
-		contentsPerSlidePortrait: 4,
+		contentsColumns: 3,
+		contentsRows: 3,
+		contentsColumnsPortrait: 2,
+		contentsRowsPortrait: 2,
+		contentsCaptions: true,
 		contentsTitle: 'Contents',
+		contentsPageCount: true,
 		contentsAfter: 0,
 		sidebar: true,
 		sidebarSide: 'left',
@@ -147,18 +157,21 @@
 	}
 
 	// "1 – " before each numbered section's heading, on the slide itself
+	// (numberHeadings: 'corner'), or "1 – " before the heading (true)
 	function numberHeadings() {
 		if (!settings.numberHeadings) return;
+		const corner = settings.numberHeadings === 'corner';
 		topSlides().forEach(function (top) {
 			const first = firstOf(top);
 			const number = numberOf(first);
 			const heading = first.querySelector('h1, h2');
-			if (!number || !heading || heading.querySelector('.heading-number')) return;
+			if (!number || !heading || first.querySelector('.heading-number')) return;
 			heading.innerHTML = heading.innerHTML.replace(/^\s*\d+(\.\d+)*\s*[.)–-]\s+/, '');
 			const span = document.createElement('span');
-			span.className = 'heading-number';
-			span.textContent = number + ' – ';
-			heading.prepend(span);
+			span.className = 'heading-number' + (corner ? ' corner' : '');
+			span.textContent = corner ? number : number + ' – ';
+			if (corner) first.prepend(span);
+			else heading.prepend(span);
 		});
 	}
 
@@ -183,7 +196,16 @@
 	 * slide). The thumbnail is a scaled-down copy of the slide itself, so it
 	 * slide itself, so it always matches. The pages form one vertical stack.
 	 * always matches. The pages form one vertical stack: 2, 2.2, 2.3 ... */
-	let contentsStack = null, contentsPerSlide = 0;
+	let contentsStack = null, contentsGrid = '';
+
+	// Columns and rows for the screen as it is now
+	function gridNow() {
+		const up = portrait();
+		return {
+			columns: Math.max(1, up ? settings.contentsColumnsPortrait : settings.contentsColumns),
+			rows: Math.max(1, up ? settings.contentsRowsPortrait : settings.contentsRows),
+		};
+	}
 
 	// A <div>, not a <section>, so reveal.js and the sidebar don't count it as a slide
 	function makeThumbnail(slide) {
@@ -201,15 +223,15 @@
 		const all = topSlides();
 		const after = all[settings.contentsAfter];
 		const slides = all.slice(settings.contentsAfter + 1).filter(top => listed(firstOf(top)));
-		const perSlide = Math.max(1, portrait() ? settings.contentsPerSlidePortrait : settings.contentsPerSlide);
+		const { columns, rows } = gridNow();
+		const perSlide = columns * rows;
 		const pages = Math.ceil(slides.length / perSlide);
 		const config = Reveal.getConfig();
-		contentsPerSlide = perSlide;
+		contentsGrid = columns + 'x' + rows;
 
 		// Size the thumbnails so a full grid fits under the heading
-		const columns = Math.ceil(Math.sqrt(perSlide));
-		const rows = Math.ceil(perSlide / columns);
-		const GAP_X = 24, GAP_Y = 14, CAPTION = 30, HEADING = 170;
+		const GAP_X = 24, GAP_Y = 14, HEADING = 170;
+		const CAPTION = settings.contentsCaptions ? 30 : 0;
 		const ratio = config.height / config.width;
 		const byWidth = (config.width * 0.92 - (columns - 1) * GAP_X) / columns;
 		const byHeight = (config.height - HEADING - (rows - 1) * GAP_Y - rows * CAPTION) / rows / ratio;
@@ -224,7 +246,8 @@
 			if (page === 0) section.id = 'contents';
 
 			const heading = document.createElement('h2');
-			heading.textContent = settings.contentsTitle + (pages > 1 ? ' (' + (page + 1) + ' of ' + pages + ')' : '');
+			const count = settings.contentsPageCount && pages > 1 ? ' (' + (page + 1) + ' of ' + pages + ')' : '';
+			heading.textContent = settings.contentsTitle + count;
 			section.appendChild(heading);
 
 			const grid = document.createElement('ol');
@@ -254,10 +277,12 @@
 				frame.appendChild(makeThumbnail(slide));
 				link.appendChild(frame);
 
-				const caption = document.createElement('span');
-				caption.className = 'deck-thumb-title';
-				caption.textContent = labelled(firstOf(slide));
-				link.appendChild(caption);
+				if (settings.contentsCaptions) {
+					const caption = document.createElement('span');
+					caption.className = 'deck-thumb-title';
+					caption.textContent = labelled(firstOf(slide));
+					link.appendChild(caption);
+				}
 
 				item.appendChild(link);
 				grid.appendChild(item);
@@ -275,8 +300,8 @@
 	// Turned the screen: rebuild the contents if the number per page changes
 	function rebuildContents() {
 		if (!contentsStack || printing) return;
-		const wanted = Math.max(1, portrait() ? settings.contentsPerSlidePortrait : settings.contentsPerSlide);
-		if (wanted === contentsPerSlide) return;
+		const { columns, rows } = gridNow();
+		if (columns + 'x' + rows === contentsGrid) return;
 		const at = Reveal.getIndices();
 		const onContents = Reveal.getCurrentSlide().closest('.deck-contents-stack') === contentsStack;
 		contentsStack.remove();

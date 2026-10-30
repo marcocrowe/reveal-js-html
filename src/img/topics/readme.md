@@ -5,7 +5,8 @@ One picture per topic slide in the meme bank, so the contents thumbnails are not
 
 | File                                         | Picture                                  | Author                          | Licence         | Source                                                                                                                                 |
 |----------------------------------------------|------------------------------------------|---------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| [training-hurling.jpg](training-hurling.jpg) | A hurling match at Cusack Park, Ennis    | Sheila1988                      | CC BY-SA 4.0    | [File:Hurling game, Cusack Park, Ennis.jpg][l-18]                                                                                      |
+| [training-hurley.jpg](training-hurley.jpg)   | A hurley and sliotar                     | Peter Wöllauer (uploader)       | CC BY-SA 3.0    | [File:Hurling Ball and Hurley.JPG][l-21]                                                                                               |
+| [training-hurling.jpg](training-hurling.jpg) | Not used: replaced by the hurley photo   | Sheila1988                      | CC BY-SA 4.0    | [File:Hurling game, Cusack Park, Ennis.jpg][l-18]                                                                                      |
 | [training.jpg](training.jpg)                 | Not used: replaced by the hurling photo  | RainaKate                       | CC BY-SA 4.0    | [File:Lecture at MRU.jpg][l-01]                                                                                                        |
 | [projects.png](projects.png)                 | A Gantt chart                            | HarryTruinkers                  | CC BY-SA 4.0    | [File:Gantt Chart Template for Film Production.png][l-02]                                                                              |
 | [presentations.jpg](presentations.jpg)       | A speaker giving a keynote               | Mozel W.                        | CC BY-SA 4.0    | [File:Snjezana Kordic keynote presentation Japan.jpg][l-03]                                                                            |
@@ -25,6 +26,7 @@ One picture per topic slide in the meme bank, so the contents thumbnails are not
 | [shakespeare.jpg](shakespeare.jpg)           | The Chandos portrait of Shakespeare      | Attributed to John Taylor       | Public domain   | [File:Shakespeare.jpg][l-17]                                                                                                           |
 | [transformers.jpg](transformers.jpg)         | Megatron and Optimus Prime cosplayers    | William Tung                    | CC BY-SA 2.0    | [File:WonderCon 2019 - Megatron and Optimus Prime cosplay (2).jpg][l-19]                                                               |
 | [tv-drama.jpg](tv-drama.jpg)                 | An old television set on a road          | Frank Okay                      | CC0             | [File:Retro TV on suburban road (Unsplash).jpg][l-20]                                                                                  |
+| [star-wars.jpg](star-wars.jpg)               | An Admiral Ackbar cosplayer              | Terry Robinson                  | CC BY-SA 2.0    | [File:Admiral Ackbar Cosplayer at Dragon Con 2012.jpg][l-22]                                                                           |
 
 [l-01]: <https://commons.wikimedia.org/wiki/File:Lecture_at_MRU.jpg>
 [l-02]: <https://commons.wikimedia.org/wiki/File:Gantt_Chart_Template_for_Film_Production.png>
@@ -46,3 +48,5 @@ One picture per topic slide in the meme bank, so the contents thumbnails are not
 [l-18]: <https://commons.wikimedia.org/wiki/File:Hurling_game,_Cusack_Park,_Ennis.jpg>
 [l-19]: <https://commons.wikimedia.org/wiki/File:WonderCon_2019_-_Megatron_and_Optimus_Prime_cosplay_(2).jpg>
 [l-20]: <https://commons.wikimedia.org/wiki/File:Retro_TV_on_suburban_road_(Unsplash).jpg>
+[l-21]: <https://commons.wikimedia.org/wiki/File:Hurling_Ball_and_Hurley.JPG>
+[l-22]: <https://commons.wikimedia.org/wiki/File:Admiral_Ackbar_Cosplayer_at_Dragon_Con_2012.jpg>

@@ -27,7 +27,7 @@ HOW THIS FILE BECOMES SLIDES (memes.html)
 
 Quotes for the TNA, skills audits and learner feedback
 
-<figure class="topic-photo"><img src="src/img/topics/training-hurling.jpg" alt="A hurling match at Cusack Park, Ennis" /><figcaption><a class="ref media" href="#/media-used"><sup>1</sup></a> – Hurling at Cusack Park, Ennis</figcaption></figure>
+<figure class="topic-photo"><img src="src/img/topics/training-hurley.jpg" alt="A hurley and a sliotar on a wooden floor" /><figcaption><a class="ref media" href="#/media-used"><sup>1</sup></a> – A hurley and sliotar</figcaption></figure>
 
 ----
 
@@ -63,7 +63,7 @@ Quotes for the TNA, skills audits and learner feedback
 
 > Skinner: "Why, there are no children here at the 4-H Club either. **Am I so out of touch? No. It's the children who are wrong.**"
 
-- **Who:** Principal Skinner (Harry Shearer). It's from this episode, not "Boy-Scoutz 'n the Hood"
+- **Who:** Principal Seymour Skinner (voiced by Harry Shearer). It's from this episode, not "Boy-Scoutz 'n the Hood": the one where Bart skips school, sees Freddy Quimby and the French waiter, and Homer sits on the jury
 - **Episode:** season 5, episode 20
 - **IMDb:** [episode](https://www.imdb.com/title/tt0778453/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/am-i-so-out-of-touch)
@@ -332,6 +332,23 @@ Nerves, live demos and quiet rooms
 
 ----
 
+## Futurama: "A Clockwork Origin" (2010)
+<!-- 319 -->
+
+**Scene: the museum, the Professor's gift**
+
+> Dr Banjo: "Thank you, Professor Farnsworth, for your generous gift, which has, once and for all, **disproven evolution.** Behold! Homo Farnsworth, frolicking with dinosaurs at the moment of creation."
+>
+> Farnsworth: "**I don't want to live on this planet anymore.**"
+
+- **Who:** Dr Banjo, the orangutan creationist, and Professor Farnsworth (voiced by Billy West), whose evidence for evolution has just been used against it
+- **Episode:** season 6, episode 9
+- **IMDb:** [episode](https://www.imdb.com/title/tt1630898/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s06e09) [🔗](<../my-fetches/springfield-scripts/futurama/s06e09.txt>)
+- **Use it for:** your research quoted to prove the opposite. Or reading the comments under any article
+
+----
+
 ## Futurama (2010)
 <!-- 25 -->
 
@@ -458,7 +475,7 @@ Group work, thanks and banter
 
 > Burns: "Let me make one thing clear. I want your legal advice. I even pay for it. **But to me, you're all vipers.** You live on personal injury, on divorces. You live on pain and misery! But I'm rambling."
 
-- **Who:** Mr Burns (Harry Shearer), to his lawyers
+- **Who:** Mr Burns (voiced by Harry Shearer), to his lawyers
 - **Episode:** season 3, episode 24
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701076/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e24)
@@ -2770,7 +2787,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Batman: "Deal."
 
-- **Who:** Robin, Dick Grayson (Loren Lester), and Batman (Kevin Conroy)
+- **Who:** Robin, Dick Grayson (voiced by Loren Lester), and Batman (voiced by Kevin Conroy)
 - **Episode:** season 1, "Christmas with the Joker"
 - **IMDb:** [episode](https://www.imdb.com/title/tt0519578/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman&episode=s01e38) [🔗](<../my-fetches/springfield-scripts/batman/s01e38.txt>)
@@ -2810,7 +2827,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Bruce: "Very good then, Mr. McGinnis. **Welcome to my world.**"
 
-- **Who:** Bruce Wayne (Kevin Conroy) and Terry McGinnis (Will Friedle). Spelling and commas are the subtitles'
+- **Who:** Bruce Wayne (voiced by Kevin Conroy) and Terry McGinnis (voiced by Will Friedle). Spelling and commas are the subtitles'
 - **Episode:** season 1, episode 2
 - **IMDb:** [episode](https://www.imdb.com/title/tt0519426/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s01e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
@@ -2904,7 +2921,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Joker: "You're not Batman!"
 
-- **Who:** Terry as Batman, and the Joker (Mark Hamill). The dots are the subtitles' own
+- **Who:** Terry as Batman, and the Joker (voiced by Mark Hamill). The dots are the subtitles' own
 - **Time:** 1:08:18 to 1:08:55 in your copy
 - **IMDb:** [Batman Beyond: Return of the Joker](https://www.imdb.com/title/tt0233298/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Beyond; Return of the Joker [2000] -imdb-tt0233298.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond:_Return_of_the_Joker) [🔗](<../my-fetches/wikiquote/Batman_Beyond__Return_of_the_Joker.wiki>)
@@ -2950,7 +2967,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Superman: "That man won't quit as long as he can still draw a breath. None of my teammates will. Me, I've got a different problem. **I feel like I live in a world made of cardboard. Always taking constant care not to break something. To break someone. Never allowing myself to lose control even for a moment, or someone could die.** But you can take it, can't you, big man? **What we have here is a rare opportunity for me to cut loose** and show you just how powerful I really am."
 
-- **Who:** Superman (George Newbern) and Darkseid (Michael Ironside). "That man" is Batman
+- **Who:** Superman (voiced by George Newbern) and Darkseid (voiced by Michael Ironside). "That man" is Batman
 - **Episode:** season 3, episode 13, the last episode
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s03e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s03e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
 - **Check:** the IMDb link; Wikidata's entry for the series doesn't look right
@@ -2967,7 +2984,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Luthor: "**Then I'm overqualified.**"
 
-- **Who:** Metron and Lex Luthor (Clancy Brown)
+- **Who:** Metron and Lex Luthor (voiced by Clancy Brown)
 - **Episode:** season 3, episode 13
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s03e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s03e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
 - **Check:** the IMDb link, as above
@@ -3664,7 +3681,7 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 >
 > Mark: "Pretty sure. Threw a trash bag into space at work."
 
-- **Who:** Mark Grayson (Steven Yeun) and his father Nolan, Omni-Man (J. K. Simmons), with Debbie (Sandra Oh)
+- **Who:** Mark Grayson (voiced by Steven Yeun) and his father Nolan, Omni-Man (voiced by J. K. Simmons), with Debbie (voiced by Sandra Oh)
 - **Episode:** season 1, episode 1, the pilot
 - **IMDb:** [Invincible](https://www.imdb.com/title/tt6741278/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/omni-man-are-you-sure)
@@ -3727,11 +3744,38 @@ Omni-Man and Mark, from the animated series (2021), in episode order
 
 ---
 
-# Cartoons: The Simpsons, Futurama, SpongeBob and Archer
+# Cartoons: The Simpsons, Futurama, SpongeBob, Archer and more
 
 Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 <figure class="topic-photo"><img src="src/img/topics/cartoons.jpg" alt="The Simpsons sign at Universal Studios" /><figcaption><a class="ref media" href="#/media-used"><sup>11</sup></a> – The Simpsons sign, Universal Studios</figcaption></figure>
+
+----
+
+## The Simpsons: "One Fish, Two Fish, Blowfish, Blue Fish" (1991)
+<!-- 315 -->
+
+**Scene: the Happy Sumo, the fugu**
+
+> "I must get the master."
+>
+> Chef: "Oh, Miss Krabappel, your hair smells so clean."
+>
+> "You're needed in the kitchen."
+>
+> Chef: "I said cover for me, damn it!"
+>
+> "**Master, we need your skilled hands.**"
+>
+> Chef: "**My skilled hands are busy! You do it!**"
+>
+> "**Poison. Poison. Tasty fish!**"
+
+- **Who:** the restaurant staff and the master sushi chef, out in his car with Mrs Krabappel, so someone else has to cut Homer's blowfish. The subtitles don't name the speakers
+- **Episode:** season 2, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701195/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e11.txt>)
+- **Use it for:** training needs: the expert who won't train the apprentice, and an apprentice left alone with a dangerous job. Supervision, and on-the-job training done badly
 
 ----
 
@@ -3818,6 +3862,25 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ----
 
+## The Simpsons: "The Joy of Sect" (1998)
+<!-- 316 -->
+
+**Scene: Mr Burns watches the Leader**
+
+> Burns: "Smithers, why haven't I heard of this "the Leader"? He's as rich and wicked as I, but he seems to enjoy tax-exempt status."
+>
+> Smithers: "Actually, sir, **with our creative bookkeeping and corporate loopholes, we only pay three dollars a year.**"
+>
+> Burns: "**You're right. We're getting screwed.**"
+
+- **Who:** Mr Burns and Smithers, both voiced by Harry Shearer. Three dollars a year, not four
+- **Episode:** season 9, episode 13
+- **IMDb:** [episode](https://www.imdb.com/title/tt0779676/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s09e13) [🔗](<../my-fetches/springfield-scripts/simpsons/s09e13.txt>)
+- **Use it for:** student discounts, coupons and free software licences. "You already pay almost nothing." "We're getting screwed"
+
+----
+
 ## The Simpsons: "Monty Can't Buy Me Love" (1999)
 <!-- 200 -->
 
@@ -3827,7 +3890,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 >
 > "It's a small frog."
 
-- **Who:** Professor Frink (Hank Azaria), on Mr Burns's expedition to catch the Loch Ness Monster
+- **Who:** Professor Frink (voiced by Hank Azaria), on Mr Burns's expedition to catch the Loch Ness Monster
 - **Episode:** season 10, episode 21
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701181/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s10e21). It doesn't name speakers; "glavin" is Frink's
@@ -3846,11 +3909,26 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 >
 > Fry: "It doesn't look shiny."
 
-- **Who:** Fry (Billy West) and Bender (John DiMaggio), in the first episode
+- **Who:** Fry (voiced by Billy West) and Bender (voiced by John DiMaggio), in the first episode
 - **Episode:** season 1, episode 1
 - **IMDb:** [Futurama](https://www.imdb.com/title/tt0149460/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s01e01)
 - **Use it for:** a sales pitch that doesn't match the product. Edit for the room
+
+----
+
+## Futurama: "The Series Has Landed" (1999)
+<!-- 320 -->
+
+**Scene: Luna Park, on the Moon**
+
+> Bender: "**Yeah, well, I'm gonna go build my own theme park with blackjack and hookers. In fact, forget the park.**"
+
+- **Who:** Bender (voiced by John DiMaggio), banned from the lunar theme park
+- **Episode:** season 1, episode 2
+- **IMDb:** [episode](https://www.imdb.com/title/tt0756891/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s01e02) [🔗](<../my-fetches/springfield-scripts/futurama/s01e02.txt>)
+- **Use it for:** the group member who leaves to start their own project. Or open source forks
 
 ----
 
@@ -3861,7 +3939,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 > Farnsworth: "**Good news, everyone. Tomorrow, you'll make a delivery to Ebola Nine, the virus planet.**"
 
-- **Who:** Professor Farnsworth (Billy West). "Good news, everyone!" always introduces bad news
+- **Who:** Professor Farnsworth (voiced by Billy West). "Good news, everyone!" always introduces bad news
 - **Episode:** season 1, episode 8
 - **IMDb:** [Futurama](https://www.imdb.com/title/tt0149460/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s01e08)
@@ -3880,7 +3958,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 >
 > Nixon: "**I don't like where this is heading.**"
 
-- **Who:** Richard Nixon's head (Billy West) and the Planet Express crew, who recorded him. It's said to Nixon, not by him
+- **Who:** Richard Nixon's head (voiced by Billy West) and the Planet Express crew, who recorded him. It's said to Nixon, not by him
 - **Episode:** season 2, episode 3 in production order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0584427/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=futurama&episode=s02e07). It doesn't say who asks
@@ -3984,6 +4062,35 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ----
 
+## Archer: "Mole Hunt" (2009)
+<!-- 321 -->
+
+**Scene: Malory's office, the expense account**
+
+> Malory: "Your position will be vacant. Sterling."
+>
+> Archer: "Hm? Sorry. I was picturing Whore Island."
+>
+> Malory: "**Have I made myself clear?**"
+>
+> "Are you?"
+>
+> Archer: "**You're looking for the answer "yes"?**"
+>
+> Malory: "Yes."
+>
+> Archer: "**Then, yes.**"
+>
+> Malory: "Then get out."
+
+- **Who:** Malory Archer (voiced by Jessica Walter), his mother and his boss, and Archer, over his expenses
+- **Episode:** season 1, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt1539157/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/archer/s01e01.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_1)) [🔗](<../my-fetches/wikiquote/Archer_(season_1).wiki>)
+- **Use it for:** "Any questions?" at the end of a lecture, and the answers you get
+
+----
+
 ## Archer: "Skytanic" (2010)
 <!-- 300 -->
 
@@ -4007,7 +4114,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 >
 > "**Which I thought was pretty irresponsible on your part.**"
 
-- **Who:** Archer (H. Jon Benjamin) and Ray Gillette (Adam Reed), one at the bomb and one reading the serial number, with "the teeny bit blue" wire still to cut. The subtitles don't name the speakers
+- **Who:** Archer (voiced by H. Jon Benjamin) and Ray Gillette (voiced by Adam Reed), one at the bomb and one reading the serial number, with "the teeny bit blue" wire still to cut. The subtitles don't name the speakers
 - **Episode:** season 1, episode 7
 - **IMDb:** [episode](https://www.imdb.com/title/tt1564607/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s01e07) [🔗](<../my-fetches/springfield-scripts/archer/s01e07.txt>)
@@ -4027,7 +4134,7 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 >
 > Cyril: "**Although, somehow, incredibly single.**"
 
-- **Who:** Cyril Figgis (Chris Parnell) and Lana Kane (Aisha Tyler)
+- **Who:** Cyril Figgis (voiced by Chris Parnell) and Lana Kane (voiced by Aisha Tyler)
 - **Episode:** season 4, episode 3
 - **IMDb:** [episode](https://www.imdb.com/title/tt2633154/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s04e03) [🔗](<../my-fetches/springfield-scripts/archer/s04e03.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_4)) [🔗](<../my-fetches/wikiquote/Archer_(season_4).wiki>), which has "And yet, somehow"
@@ -4051,6 +4158,40 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt3411652/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s05e13) [🔗](<../my-fetches/springfield-scripts/archer/s05e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_5)) [🔗](<../my-fetches/wikiquote/Archer_(season_5).wiki>)
 - **Use it for:** the colleague who covered your class once, eight months ago
+
+----
+
+## Rick and Morty: "Rixty Minutes" (2014)
+<!-- 322 -->
+
+**Scene: the garage, Morty and Summer**
+
+> Morty: "I'm a version of your brother you can trust when he says, "Don't run". **Nobody exists on purpose, nobody belongs anywhere everybody's gonna die. Come watch TV.**"
+
+- **Who:** Morty (voiced by Justin Roiland), showing his sister Summer (voiced by Spencer Grammer) the grave where he buried himself. The broken sentences are the subtitles'
+- **Episode:** season 1, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt3333838/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=rick-and-morty-2013&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/rick-and-morty-2013/s01e08.txt>)
+- **Use it for:** the last week of term, when nothing more can be done
+
+----
+
+## One Punch Man: "The Strongest Man" (2015)
+<!-- 323 -->
+
+**Scene: Vaccine Man meets Saitama**
+
+> Vaccine Man: "And who do we have here?"
+>
+> Saitama: "**Just a guy who's a hero for fun.**"
+>
+> Vaccine Man: "**What kind of half-assed backstory is that?**"
+
+- **Who:** Vaccine Man, a monster "formed from the constant stream of pollution", and Saitama, who beats everything with one punch. The subtitle script repeats each line several times; quoted once
+- **Episode:** season 1, episode 1
+- **IMDb:** [One Punch Man](https://www.imdb.com/title/tt4508902/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=one-punch-man-2015&episode=s01e01) [🔗](<../my-fetches/springfield-scripts/one-punch-man-2015/s01e01.txt>)
+- **Use it for:** a personal statement. "I like coding" is fine; give it a backstory
 
 ---
 
@@ -4954,7 +5095,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > Optimus Prime: "**That's a question you should ask yourself, Megatron.**"
 
-- **Who:** Optimus Prime (Peter Cullen) and Megatron (Frank Welker). The dots are the subtitles' own
+- **Who:** Optimus Prime (voiced by Peter Cullen) and Megatron (voiced by Frank Welker). The dots are the subtitles' own
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>), which doesn't name most speakers, and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** exam day, or two groups pitching for the same project
@@ -5005,7 +5146,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > Unicron: "Excellent."
 
-- **Who:** Unicron (Orson Welles) and the wrecked Megatron, who becomes Galvatron. The dots are the subtitles' own
+- **Who:** Unicron (voiced by Orson Welles) and the wrecked Megatron, who becomes Galvatron. The dots are the subtitles' own
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Use it for:** terms and conditions, a software licence, an unpaid internship. Your bargaining posture is highly dubious
@@ -5023,7 +5164,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > "Guilty or innocent?"
 
-- **Who:** a Quintesson judge, and Kup (Lionel Stander), on trial with Hot Rod
+- **Who:** a Quintesson judge, and Kup (voiced by Lionel Stander), on trial with Hot Rod
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Check:** that it's Kup; the subtitles don't name the speaker
@@ -5044,7 +5185,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > Unicron: "You underestimate me, Galvatron. **For a time... I considered sparing your wretched little planet, Cybertron. But now... You shall witness... its dismemberment!**"
 
-- **Who:** Galvatron (Leonard Nimoy) and Unicron. The dots are the subtitles' own
+- **Who:** Galvatron (voiced by Leonard Nimoy) and Unicron. The dots are the subtitles' own
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** the assignment you were going to go easy on, before the class threatened you with a petition
@@ -5060,7 +5201,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > Hot Rod: "**Not today, Galvatron!**"
 
-- **Who:** Galvatron and Hot Rod (Judd Nelson), just before Hot Rod opens the Matrix. "We all must die", not "We must all die"
+- **Who:** Galvatron and Hot Rod (voiced by Judd Nelson), just before Hot Rod opens the Matrix. "We all must die", not "We must all die"
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** the deadline. We all must die sometime. Not today
@@ -5076,7 +5217,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > Optimus Prime: "**Were we so different?** They're a young species. They have much to learn. But I've seen goodness in them. **Freedom is the right of all sentient beings.** You all know there's only one way to end this war. We must destroy the Cube."
 
-- **Who:** Ironhide (Jess Harnell) and Optimus Prime (Peter Cullen)
+- **Who:** Ironhide (voiced by Jess Harnell) and Optimus Prime (voiced by Peter Cullen)
 - **IMDb:** [Transformers](https://www.imdb.com/title/tt0418279/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers) [🔗](<../my-fetches/springfield-scripts/transformers.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers_(film)) [🔗](<../my-fetches/wikiquote/Transformers_(film).wiki>)
 - **Use it for:** first years, from the second years' point of view. They have much to learn, but were we so different?
@@ -5096,7 +5237,7 @@ The 1986 animated film and the live-action films, in date order
 >
 > Optimus Prime: "**You didn't betray me. You betrayed yourself.**"
 
-- **Who:** Megatron (Hugo Weaving), Optimus Prime and Sentinel Prime (Leonard Nimoy). Wikiquote has "All I want is to be back in charge"; the subtitles have "All I wanted was"
+- **Who:** Megatron (voiced by Hugo Weaving), Optimus Prime and Sentinel Prime (voiced by Leonard Nimoy). Wikiquote has "All I want is to be back in charge"; the subtitles have "All I wanted was"
 - **IMDb:** [Transformers: Dark of the Moon](https://www.imdb.com/title/tt1399103/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-dark-of-the-moon) [🔗](<../my-fetches/springfield-scripts/transformers-dark-of-the-moon.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Dark_of_the_Moon) [🔗](<../my-fetches/wikiquote/Transformers__Dark_of_the_Moon.wiki>)
 - **Use it for:** plagiarism. You didn't cheat me, you cheated yourself
@@ -5443,6 +5584,54 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 
 ---
 
+# Star Wars
+
+The original and prequel films, in story order
+
+<figure class="topic-photo"><img src="src/img/topics/star-wars.jpg" alt="An Admiral Ackbar cosplayer at Dragon Con" /><figcaption><a class="ref media" href="#/media-used"><sup>20</sup></a> – Admiral Ackbar, at Dragon Con</figcaption></figure>
+
+----
+
+## Star Wars: Episode II – Attack of the Clones (2002)
+<!-- 317 -->
+
+**Scene: the Lars homestead, after the Tusken camp**
+
+> Anakin: "I killed them. **I killed them all.** They're dead. Every single one of them. **And not just the men... but the women... and the children too.** They're like animals... and I slaughtered them like animals! **I hate them!**"
+>
+> Padmé: "To be angry is to be human."
+>
+> Anakin: "I'm a Jedi. I know I'm better than this."
+
+- **Who:** Anakin Skywalker (Hayden Christensen) and Padmé Amidala (Natalie Portman). The dots are the subtitles' own
+- **Time:** 1:25:18 to 1:26:12 in your copy
+- **IMDb:** [Attack of the Clones](https://www.imdb.com/title/tt0121765/)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>)
+- **Use it for:** a marker after the third bad batch of scripts. Or how not to give feedback
+
+----
+
+## Star Wars: Episode VI – Return of the Jedi (1983)
+<!-- 318 -->
+
+**Scene: the battle of Endor, the shield is still up**
+
+> "Admiral, we have enemy ships in Sector 47."
+>
+> Ackbar: "**It's a trap.**"
+>
+> "Fighters coming in."
+>
+> "There's too many."
+
+- **Who:** a Rebel officer, then Admiral Ackbar (Tim Rose, voiced by Erik Bauersfeld). In your copy (the Hayden remake) the subtitle has a full stop, not "It's a trap!"
+- **Time:** 1:35:06 to 1:35:19 in your copy
+- **IMDb:** [Return of the Jedi](https://www.imdb.com/title/tt0086190/)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
+- **Use it for:** the free trial that needs a credit card, the phishing email, the "easy" exam question
+
+---
+
 # Sources and notes
 <!-- no-number -->
 
@@ -5462,7 +5651,7 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 <!-- .slide: id="media-used" -->
 
 <ol class="reflist media-list">
-<li data-m="1"><a href="https://commons.wikimedia.org/wiki/File:Hurling_game,_Cusack_Park,_Ennis.jpg">Hurling at Cusack Park, Ennis. Photo: Sheila1988, CC BY-SA 4.0, Wikimedia Commons</a></li>
+<li data-m="1"><a href="https://commons.wikimedia.org/wiki/File:Hurling_Ball_and_Hurley.JPG">A hurley and sliotar. Photo: Peter Wöllauer, CC BY-SA 3.0, Wikimedia Commons</a></li>
 <li data-m="2"><a href="https://commons.wikimedia.org/wiki/File:Gantt_Chart_Template_for_Film_Production.png">A Gantt chart. Photo: HarryTruinkers, CC BY-SA 4.0, Wikimedia Commons</a></li>
 <li data-m="3"><a href="https://commons.wikimedia.org/wiki/File:Snjezana_Kordic_keynote_presentation_Japan.jpg">A keynote talk. Photo: Mozel W., CC BY-SA 4.0, Wikimedia Commons</a></li>
 <li data-m="4"><a href="https://commons.wikimedia.org/wiki/File:FCO_Ministerial_team_meeting_(4621624854).jpg">A team meeting. Photo: Foreign and Commonwealth Office, OGL v1.0, Wikimedia Commons</a></li>
@@ -5481,4 +5670,5 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 <li data-m="17"><a href="https://commons.wikimedia.org/wiki/File:Clapperboard,_O2_film,_September_2008.jpg">A film clapperboard. Photo: Mattbr, CC BY 2.0, Wikimedia Commons</a></li>
 <li data-m="18"><a href="https://commons.wikimedia.org/wiki/File:WonderCon_2019_-_Megatron_and_Optimus_Prime_cosplay_(2).jpg">Megatron and Optimus Prime, at WonderCon. Photo: William Tung, CC BY-SA 2.0, Wikimedia Commons</a></li>
 <li data-m="19"><a href="https://commons.wikimedia.org/wiki/File:Retro_TV_on_suburban_road_(Unsplash).jpg">An old television set. Photo: Frank Okay, CC0, Wikimedia Commons</a></li>
+<li data-m="20"><a href="https://commons.wikimedia.org/wiki/File:Admiral_Ackbar_Cosplayer_at_Dragon_Con_2012.jpg">Admiral Ackbar, at Dragon Con. Photo: Terry Robinson, CC BY-SA 2.0, Wikimedia Commons</a></li>
 </ol>

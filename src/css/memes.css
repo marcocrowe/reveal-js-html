@@ -6,11 +6,50 @@
 	font-size: 30px;
 }
 
+/* A little space above every slide: on a big screen the top edge felt
+ * much closer than the bottom */
+.reveal .slides section {
+	padding-top: calc(28px * var(--fit, 1));
+}
+
+/* Headings in the centre, with the position bar under them */
+.reveal .slides h1,
+.reveal .slides h2 {
+	text-align: center;
+	background-position: bottom center;
+}
+
+.reveal .slides .stack-bar {
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Topic and opening slides: level 1 headings with the same gold bar */
 .reveal h1 {
 	font-size: 60px;
 	padding-bottom: 0.25em;
-	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
+	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom center / 90px 8px;
+}
+
+/* The section number in a circle, top left (numberHeadings: 'corner' in
+ * src/js/deck-controls.js); the contents thumbnails show it too */
+.reveal .heading-number.corner {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 64px;
+	height: 64px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 4px solid var(--gold);
+	border-radius: 32px;
+	color: var(--navy);
+	font: 700 32px/1 Arial, Helvetica, sans-serif;
+	font-variant-numeric: tabular-nums;
 }
 
 .reveal .topic p {

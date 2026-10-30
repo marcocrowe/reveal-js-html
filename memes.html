@@ -71,7 +71,14 @@
 			// the contents stop working
 			scrollActivationWidth: null,
 			// Slide list, contents slides, numbering and buttons: src/js/deck-controls.js
-			deckControls: { contentsPerSlide: 9, contentsPerSlidePortrait: 4, sidebarSide: 'left', numberHeadings: true },
+			deckControls: {
+				contentsColumns: 4, contentsRows: 3, // thumbnails on each contents slide
+				contentsColumnsPortrait: 2, contentsRowsPortrait: 2, // ... on an upright phone
+				contentsCaptions: false, // the title is in the thumbnail already
+				contentsPageCount: false, // "Contents" on every page, not "Contents (1 of 2)"
+				numberHeadings: 'corner', // the section number in a circle, top left
+				sidebarSide: 'left',
+			},
 			plugins: [RevealMarkdown, RevealNotes],
 		}).then(function () {
 			// Give each field line a class from its label: "**Use it for:**" -> field-use-it-for
