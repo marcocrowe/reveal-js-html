@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Mark Crowe" />
+	<meta name="description" content="Assignment 2: Training Needs Analysis presentation, module 6N3325." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Training Needs Analysis</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+	<link rel="stylesheet" href="src/css/tna.css" />
+	<link rel="stylesheet" href="src/css/asg2.css" />
+	<link rel="stylesheet" href="src/css/deck-controls.css" />
+</head>
+
+<!--
+	Assignment 2: TNA presentation (20 marks). Brief: md/030.
+	10 minutes maximum, then 2 minutes of questions. Arial, 20pt (27px) minimum.
+	Case: final year project (FYP) students, anonymised. No institution, staff or student names.
+	Timings in the notes add up to 9.5 minutes. The email slide under Stages is optional.
+
+	Citations work like Wikipedia footnotes (icons in src/css/asg2.css):
+	  link icon + n      a reference, placed on the text it supports. Hover for the entry,
+	                     click to jump to its line on References. Numbered 1-6 alphabetically.
+	  picture icon n -   a meme's figure label, at the start of its caption. Click to jump to its line on Media used.
+	Entries on References and Media used open the source website (external-link icon).
+	The print version adds the short citation after each reference marker, e.g. (Noe, 2023).
+	The entries (data-n, data-m, data-cite) on the last two slides are the one place to edit.
+
+	Contact: the name links to sdevtutors.github.io/mark-crowe, hover shows the address (data-tip).
+	Mouse only: wheel or left click next, right click back, middle click next section (src/js/deck.js).
+	Slide list, contents, home, blackout, all slides and full screen buttons, and the numbering:
+	src/js/deck-controls.js. Type a number and press Enter to go to that slide.
+-->
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!-- 1. Title (0 min) -->
+			<section id="TitleSlide" class="title-slide">
+				<h1>Training Needs Analysis</h1>
+				<h3>Purpose - Benefits - Methods - Process</h3>
+				<p class="kicker">Assignment 2 - 6N3325</p>
+				<p class="byline"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a><a class="mail-link" href="mailto:SDevTutor@outlook.ie" data-tip="SDevTutor@outlook.ie" aria-label="Email SDevTutor@outlook.ie"></a> - Training Needs Identification and Design - November 2026</p>
+				<p class="built-with">
+					Built with
+					<a href="https://revealjs.com/" target="_blank" rel="noopener">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a>
+				</p>
+				<aside class="notes">0 minutes. Name, module, then straight into the introduction.</aside>
+			</section>
+
+			<!-- 2. Introduction (0.5 min) -->
+			<section id="Introduction">
+				<h2>Introduction</h2>
+				<div class="split with-meme">
+					<div>
+						<ul>
+							<li>A TNA finds the gap between the performance needed and the performance we get<a class="ref" href="#/References"><sup>4</sup></a></li>
+							<li>Training is one possible answer to that gap</li>
+							<li>Today: why, benefits and limits, methods, stages</li>
+						</ul>
+						<div class="case"><strong>My case:</strong> final year students doing their first large solo software project</div>
+					</div>
+					<div>
+						<div class="meme overlay drake small" role="img" aria-label="Drake meme. No: send everyone on a course. Yes: find the gap first.">
+							<img src="src/img/meme/drake.jpg" alt="" />
+							<span class="cap no">Send everyone on a course</span>
+							<span class="cap yes">Find the gap first</span>
+						</div>
+						<p class="meme-credit"><a class="ref media" href="#/MediaUsed"><sup>1</sup></a> – Choose the course after the TNA, not before</p>
+					</div>
+				</div>
+				<aside class="notes">
+					About 30 seconds.
+					Say: A training needs analysis looks at the gap between the performance that is needed and the performance we actually get. Training is one possible answer to that gap. As the meme says, find the gap first, before you choose the course. I will use one case throughout: final year students doing their final year project, which for most of them is their first large solo project.
+				</aside>
+			</section>
+
+			<!-- 3. Reasons for a TNA (0.5 min) -->
+			<section id="Reasons">
+				<h2>Reasons for a TNA</h2>
+				<div class="split">
+					<ul>
+						<li><strong>Organisation:</strong> goals, quality and legal duties</li>
+						<li><strong>Individual:</strong> the role, confidence and career</li>
+						<li>A good TNA joins the two<a class="ref" href="#/References"><sup>6</sup></a></li>
+					</ul>
+					<div class="panel">
+						<h3>One question</h3>
+						<p>What is the gap, and who has it?</p>
+					</div>
+				</div>
+				<aside class="notes">
+					About 30 seconds.
+					Say: Reasons come at two levels. The organisation asks what it needs to meet its goals and its legal duties. The individual asks what they need to do the job well and to grow. In my case, the department wants projects finished on time and to standard, and each student wants to pass and to build a portfolio.
+				</aside>
+			</section>
+
+			<!-- 4. Organisational reasons with the case example (1.5 min) -->
+			<section id="OrganisationalReasons">
+				<h2>Organisational reasons</h2>
+				<ul>
+					<li><strong>Performance:</strong> projects finished on time and to standard<a class="ref" href="#/References"><sup>6</sup></a></li>
+					<li><strong>Compliance:</strong> GDPR when students collect user data, and the AI policy<a class="ref" href="#/References"><sup>1</sup></a></li>
+					<li><strong>New technology:</strong> AI tools change how software is written</li>
+				</ul>
+				<div class="case">
+					<strong>Case:</strong> lectures teach the subject, not how to run a project. Past students lost work, took on too much and left the report to the end.
+				</div>
+				<aside class="notes">
+					About 90 seconds. Anonymised: no institution, staff or student names.
+					Say: Three organisational reasons. First, performance: the department needs projects that are finished on time and meet the standard. Second, compliance: many projects collect personal data from test users, so students must follow GDPR, and they must follow the college's AI policy. Third, new technology: AI tools are changing how software is written, and students need to use them responsibly.
+					The case: lectures teach the language and the theory, but nobody teaches the habits a project needs. Over several years, the same problems come back: work lost with no backup, a scope that is far too big, and a report started in the last week. That pattern is the reason for a TNA, rather than another lecture.
+					[Once the survey is in, add one real figure here, for example the share of students who have no backup.]
+				</aside>
+			</section>
+
+			<!-- 5. Individual reasons (1 min) -->
+			<section id="IndividualReasons">
+				<h2>Individual reasons</h2>
+				<ul>
+					<li><strong>Skills gap:</strong> planning, backup and report writing</li>
+					<li><strong>Confidence:</strong> the first large solo project</li>
+					<li><strong>Career development:</strong> the project is the portfolio</li>
+					<li><strong>Motivation:</strong> adults learn what they see a need for<a class="ref" href="#/References"><sup>3</sup></a></li>
+				</ul>
+				<aside class="notes">
+					About 60 seconds.
+					Say: For the individual student, the first reason is a skills gap. They can program, but they have never planned, backed up and written up a project of this size on their own. The second is confidence: a first large solo project is daunting, and a gap in confidence shows up as procrastination. The third is career development: the project and its repository are what they show employers. And motivation: Knowles et al. (2020) argue that adults learn best when they can see why it matters to them, so the TNA has to start from the student's own view of the gap.
+				</aside>
+			</section>
+
+			<!-- 6. Benefits and limitations (2 min) -->
+			<section id="BenefitsLimitations">
+				<h2>Benefits and limitations</h2>
+				<div class="split with-meme">
+					<table>
+						<thead>
+							<tr><th>Organisation<a class="ref" href="#/References"><sup>6</sup></a></th><th>Individual</th><th>Limitations<a class="ref" href="#/References"><sup>4</sup></a></th></tr>
+						</thead>
+						<tbody>
+							<tr><td>Targets real gaps</td><td>New skills</td><td>Staff time</td></tr>
+							<tr><td>Better use of resources</td><td>Confidence</td><td>Self-ratings can be wrong</td></tr>
+							<tr><td>Better results</td><td>Career</td><td>Resistance to change</td></tr>
+							<tr><td>Shows compliance</td><td>Job satisfaction</td><td>Goes out of date</td></tr>
+						</tbody>
+					</table>
+					<div>
+						<div class="meme overlay boyfriend small" role="img" aria-label="Distracted boyfriend meme. Management looks at the latest training course, while the actual skills gap looks on.">
+							<img src="src/img/meme/distracted-boyfriend.jpg" alt="" />
+							<span class="cap impact shiny">The latest course</span>
+							<span class="cap impact you">Management</span>
+							<span class="cap impact planned">The real gap</span>
+						</div>
+						<p class="meme-credit"><a class="ref media" href="#/MediaUsed"><sup>2</sup></a> – Without a TNA, the budget follows the shiny course</p>
+					</div>
+				</div>
+				<aside class="notes">
+					About 2 minutes. Be critical: give the counter-point.
+					Say: For the organisation, the main benefit is that training goes where the gaps are, not to the latest course that catches management's eye, as in the meme. Limited resources such as supervisor time are not wasted. It also improves results and leaves a record that shows compliance. For the individual, the benefits are new skills, more confidence, career development and job satisfaction.
+					But a TNA has real limits. It takes staff time to design and run. Self-ratings can be wrong, because people overrate skills they have never had to use. Some will resist and see it as extra work, or as a judgement on them. And the findings go out of date, because each year's group is different. So a TNA is worth it only if it is kept short and acted on.
+				</aside>
+			</section>
+
+			<!-- 7. Methods and techniques (2 min) -->
+			<section id="Methods">
+				<h2>Methods compared</h2>
+				<table>
+					<thead>
+						<tr><th>Method<a class="ref" href="#/References"><sup>5</sup></a></th><th>Best when</th><th>Weakness</th></tr>
+					</thead>
+					<tbody>
+						<tr><td>Questionnaire and skills audit</td><td>Many people, fast, cheap</td><td>Must be tested, shallow</td></tr>
+						<tr><td>Interview</td><td>You need root causes</td><td>Slow, needs a skilled interviewer</td></tr>
+						<tr><td>Observation and documents</td><td>Little is known, or to check</td><td>People change when watched</td></tr>
+					</tbody>
+				</table>
+				<div class="meme brain small" role="img" aria-label="Expanding brain meme applied to the case. Ask one supervisor. Survey the students. Add supervisor interviews. Add the marking rubric and compare.">
+					<div class="b1"><div class="pic"></div><div class="text">Ask one supervisor</div></div>
+					<div class="b2"><div class="pic"></div><div class="text">Survey the students</div></div>
+					<div class="b3"><div class="pic"></div><div class="text">Add supervisor interviews</div></div>
+					<div class="b4"><div class="pic"></div><div class="text">Add the rubric, compare</div></div>
+				</div>
+				<p class="meme-credit"><a class="ref media" href="#/MediaUsed"><sup>3</sup></a> – Each method covers another's weakness</p>
+				<aside class="notes">
+					About 2 minutes. Compare, then say when you would use each.
+					Say: A questionnaire reaches many people quickly and cheaply, so it suits a first pass. Adding a skills audit, where students rate their confidence in each skill, shows where the gaps are. But the questions must be tested first, and the answers are shallow.
+					An interview gets to root causes and lets you follow up, but it takes time and needs a skilled interviewer, and experts may only tell you what they want you to hear.
+					Observation shows what people really do, and documents show what is required, but people change their behaviour when they are watched.
+					No single method is enough, so I would combine them, as the brains show for my case: not just asking one supervisor, but an anonymous survey of the students, then short interviews with supervisors to explain what the survey finds, then the marking rubric to check what the project actually requires.
+				</aside>
+			</section>
+
+			<!-- 8. Stages (1.5 min), with an optional worked example below -->
+			<section>
+				<section id="Stages">
+					<h2>Stages in the TNA process</h2>
+					<table>
+						<thead>
+							<tr><th>Stage<a class="ref" href="#/References"><sup>5</sup></a></th><th>Why it matters</th></tr>
+						</thead>
+						<tbody>
+							<tr><td>1. Identify the purpose</td><td>Otherwise you collect the wrong data</td></tr>
+							<tr><td>2. Analyse organisation, task, individual</td><td>Training may not be the answer</td></tr>
+							<tr><td>3. Choose and test the methods</td><td>Untested questions give poor data</td></tr>
+							<tr><td>4. Collect the data</td><td>Evidence, not opinion</td></tr>
+							<tr><td>5. Analyse and prioritise</td><td>Time and money are limited</td></tr>
+							<tr><td>6. Recommend and plan</td><td>Findings become action</td></tr>
+							<tr><td>7. Evaluate<a class="ref" href="#/References"><sup>2</sup></a></td><td>Did it close the gap?</td></tr>
+						</tbody>
+					</table>
+					<aside class="notes">
+						About 90 seconds. Justify each stage in one sentence. The slide below is optional: skip it if time is short.
+						Say: Each stage protects the next one. If the purpose is unclear, you collect the wrong data. Analysing at three levels, organisation, task and individual, stops you training a person for what is really a process problem. Testing the questionnaire first avoids poor data. Collecting data gives evidence instead of opinion. Analysis takes the most time, and prioritising matters because time and money are limited. Recommending and planning turns findings into action. And evaluation, for example with Kirkpatrick's four levels, shows whether the training closed the gap and feeds the next TNA.
+					</aside>
+				</section>
+
+				<section id="StagesEmail">
+					<h2>Stages in the TNA process</h2>
+					<pre class="copy-box"><code>Subject: Survey of final year project students
+
+Hi [programme lead],
+
+For my Train the Trainer course I am doing a training needs analysis on the final year project. May I send final year students a 10-minute anonymous survey? It is voluntary, collects no names or student numbers and is not linked to grades. I would also like 15 minutes with two or three supervisors. Results are stored securely and deleted after [date].
+
+Thanks, Mark</code></pre>
+					<p class="cite"><strong>Stage 1 in practice:</strong> ask management first, and plan for GDPR from the start<a class="ref" href="#/References"><sup>1</sup></a></p>
+					<aside class="notes">
+						Optional, about 20 seconds. Shows stage 1 and GDPR in practice: management on board first, anonymous, voluntary, a delete date. The Copy button puts the email on the clipboard.
+					</aside>
+				</section>
+			</section>
+
+			<!-- 9. Conclusion (0.5 min) -->
+			<section id="Conclusion">
+				<h2>Conclusion</h2>
+				<div class="split with-meme">
+					<div>
+						<ul>
+							<li>Start with the gap, not the course</li>
+							<li>Use more than one method</li>
+							<li>Link the findings to goals at both levels</li>
+							<li>Evaluate, or you never know if it worked<a class="ref" href="#/References"><sup>2</sup></a></li>
+						</ul>
+						<div class="case"><strong>Next for my case:</strong> run the survey, then design the training to close the gaps it finds</div>
+					</div>
+					<div>
+						<div class="meme overlay fine small" role="img" aria-label="This is fine meme. A dog sits in a burning room. Caption: training delivered, never evaluated.">
+							<img src="src/img/meme/this-is-fine.jpg" alt="" />
+							<span class="cap impact top">Training delivered</span>
+							<span class="cap impact bottom">Never evaluated</span>
+						</div>
+						<p class="meme-credit"><a class="ref media" href="#/MediaUsed"><sup>4</sup></a> – Skip evaluation and nobody knows if it worked</p>
+					</div>
+				</div>
+				<aside class="notes">
+					About 30 seconds.
+					Say: A TNA is the foundation for training that is worth the time. Start with the gap, not the course. Use more than one method, because each covers another's weakness. Link what you find to the goals of both the organisation and the individual. And evaluate, or you end up like the dog: training delivered, never evaluated, and everything is fine. For my case, the next step is the survey, and then a training intervention built on what it finds. Thank you. I am happy to take questions.
+				</aside>
+			</section>
+
+			<!-- 10. Questions, with References and Media used below it -->
+			<section>
+				<section id="Questions">
+					<h2>Questions?</h2>
+					<div class="big-emoji">🙋</div>
+					<p class="contact card"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" target="_blank" rel="noopener" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a></p>
+					<p class="contact mail"><a href="mailto:SDevTutor@outlook.ie">SDevTutor@outlook.ie</a></p>
+					<p class="cite"><a href="?print-pdf" target="_blank">Print version</a>, then Save as PDF. References are below this slide.</p>
+					<aside class="notes">Leave this up during the 2 minutes of questions. Rehearse: why more than one method? When is training not the answer?</aside>
+				</section>
+
+				<!-- Harvard, alphabetical. Each entry links to its source.
+				     data-cite is the short citation the print version shows after each reference marker.
+				     Check each edition in the ETBI library before submitting. -->
+				<section id="References">
+					<h2>References</h2>
+					<ol class="reflist">
+						<li data-n="1" data-cite="European Union, 2016"><a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj" target="_blank" rel="noopener">European Union (2016) <em>Regulation (EU) 2016/679 (General Data Protection Regulation)</em>. Official Journal of the European Union, L 119, pp. 1-88.</a></li>
+						<li data-n="2" data-cite="Kirkpatrick and Kirkpatrick, 2006"><a href="https://www.kirkpatrickpartners.com/the-kirkpatrick-model/" target="_blank" rel="noopener">Kirkpatrick, D.L. and Kirkpatrick, J.D. (2006) <em>Evaluating training programs: the four levels</em>. 3rd edn. San Francisco: Berrett-Koehler.</a></li>
+						<li data-n="3" data-cite="Knowles et al., 2020"><a href="https://search.worldcat.org/search?q=Knowles+The+adult+learner+9th" target="_blank" rel="noopener">Knowles, M.S., Holton, E.F., Swanson, R.A. and Robinson, P.A. (2020) <em>The adult learner</em>. 9th edn. Abingdon: Routledge.</a></li>
+						<li data-n="4" data-cite="LCETB, n.d.a"><a href="https://limerickandclareetb.sharepoint.com/:p:/r/sites/TrainingDeliverySept26Team2026/Class%20Materials/Lesson%205%20TNID/Training%20Need%20Analysis.pptx" target="_blank" rel="noopener">LCETB (n.d.a) <em>Training need analysis</em> [PowerPoint, 6N3325]. Limerick and Clare ETB.</a></li>
+						<li data-n="5" data-cite="LCETB, n.d.b"><a href="https://limerickandclareetb.sharepoint.com/:p:/r/sites/TrainingDeliverySept26Team2026/Class%20Materials/Lesson%207%20TNID/Conducting%20a%20TNA.pptx" target="_blank" rel="noopener">LCETB (n.d.b) <em>Conducting a TNA</em> [PowerPoint, 6N3325]. Limerick and Clare ETB.</a></li>
+						<li data-n="6" data-cite="Noe, 2023"><a href="https://search.worldcat.org/search?q=Noe+Employee+training+and+development" target="_blank" rel="noopener">Noe, R.A. (2023) <em>Employee training and development</em>. 9th edn. New York: McGraw Hill.</a></li>
+					</ol>
+					<aside class="notes">Each line opens its source. Right click returns to the slide you came from.</aside>
+				</section>
+
+				<section id="MediaUsed">
+					<h2>Media used</h2>
+					<ol class="reflist">
+						<li data-m="1"><a href="https://knowyourmeme.com/memes/drakeposting" target="_blank" rel="noopener">Drakeposting. Stills from <em>Hotline Bling</em>, Drake (2015). Template from imgflip.</a></li>
+						<li data-m="2"><a href="https://knowyourmeme.com/memes/distracted-boyfriend" target="_blank" rel="noopener">Distracted boyfriend. Stock photo by Antonio Guillem (2015). Template from imgflip.</a></li>
+						<li data-m="3"><a href="https://knowyourmeme.com/memes/galaxy-brain" target="_blank" rel="noopener">Galaxy brain (expanding brain). Anonymous (2017). Template from imgflip.</a></li>
+						<li data-m="4"><a href="https://knowyourmeme.com/memes/this-is-fine" target="_blank" rel="noopener">This is fine. KC Green, <em>Gunshow</em>, "On Fire" (2013). Template from imgflip.</a></li>
+					</ol>
+					<p class="built-with">
+						Built with
+						<a href="https://revealjs.com/" target="_blank" rel="noopener">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a>
+					</p>
+					<aside class="notes">Each line opens the meme's Know Your Meme page.</aside>
+				</section>
+			</section>
+
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+	<script src="src/js/deck-start.js"></script>
+	<script>
+		// Settings only. What each one does is described in the script it belongs to.
+		startDeck({
+			width: 1280,
+			height: 720,
+			margin: 0.06,
+			center: false, // headings stay at the top, so they don't jump between slides
+			hash: true,
+			history: true, // each slide gets a browser history entry (Firefox back and forward)
+			progress: true,
+			slideNumber: 'h.v',
+			transition: 'none',
+			mouseWheel: false, // src/js/deck.js handles the wheel
+			scrollActivationWidth: null, // keep the slides on a phone, not one long page
+			plugins: [RevealNotes],
+
+			stackBarLinks: true, // src/js/deck.js: click a grey bar to go to that slide
+			tapZones: true, // src/js/deck.js: on a touch screen, tap left to go back, right to go on
+			deckControls: { // src/js/deck-controls.js
+				contentsColumns: 4, contentsRows: 3,
+				contentsColumnsPortrait: 2, contentsRowsPortrait: 2,
+				contentsCaptions: false,
+				contentsPageCount: false,
+				numberFormat: 'multilevel', // 8, 8.1 ... or 'flat': 1, 2, 3 ...
+				numberHeadings: 'bullet', // "(5)" on the slide, left of the centred title
+				numberHeadingLevels: ['h2'], // which headings show it
+				sidebarSide: 'left',
+			},
+
+			deckScripts: [
+				'src/js/deck-controls.js',
+				'src/js/deck.js',
+			],
+		});
+	</script>
+</body>
+
+</html>

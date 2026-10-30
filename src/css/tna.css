@@ -590,8 +590,10 @@
 }
 
 /* Position in a vertical stack, drawn by src/js/deck.js under the heading.
- * One bar per slide in the stack; the gold one is the slide you are on.
- * It replaces the single gold bar on those headings. */
+ * One piece per slide in the stack; the gold one is the slide you are on.
+ * It replaces the single gold bar on those headings. The pieces share the
+ * full width of the slide, so it is always one complete line from the
+ * left edge, whether a stack has 2 slides or 50. */
 .reveal .has-stack-bar {
 	background: none;
 	padding-bottom: 0.15em;
@@ -599,22 +601,41 @@
 
 .reveal .stack-bar {
 	display: flex;
-	gap: 10px;
+	width: 100%;
+	gap: 6px;
 	margin: 0 0 0.9em;
 }
 
-.reveal .stack-bar span {
-	width: 60px;
-	height: 8px;
+/* Pieces are buttons with stackBarLinks, with a taller invisible area to click */
+.reveal .stack-bar span,
+.reveal .stack-bar button {
+	flex: 1 1 0;
+	min-width: 6px;
+	height: 10px;
+	padding: 0;
+	border: 0;
 	background: var(--line);
 }
 
-.reveal .stack-bar span.on {
-	background: var(--gold);
+.reveal .stack-bar button {
+	position: relative;
+	cursor: pointer;
 }
 
-.reveal .questions .stack-bar {
-	justify-content: center;
+.reveal .stack-bar button::after {
+	content: "";
+	position: absolute;
+	inset: -8px 0;
+}
+
+.reveal .stack-bar button:hover,
+.reveal .stack-bar button:focus-visible {
+	background: var(--navy-soft);
+}
+
+.reveal .stack-bar span.on,
+.reveal .stack-bar button.on {
+	background: var(--gold);
 }
 
 /* Copy button on code boxes, added by src/js/deck.js */

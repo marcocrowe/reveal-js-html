@@ -3061,6 +3061,24 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ----
 
 ## Batman Begins (2005)
+<!-- 324 -->
+
+**Scene: the monorail, Batman arrives**
+
+> Ra's al Ghul: "Well, well. **You took my advice about theatricality a bit literally.**"
+>
+> Batman: "It ends here."
+>
+> Ra's al Ghul: "For you and the police, maybe."
+
+- **Who:** Ra's al Ghul (Liam Neeson) to Batman (Christian Bale). The advice was from Bruce's training with the League of Shadows: "Theatricality and deception are powerful agents." It's "Well, well. You took", not "I see you took"
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** the learner who heard "make your presentation engaging" and arrived in costume, with sound effects and 40 animations. Or say it about yourself, on this deck
+
+----
+
+## Batman Begins (2005)
 <!-- 98 -->
 
 **Scene: the monorail**

@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Mark Crowe" />
+	<meta name="description" content="Final Year Projects: the habits nobody teaches you." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Final Year Projects</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+	<link rel="stylesheet" href="src/css/tna.css" />
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<section id="TitleSlide" class="title-slide">
+				<p class="kicker">Software Development</p>
+				<h1>Final Year Projects</h1>
+				<h3>The habits nobody teaches you</h3>
+				<p class="byline">Mark Crowe - <a href="mailto:SDevTutor@outlook.ie?subject=Final Year Project">SDevTutor@outlook.ie</a></p>
+				<p class="built-with">
+					Built with
+					<a href="https://revealjs.com/" target="_blank" rel="noopener">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a>
+					<a class="ref" href="https://revealjs.com/" target="_blank" rel="noopener">🔗<sup>1</sup></a>
+				</p>
+				<aside class="notes">Introduce yourself. This deck is about what to do, not what to know.</aside>
+			</section>
+
+			<section id="RevealJs">
+				<h2>These slides are a web page</h2>
+				<div class="split">
+					<ul>
+						<li>Made with <strong>reveal.js</strong> <a class="ref" href="https://revealjs.com/" target="_blank" rel="noopener">🔗<sup>1</sup></a>, an open source HTML presentation framework by Hakim El Hattab <a class="ref" href="https://github.com/hakimel/reveal.js" target="_blank" rel="noopener">🔗<sup>2</sup></a></li>
+						<li>Free, MIT licence</li>
+						<li>Topics go across, details go down</li>
+					</ul>
+					<div class="panel">
+						<h3>Try it</h3>
+						<p><kbd>→</kbd> next topic &nbsp; <kbd>↓</kbd> more on it</p>
+						<p><kbd>Esc</kbd> overview &nbsp; <kbd>S</kbd> notes</p>
+					</div>
+				</div>
+				<aside class="notes">Thank the reveal.js project. Show the overview with Esc so they see the grid of topics.</aside>
+			</section>
+
+			<section>
+				<section id="FirstFYP">
+					<h2>Your (first) final year project</h2>
+					<ul>
+						<li>For most students the FYP is the <strong>first</strong> large solo project, and the <strong>final</strong> one in college</li>
+						<li>Nobody has managed one before, so nobody knows the traps</li>
+						<li>What can we learn from past students?</li>
+					</ul>
+					<aside class="notes">Ask: who has built anything bigger than a lab before? Usually very few hands.</aside>
+				</section>
+
+				<section id="TheGap">
+					<h2>The gap</h2>
+					<table>
+						<thead>
+							<tr><th>Lectures teach you</th><th>The project needs you to</th></tr>
+						</thead>
+						<tbody>
+							<tr><td>The language and the theory</td><td>Save and back up your work every day</td></tr>
+							<tr><td>Interesting topics</td><td>Cut scope to what fits the weeks you have</td></tr>
+							<tr><td>What a report contains</td><td>Write some of it every week</td></tr>
+							<tr><td>The deadline</td><td>Plan backwards from it and keep a log</td></tr>
+						</tbody>
+					</table>
+					<p class="cite">Lectures teach the subject. Nobody teaches the habits. That is this deck.</p>
+					<aside class="notes">This is the training gap. Everything after this slide is a habit, not a topic.</aside>
+				</section>
+
+				<section id="Drake">
+					<div class="meme overlay drake" role="img" aria-label="Drake meme. No: waiting for a lecture on how to run your project. Yes: starting the habits this week.">
+						<img src="src/img/meme/drake.jpg" alt="" />
+						<span class="cap no">Waiting for a lecture on how to run your project</span>
+						<span class="cap yes">Starting the habits this week</span>
+					</div>
+					<p class="meme-credit">Drakeposting <a class="ref" href="https://knowyourmeme.com/memes/drakeposting" target="_blank" rel="noopener">🔗<sup>3</sup></a></p>
+					<aside class="notes">Quick laugh, move on.</aside>
+				</section>
+			</section>
+
+			<section>
+				<section id="CommonDisasters">
+					<h2>Common disasters</h2>
+					<ol>
+						<li>Work is lost or destroyed</li>
+						<li>Biting off more than you can chew</li>
+						<li>The code stops compiling or running after changes</li>
+						<li>The report is neglected</li>
+						<li>Unknown unknowns</li>
+					</ol>
+					<aside class="notes">Every one of these has happened to a past student. The next five topics take them one at a time.</aside>
+				</section>
+
+				<section id="FirstQuestion">
+					<h2>You think you're the first?</h2>
+					<div class="figure">
+						<img src="src/img/meme/you-think-your-the-first.png" alt="You think you're the first?" />
+						<p>Every disaster on the last slide has happened before. Learn from it.</p>
+					</div>
+					<aside class="notes">Is this supposed to frighten me? You think you're the first? I'll find my way through this.</aside>
+				</section>
+			</section>
+
+			<section id="SourceControl">
+				<h2>1. Work lost: source control and backup</h2>
+				<div class="split">
+					<ul>
+						<li>Push your work to
+							<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> <a class="ref" href="https://github.com/" target="_blank" rel="noopener">🔗<sup>4</sup></a>,
+							<a href="https://gitlab.com/" target="_blank" rel="noopener">GitLab</a> <a class="ref" href="https://gitlab.com/" target="_blank" rel="noopener">🔗<sup>5</sup></a> or
+							<a href="https://dev.azure.com/" target="_blank" rel="noopener">Azure DevOps</a> <a class="ref" href="https://dev.azure.com/" target="_blank" rel="noopener">🔗<sup>6</sup></a>
+							every day
+						</li>
+						<li>Get the free GitHub Student Developer Pack <a class="ref" href="https://education.github.com/pack" target="_blank" rel="noopener">🔗<sup>7</sup></a></li>
+						<li>Back up the report too, not just the code</li>
+					</ul>
+					<div class="panel">
+						<h3>3-2-1 backup</h3>
+						<p>3 copies, 2 kinds of storage, 1 off site <a class="ref" href="https://www.backblaze.com/blog/the-3-2-1-backup-strategy/" target="_blank" rel="noopener">🔗<sup>8</sup></a></p>
+					</div>
+				</div>
+				<aside class="notes">A laptop stolen in week 10 should cost you an afternoon, not the project.</aside>
+			</section>
+
+			<section>
+				<section id="Scope">
+					<h2>2. Too big: cut the scope</h2>
+					<div class="split">
+						<ul>
+							<li>Build a minimum viable product first <a class="ref" href="https://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank" rel="noopener">🔗<sup>9</sup></a></li>
+							<li>Sort features with MoSCoW: must, should, could, won't <a class="ref" href="https://en.wikipedia.org/wiki/MoSCoW_method" target="_blank" rel="noopener">🔗<sup>10</sup></a></li>
+							<li>Only start a "should" when every "must" works</li>
+						</ul>
+						<div class="panel">
+							<h3>Hofstadter's law</h3>
+							<p>It always takes longer than you expect, even when you allow for this law <a class="ref" href="https://en.wikipedia.org/wiki/Hofstadter%27s_law" target="_blank" rel="noopener">🔗<sup>11</sup></a></p>
+						</div>
+					</div>
+					<aside class="notes">Ask each student to name their one "must" feature out loud.</aside>
+				</section>
+
+				<section id="GalaxyBrain">
+					<div class="meme brain" role="img" aria-label="Expanding brain meme. An app. An app with AI. An app with AI, blockchain, AR and a social network. One feature that works, demoed on time.">
+						<div class="b1"><div class="pic"></div><div class="text">An app</div></div>
+						<div class="b2"><div class="pic"></div><div class="text">An app with AI</div></div>
+						<div class="b3"><div class="pic"></div><div class="text">An app with AI, blockchain, AR and it's also a social network</div></div>
+						<div class="b4"><div class="pic"></div><div class="text">One feature that works, demoed on time</div></div>
+					</div>
+					<p class="meme-credit">Galaxy brain <a class="ref" href="https://knowyourmeme.com/memes/galaxy-brain" target="_blank" rel="noopener">🔗<sup>12</sup></a></p>
+					<aside class="notes">The last panel is the enlightened one. Examiners mark what works.</aside>
+				</section>
+
+				<section id="DistractedBoyfriend">
+					<div class="meme overlay boyfriend" role="img" aria-label="Distracted boyfriend meme. You, in week 9, looking at a new shiny framework, while the stack you already planned looks on.">
+						<img src="src/img/meme/distracted-boyfriend.jpg" alt="" />
+						<span class="cap impact shiny">New shiny framework</span>
+						<span class="cap impact you">You, week 9</span>
+						<span class="cap impact planned">The stack you planned</span>
+					</div>
+					<p class="meme-credit">Distracted boyfriend <a class="ref" href="https://knowyourmeme.com/memes/distracted-boyfriend" target="_blank" rel="noopener">🔗<sup>13</sup></a></p>
+					<aside class="notes">Changing stack late costs weeks. Write the shiny thing into "future work" in the report instead.</aside>
+				</section>
+			</section>
+
+			<section>
+				<section id="StillRuns">
+					<h2>3. It stopped working: keep it running</h2>
+					<ul>
+						<li>Change one thing at a time, then run it</li>
+						<li>Keep the last version that worked, and demo from that</li>
+						<li>Write the setup steps in a README <a class="ref" href="https://www.makeareadme.com/" target="_blank" rel="noopener">🔗<sup>14</sup></a></li>
+						<li>Try it on another machine before demo day</li>
+					</ul>
+					<aside class="notes">If the demo breaks on the day, you go back to the version that worked and carry on.</aside>
+				</section>
+
+				<section id="WorksOnMyMachine">
+					<div class="meme vs" role="img" aria-label="Meme. It works on my machine. Then we'll ship your machine.">
+						<div><span class="impact">It works on my machine</span><span class="emoji">🤷</span></div>
+						<div><span class="emoji">💻📦</span><span class="impact">Then we'll ship your machine</span></div>
+					</div>
+					<p class="meme-credit">Or use a dev container, so it works on every machine <a class="ref" href="https://code.visualstudio.com/docs/devcontainers/containers" target="_blank" rel="noopener">🔗<sup>15</sup></a></p>
+					<aside class="notes">Try your project on a lab machine or a friend's laptop before demo day.</aside>
+				</section>
+
+				<section id="XkcdDependency">
+					<h2>Know what you depend on</h2>
+					<div class="split even">
+						<div class="figure comic">
+							<img src="src/img/meme/xkcd-2347-dependency.png" alt="xkcd 2347, Dependency" />
+						</div>
+						<ul>
+							<li>Pin your package versions</li>
+							<li>List every library in the report</li>
+							<li>Don't update anything the week before the demo</li>
+							<li class="cite">xkcd 2347, Randall Munroe <a class="ref" href="https://xkcd.com/2347/" target="_blank" rel="noopener">🔗<sup>16</sup></a>, CC BY-NC 2.5 <a class="ref" href="https://xkcd.com/license.html" target="_blank" rel="noopener">🔗<sup>17</sup></a></li>
+						</ul>
+					</div>
+					<aside class="notes">An update the week before the demo is how working code stops working.</aside>
+				</section>
+			</section>
+
+			<section>
+				<section id="Report">
+					<h2>4. The report: write it every week</h2>
+					<div class="split">
+						<ul>
+							<li>Keep a project log, in Markdown <a class="ref" href="https://www.markdownguide.org/" target="_blank" rel="noopener">🔗<sup>18</sup></a></li>
+							<li>Save every source to Zotero the day you read it <a class="ref" href="https://www.zotero.org/" target="_blank" rel="noopener">🔗<sup>19</sup></a></li>
+							<li>Take screenshots as you build. They are your evidence</li>
+						</ul>
+						<div class="panel">
+							<h3>Rule of thumb</h3>
+							<p>Every week: one log entry, some report text, one meeting note</p>
+						</div>
+					</div>
+					<aside class="notes">The report is marked too. A great app with a rushed report loses marks.</aside>
+				</section>
+
+				<section id="ThisIsFine">
+					<div class="meme overlay fine" role="img" aria-label="This is fine meme. A dog sits in a burning room. Caption: week 12, report zero words.">
+						<img src="src/img/meme/this-is-fine.jpg" alt="" />
+						<span class="cap impact top">Week 12</span>
+						<span class="cap impact bottom">Report: 0 words</span>
+					</div>
+					<p class="meme-credit">"This is fine", KC Green <a class="ref" href="https://knowyourmeme.com/memes/this-is-fine" target="_blank" rel="noopener">🔗<sup>20</sup></a></p>
+					<aside class="notes">It is not fine.</aside>
+				</section>
+			</section>
+
+			<section id="UnknownUnknowns">
+				<h2>5. Unknown unknowns</h2>
+				<div class="split">
+					<ul>
+						<li>Things you don't know that you don't know <a class="ref" href="https://en.wikipedia.org/wiki/There_are_unknown_unknowns" target="_blank" rel="noopener">🔗<sup>21</sup></a></li>
+						<li>Try the riskiest part first, in weeks 1 and 2</li>
+						<li>Keep a short risk list and update it weekly</li>
+						<li>Show your supervisor something running every week</li>
+					</ul>
+					<div class="panel">
+						<h3>Early surprises are cheap</h3>
+						<p>An API that doesn't do what you need costs a day in week 2, or the project in week 11.</p>
+					</div>
+				</div>
+				<aside class="notes">Ask: what is the one part of your project you have never done before? Do that first.</aside>
+			</section>
+
+			<section>
+				<section id="WeeklyRhythm">
+					<h2>A weekly rhythm</h2>
+					<table>
+						<thead>
+							<tr><th>When</th><th>Do this</th></tr>
+						</thead>
+						<tbody>
+							<tr><td>Monday</td><td>Pick three tasks from your project board <a class="ref" href="https://docs.github.com/en/issues/planning-and-tracking-with-projects" target="_blank" rel="noopener">🔗<sup>22</sup></a></td></tr>
+							<tr><td>Every day</td><td>Save, push, back up</td></tr>
+							<tr><td>Supervisor meeting</td><td>Bring a demo, take notes, put them in the log</td></tr>
+							<tr><td>Friday</td><td>Log entry, report text, note the last version that works</td></tr>
+						</tbody>
+					</table>
+					<aside class="notes">Habits beat motivation. This table is the whole deck on one slide.</aside>
+				</section>
+
+				<section id="AiTools">
+					<h2>AI tools</h2>
+					<div class="split">
+						<ul>
+							<li>Check your college's AI policy and declare what you used</li>
+							<li>Note in your log what the AI wrote</li>
+							<li>You must be able to explain every line</li>
+						</ul>
+						<div class="meme vs" style="width: auto; grid-template-columns: 1fr;" role="img" aria-label="Meme. Copilot wrote it. Explain line 42.">
+							<div><span class="impact">Copilot wrote it</span><span class="emoji">🤖</span></div>
+							<div><span class="emoji">😰</span><span class="impact">"Explain line 42"</span></div>
+						</div>
+					</div>
+					<aside class="notes">The demo and Q&amp;A will find any code you don't understand.</aside>
+				</section>
+
+				<section id="Presentation">
+					<h2>The presentation and demo</h2>
+					<ul>
+						<li>Slides: PowerPoint, or HTML with reveal.js like this deck <a class="ref" href="https://revealjs.com/" target="_blank" rel="noopener">🔗<sup>1</sup></a></li>
+						<li>Record a backup video of the demo, for example with OBS Studio <a class="ref" href="https://obsproject.com/" target="_blank" rel="noopener">🔗<sup>23</sup></a></li>
+						<li>Demo from the last version that worked, not your latest change</li>
+						<li>Rehearse with a timer, twice</li>
+					</ul>
+					<aside class="notes">Wi-Fi fails, laptops update, servers sleep. The video means you still get to show it.</aside>
+				</section>
+
+				<section id="Help">
+					<h2>Help and support</h2>
+					<ul>
+						<li>Your peers. Swap demos and review each other's README</li>
+						<li>Your supervisor. Bring questions, not just updates</li>
+						<li>Explain the bug to a rubber duck first <a class="ref" href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener">🔗<sup>24</sup></a> <span class="emoji">🦆</span></li>
+						<li>Search Stack Overflow, and ask with a small example that shows the problem <a class="ref" href="https://stackoverflow.com/" target="_blank" rel="noopener">🔗<sup>25</sup></a></li>
+					</ul>
+					<aside class="notes">Being stuck for a week is a choice. Ask after an hour.</aside>
+				</section>
+			</section>
+
+			<section id="ToDo">
+				<h2>To do this week</h2>
+				<ol>
+					<li>Register at GitHub <a class="ref" href="https://github.com/" target="_blank" rel="noopener">🔗<sup>4</sup></a> and claim the Student Pack <a class="ref" href="https://education.github.com/pack" target="_blank" rel="noopener">🔗<sup>7</sup></a></li>
+					<li>Create your project repo with a README</li>
+					<li>Make a project board with ten tasks and mark the "musts"</li>
+					<li>Start your project log</li>
+					<li>Book your first supervisor meeting</li>
+				</ol>
+				<aside class="notes">Check next week: everyone shows their repo and board.</aside>
+			</section>
+
+			<section>
+				<section id="Links1">
+					<h2>Links (1 of 2)</h2>
+					<ol class="links">
+						<li><a href="https://revealjs.com/" target="_blank" rel="noopener">reveal.js, the HTML presentation framework</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js" target="_blank" rel="noopener">reveal.js source on GitHub, Hakim El Hattab</a></li>
+						<li><a href="https://knowyourmeme.com/memes/drakeposting" target="_blank" rel="noopener">Know Your Meme: Drakeposting</a></li>
+						<li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+						<li><a href="https://gitlab.com/" target="_blank" rel="noopener">GitLab</a></li>
+						<li><a href="https://dev.azure.com/" target="_blank" rel="noopener">Azure DevOps</a></li>
+						<li><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Student Developer Pack</a></li>
+						<li><a href="https://www.backblaze.com/blog/the-3-2-1-backup-strategy/" target="_blank" rel="noopener">Backblaze: the 3-2-1 backup strategy</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank" rel="noopener">Minimum viable product</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/MoSCoW_method" target="_blank" rel="noopener">MoSCoW method</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/Hofstadter%27s_law" target="_blank" rel="noopener">Hofstadter's law</a></li>
+						<li><a href="https://knowyourmeme.com/memes/galaxy-brain" target="_blank" rel="noopener">Know Your Meme: Galaxy brain</a></li>
+						<li><a href="https://knowyourmeme.com/memes/distracted-boyfriend" target="_blank" rel="noopener">Know Your Meme: Distracted boyfriend</a></li>
+					</ol>
+				</section>
+
+				<section id="Links2">
+					<h2>Links (2 of 2)</h2>
+					<ol class="links" style="--start: 13">
+						<li><a href="https://www.makeareadme.com/" target="_blank" rel="noopener">Make a README</a></li>
+						<li><a href="https://code.visualstudio.com/docs/devcontainers/containers" target="_blank" rel="noopener">VS Code: developing inside a container</a></li>
+						<li><a href="https://xkcd.com/2347/" target="_blank" rel="noopener">xkcd 2347: Dependency</a></li>
+						<li><a href="https://xkcd.com/license.html" target="_blank" rel="noopener">xkcd licence (CC BY-NC 2.5)</a></li>
+						<li><a href="https://www.markdownguide.org/" target="_blank" rel="noopener">Markdown Guide</a></li>
+						<li><a href="https://www.zotero.org/" target="_blank" rel="noopener">Zotero reference manager</a></li>
+						<li><a href="https://knowyourmeme.com/memes/this-is-fine" target="_blank" rel="noopener">Know Your Meme: This is fine (KC Green)</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/There_are_unknown_unknowns" target="_blank" rel="noopener">There are unknown unknowns</a></li>
+						<li><a href="https://docs.github.com/en/issues/planning-and-tracking-with-projects" target="_blank" rel="noopener">GitHub Projects documentation</a></li>
+						<li><a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio</a></li>
+						<li><a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener">Rubber duck debugging</a></li>
+						<li><a href="https://stackoverflow.com/" target="_blank" rel="noopener">Stack Overflow</a></li>
+					</ol>
+				</section>
+			</section>
+
+			<section id="Questions" class="questions">
+				<div class="emoji">🙋</div>
+				<h1>Questions?</h1>
+				<p class="byline"><a href="mailto:SDevTutor@outlook.ie?subject=Final Year Project">SDevTutor@outlook.ie</a></p>
+				<p class="print">
+					Take it with you: <a href="?print-pdf" target="_blank">open the print version</a>, then print and choose Save as PDF.
+				</p>
+				<aside class="notes">Leave this up during questions. The print link gives every slide, including the ones below each topic.</aside>
+			</section>
+
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+	<script>
+		Reveal.initialize({
+			width: 1280,
+			height: 720,
+			margin: 0.06,
+			center: true,
+			hash: true,
+			history: true, // each slide gets a browser history entry (Firefox back and forward)
+			progress: true,
+			slideNumber: 'h.v',
+			transition: 'none',
+			mouseWheel: false, // src/js/deck.js handles the wheel
+			plugins: [RevealNotes],
+		});
+	</script>
+	<script src="src/js/deck.js"></script>
+</body>
+
+</html>

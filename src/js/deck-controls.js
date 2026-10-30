@@ -665,7 +665,8 @@
 	numberSlides();
 	numberHeadings();
 	useNumbersForSlideNumber();
-	if (settings.contents) {
+	// Not in the print version: reveal.js may already have laid out its pages
+	if (settings.contents && !printing) {
 		buildContents();
 		// reveal.js read the address (#/4/2) before the contents went in, so
 		// read it again now that the slide indices include them

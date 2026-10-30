@@ -26,49 +26,7 @@
 	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
 }
 
-/* The section number as a numbered bullet, "(13)", on the heading's own
- * line: left aligned, in blue, with the title centred (numberHeadings:
- * 'bullet' in src/js/deck-controls.js). An invisible copy of the number
- * on the right balances it, so the title sits in the true centre. */
-.reveal .slides .has-heading-number {
-	display: grid;
-	grid-template-columns: max-content 1fr max-content;
-	align-items: baseline;
-	column-gap: 0.4em;
-}
-
-.reveal .slides .has-heading-number::after {
-	content: attr(data-number);
-	visibility: hidden;
-}
-
-.reveal .heading-number.bullet {
-	color: var(--navy-soft);
-	font-variant-numeric: tabular-nums;
-}
-
-.reveal .heading-title {
-	text-align: center;
-}
-
-/* The other style, numberHeadings: 'corner': a circle, top left */
-.reveal .heading-number.corner {
-	position: absolute;
-	top: 8px;
-	left: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-width: 64px;
-	height: 64px;
-	padding: 0 10px;
-	box-sizing: border-box;
-	border: 4px solid var(--gold);
-	border-radius: 32px;
-	color: var(--navy);
-	font: 700 32px/1 Arial, Helvetica, sans-serif;
-	font-variant-numeric: tabular-nums;
-}
+/* Section numbers on headings ("(13)") are styled in src/css/deck-controls.css */
 
 .reveal .topic p {
 	font-size: 34px;
@@ -196,44 +154,7 @@
 	font-size: 0.85em;
 }
 
-/* The position bar: one piece per slide in the stack, sharing the full
- * width of the slide, so it is always one complete line from the left
- * edge, whether a topic has 3 slides or 50 */
-.reveal .stack-bar {
-	width: 100%;
-	gap: 6px;
-}
-
-/* Bars are buttons here (stackBarLinks), with a taller invisible area to click */
-.reveal .stack-bar span,
-.reveal .stack-bar button {
-	flex: 1 1 0;
-	min-width: 6px;
-	height: 10px;
-	padding: 0;
-	border: 0;
-	background: var(--line);
-}
-
-.reveal .stack-bar button {
-	position: relative;
-	cursor: pointer;
-}
-
-.reveal .stack-bar button::after {
-	content: "";
-	position: absolute;
-	inset: -8px 0;
-}
-
-.reveal .stack-bar button:hover,
-.reveal .stack-bar button:focus-visible {
-	background: var(--navy-soft);
-}
-
-.reveal .stack-bar span.on {
-	background: var(--gold);
-}
+/* The position bar under headings is styled in src/css/tna.css */
 
 /*********************************************************
  * Title slide: QR code to the deck online, top right

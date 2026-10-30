@@ -283,6 +283,43 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 	font-variant-numeric: tabular-nums;
 }
 
+/* numberHeadings: 'bullet': "(13)" on the heading's own line, left
+ * aligned, with the title centred. An invisible copy of the number on
+ * the right balances it, so the title sits in the true centre. */
+.reveal .slides .has-heading-number {
+	display: grid;
+	grid-template-columns: max-content 1fr max-content;
+	align-items: baseline;
+	column-gap: 0.4em;
+}
+
+.reveal .slides .has-heading-number::after {
+	content: attr(data-number);
+	visibility: hidden;
+}
+
+.reveal .heading-title {
+	text-align: center;
+}
+
+/* numberHeadings: 'corner': a circle, top left */
+.reveal .heading-number.corner {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 64px;
+	height: 64px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 4px solid var(--gold, #c9a227);
+	border-radius: 32px;
+	color: var(--navy, #1f3a5f);
+	font: 700 32px/1 Arial, Helvetica, sans-serif;
+}
+
 /* ---------- Go to slide: the number being typed ---------- */
 .deck-typed {
 	position: fixed;

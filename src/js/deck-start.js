@@ -19,7 +19,8 @@
  *     slides are only added later (src/js/deck-controls.js reads it back)
  *   - explains what to do when a deck that loads a Markdown file is
  *     opened straight from disk, where browsers block the file
- * Returns a promise that resolves once every script has loaded.
+ * Returns a promise that resolves once every script has loaded, when it
+ * also fires a deck:ready event on the document.
  *********************************************************/
 (function () {
 	'use strict';
@@ -56,6 +57,8 @@
 		explainFileProtocol();
 		window.deckStartHash = window.location.hash;
 		const scripts = config.deckScripts || [];
-		return Reveal.initialize(config).then(function () { return loadInOrder(scripts); });
+		return Reveal.initialize(config)
+			.then(function () { return loadInOrder(scripts); })
+			.then(function () { document.dispatchEvent(new CustomEvent('deck:ready')); });
 	};
 })();

@@ -1,0 +1,356 @@
+/*********************************************************
+ * Assignment 2 overrides, loaded after tna.css.
+ * The brief sets a 20pt minimum. On a 1280 x 720 slide,
+ * 27px is about 20pt, so nothing here goes below 27px.
+ *********************************************************/
+.reveal .cite,
+.reveal .slide-number,
+.reveal .meme-credit,
+.reveal .title-slide .built-with {
+	font-size: 27px;
+}
+
+/*********************************************************
+ * Footnote markers, Wikipedia style: a small icon, then a raised number.
+ *   <a class="ref" ...><sup>4</sup></a>        reference: link icon, then 4
+ *   <a class="ref media" ...><sup>2</sup></a>  media: picture icon, then 2
+ * The number is text, so it stays at the 27px minimum: beside 34px bullet
+ * text that is about 80%, as on Wikipedia. The small one-colour icon is
+ * what keeps the marker light.
+ *
+ * The icons are SVG in these variables, so they also work when the deck is
+ * opened straight from disk. To use your own, point a variable at a file,
+ * e.g. url("../img/icons/link.svg"); that needs the deck served over http,
+ * as Chrome blocks masks from local files.
+ * Icons: Feather Icons (MIT).
+ *********************************************************/
+:root {
+	--ref-size: 27px;
+	--icon-ref: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E");
+	--icon-media: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2'/%3E%3Ccircle cx='8.5' cy='8.5' r='1.5'/%3E%3Cpolyline points='21 15 16 10 5 21'/%3E%3C/svg%3E");
+	--icon-external: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'/%3E%3Cpolyline points='15 3 21 3 21 9'/%3E%3Cline x1='10' y1='14' x2='21' y2='3'/%3E%3C/svg%3E");
+	--icon-copy: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='9' y='9' width='13' height='13' rx='2'/%3E%3Cpath d='M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'/%3E%3C/svg%3E");
+	--icon-copied: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+}
+
+.reveal a.ref {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: var(--ref-size);
+	font-weight: bold;
+	line-height: 0;
+	color: var(--navy-soft);
+	text-decoration: none;
+	white-space: nowrap;
+	vertical-align: super;
+}
+
+.reveal a.ref sup {
+	font-size: 1em;
+	vertical-align: baseline;
+	color: inherit;
+}
+
+/* On the navy table header the marker is an off-white, a shade apart from
+ * the white heading text, as the link blue is a shade apart from the text
+ * on a white slide */
+.reveal th a.ref,
+.reveal th a.ref sup {
+	color: #c9d5ea;
+}
+
+.reveal a.ref::before {
+	content: "";
+	display: inline-block;
+	width: 0.8em;
+	height: 0.8em;
+	margin: 0 0.06em 0 0.12em;
+	vertical-align: -0.05em;
+	background: currentColor;
+	-webkit-mask: var(--icon-ref) center / contain no-repeat;
+	mask: var(--icon-ref) center / contain no-repeat;
+}
+
+.reveal a.ref.media::before {
+	-webkit-mask-image: var(--icon-media);
+	mask-image: var(--icon-media);
+}
+
+/* References and Media used: each entry opens another website, so it ends
+ * with an external-link icon */
+.reveal ol.reflist a::after {
+	content: "";
+	display: inline-block;
+	width: 0.75em;
+	height: 0.75em;
+	margin-left: 0.3em;
+	vertical-align: -0.05em;
+	background: var(--navy-soft);
+	-webkit-mask: var(--icon-external) center / contain no-repeat;
+	mask: var(--icon-external) center / contain no-repeat;
+}
+
+/* Copy icon on code boxes, GitHub style: turns into a tick once copied */
+.reveal .copy-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	padding: 0;
+	border: 2px solid var(--line);
+	border-radius: 8px;
+	background: #fff;
+	color: var(--muted);
+	font-size: 0;
+}
+
+.reveal .copy-button::before {
+	content: "";
+	width: 26px;
+	height: 26px;
+	background: currentColor;
+	-webkit-mask: var(--icon-copy) center / contain no-repeat;
+	mask: var(--icon-copy) center / contain no-repeat;
+}
+
+.reveal .copy-button:hover,
+.reveal .copy-button:focus-visible {
+	border-color: var(--navy);
+	background: #fff;
+	color: var(--navy);
+}
+
+.reveal .copy-button.copied {
+	border-color: var(--good);
+	color: var(--good);
+}
+
+.reveal .copy-button.copied::before {
+	-webkit-mask-image: var(--icon-copied);
+	mask-image: var(--icon-copied);
+}
+
+.reveal table {
+	font-size: 28px;
+}
+
+.reveal th,
+.reveal td {
+	padding: 10px 14px;
+}
+
+/* Case example box: gold edge, used on the case slides */
+.reveal .case {
+	margin-top: 0.8em;
+	padding: 18px 24px;
+	border-left: 10px solid var(--gold);
+	background: #fff;
+	font-size: 30px;
+}
+
+.reveal .case strong {
+	color: var(--navy-soft);
+}
+
+/* Reference slide: Harvard list with a hanging indent */
+.reveal .refs p {
+	font-size: 27px;
+	line-height: 1.25;
+	margin: 0 0 0.5em;
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+}
+
+.reveal .refs .end {
+	margin-top: 0.9em;
+	padding-top: 0.5em;
+	border-top: 4px solid var(--gold);
+	color: var(--muted);
+}
+
+/* Headings stay in one place: the deck runs with center: false, so every
+ * slide starts at the top and the title no longer jumps between slides.
+ * The title and questions slides are pushed down to sit in the middle. */
+.reveal .slides section {
+	padding-top: 28px;
+}
+
+.reveal .slides > section.stack {
+	padding: 0;
+}
+
+/* Title slide: the title sits where every other heading sits, with the
+ * same gold bar, and the kicker moves below it. */
+.reveal .title-slide h1 {
+	padding-bottom: 0.25em;
+	background: linear-gradient(var(--gold), var(--gold)) no-repeat bottom left / 90px 8px;
+}
+
+.reveal .title-slide .kicker {
+	margin-top: 0.8em;
+	padding-top: 0;
+	border-top: 0;
+}
+
+/* "Built with reveal.js": same line on the first and last slide */
+.reveal .built-with {
+	margin-top: 1.2em;
+	font-size: 27px;
+	color: var(--muted);
+}
+
+.reveal .built-with img {
+	height: 1.3em;
+	margin: 0 0.15em;
+	vertical-align: middle;
+}
+
+.reveal .big-emoji {
+	margin: 0.3em 0;
+	font-family: var(--emoji);
+	font-size: 140px;
+	line-height: 1;
+}
+
+/* Copy box: an email or text people can copy from the slide */
+.reveal pre.copy-box {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding: 18px 24px;
+	box-shadow: none;
+	background: #fff;
+	border: 2px solid var(--line);
+	border-left: 10px solid var(--gold);
+	border-radius: 6px;
+	font-size: 27px;
+	line-height: 1.3;
+	white-space: pre-wrap;
+}
+
+.reveal pre.copy-box code {
+	max-height: none;
+	padding: 0;
+	background: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	white-space: pre-wrap;
+}
+
+/* Small memes beside slide content, with clear space from tables and text */
+.reveal .split.with-meme {
+	grid-template-columns: 1fr 400px;
+	gap: 64px;
+	align-items: start;
+}
+
+.reveal .brain.small {
+	margin-top: 1em;
+}
+
+/* Meme caption, centred under the meme, with its 🖼️ link */
+.reveal .meme-credit {
+	max-width: 400px;
+	margin: 0.35em auto 0;
+	line-height: 1.25;
+	color: var(--ink);
+}
+
+.reveal .brain + .meme-credit {
+	max-width: none;
+}
+
+/* References and Media used: numbered lists, each entry a link to its source */
+.reveal ol.reflist {
+	margin: 0;
+	padding-left: 1.6em;
+	font-size: 27px;
+	line-height: 1.25;
+}
+
+.reveal ol.reflist li {
+	margin-bottom: 0.55em;
+	padding-left: 0.2em;
+}
+
+.reveal ol.reflist a {
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.reveal ol.reflist a:hover,
+.reveal ol.reflist a:focus-visible {
+	color: var(--navy-soft);
+	text-decoration: underline;
+}
+
+/* Meme caption: a figure label at the front, "picture 2 - caption".
+ * Not raised, the same size as the caption, with a smaller icon. */
+.reveal .meme-credit a.ref.media {
+	font-size: inherit;
+	line-height: inherit;
+	vertical-align: baseline;
+}
+
+.reveal .meme-credit a.ref.media::before {
+	width: 0.75em;
+	height: 0.75em;
+	margin: 0 0.1em 0 0;
+}
+
+/* Contact: the name links to the website, hover shows the address (data-tip);
+ * the mail icon shows the email address. Neither is a reference.
+ * Icons: Feather Icons (MIT) for mail, contact card drawn for this deck. */
+:root {
+	--icon-mail: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z'/%3E%3Cpolyline points='22,6 12,13 2,6'/%3E%3C/svg%3E");
+	--icon-card: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2' y='4' width='20' height='16' rx='2'/%3E%3Ccircle cx='8' cy='10.5' r='2.5'/%3E%3Cpath d='M4.5 17c.7-1.7 2-2.6 3.5-2.6s2.8.9 3.5 2.6'/%3E%3Cline x1='14' y1='10' x2='19' y2='10'/%3E%3Cline x1='14' y1='14' x2='18' y2='14'/%3E%3C/svg%3E");
+}
+
+.reveal a.person {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 2px dotted var(--gold);
+}
+
+.reveal a.person:hover,
+.reveal a.person:focus-visible {
+	color: var(--navy-soft);
+}
+
+.reveal a.mail-link {
+	display: inline-block;
+	width: 0.9em;
+	height: 0.9em;
+	margin-left: 0.35em;
+	vertical-align: -0.1em;
+	background: var(--navy-soft);
+	-webkit-mask: var(--icon-mail) center / contain no-repeat;
+	mask: var(--icon-mail) center / contain no-repeat;
+}
+
+.reveal .contact {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	margin: 0.3em 0;
+	font-size: 34px;
+}
+
+.reveal .contact::before {
+	content: "";
+	flex: none;
+	width: 1.1em;
+	height: 1.1em;
+	background: var(--navy-soft);
+	-webkit-mask: var(--icon-card) center / contain no-repeat;
+	mask: var(--icon-card) center / contain no-repeat;
+}
+
+.reveal .contact.mail::before {
+	-webkit-mask-image: var(--icon-mail);
+	mask-image: var(--icon-mail);
+}
+
+.reveal .contact.mail a {
+	color: var(--ink);
+}

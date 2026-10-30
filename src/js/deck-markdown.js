@@ -76,5 +76,8 @@
 		};
 		fit(Reveal.getCurrentSlide());
 		Reveal.on('slidechanged', function (event) { fit(event.currentSlide); });
+		// Slides added later (the contents) can change the current slide
+		// without a slidechanged event, so check again once everything is in
+		document.addEventListener('deck:ready', function () { fit(Reveal.getCurrentSlide()); });
 	}
 })();
