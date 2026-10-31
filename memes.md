@@ -1,15 +1,28 @@
 # Meme bank
+<!-- .slide: class="title-slide" -->
 
-Film and TV quotes, and internet memes, to drop into presentations and training.
+### Film and TV quotes, and internet memes, for presentations and training
 
-- One entry per scene, in film order then scene order. The **bold** part is the bit to use
-- **Checked:** the transcript or script the wording was checked against. **Check:** anything I could not confirm
-- **Time:** only where the rough position is known. Take exact times from your own copy
-- Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/)
+<p class="byline"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a><a class="mail-link" href="mailto:SDevTutor@outlook.ie" data-tip="SDevTutor@outlook.ie" aria-label="Email SDevTutor@outlook.ie"></a> · <time class="deck-date" datetime="2026-10-31">31 October 2026</time> · Version <span class="deck-version">1.8.3</span></p>
 
-Slides: [memes.html](memes.html) renders this file. Built with [reveal.js](https://revealjs.com/)
+<p class="built-with">Built with <a href="https://revealjs.com/">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a> and TAP <span data-tap-version></span>, The Apocalypse Plugin · <a href="https://github.com/marcocrowe/reveal-js-html">Source on GitHub</a></p>
+
+<p class="copyright">© 2026 Mark Crowe. Quotes, characters and pictures belong to their owners: see Sources and notes, at the end</p>
 
 <figure class="deck-qr"><a href="https://marcocrowe.github.io/reveal-js-html/memes.html"><img src="src/img/qr/memes-deck.svg" alt="QR code: this deck online" /></a><figcaption><a href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></figcaption></figure>
+
+---
+
+## About this deck
+<!-- no-number -->
+
+- Film and TV quotes, and internet memes, to drop into presentations and training. One entry per scene, in film order then scene order. The **bold** part is the bit to use
+- **Checked:** the transcript, script or subtitles the wording was checked against. **Check:** anything I could not confirm
+- **Time:** where the quote starts and ends in the film, from the subtitle file. It starts 2 seconds early, as subtitles are never quite in sync
+- Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/)
+- Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
+- Version <span class="deck-version">1.8.3</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. TAP, the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
+- [memes.html](memes.html) shows this file, [memes.md](memes.md), as slides
 
 <!--
 HOW THIS FILE BECOMES SLIDES (memes.html)
@@ -38,6 +51,7 @@ Quotes for the TNA, skills audits and learner feedback
 
 - **Who:** Bryan Mills (Liam Neeson), on the phone to his daughter's kidnappers
 - **IMDb:** [Taken](https://www.imdb.com/title/tt0936501/) · [quotes](https://www.imdb.com/title/tt0936501/quotes/)
+- **Time:** 0:28:27 to 0:28:44 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Taken [2008] -imdb-tt0936501.srt>)
 - **Use it for:** skills audits, and why self-ratings can be wrong. Caption: *"Every learner on the self-rating form"*
 
 ----
@@ -79,6 +93,7 @@ Quotes for the TNA, skills audits and learner feedback
 
 - **Who:** Kirk (William Shatner) to Spock, near the end
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 1:40:02 to 1:40:08 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Use it for:** resistance to change, a limitation of any TNA. Fits Assignment 2
 
 ----
@@ -90,6 +105,7 @@ Quotes for the TNA, skills audits and learner feedback
 
 - **Who:** Data (Brent Spiner) to the Borg Queen
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 1:02:32 to 1:02:40 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Use it for:** self-assessment. The learner who rates every skill 5 out of 5
 
 ----
@@ -139,6 +155,7 @@ Quotes for the TNA, skills audits and learner feedback
 
 - **Who:** Miranda Priestly (Meryl Streep)
 - **IMDb:** [The Devil Wears Prada](https://www.imdb.com/title/tt0458352/) · [quotes](https://www.imdb.com/title/tt0458352/quotes/)
+- **Time:** 0:58:13 to 0:58:20 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Devil Wears Prada [2006] -imdb-tt0458352.srt>)
 - **Use it for:** obvious recommendations. Caption: *"TNA finding: more training needed"*
 
 ---
@@ -158,6 +175,7 @@ Plans, scope creep and the submission date
 
 - **Who:** Ian Malcolm (Jeff Goldblum), at lunch with Hammond
 - **IMDb:** [Jurassic Park](https://www.imdb.com/title/tt0107290/) · [quotes](https://www.imdb.com/title/tt0107290/quotes/)
+- **Time:** 0:36:04 to 0:36:13 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
 - **Use it for:** AI features, scope creep, ethics
 
 ----
@@ -216,6 +234,7 @@ Plans, scope creep and the submission date
 - **Who:** Thanos (Josh Brolin), in the final battle
 - **IMDb:** [Avengers: Endgame](https://www.imdb.com/title/tt4154796/) · [quotes](https://www.imdb.com/title/tt4154796/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/i-am-inevitable)
+- **Time:** 0:18:47 to 0:18:53 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Avengers; Endgame [2019] -imdb-tt4154796.srt>)
 - **Use it for:** deadlines. Caption: *"The submission date"*
 
 ----
@@ -228,6 +247,7 @@ Plans, scope creep and the submission date
 - **Who:** Admiral Ackbar, at the Battle of Endor
 - **IMDb:** [Return of the Jedi](https://www.imdb.com/title/tt0086190/) · [quotes](https://www.imdb.com/title/tt0086190/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/its-a-trap)
+- **Time:** 1:35:06 to 1:35:11 (4 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
 - **Use it for:** "Just one more feature"
 
 ----
@@ -239,6 +259,7 @@ Plans, scope creep and the submission date
 
 - **Who:** Jim Lovell (Tom Hanks). Also "**Failure is not an option.**" from Gene Kranz (Ed Harris) in mission control
 - **IMDb:** [Apollo 13](https://www.imdb.com/title/tt0112384/) · [quotes](https://www.imdb.com/title/tt0112384/quotes/)
+- **Time:** 0:50:55 to 0:51:00 (4 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Apollo 13 [1995] -imdb-tt0112384.srt>)
 - **Use it for:** lost work, a crashed demo, incident response. The real 1970 wording was "Houston, we've had a problem"
 
 ----
@@ -263,6 +284,7 @@ Plans, scope creep and the submission date
 
 - **Who:** the voice Ray Kinsella (Kevin Costner) hears in the cornfield. Often misquoted as "they will come"
 - **IMDb:** [Field of Dreams](https://www.imdb.com/title/tt0097351/) · [quotes](https://www.imdb.com/title/tt0097351/quotes/)
+- **Time:** 0:05:20 to 0:05:27 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Field of Dreams [1989] -imdb-tt0097351.English.srt>)
 - **Use it for:** building a feature, or a course, nobody asked for. Why you do the TNA first
 
 ---
@@ -293,6 +315,7 @@ Nerves, live demos and quiet rooms
 
 - **Who:** Ray Arnold (Samuel L. Jackson), rebooting the park's systems
 - **IMDb:** [Jurassic Park](https://www.imdb.com/title/tt0107290/) · [quotes](https://www.imdb.com/title/tt0107290/quotes/)
+- **Time:** 1:33:09 to 1:33:14 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jurassic Park [1993] -imdb-tt0107290.srt>)
 - **Use it for:** starting a live demo
 
 ----
@@ -328,6 +351,7 @@ Nerves, live demos and quiet rooms
 - **Who:** Obi-Wan Kenobi (Ewan McGregor), dropping in on General Grievous
 - **IMDb:** [Revenge of the Sith](https://www.imdb.com/title/tt0121766/) · [quotes](https://www.imdb.com/title/tt0121766/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/hello-there)
+- **Time:** 0:57:30 to 0:57:36 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>)
 - **Use it for:** an opening slide, or joining a call
 
 ----
@@ -526,6 +550,114 @@ Group work, thanks and banter
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=street-fighter) [🔗](<../my-fetches/springfield-scripts/street-fighter.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Street_Fighter_(1994_film)) [🔗](<../my-fetches/wikiquote/Street_Fighter_(1994_film).wiki>)
 - **Use it for:** the learner's viva or first presentation, against the examiner's tenth of the day. Remember which side you're on
 
+----
+
+## Hackers (1995)
+<!-- 336 -->
+
+**Scene: online, the Plague offers a treaty**
+
+> The Plague: "We're each our own country, with temporary allies and enemies. Let's make a treaty."
+>
+> Dade: "I'm sorry. Who are you?"
+>
+> The Plague: "I'm the one who understands you. Now, can we be allies?"
+>
+> Dade: "**Nah. I don't play well with others.**"
+
+- **Who:** the Plague (Fisher Stevens) and Dade Murphy, "Crash Override" (Jonny Lee Miller), typing to each other
+- **IMDb:** [Hackers](https://www.imdb.com/title/tt0113243/) · [quotes](https://www.imdb.com/title/tt0113243/quotes/)
+- **Time:** 0:41:58 to 0:42:31 (33 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Hackers [1995] -imdb-tt0113243.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Hackers [1995] -imdb-tt0113243.srt>)
+- **Check:** the subtitles don't name speakers
+- **Use it for:** the student who wants to do the group project alone
+
+----
+
+## Hackers (1995)
+<!-- 337 -->
+
+**Scene: the Plague calls Dade about the disk**
+
+> The Plague: "The girl. The girl has the disk I need."
+>
+> Dade: "**I told you. I don't play well with others.**"
+>
+> The Plague: "Turn on your laptop. Set it to receive a file."
+
+- **Who:** the Plague and Dade, the second time Dade says it
+- **IMDb:** [Hackers](https://www.imdb.com/title/tt0113243/) · [quotes](https://www.imdb.com/title/tt0113243/quotes/)
+- **Time:** 1:04:41 to 1:04:56 (14 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Hackers [1995] -imdb-tt0113243.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Hackers [1995] -imdb-tt0113243.srt>)
+- **Check:** the subtitles don't name speakers
+- **Use it for:** the same student, on being asked a second time
+
+----
+
+## Jumper (2008)
+<!-- 338 -->
+
+**Scene: Griffin's lair, David suggests teaming up**
+
+> David: "I was thinking that if we do this together, we could get him."
+>
+> Griffin: "What? You mean, like, you and me?"
+>
+> David: "Yeah."
+>
+> Griffin: "Like we team up?"
+>
+> David: "Yeah."
+>
+> Griffin: "**Look. I'm sorry, but I don't play well with others.**"
+
+- **Who:** David (Hayden Christensen) and Griffin (Jamie Bell). Griffin then tells him to "find a rock, crawl under it, stay there"
+- **IMDb:** [Jumper](https://www.imdb.com/title/tt0489099/) · [quotes](https://www.imdb.com/title/tt0489099/quotes/)
+- **Time:** 0:56:08 to 0:56:28 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Jumper [2008] -imdb-tt0489099.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Jumper [2008] -imdb-tt0489099.srt>)
+- **Check:** the subtitles don't name speakers
+- **Use it for:** forming project groups. The one who says no to every partner
+
+----
+
+## Avengers Assemble (2012)
+<!-- 339 -->
+
+**Scene: Stark Tower, Coulson's visit**
+
+> Tony: "And I didn't even qualify."
+>
+> Pepper: "I didn't know that either."
+>
+> Tony: "**Apparently I'm volatile, self-obsessed, don't play well with others.**"
+>
+> Pepper: "**That I did know.**"
+>
+> Coulson: "This isn't about personality profiles any more."
+
+- **Who:** Tony Stark (Robert Downey Jr.), Pepper Potts (Gwyneth Paltrow) and Agent Coulson (Clark Gregg), about the Avengers Initiative. Called *The Avengers* outside the UK and Ireland
+- **IMDb:** [The Avengers](https://www.imdb.com/title/tt0848228/) · [quotes](https://www.imdb.com/title/tt0848228/quotes/)
+- **Time:** 0:26:26 to 0:26:39 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Avengers Assemble [2012] -imdb-tt0848228.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Avengers Assemble [2012] -imdb-tt0848228.srt>)
+- **Use it for:** self-assessment and peer feedback. What the peer review says, and what everyone already knew
+
+----
+
+## Aquaman (2018)
+<!-- 340 -->
+
+**Scene: the Sahara, Arthur and Mera**
+
+> Arthur: "But I've done nothing but get my ass kicked this whole trip. **I'm no leader. I'm not a king. I do not work or play well with others.** And I can't let you die trying to turn me into something that I'm not."
+>
+> Mera: "**You think you're unworthy to lead because you're of two different worlds. But that is exactly why you are worthy.**"
+
+- **Who:** Arthur (Jason Momoa) and Mera (Amber Heard)
+- **IMDb:** [Aquaman](https://www.imdb.com/title/tt1477834/) · [quotes](https://www.imdb.com/title/tt1477834/quotes/)
+- **Time:** 1:37:06 to 1:37:33 (27 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Aquaman [2018] -imdb-tt1477834.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Aquaman [2018] -imdb-tt1477834.srt>)
+- **Use it for:** the reluctant team leader. Mera's reply for a mature student between two careers
+
 ---
 
 # IT and tech
@@ -544,6 +676,7 @@ Code, backups and things that break
 - **Who:** Gandalf (Ian McKellen), on the bridge of Khazad-dûm
 - **IMDb:** [The Fellowship of the Ring](https://www.imdb.com/title/tt0120737/) · [quotes](https://www.imdb.com/title/tt0120737/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/you-shall-not-pass)
+- **Time:** 2:08:25 to 2:08:32 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Lord of the Rings; The Fellowship of the Ring [2001] -imdb-tt0120737.srt>)
 - **Use it for:** code review, CI checks, firewalls, plagiarism checks
 
 ----
@@ -556,6 +689,7 @@ Code, backups and things that break
 - **Who:** Boromir (Sean Bean), at the Council of Elrond
 - **IMDb:** [The Fellowship of the Ring](https://www.imdb.com/title/tt0120737/) · [quotes](https://www.imdb.com/title/tt0120737/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/one-does-not-simply-walk-into-mordor)
+- **Time:** 1:30:00 to 1:30:06 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Lord of the Rings; The Fellowship of the Ring [2001] -imdb-tt0120737.srt>)
 - **Use it for:** "One does not simply deploy on a Friday"
 
 ----
@@ -568,6 +702,7 @@ Code, backups and things that break
 - **Who:** Obi-Wan Kenobi (Ewan McGregor), on Mustafar
 - **IMDb:** [Revenge of the Sith](https://www.imdb.com/title/tt0121766/) · [quotes](https://www.imdb.com/title/tt0121766/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/i-have-the-high-ground)
+- **Time:** 1:59:22 to 1:59:29 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>)
 - **Use it for:** having a backup when the laptop dies
 
 ----
@@ -618,6 +753,7 @@ Code, backups and things that break
 - **Who:** Regina George (Rachel McAdams), to Gretchen
 - **IMDb:** [Mean Girls](https://www.imdb.com/title/tt0377092/) · [quotes](https://www.imdb.com/title/tt0377092/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/stop-trying-to-make-fetch-happen)
+- **Time:** 0:40:01 to 0:40:08 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Mean Girls [2004] -imdb-tt0377092.srt>)
 - **Use it for:** pushing a tool nobody uses
 
 ----
@@ -630,6 +766,7 @@ Code, backups and things that break
 - **Who:** Morpheus (Laurence Fishburne), offering Neo the choice. "What if I told you..." is the meme's wording, not a line in the film
 - **IMDb:** [The Matrix](https://www.imdb.com/title/tt0133093/) · [quotes](https://www.imdb.com/title/tt0133093/quotes/)
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/red-pill)
+- **Time:** 0:29:03 to 0:29:20 (17 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Matrix [1999] -imdb-tt0133093.srt>)
 - **Use it for:** revealing the real requirements, or the survey results
 
 ----
@@ -655,6 +792,7 @@ Code, backups and things that break
 
 - **Who:** Bill Lumbergh (Gary Cole) to Peter Gibbons (Ron Livingston). Written and directed by Mike Judge. The dots are the subtitles' own
 - **IMDb:** [Office Space](https://www.imdb.com/title/tt0151804/)
+- **Time:** 0:20:07 to 0:20:45 (38 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Office Space [1999] -imdb-tt0151804.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>)
 - **Use it for:** weekend work, and how not to ask for it
 
@@ -673,6 +811,7 @@ Code, backups and things that break
 
 - **Who:** Peter Gibbons and the consultants, Bob Slydell (John C. McGinley) and Bob Porter (Paul Willson). The dots are the subtitles' own
 - **IMDb:** [Office Space](https://www.imdb.com/title/tt0151804/)
+- **Time:** 0:35:26 to 0:35:59 (34 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Office Space [1999] -imdb-tt0151804.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Office_Space) [🔗](<../my-fetches/wikiquote/Office_Space.wiki>)
 - **Use it for:** a timesheet, or a learning log. Honest, at least
 
@@ -699,6 +838,7 @@ Code, backups and things that break
 
 - **Who:** Peter Gibbons and the two Bobs. The subtitles don't say which Bob speaks. The dots are the subtitles' own
 - **IMDb:** [Office Space](https://www.imdb.com/title/tt0151804/)
+- **Time:** 0:36:11 to 0:36:54 (43 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Office Space [1999] -imdb-tt0151804.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=office-space) [🔗](<../my-fetches/springfield-scripts/office-space.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Office_Space) [🔗](<../my-fetches/wikiquote/Office_Space.wiki>)
 - **Use it for:** motivation theory: Herzberg, extrinsic and intrinsic. And a group project with eight people giving feedback
 
@@ -773,6 +913,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Spock (Leonard Nimoy) and Kirk. The same lines return when Spock dies
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 0:38:56 to 0:39:11 (15 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** prioritising training needs, group decisions
 
@@ -789,6 +930,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Joachim (Judson Scott) and Khan (Ricardo Montalbán)
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 0:40:55 to 0:41:15 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** the one bug you cannot let go of
 
@@ -807,6 +949,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk, marooned, and Khan over the communicator. The scream is the end of this scene
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 1:09:52 to 1:10:13 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** the printer, the projector, the Wi-Fi. A two-second clip of the scream
 
@@ -833,6 +976,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** McCoy (DeForest Kelley), Saavik, Kirk and his son David (Merritt Butrick)
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 1:16:32 to 1:17:06 (34 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html). It's "a no-win scenario", not "the"
 - **Use it for:** academic integrity, and assessment design. *"I changed the conditions of the test"* is every student who found the answers online. "If you're not cheating, you're not trying" is a sports saying; this is the film's reply to it
 
@@ -847,6 +991,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk to Khan, over the intercom, luring the Reliant into the nebula
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 1:21:36 to 1:21:50 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** a clever plan undone by something obvious. *"The AI that wrote my code"*
 
@@ -865,6 +1010,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Spock and Kirk, through the glass. The dots are where Spock breaks off and Kirk finishes his sentence
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 1:37:43 to 1:38:28 (45 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** the real test is never the exam. Handle with care: it's a death scene
 
@@ -879,6 +1025,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk's eulogy. *The Search for Spock* opens with it again
 - **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 1:40:18 to 1:40:34 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** an acknowledgements slide for a mentor or a retiring colleague. Not for a joke
 
@@ -897,6 +1044,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Sulu (George Takei) and Kirk, with Chekov (Walter Koenig)
 - **IMDb:** [The Search for Spock](https://www.imdb.com/title/tt0088170/) · [quotes](https://www.imdb.com/title/tt0088170/quotes/)
+- **Time:** 0:33:05 to 0:33:15 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 3, The Search for Spock [1984] -imdb-tt0088170.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie3.html)
 - **Use it for:** when the extension request is refused. *"The word is no. I am therefore submitting anyway"*
 
@@ -911,6 +1059,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk to McCoy, after Sybok (Laurence Luckinbill) takes McCoy's pain away
 - **IMDb:** [The Final Frontier](https://www.imdb.com/title/tt0098382/) · [quotes](https://www.imdb.com/title/tt0098382/quotes/)
+- **Time:** 1:14:14 to 1:14:33 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 5, The Final Frontier [1989] -imdb-tt0098382.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie5.html)
 - **Use it for:** learning from failure, feedback that stings
 
@@ -925,6 +1074,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk. Spock asks it again a moment later: "You have not answered his question"
 - **IMDb:** [The Final Frontier](https://www.imdb.com/title/tt0098382/) · [quotes](https://www.imdb.com/title/tt0098382/quotes/)
+- **Time:** 1:28:55 to 1:29:05 (10 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 5, The Final Frontier [1989] -imdb-tt0098382.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie5.html)
 - **Use it for:** questioning requirements. *"What does a to-do app need with a blockchain?"*
 
@@ -941,6 +1091,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Spock and Valeris (Kim Cattrall), his protégée
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 0:16:36 to 0:17:12 (37 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** succession planning, mentoring, a handover to the next tutor. "Logic is the beginning of wisdom" for a first class
 
@@ -957,6 +1108,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Spock, on why he volunteered Kirk to escort the Klingon chancellor
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 0:11:04 to 0:11:15 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** only the biggest sceptic can sell the change. *"Only the strictest lecturer could allow AI"*
 
@@ -991,6 +1143,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Gorkon to Kirk, as the Klingons leave. It's Gorkon's line, not Kirk's
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 0:25:08 to 0:25:25 (17 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** older staff and new technology. A TNA on digital skills
 
@@ -1007,6 +1160,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Spock, borrowing from Sherlock Holmes, and Uhura (Nichelle Nichols)
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 0:50:51 to 0:51:04 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** debugging
 
@@ -1037,6 +1191,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Spock and Kirk, in the dark after Valeris's betrayal. One scene
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 1:29:48 to 1:30:35 (47 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html). The dots are Spock's pause
 - **Use it for:** older trainers and new technology; group projects and individual responsibility; mistakes ("Everybody's human")
 
@@ -1053,6 +1208,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Lojur (Boris Lee Krutonog), the helmsman, and Captain Sulu
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 1:34:04 to 1:34:09 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** the last night before a deadline
 
@@ -1073,6 +1229,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** General Chang (Christopher Plummer), quoting Shakespeare over the comm, and McCoy to Spock, rebuilding a torpedo. Cut together from one battle
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 1:36:43 to 1:37:32 (49 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** the colleague who quotes the module descriptor at you; a 9am Monday lab
 
@@ -1087,6 +1244,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk to Azetbur (Rosanna DeSoto), Gorkon's daughter
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 1:39:43 to 1:40:08 (25 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** resistance to change, a limitation of any TNA. Fits Assignment 2
 
@@ -1103,6 +1261,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Uhura and Spock. Kirk answers with "Second star to the right, and straight on 'til morning"
 - **IMDb:** [The Undiscovered Country](https://www.imdb.com/title/tt0102975/) · [quotes](https://www.imdb.com/title/tt0102975/quotes/)
+- **Time:** 1:42:03 to 1:42:36 (34 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 6, The Undiscovered Country [1991] -imdb-tt0102975.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** a new policy from management. Spock's dry reply is the joke
 
@@ -1123,6 +1282,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk and Captain Harriman (Alan Ruck). A running joke: the medical staff "doesn't arrive 'til Tuesday", and when there are no torpedoes Kirk says "**Don't tell me. Tuesday.**"
 - **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
+- **Time:** 0:09:22 to 0:09:34 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** the feature that isn't ready on demo day; the lab PCs that arrive after the course
 
@@ -1139,6 +1299,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Harriman and Kirk, just before Kirk is lost
 - **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
+- **Time:** 0:13:52 to 0:14:12 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** delegation; a project manager who keeps writing the code
 
@@ -1157,6 +1318,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk and Picard (Patrick Stewart)
 - **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
+- **Time:** 1:33:55 to 1:34:10 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** the experienced learner who resents being trained. Prior learning
 
@@ -1171,6 +1333,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Kirk to Picard, before they leave the Nexus
 - **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
+- **Time:** 1:38:35 to 1:38:45 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
 - **Use it for:** why teachers stay in the classroom instead of going into management
 
@@ -1185,6 +1348,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** the Borg cube, over the fleet's frequency
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 0:08:01 to 0:08:19 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** AI tools, Microsoft Teams, a merger of two courses. *"We will add your technological distinctiveness to our training data"*
 
@@ -1229,6 +1393,28 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 ----
 
 ## Star Trek: First Contact (1996)
+<!-- 325 -->
+
+**Scene: engineering, the Borg Queen switches on Data's emotion chip**
+
+> Data: "Somehow I question your motives."
+>
+> Borg Queen: "That is because you haven't been properly ...stimulated yet."
+>
+> Data: *[laughs]* "You have reactivated my emotion chip. Why?"
+>
+> Borg Queen: "**Don't be frightened.**"
+>
+> Data: "**I am not frightened.**"
+
+- **Who:** Data (Brent Spiner) and the Borg Queen (Alice Krige), a few lines after "I bring order to chaos" in the same scene. It's "frightened", not "afraid"
+- **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html) [🔗](<../my-fetches/chakoteya-star-trek/movie8.html>)
+- **Use it for:** the learner before their first presentation or live demo, who is clearly frightened
+
+----
+
+## Star Trek: First Contact (1996)
 <!-- 68 -->
 
 **Scene: the corridors, with Lily**
@@ -1239,6 +1425,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Lily (Alfre Woodard) and Picard
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 0:50:21 to 0:50:36 (15 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** motivation and Herzberg (lesson 015). You've gone off this one; kept for the record
 
@@ -1257,6 +1444,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** the Borg Queen and Data
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 1:02:20 to 1:02:45 (25 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** self-assessment, the learner who rates every skill 5 out of 5. The Queen's reply for a heated code review
 
@@ -1291,6 +1479,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Picard, smashing the model ships. Lily answers: "See you around, Ahab"
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 1:20:39 to 1:21:11 (32 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html). It's "Not again"
 - **Use it for:** a firm deadline or policy. *"No more extensions"*
 
@@ -1329,6 +1518,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Lily and Picard, as he goes back for Data
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 1:27:59 to 1:28:26 (27 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** peer support; a student who goes back to help a classmate
 
@@ -1353,6 +1543,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Picard and the Borg Queen, with Data in a Borg alcove. A speech of Picard's is cut from the middle
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 1:30:50 to 1:32:22 (92 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** volunteers. *"Who will present first?" "Are you offering yourself to us?"* "You flatter yourself" for anyone who thinks the marker singled them out
 
@@ -1389,6 +1580,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Data and Picard, after the Queen is dead
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Time:** 1:39:22 to 1:39:51 (29 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** temptation and academic integrity. *"Were you tempted to use ChatGPT?" "0.68 seconds"*. Also page load times
 
@@ -1431,6 +1623,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Picard and Anij (Donna Murphy), who is 300 years old. Two moments from one walk
 - **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
+- **Time:** 0:43:12 to 0:43:56 (45 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Insurrection [1998] -imdb-tt0120844.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html). Picard finishes her sentence, hence the dots
 - **Use it for:** the centuries line for any course on learning; the trust line for mature learners and rapport
 
@@ -1485,6 +1678,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Data, singing at Riker and Troi's wedding, and Worf, appalled
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 0:08:14 to 0:08:29 (15 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** the end-of-term party; a sunny forecast in a project plan
 
@@ -1501,6 +1695,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Shinzon (Tom Hardy), Picard's clone, and Picard, his prisoner
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 0:54:13 to 0:55:01 (48 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** reflective practice; the trainer and the trainee learn from each other
 
@@ -1521,6 +1716,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Picard and Data, after Picard quotes "For now we see through a glass, darkly"
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 1:10:41 to 1:11:08 (27 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** a growth mindset; the difference between two learners with the same ability
 
@@ -1537,6 +1733,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Picard to Shinzon, by projection. Two moments from one conversation
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 1:14:53 to 1:16:06 (73 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** potential, feedback. Your line: *"You made the wrong choice, now make the right one"*
 
@@ -1555,6 +1752,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 - **Who:** Picard, just before he rams the Scimitar, and Shinzon
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 1:27:48 to 1:28:13 (25 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
 - **Use it for:** evaluations and self-assessment; a student who proves the feedback wrong. "Tough little ship" isn't in the transcript, so I left it out
 
@@ -2922,7 +3120,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 > Joker: "You're not Batman!"
 
 - **Who:** Terry as Batman, and the Joker (voiced by Mark Hamill). The dots are the subtitles' own
-- **Time:** 1:08:18 to 1:08:55 in your copy
+- **Time:** 1:08:16 to 1:08:57 (41 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Beyond; Return of the Joker [2000] -imdb-tt0233298.srt>)
 - **IMDb:** [Batman Beyond: Return of the Joker](https://www.imdb.com/title/tt0233298/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Beyond; Return of the Joker [2000] -imdb-tt0233298.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond:_Return_of_the_Joker) [🔗](<../my-fetches/wikiquote/Batman_Beyond__Return_of_the_Joker.wiki>)
 - **Use it for:** heckling, and why it works. Find what someone needs and take it away
@@ -3003,6 +3201,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Alfred (Michael Caine) and Thomas Wayne (Linus Roache), after young Bruce falls down the well. Usually quoted as "Why do we fall, Bruce?"
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 0:10:37 to 0:10:47 (10 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins). It doesn't name speakers, so check who says "And why do we fall?"
 - **Use it for:** failure, feedback, the resit
 
@@ -3019,6 +3218,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Detective Flass (Mark Boone Junior), hanging upside down, and Batman (Christian Bale)
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 1:14:58 to 1:15:03 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins). "Who are you? Where are you?" isn't in it
 - **Use it for:** getting a straight answer out of a group about who did the work
 
@@ -3033,6 +3233,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Ra's al Ghul (Liam Neeson) to Bruce, before setting the manor on fire
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 1:48:34 to 1:48:41 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins)
 - **Use it for:** carefully, and only where it's clearly a joke. Payback for a harsh code review
 
@@ -3055,6 +3256,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Alfred and Bruce, under the beam and then in the cave. One scene
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 1:50:01 to 1:51:26 (85 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins) · [Wikiquote](https://en.wikiquote.org/wiki/Batman_Begins)
 - **Use it for:** the push-ups line for theory with no practice: *"What's the point of all those tutorials if you can't deploy a bloody website?"* "Never" for a learner who expects you to give up on them
 
@@ -3073,6 +3275,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Ra's al Ghul (Liam Neeson) to Batman (Christian Bale). The advice was from Bruce's training with the League of Shadows: "Theatricality and deception are powerful agents." It's "Well, well. You took", not "I see you took"
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 1:58:22 to 1:58:31 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Use it for:** the learner who heard "make your presentation engaging" and arrived in costume, with sound effects and 40 animations. Or say it about yourself, on this deck
 
@@ -3089,6 +3292,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Ra's al Ghul and Batman. Batman ends it with "I won't kill you, but I don't have to save you"
 - **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 2:02:47 to 2:03:09 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins) · [Wikiquote](https://en.wikiquote.org/wiki/Batman_Begins)
 - **Use it for:** a goal that isn't the obvious one. The aim was never to stop the problem, but to redirect it
 
@@ -3103,6 +3307,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** the Joker (Heath Ledger). He tells a different story each time. The rest of this speech is violent; use only the first line
 - **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:30:06 to 0:30:19 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** war stories from past projects. *"Wanna know how I got these grey hairs? Supervising FYPs"*
 
@@ -3117,6 +3322,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Harvey Dent (Aaron Eckhart). Batman repeats it to Gordon at the end
 - **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:20:52 to 0:20:59 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** the friendly tutor who became the strict marker
 
@@ -3139,6 +3345,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Sal Maroni (Eric Roberts) and Batman
 - **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:05:36 to 1:06:02 (26 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** that one group member. Or the module nobody wants to take
 
@@ -3153,6 +3360,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** the Joker, when neither ferry blows the other up
 - **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:12:46 to 2:13:02 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** group projects. Pairs with Thanos's "Fine. I'll do it myself"
 
@@ -3173,6 +3381,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Gordon's son and Commissioner Gordon (Gary Oldman). Jim's question comes first, as you said
 - **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:23:35 to 2:24:23 (48 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** whoever takes the blame. The QA tester, the module coordinator
 
@@ -3193,6 +3402,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Batman (Christian Bale) and Selina Kyle (Anne Hathaway)
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:53:35 to 0:54:03 (29 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** *"This isn't a test. It's a formative assessment."* "Where's the fun in that?" for any rule
 
@@ -3207,6 +3417,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Bane (Tom Hardy) to Batman
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:14:06 to 1:14:20 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_Rises)
 - **Use it for:** *"You merely adopted Git. I was born in it"*
 
@@ -3223,6 +3434,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Selina and Batman
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 2:10:16 to 2:10:29 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_Rises)
 - **Use it for:** the final push before submission
 
@@ -3237,6 +3449,7 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 - **Who:** Selina, having just shot Bane with the Bat-Pod's cannon. The callback to "No guns. No killing"
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 2:22:48 to 2:22:57 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** a rule a colleague doesn't share. *"About the whole no-AI thing..."*
 
@@ -3313,6 +3526,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Logan (Hugh Jackman) and Rogue (Anna Paquin), who has stowed away in his trailer. It's "don't know or don't care", not "can't or won't"
 - **IMDb:** [X-Men](https://www.imdb.com/title/tt0120903/) · [quotes](https://www.imdb.com/title/tt0120903/quotes/)
+- **Time:** 0:15:25 to 0:15:38 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men [2000] -imdb-tt0120903.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men)
 - **Use it for:** a learner who hasn't submitted. Barriers against motivation, a TNA question in itself
 
@@ -3327,6 +3541,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Magneto (Ian McKellen), holding the police at gunpoint with their own guns, to Charles (Patrick Stewart), who lets Toad and Sabretooth go
 - **IMDb:** [X-Men](https://www.imdb.com/title/tt0120903/) · [quotes](https://www.imdb.com/title/tt0120903/quotes/)
+- **Time:** 0:57:00 to 0:57:33 (33 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men [2000] -imdb-tt0120903.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men) · [Wikiquote](https://en.wikiquote.org/wiki/X-Men_(film))
 - **Use it for:** the trade-offs in any training plan. What you give up to fit the timetable
 
@@ -3343,6 +3558,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Magneto and Logan, as Rogue is strapped into Magneto's machine
 - **IMDb:** [X-Men](https://www.imdb.com/title/tt0120903/) · [quotes](https://www.imdb.com/title/tt0120903/quotes/)
+- **Time:** 1:20:33 to 1:20:48 (15 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men [2000] -imdb-tt0120903.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men)
 - **Use it for:** managers who mandate training they won't do themselves. Bleep it for some rooms
 
@@ -3357,7 +3573,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Charles (James McAvoy) to Erik (Michael Fassbender), who is packing to go after Shaw alone
 - **IMDb:** [X-Men: First Class](https://www.imdb.com/title/tt1270798/) · [quotes](https://www.imdb.com/title/tt1270798/quotes/)
-- **Time:** 0:43:10 in your copy
+- **Time:** 0:42:56 to 0:43:15 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; First Class [2011] -imdb-tt1270798.srt>)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; First Class [2011] -imdb-tt1270798.srt>) · [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-first-class). It's "has got friends" and "could do with some"
 - **Use it for:** peer support, study groups, pair programming
 
@@ -3375,7 +3591,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 > Erik: "**Peace was never an option.**"
 
 - **Who:** Charles (James McAvoy) and Erik (Michael Fassbender), over a chess game
-- **Time:** 1:27:14 to 1:27:34 in your copy
+- **Time:** 1:27:12 to 1:27:36 (24 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; First Class [2011] -imdb-tt1270798.srt>)
 - **IMDb:** [X-Men: First Class](https://www.imdb.com/title/tt1270798/) · [quotes](https://www.imdb.com/title/tt1270798/quotes/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; First Class [2011] -imdb-tt1270798.srt>). They don't name speakers
 - **Use it for:** a project that only solves the symptom; arguing a decision already made. "Peace was never an option" for the group that won't compromise
@@ -3393,6 +3609,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** members of the meeting, then Magneto (Ian McKellen), after the cure is announced
 - **IMDb:** [X-Men: The Last Stand](https://www.imdb.com/title/tt0376994/) · [quotes](https://www.imdb.com/title/tt0376994/quotes/)
+- **Time:** 0:18:23 to 0:18:45 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-the-last-stand). The script doesn't name the first two speakers
 - **Use it for:** ignoring the warning signs of a failing FYP: no commits, no log, no supervisor meetings
 
@@ -3409,6 +3626,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Pyro (Aaron Stanford) and Magneto. It heads your FYP thesis template and your agriculture data analytics report, credited "Eric Lensherr, 2006" (the usual spelling is Erik Lehnsherr)
 - **IMDb:** [X-Men: The Last Stand](https://www.imdb.com/title/tt0376994/) · [quotes](https://www.imdb.com/title/tt0376994/quotes/)
+- **Time:** 0:57:40 to 0:57:59 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-the-last-stand). It's "you'll ever know"
 - **Use it for:** an acknowledgements page. Swap in your supervisor's name
 
@@ -3429,6 +3647,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** young Charles (James McAvoy) and Erik (Michael Fassbender)
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 0:50:01 to 0:50:21 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** a group project after a falling-out; an excuse that doesn't excuse
 
@@ -3467,6 +3686,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Charles, grabbing Erik, then Erik, whose rage shakes the plane until Hank (Nicholas Hoult) shouts at him
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 0:50:27 to 0:51:11 (44 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** the group member who missed every meeting: "Where were you?"
 
@@ -3481,6 +3701,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** old Charles (Patrick Stewart) to his younger self, in Charles's mind
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 1:22:56 to 1:23:09 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** the resit, a learner who is falling behind, supports
 
@@ -3495,6 +3716,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** old Charles to young Charles. He ends: "Please, Charles, we need you to hope again"
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 1:23:31 to 1:24:08 (37 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** empathy in teaching; why a TNA listens to learners' problems instead of avoiding them
 
@@ -3511,6 +3733,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** probably Bobby (Shawn Ashmore), then old Charles. A separate scene from Magneto's "All those years" line
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 1:26:32 to 1:26:49 (17 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-days-of-future-past). It doesn't name the first speaker
 - **Use it for:** reading old learner feedback before changing a course
 
@@ -3528,7 +3751,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 > Logan: "**But we can change that, right?**"
 
 - **Who:** Hank (Nicholas Hoult) and Logan (Hugh Jackman). Logan's last line as you remember it; the subtitles don't name speakers
-- **Time:** 1:44:56 to 1:45:05 in your copy (the cinema version, not the Rogue Cut)
+- **Time:** 1:44:54 to 1:45:08 (14 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Use it for:** the FYP plan in week 3. *"With this Gantt chart, do I make the deadline?" "No. But we can change that."*
@@ -3544,6 +3767,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** old Magneto (Ian McKellen), dying, to old Charles, as the Sentinels break in
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 1:50:44 to 1:50:58 (14 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_Days_of_Future_Past)
 - **Use it for:** lecturers and students, or two departments, who should be on the same side
 
@@ -3560,6 +3784,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Hank and young Charles, after he lets Raven and Erik go
 - **IMDb:** [Days of Future Past](https://www.imdb.com/title/tt1877832/) · [quotes](https://www.imdb.com/title/tt1877832/quotes/)
+- **Time:** 1:56:42 to 1:56:56 (15 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Days of Future Past [2014] -imdb-tt1877832.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-days-of-future-past). It's "there's going to be a time", not "come a time"
 - **Use it for:** the end of a course, or graduation
 
@@ -3574,6 +3799,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Apocalypse (Oscar Isaac), the first time he speaks after waking
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 0:44:03 to 0:44:23 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** a returning student after a break; a lecturer back from leave
 
@@ -3588,6 +3814,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Apocalypse to Psylocke (Olivia Munn) and Caliban. Earlier, in Cairo, he says to Storm (Alexandra Shipp) "My child, why do you enslave yourself?"
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 0:50:53 to 0:51:25 (33 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It's "They ruined", not "They've ruined"
 - **Use it for:** someone reorganising your folders, or breaking the build. "No more" is the punchline
 
@@ -3598,14 +3825,19 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 **Scene: Auschwitz, part 1**
 
+> Erik: "You shouldn't have brought me here."
+>
+> Apocalypse: "Why? **Are you afraid to be here? You can't escape it, Erik.**"
+>
 > Erik: "Who are you?"
 >
 > Apocalypse: "Elohim, Shen, Ra. **I've been called many names over many lifetimes. I am born of death.** I was there to spark and fan the flame of man's awakening, to spin the wheel of civilization. **And when the forest would grow rank and in need of clearing for new growth, I was there to set it ablaze.**"
 
 - **Who:** Erik (Michael Fassbender) and Apocalypse, at the camp where Erik's parents died
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
-- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
-- **Use it for:** a course redesign: clearing the old modules for new growth. Mind the setting
+- **Time:** 1:00:18 to 1:01:07 (48 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse) · subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Use it for:** a course redesign: clearing the old modules for new growth. "You can't escape it" for the module a learner keeps putting off. Mind the setting
 
 ----
 
@@ -3620,6 +3852,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Erik and Apocalypse
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:01:05 to 1:01:25 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** "You don't know your own strength, but I do" for a nervous learner. A serious setting: use with care
 
@@ -3634,6 +3867,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Apocalypse, as Erik tears the camp apart
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:01:25 to 1:02:32 (67 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse)
 - **Use it for:** potential. A learner finding what they can do
 
@@ -3653,10 +3887,28 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 > Charles: "**I have never felt power like this before.**"
 
 - **Who:** Angel (Ben Hardy) and Apocalypse, as he takes over Charles's mind through Cerebro. Hank and the others shout "Charles, get out!" between the lines
-- **Time:** about 40 minutes in
+- **Time:** 1:10:12 to 1:10:55 (43 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It doesn't name speakers, so check who asks "What do you see?"
 - **Use it for:** looking at the survey data and seeing the problem; access granted to a shared drive; your first real dataset
+
+----
+
+## X-Men: Apocalypse (2016)
+<!-- 341 -->
+
+**Scene: the mansion, Apocalypse takes Charles**
+
+> Alex: "Hey! Hey, asshole!"
+>
+> Apocalypse: "**All will be revealed, my child.**"
+
+- **Who:** Alex Summers (Lucas Till), running at Apocalypse (Oscar Isaac) as he takes Charles from Cerebro
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:14:27 to 1:14:34 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>). It's "my child", not "my son"
+- **Check:** who shouts "Hey, asshole!"; the subtitles don't name speakers
+- **Use it for:** the first slide of any reveal.js deck, and the name of the scripts behind this one: TAP, The Apocalypse Plugin
 
 ----
 
@@ -3675,6 +3927,7 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 - **Who:** Charles (James McAvoy), turning Apocalypse's line back on him, and Apocalypse
 - **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:59:41 to 2:00:37 (56 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It doesn't name speakers
 - **Use it for:** a talk's opening and closing: say "Thank you for letting me in" early, then turn it round at the end. "You're in my house now" for your own classroom
 
@@ -3812,6 +4065,85 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ----
 
+## The Simpsons: "Bart the Murderer" (1991)
+<!-- 326 -->
+
+**Scene: the Legitimate Businessman's Social Club, no bartender**
+
+> *[A rival boss was promised the finest Manhattans in Springfield, and the bartender isn't here]*
+>
+> Fat Tony: "I don't know what happened. Louie, make up some Manhattans."
+>
+> Louie: "I only know how to make wine spritzers."
+>
+> Rival boss: "What have I done to deserve this flat, flavorless Manhattan?"
+>
+> *[He kisses Fat Tony]*
+>
+> Rival boss: "Come on, boys."
+>
+> Fat Tony: "**The kiss of death. That's all I need.**"
+
+- **Who:** Fat Tony (voiced by Joe Mantegna), a rival boss and Louie. Bart has been the bartender, and he's late
+- **Episode:** season 3, episode 4
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701060/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
+- **Check:** the subtitles don't name speakers. Who says "The kiss of death"
+- **Use it for:** the one person who knew how to do the job, off sick on demo day. Louie's line for the group member whose only skill isn't the one needed
+
+----
+
+## The Simpsons: "Bart the Murderer" (1991)
+<!-- 335 -->
+
+**Scene: the club, a moment later, Bart arrives**
+
+> Fat Tony: "You are late for work."
+>
+> Bart: "Of course I'm late for work! Principal Skinner kept me after school."
+>
+> Fat Tony: "**Is Skinner causing you trouble?**"
+>
+> Bart: "He sure is, patron."
+>
+> Fat Tony: "Hmm. **Perhaps we should go to meet and greet this individual.**"
+
+- **Who:** Fat Tony and Bart (voiced by Nancy Cartwright), straight after the kiss of death. Skinner goes missing, and Bart is tried for his murder
+- **Episode:** season 3, episode 4
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701060/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
+- **Use it for:** the team member who turns up late and blames someone else. Or, as the tutor, offering to "meet and greet" whoever is holding up a group
+
+----
+
+## The Simpsons: "Bart the Murderer" (1991)
+<!-- 327 -->
+
+**Scene: the courtroom, who is the kingpin?**
+
+> Lionel Hutz: "Aren't you the head of this gang?"
+>
+> Fat Tony: "No. I just stop by the club to read the complimentary newspaper."
+>
+> Lionel Hutz: "Then who is the kingpin, the capo di tutti capi?"
+>
+> Fat Tony: "**That's the guy.**"
+>
+> Fat Tony's men: "Hey! Forgive me, Don Bartholomew. We tried to stop the kid, but he wouldn't quit. **Prostitution, loan sharking, numbers. The kid liked to wet his beak in everything.**"
+>
+> Lionel Hutz: "You've been his father for ten years. Do you really think he could be the leader of a murderous criminal syndicate?"
+>
+> Homer: "Well, not the leader. I mean... **Oh, it's true, it's true! All the pieces fit.**"
+
+- **Who:** Fat Tony, his men, Lionel Hutz (voiced by Phil Hartman) and Homer (voiced by Dan Castellaneta), at Bart's trial. It's "wet his beak in everything", not "controlled everything"
+- **Episode:** season 3, episode 4
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701060/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
+- **Check:** who asks the questions (Hutz defends Bart, so it may be the prosecutor), and which of the men speaks
+- **Use it for:** a group project where everyone points at the same person. "Who wrote this?" "That's the guy."
+
+----
+
 ## The Simpsons: "Burns' Heir" (1994)
 <!-- 128 -->
 
@@ -3848,6 +4180,30 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ----
 
+## The Simpsons: "Homie the Clown" (1995)
+<!-- 328 -->
+
+**Scene: Don Vittorio's party, after the loop**
+
+> Don Vittorio: "Grazie. Grazie. **You have brought great joy to this old Italian stereotype.**"
+>
+> Fat Tony: "No, no, Don Vittorio. You're not..."
+>
+> Don Vittorio: "**Yes, I am. I know it. I am.** Anyway, thank you, Krusty."
+>
+> Krusty: "Oh, you're welcome. So we're even now, huh?"
+>
+> Don Vittorio: "**No, we just won't kill you. But you still owe us the money.**"
+
+- **Who:** Don Vittorio DiMaggio, the old mob boss (voiced by Joe Mantegna), and Fat Tony, after Homer and the real Krusty ride the unicycle through the loop together. It's "great joy", not "much joy"
+- **Episode:** season 6, episode 15
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701128/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s06e15) [🔗](<../my-fetches/springfield-scripts/simpsons/s06e15.txt>)
+- **Check:** the subtitles don't name speakers: who says "No, no, Don Vittorio", and whether Homer or Krusty asks if they're even
+- **Use it for:** the end of an extension. "We won't fail you. But you still owe us the report"
+
+----
+
 ## The Simpsons: "The PTA Disbands" (1995)
 <!-- 130 -->
 
@@ -3877,6 +4233,96 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701298/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e02)
 - **Use it for:** praise and reward; a good manager. Scorpio says productivity is up 2% because of Homer's "motivational techniques like doughnuts". Bond fans: Scorpio's agent asks "So, do you expect me to talk?" (see Goldfinger, topic 13)
+
+----
+
+## The Simpsons: "The Twisted World of Marge Simpson" (1997)
+<!-- 329 -->
+
+**Scene: a funeral, Homer asks Fat Tony for help**
+
+> Homer: "**You're my last hope.** I've never reached out to you before but my wife is in her hour of need. Your help could make all the difference in the world."
+>
+> Fat Tony: "Okay."
+>
+> One of his men: "**See, boss? I told ya that ad in the church bulletin would pay off.**"
+
+- **Who:** Homer and Fat Tony, after Marge's pretzel business is ruined by the Investorettes. The scene is staged like a prayer
+- **Episode:** season 8, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
+- **Check:** whether Legs or Louie says the church bulletin line
+- **Use it for:** advertising your office hours. Someone did read the notice on Moodle
+
+----
+
+## The Simpsons: "The Twisted World of Marge Simpson" (1997)
+<!-- 330 -->
+
+**Scene: Moe's bathroom, the favour**
+
+> Fat Tony: "Now, Homer, as you no doubt recall you were done a favor by our, uh, how shall I say, Mafia crime syndicate."
+>
+> Homer: "Oh, yeah."
+>
+> Fat Tony: "**Now the time has come for you to do us a favor.**"
+>
+> Homer: "**You mean the mob only did me a favor to get something in return? Oh, Fat Tony!** I will say good day to you, sir."
+>
+> Fat Tony: "Okay. I will go."
+>
+> *[He leaves]*
+>
+> Fat Tony: "**Hey, wait a minute.**"
+
+- **Who:** Fat Tony and Homer (voiced by Dan Castellaneta). It's "Oh, Fat Tony!", not "for shame". Wikiquote has "I will bid good day to you, sir"; the subtitles have "say"
+- **Episode:** season 8, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_8) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_8.wiki>)
+- **Use it for:** the free tutorial that turns out to need your email address. Or "I helped you with your code, now review mine"
+
+----
+
+## The Simpsons: "The Twisted World of Marge Simpson" (1997)
+<!-- 331 -->
+
+**Scene: Dead Weasel Road, the mob meets Marge**
+
+> Marge: "Who are you?"
+>
+> Fat Tony: "**We are your business partners and as such, we are entitled to a percentage of your profits something in the area of 100%.**"
+>
+> Marge: "What are you talking about?"
+>
+> Fat Tony: "**We suggest you have a conversation with your husband.** You have 24 hours to give us our money. **And to show you we're serious, you have 12 hours.**"
+
+- **Who:** Fat Tony and Marge (voiced by Julie Kavner), lured to a fake address
+- **Episode:** season 8, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
+- **Check:** the subtitles don't name speakers. It may be Legs or Louie, not Fat Tony
+- **Use it for:** a deadline brought forward. "To show you we're serious, the report is due Friday"
+
+----
+
+## The Simpsons: "The Twisted World of Marge Simpson" (1997)
+<!-- 332 -->
+
+**Scene: the Simpsons' house, the mob comes for the money**
+
+> Fat Tony: "Sorry we're late. Could we have the money now?"
+>
+> Marge: "The answer is no."
+>
+> Fat Tony: "I'm afraid I must insist. **You see, my wife she has been most vocal on the subject of the pretzel monies: "Where's the money? When are you going to get the money? Why aren't you getting the money now?" And so on. So, please, da money.**"
+>
+> Homer: "You heard her. She said no."
+
+- **Who:** Fat Tony, Marge and Homer. It's "most vocal", not "most insistent"
+- **Episode:** season 8, episode 11
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701266/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s08e11) [🔗](<../my-fetches/springfield-scripts/simpsons/s08e11.txt>)
+- **Use it for:** chasing late work, rewritten: *"The external examiner has been most vocal on the subject of the reports: 'Where's the report? When is the report coming? Where's the source code?' And so on. So, please, da report."*
 
 ----
 
@@ -3913,6 +4359,31 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **IMDb:** [episode](https://www.imdb.com/title/tt0701181/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s10e21). It doesn't name speakers; "glavin" is Frink's
 - **Use it for:** science and data: check your units and your instrument before announcing results. Survey data that looks too good
+
+----
+
+## The Simpsons: "The Mansion Family" (2000)
+<!-- 333 -->
+
+**Scene: the Mayo Clinic, Mr Burns's results**
+
+> Doctor: "Mr. Burns, I'm afraid you are the sickest man in the United States. **You have everything.**"
+>
+> *[The diseases all try to get through the door at once, and none of them can]*
+>
+> Doctor: "We call it Three Stooges syndrome."
+>
+> Mr Burns: "**So what you're saying is I'm indestructible.**"
+>
+> Doctor: "Oh, no, no. **In fact, even a slight breeze could...**"
+>
+> Mr Burns: "**Indestructible.**"
+
+- **Who:** the doctor and Mr Burns (voiced by Harry Shearer). The doctor explains it with a door and novelty germs. It's "indestructible", not "invincible"
+- **Episode:** season 11, episode 12
+- **IMDb:** [episode](https://www.imdb.com/title/tt0701250/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s11e12) [🔗](<../my-fetches/springfield-scripts/the-simpsons/s11e12.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_11) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_11.wiki>)
+- **Use it for:** code that works only because all its bugs cancel each other out. Fix one and the slightest breeze brings it down
 
 ----
 
@@ -4141,6 +4612,33 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ----
 
+## Archer: "Placebo Effect" (2011)
+<!-- 334 -->
+
+**Scene: the warehouse, Archer questions Mikey**
+
+> Mikey: "Franny Delaney! He runs everything out here in Brooklyn! Numbers, protection, dope, prostitution..."
+>
+> Archer: "**Victimless crimes, Mikey!** Tell me about the counterfeit chemo drugs!"
+>
+> Mikey: "They make the pharmacist buy the real stuff! Delaney sells it to...I swear I don't know who! But they switch it with the fake stuff here!"
+>
+> *[He looks at the workers]*
+>
+> Mikey: "And those pricks do all the packing!"
+>
+> Archer: "You guys are in on this? **And I was worried about sounding racist!**"
+>
+> Lana: "**Were you?**"
+
+- **Who:** Archer (voiced by H. Jon Benjamin), Mikey, and Lana (voiced by Aisha Tyler), in the episode where Archer has breast cancer and finds his chemo drugs are fake. "Victimless crimes" is said to Mikey, not Lana. The scene goes on with a slur from Mikey, so the entry stops at Lana
+- **Episode:** season 2, episode 9
+- **IMDb:** [episode](https://www.imdb.com/title/tt1883469/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Archer_(season_2)) [🔗](<../my-fetches/wikiquote/Archer_(season_2).wiki>) · [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=archer&episode=s02e09) [🔗](<../my-fetches/springfield-scripts/archer/s02e09.txt>)
+- **Use it for:** carefully. Lana's "Were you?" for anyone who says they were worried about something they clearly weren't: "I was worried about missing the deadline." "Were you?"
+
+----
+
 ## Archer: "Legs" (2013)
 <!-- 301 -->
 
@@ -4364,6 +4862,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 
 - **Who:** Mr Bean (Rowan Atkinson), at the Grierson gallery in Los Angeles
 - **IMDb:** [Bean](https://www.imdb.com/title/tt0118689/) · [quotes](https://www.imdb.com/title/tt0118689/quotes/)
+- **Time:** 1:03:35 to 1:04:35 (60 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Bean [1997] -imdb-tt0118689.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Bean_(film))
 - **Use it for:** presentations with nothing to say, and font size. Fits the 27px rule in Assignment 2
 
@@ -4378,6 +4877,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 
 - **Who:** Mr Bean. The middle of the speech is cut, so check the order before you clip it
 - **IMDb:** [Bean](https://www.imdb.com/title/tt0118689/) · [quotes](https://www.imdb.com/title/tt0118689/quotes/)
+- **Time:** 1:04:36 to 1:06:18 (101 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Bean [1997] -imdb-tt0118689.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Bean_(film))
 - **Use it for:** the conclusion slide. *"I'm getting quite near the end of this analysis"* for a presenter over time
 
@@ -4390,6 +4890,7 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 
 - **Who:** David Langley (Peter MacNicol) to Bean, in the hospital waiting room, as remembered
 - **IMDb:** [Bean](https://www.imdb.com/title/tt0118689/) · [quotes](https://www.imdb.com/title/tt0118689/quotes/)
+- **Time:** 1:08:53 to 1:09:01 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Bean [1997] -imdb-tt0118689.srt>)
 - **Use it for:** the risk of a student left unsupervised, or "don't touch production"
 - **Check:** not on Wikiquote, and no script found. Wording, and who he goes to see
 
@@ -4721,6 +5222,7 @@ Villains, Q and the vivas
 
 - **Who:** Sean Connery and Gert Fröbe, Bond strapped under the laser. *The Simpsons* parodies it in "You Only Move Twice" (topic 11)
 - **IMDb:** [Goldfinger](https://www.imdb.com/title/tt0058150/) · [quotes](https://www.imdb.com/title/tt0058150/quotes/)
+- **Time:** 0:52:10 to 0:52:18 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Goldfinger [1964] -imdb-tt0058150.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Goldfinger_(film))
 - **Use it for:** the viva, the demo. *"Do you expect me to present?" "No, I expect you to answer questions"*
 
@@ -4739,6 +5241,7 @@ Villains, Q and the vivas
 
 - **Who:** Bond (Daniel Craig) and the bartender
 - **IMDb:** [Casino Royale](https://www.imdb.com/title/tt0381061/) · [quotes](https://www.imdb.com/title/tt0381061/quotes/)
+- **Time:** 1:31:13 to 1:31:20 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Casino Royale [2006] -imdb-tt0381061.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=casino-royale)
 - **Use it for:** *"Tabs or spaces?"*, *"React or Vue?"*: debates that don't matter yet
 
@@ -4767,6 +5270,7 @@ Villains, Q and the vivas
 
 - **Who:** Bond and Q (Ben Whishaw). Q speaks first; I had them the wrong way round
 - **IMDb:** [Skyfall](https://www.imdb.com/title/tt1074638/) · [quotes](https://www.imdb.com/title/tt1074638/quotes/)
+- **Time:** 0:39:23 to 0:39:52 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Skyfall [2012] -imdb-tt1074638.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Skyfall)
 - **Use it for:** mature and young learners, staff and students. A TNA on digital skills by age; cyber security
 
@@ -4795,6 +5299,7 @@ Villains, Q and the vivas
 
 - **Who:** Daniel Craig's unnamed dealer, credited as XXXX, and Eddie Temple (Michael Gambon). The small talk is because Temple records his meetings
 - **IMDb:** [Layer Cake](https://www.imdb.com/title/tt0375912/) · [quotes](https://www.imdb.com/title/tt0375912/quotes/)
+- **Time:** 1:09:00 to 1:09:28 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Layer Cake [2004] -imdb-tt0375912.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=layer-cake). It doesn't name speakers, so check who says which line. It's "take your conversations away with you"
 - **Use it for:** recording lectures and meetings, consent, GDPR
 
@@ -5115,6 +5620,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Optimus Prime (voiced by Peter Cullen) and Megatron (voiced by Frank Welker). The dots are the subtitles' own
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 0:19:19 to 0:20:28 (69 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>), which doesn't name most speakers, and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** exam day, or two groups pitching for the same project
 
@@ -5135,6 +5641,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Megatron, then an Autobot sends in the Dinobots, and Grimlock answers
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 0:18:29 to 0:18:58 (29 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Check:** who gives the order to the Dinobots; the subtitles don't say
 - **Use it for:** the hardest bug, given to the learner who loves a challenge
@@ -5166,6 +5673,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Unicron (voiced by Orson Welles) and the wrecked Megatron, who becomes Galvatron. The dots are the subtitles' own
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 0:30:14 to 0:30:56 (42 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Use it for:** terms and conditions, a software licence, an unpaid internship. Your bargaining posture is highly dubious
 
@@ -5184,6 +5692,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** a Quintesson judge, and Kup (voiced by Lionel Stander), on trial with Hot Rod
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 0:58:18 to 0:58:30 (12 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Check:** that it's Kup; the subtitles don't name the speaker
 - **Use it for:** a disciplinary hearing, or the appeals board, from the learner's side
@@ -5205,6 +5714,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Galvatron (voiced by Leonard Nimoy) and Unicron. The dots are the subtitles' own
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 1:07:20 to 1:08:48 (88 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** the assignment you were going to go easy on, before the class threatened you with a petition
 
@@ -5221,6 +5731,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Galvatron and Hot Rod (voiced by Judd Nelson), just before Hot Rod opens the Matrix. "We all must die", not "We must all die"
 - **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 1:14:38 to 1:14:49 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
 - **Use it for:** the deadline. We all must die sometime. Not today
 
@@ -5237,6 +5748,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Ironhide (voiced by Jess Harnell) and Optimus Prime (voiced by Peter Cullen)
 - **IMDb:** [Transformers](https://www.imdb.com/title/tt0418279/)
+- **Time:** 1:34:19 to 1:34:53 (35 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers [2007] -imdb-tt0418279.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers) [🔗](<../my-fetches/springfield-scripts/transformers.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers_(film)) [🔗](<../my-fetches/wikiquote/Transformers_(film).wiki>)
 - **Use it for:** first years, from the second years' point of view. They have much to learn, but were we so different?
 
@@ -5257,6 +5769,7 @@ The 1986 animated film and the live-action films, in date order
 
 - **Who:** Megatron (voiced by Hugo Weaving), Optimus Prime and Sentinel Prime (voiced by Leonard Nimoy). Wikiquote has "All I want is to be back in charge"; the subtitles have "All I wanted was"
 - **IMDb:** [Transformers: Dark of the Moon](https://www.imdb.com/title/tt1399103/)
+- **Time:** 2:22:24 to 2:23:18 (54 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers; Dark of the Moon [2011] -imdb-tt1399103.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-dark-of-the-moon) [🔗](<../my-fetches/springfield-scripts/transformers-dark-of-the-moon.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Dark_of_the_Moon) [🔗](<../my-fetches/wikiquote/Transformers__Dark_of_the_Moon.wiki>)
 - **Use it for:** plagiarism. You didn't cheat me, you cheated yourself
 
@@ -5267,6 +5780,76 @@ The 1986 animated film and the live-action films, in date order
 Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mandalorian, Chernobyl, The Boys and Wednesday, in date order
 
 <figure class="topic-photo"><img src="src/img/topics/tv-drama.jpg" alt="An old television set on a suburban road" /><figcaption><a class="ref media" href="#/media-used"><sup>19</sup></a> – An old television set</figcaption></figure>
+
+----
+
+## Buffy the Vampire Slayer: "Pangs" (1999)
+<!-- 342 -->
+
+**Scene: Giles's door, Spike asks to be invited in**
+
+> Spike: "It looks like they've done me for good."
+>
+> Buffy: "What are you saying?"
+>
+> Xander: "**Spike had a little trip to the vet, and now he doesn't chase the other puppies any more.**"
+>
+> Spike: "I can't bite anything. I can't even hit people."
+
+- **Who:** Spike (James Marsters), Buffy and Xander (Nicholas Brendon). The Initiative's chip stops Spike from hurting people. It's "chase the other puppies", not "play with"
+- **Episode:** season 4, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533469/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s04e08) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s04e08.txt>)
+- **Check:** who says "What are you saying?" and the vet line; the subtitles don't name speakers
+- **Use it for:** the confident student after one bad grade, suddenly quiet in class
+
+----
+
+## Buffy the Vampire Slayer: "Pangs" (1999)
+<!-- 343 -->
+
+**Scene: Giles's flat, Thanksgiving, arguing about the spirit**
+
+> Spike: "I just can't take all this namby-pamby boo-hooing about the bloody Indians."
+>
+> Willow: "Uh, the preferred term is-"
+>
+> Spike: "You won. All right? You came in and you killed them and you took their land. That's what conquering nations do. That's what Caesar did, and he's not going around saying, "I came, I conquered, I felt really bad about it." **The history of the world is not people making friends.** You had better weapons, and you massacred them. End of story."
+
+- **Who:** Spike, tied to a chair, and Willow (Alyson Hannigan), about a Chumash spirit taking revenge. The argument goes on in the next entry
+- **Episode:** season 4, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533469/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Buffy_the_Vampire_Slayer/Season_4) [🔗](<../my-fetches/wikiquote/Buffy_the_Vampire_Slayer_Season_4.wiki>) · [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s04e08) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s04e08.txt>). The subtitles shorten it ("Caesar did, and he didn't say")
+- **Use it for:** carefully. A discussion of whose point of view a case study takes, or who wrote the history. Not one for a joke slide, here of all places
+
+----
+
+## Buffy the Vampire Slayer: "Pangs" (1999)
+<!-- 344 -->
+
+**Scene: Giles's flat, the argument goes on**
+
+> Buffy: "Well, I think the Spaniards actually did a lot of-- Not that I don't like Spaniards."
+>
+> Spike: "Listen to you. How you gonna fight anyone with that attitude?"
+>
+> Willow: "We don't wanna fight anyone."
+>
+> Buffy: "I just wanna have Thanksgiving."
+>
+> Spike: "Heh. Yeah...Good luck."
+>
+> Willow: "If we could talk to him--"
+>
+> Spike: "You exterminated his race. **What could you possibly say that would make him feel better? It's kill or be killed here. Take your bloody pick.**"
+>
+> Xander: "**Maybe it's the syphilis talking, but... some of that made sense.**"
+
+- **Who:** Buffy, Spike, Willow and Xander, straight after the speech in the entry before. Xander has caught the spirit's syphilis
+- **Episode:** season 4, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533469/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Buffy_the_Vampire_Slayer/Season_4) [🔗](<../my-fetches/wikiquote/Buffy_the_Vampire_Slayer_Season_4.wiki>) · [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s04e08) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s04e08.txt>). The subtitles shorten it ("Caesar did, and he didn't say")
+- **Use it for:** Xander's line, for agreeing with someone you'd rather not agree with. Spike's speech only with care, as above
 
 ----
 
@@ -5622,7 +6205,7 @@ The original and prequel films, in story order
 > Anakin: "I'm a Jedi. I know I'm better than this."
 
 - **Who:** Anakin Skywalker (Hayden Christensen) and Padmé Amidala (Natalie Portman). The dots are the subtitles' own
-- **Time:** 1:25:18 to 1:26:12 in your copy
+- **Time:** 1:25:16 to 1:26:15 (59 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>)
 - **IMDb:** [Attack of the Clones](https://www.imdb.com/title/tt0121765/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>)
 - **Use it for:** a marker after the third bad batch of scripts. Or how not to give feedback
@@ -5643,7 +6226,7 @@ The original and prequel films, in story order
 > "There's too many."
 
 - **Who:** a Rebel officer, then Admiral Ackbar (Tim Rose, voiced by Erik Bauersfeld). In your copy (the Hayden remake) the subtitle has a full stop, not "It's a trap!"
-- **Time:** 1:35:06 to 1:35:19 in your copy
+- **Time:** 1:35:04 to 1:35:21 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
 - **IMDb:** [Return of the Jedi](https://www.imdb.com/title/tt0086190/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
 - **Use it for:** the free trial that needs a credit card, the phishing email, the "easy" exam question
@@ -5657,9 +6240,10 @@ The original and prequel films, in story order
 - Meme pages: each Know Your Meme link was checked to exist on the same day
 - Scripts: [chakoteya.net](http://www.chakoteya.net/) for Star Trek, [Wikiquote](https://en.wikiquote.org/), and subtitle scripts on [springfieldspringfield.co.uk](https://www.springfieldspringfield.co.uk/), which don't name speakers. IMDb itself blocks automated reading
 - Quotes: entries with **Checked:** were compared word for word with a transcript, Wikiquote or a subtitle script on 30 October 2026. The rest are from memory, and lines marked **Check** could not be confirmed
-- Times: send me the subtitle file (.srt) for a film or episode and I can find the exact time of each quote in your copy
+- Times: from the subtitle files (.srt) in C:\Library\Subtitles, by [my-fetches/tools/srt_times.py](../my-fetches/tools/srt_times.py). TV episodes have none yet, as there are no episode subtitle files
 - Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in [src/img/meme/readme.md](src/img/meme/readme.md)
 - Stills and clips are copyrighted. Keep them to teaching use, and credit each one on a Media used slide
+- Copyright: this deck © 2026 Mark Crowe. Film and TV quotes, characters, stills, logos and all other trademarks belong to their respective owners, and are quoted here for teaching and comment. reveal.js © Hakim El Hattab, MIT licence
 - Topic pictures: credits on Media used, below, and in [src/img/topics/readme.md](src/img/topics/readme.md)
 - Link icons: each website's own icon (favicon), saved in [src/img/favicons/](src/img/favicons/). Four styles to compare, a different one on each topic in turn: icon before the link, icon after it, a plain link icon after it, and the icon in place of the label ("IMDb:"). Add `?links=favicon-before`, `favicon-after`, `link-icon` or `favicon-label` to the address to see one style everywhere
 

@@ -1,4 +1,10 @@
 /*********************************************************
+ * TAP, The Apocalypse Plugin: the scripts in src/js that sit on top of
+ * reveal.js ("all will be revealed"). Version: year.tenth.day, where the
+ * year counts from 2026 = 1, the tenth is which tenth of the year (0 to 9),
+ * and the day counts the days with changes in that tenth. Set by
+ * tools/version.py; shown wherever a slide has <span data-tap-version>.
+ *
  * Starts a reveal.js deck, then loads the deck's own scripts in order.
  *
  *   <script src="src/js/deck-start.js"></script>
@@ -24,6 +30,8 @@
  *********************************************************/
 (function () {
 	'use strict';
+
+	window.TAP = { name: 'The Apocalypse Plugin', version: '1.8.5', date: '2026-10-31' };
 
 	function loadInOrder(sources) {
 		return sources.reduce(function (previous, src) {
@@ -53,8 +61,16 @@
 			'<p>Or read <a href="' + file + '">' + file + '</a> directly.</p></section>';
 	}
 
+	function showVersion() {
+		document.querySelectorAll('[data-tap-version]').forEach(function (el) {
+			el.textContent = window.TAP.version;
+			el.title = window.TAP.name + ', ' + window.TAP.date;
+		});
+	}
+
 	window.startDeck = function (config) {
 		explainFileProtocol();
+		document.addEventListener('deck:ready', showVersion);
 		window.deckStartHash = window.location.hash;
 		const scripts = config.deckScripts || [];
 		return Reveal.initialize(config)

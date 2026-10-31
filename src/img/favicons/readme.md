@@ -16,3 +16,4 @@ Each website's own icon, shown beside links to it in the meme bank ([../../../me
 | [revealjs.svg](revealjs.svg)                   | [reveal.js](https://revealjs.com/)                          |
 | [irishstatutebook.png](irishstatutebook.png)   | [Irish Statute Book](https://www.irishstatutebook.ie/)      |
 | [incompetech.png](incompetech.png)             | [Incompetech](https://incompetech.com/)                     |
+| [github.svg](github.svg)                       | [GitHub](https://github.com/). The GitHub mark, drawn from the Simple Icons path (CC0), 31 October 2026 |

@@ -39,6 +39,8 @@
  *     contentsTitle: 'Contents',
  *     contentsPageCount: true,     // "Contents (1 of 3)", or just "Contents" on every page
  *     contentsAfter: 0,            // put them after this slide (0 = the title slide)
+ *     contentsInFlow: true,        // false: next and back step over the contents;
+ *                                  // the Contents button and slide list still go there
  *     sidebar: true,
  *     sidebarSide: 'left',         // or 'right'; the viewer can switch, and it is remembered
  *     sidebarWidth: 340,           // pixels
@@ -69,6 +71,7 @@
 		contentsTitle: 'Contents',
 		contentsPageCount: true,
 		contentsAfter: 0,
+		contentsInFlow: true,
 		sidebar: true,
 		sidebarSide: 'left',
 		sidebarWidth: 340,
@@ -421,6 +424,7 @@
 
 		link.addEventListener('click', function (event) {
 			event.preventDefault();
+			contentsAsked = true;
 			Reveal.slide(h, v);
 		});
 		return link;
@@ -581,7 +585,33 @@
 
 	function goContents() {
 		if (Reveal.isOverview()) Reveal.toggleOverview(false);
+		contentsAsked = true;
 		if (contentsStack) goTo(contentsStack, 0);
+	}
+
+	/* ---------- Stepping over the contents (contentsInFlow: false) ----------
+	 * The contents are for finding your way, so next and back skip them:
+	 * from the slide before, next goes to the slide after, and back again.
+	 * The Contents button, the slide list and an address (#/contents) still
+	 * go there. */
+	let contentsAsked = false;
+
+	function inContents(slide) {
+		return !!(slide && contentsStack && slide.closest('.deck-contents-stack') === contentsStack);
+	}
+
+	if (!settings.contentsInFlow) {
+		Reveal.on('slidechanged', function (event) {
+			const asked = contentsAsked;
+			contentsAsked = false;
+			if (asked || Reveal.isOverview() || !inContents(event.currentSlide)) return;
+			if (!event.previousSlide || inContents(event.previousSlide)) return;
+			const slides = topSlides();
+			const here = slides.indexOf(contentsStack);
+			const from = slides.indexOf(event.previousSlide.closest('.reveal .slides > section'));
+			if (from === here - 1) Reveal.slide(here + 1, 0);
+			else if (from === here + 1) Reveal.slide(here - 1, 0);
+		});
 	}
 
 	/* ---------- Type a slide number, then Enter ----------

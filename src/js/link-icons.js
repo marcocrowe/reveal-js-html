@@ -15,10 +15,11 @@
  *                                   // different style on each section in turn
  *     sites: { 'imdb.com': ['imdb.png', 'IMDb'], ... },  // added to the defaults
  *     labels: { 'imdb': 'imdb.com', ... },  // field label -> site, for favicon-label
+ *     skip: 'a.person, .no-link-icon',      // links that never get an icon
  *   }
  * ?links=favicon-after in the address shows one style everywhere.
  * Links to sites with no icon get a plain link icon. Links that are
- * pictures (a QR code) get nothing.
+ * pictures (a QR code), and links matching skip, get nothing.
  *********************************************************/
 (function () {
 	'use strict';
@@ -39,6 +40,7 @@
 		'revealjs.com': ['revealjs.svg', 'reveal.js'],
 		'irishstatutebook.ie': ['irishstatutebook.png', 'Irish Statute Book'],
 		'incompetech.com': ['incompetech.png', 'Incompetech'],
+		'github.com': ['github.svg', 'GitHub'],
 	};
 
 	const DEFAULT_LABELS = { 'imdb': 'imdb.com', 'meme-page': 'knowyourmeme.com', 'wikiquote': 'wikiquote.org' };
@@ -51,6 +53,7 @@
 		style: config.style || 'favicon-before',
 		sites: Object.assign({}, DEFAULT_SITES, config.sites || {}),
 		labels: Object.assign({}, DEFAULT_LABELS, config.labels || {}),
+		skip: config.skip || 'a.person, .no-link-icon',
 	};
 	const forced = new URLSearchParams(window.location.search).get('links');
 
@@ -95,6 +98,7 @@
 		const style = styleFor(h);
 		top.dataset.links = style;
 		top.querySelectorAll('a[href^="http"]:not(:has(img))').forEach(function (link) {
+			if (link.matches(settings.skip)) return;
 			const site = siteOf(link.href);
 			link.classList.add('site-link');
 			link.style.setProperty('--favicon', site ? 'url("' + iconUrl(site[0]) + '")' : PLAIN_LINK);
