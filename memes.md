@@ -4334,6 +4334,56 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 ----
 
 ## X-Men: The Last Stand (2006)
+<!-- 416 -->
+
+**Scene: the mansion, Logan finds out about Jean's mind**
+
+> Logan: "What have you done to her?"
+>
+> Charles: "You have no idea. You have no idea of what she is capable."
+>
+> Logan: "**No, Professor. I had no idea what you were capable of.**"
+>
+> Charles: "**I had a terrible choice to make. I chose the lesser of two evils.**"
+>
+> Logan: "**It sounds to me like Jean had no choice at all.**"
+>
+> Charles: "**I don't have to explain myself, least of all to you.**"
+
+- **Who:** Charles Xavier (Patrick Stewart) and Logan (Hugh Jackman). Charles has just admitted he put psychic blocks in Jean's mind years ago to cage the Phoenix. The "no choice" line is Logan's, not Jean's: she is unconscious on the table. Plugged In's review gives the same speakers
+- **IMDb:** [X-Men: The Last Stand](https://www.imdb.com/title/tt0376994/) · [quotes](https://www.imdb.com/title/tt0376994/quotes/)
+- **Time:** 0:30:15 to 0:30:50 (35 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>) and [Plugged In review](https://www.pluggedin.com/movie-reviews/xmenthelaststand/) [🔗](<../my-fetches/quotes/pluggedin-x-men-the-last-stand.txt>)
+- **Use it for:** deciding for someone "for their own good". And a leader who won't explain a hard call
+
+----
+
+## X-Men: The Last Stand (2006)
+<!-- 417 -->
+
+**Scene: Jean's childhood home, Charles and Erik both come for her**
+
+> Erik: "No, Charles, not this time. You've always held her back."
+>
+> Charles: "For your own good, Jean."
+>
+> Jean: "**Stay out of my head.**"
+>
+> Charles: "Look at me, Jean. I can help you. Look at me."
+>
+> Jean: "**Get out of my head.**"
+>
+> Erik: "**Perhaps you should listen to her, Charles.**"
+
+- **Who:** Jean Grey (Famke Janssen), Charles Xavier and Erik Lehnsherr (Ian McKellen). Logan and Storm talk outside between the second and third lines. This is the Jean "Get out of my head" line; it isn't in *X-Men: Apocalypse*
+- **IMDb:** [X-Men: The Last Stand](https://www.imdb.com/title/tt0376994/) · [quotes](https://www.imdb.com/title/tt0376994/quotes/)
+- **Time:** 0:45:38 to 0:46:15 (37 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
+- **Use it for:** help nobody asked for. Or a learner who's had enough of being managed
+
+----
+
+## X-Men: The Last Stand (2006)
 <!-- 123 -->
 
 **Scene: Magneto and Pyro, after Charles's death**
@@ -4646,6 +4696,24 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 ----
 
 ## X-Men: Apocalypse (2016)
+<!-- 418 -->
+
+**Scene: the pyramid, the transference is broken**
+
+> Charles: "**Get out. Get out!**"
+>
+> Charles: "**Get out!**"
+
+- **Who:** Charles Xavier (James McAvoy), fighting Apocalypse out of his mind as the transference into his body is stopped. He wakes on the jet a few minutes later still shouting "Get out!" ("Professor, it's okay. You're with us.")
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 1:52:09 to 1:52:15 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Check:** the subtitles have no speaker names; it's Charles from the scene, but confirm on screen
+- **Use it for:** when the room is too full of other voices. Short, and loud
+
+----
+
+## X-Men: Apocalypse (2016)
 <!-- 121 -->
 
 **Scene: inside Charles's mind, the final battle**
@@ -4663,6 +4731,25 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Time:** 1:59:41 to 2:00:37 (56 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=x-men-apocalypse). It doesn't name speakers
 - **Use it for:** a talk's opening and closing: say "Thank you for letting me in" early, then turn it round at the end. "You're in my house now" for your own classroom
+
+----
+
+## X-Men: Apocalypse (2016)
+<!-- 419 -->
+
+**Scene: the final battle, Magneto turns**
+
+> Apocalypse: "**You betray me?**"
+>
+> Magneto: "No."
+>
+> Magneto: "**I betrayed them.**"
+
+- **Who:** Apocalypse (Oscar Isaac) and Magneto (Michael Fassbender), who then turns his power on Apocalypse. Joining Apocalypse was the betrayal; this is Erik coming back
+- **IMDb:** [X-Men: Apocalypse](https://www.imdb.com/title/tt3385516/) · [quotes](https://www.imdb.com/title/tt3385516/quotes/)
+- **Time:** 2:01:53 to 2:02:01 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; Apocalypse [2016] -imdb-tt3385516.srt>) and IMDb quotes [🔗](<../my-fetches/imdb-quotes/tt3385516-x-men-apocalypse.txt>)
+- **Use it for:** owning a mistake and changing sides back. Whose betrayal was it?
 
 ---
 
@@ -6586,6 +6673,46 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 ----
 
+## The Transformers: "Starscream's Brigade" (1986)
+<!-- 420 -->
+
+**Scene: Megatron throws Starscream out**
+
+> Megatron: "**You are a fool, Starscream, if you think that anyone would ever follow your orders.**"
+>
+> Starscream: "Just wait, Megatron. One of these days, I will have my revenge."
+>
+> Megatron: "**You and what army?**"
+
+- **Who:** Megatron (Frank Welker) and Starscream (Chris Latta). Starscream takes the question as a plan: he builds the Combaticons, his own army
+- **Episode:** season 2, episode 46 (62nd overall), aired 7 January 1986
+- **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
+- **Checked:** [TFWiki](https://tfwiki.net/wiki/Starscream%27s_Brigade) [🔗](<../my-fetches/tfwiki/Starscream's_Brigade.wiki>)
+- **Check:** only one source, a fan wiki; no transcript or subtitles. "Starscream couldn't lead a parade, let alone an army against us" wasn't found in this episode or anywhere else; the parade line is Megatron in *Transformers: Animated* (above)
+- **Use it for:** dismissing a rival, and handing them their next move
+
+----
+
+## The Transformers: "The Revenge of Bruticus" (1986)
+<!-- 421 -->
+
+**Scene: Starscream holds the Earth to ransom**
+
+> Starscream: "Not until you relinquish control over the Decepticons."
+>
+> Megatron: "Don't be a fool."
+>
+> Starscream: "**Then let the Earth burn!**"
+
+- **Who:** Starscream and Megatron. The Combaticons have taken the space bridge and are sending the Earth into the Sun, so Megatron and Optimus Prime have to work together
+- **Episode:** season 2, episode 47 (63rd overall), aired 8 January 1986, straight after "Starscream's Brigade"
+- **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
+- **Checked:** [TFWiki](https://tfwiki.net/wiki/The_Revenge_of_Bruticus) [🔗](<../my-fetches/tfwiki/The_Revenge_of_Bruticus.wiki>)
+- **Check:** only one source, a fan wiki. Megatron's "Help us preserve the Earth, and I might preserve you" wasn't found here, in "The Key to Vector Sigma" or anywhere else
+- **Use it for:** blackmail dressed up as negotiation
+
+----
+
 ## The Transformers: The Movie (1986)
 <!-- 263 -->
 
@@ -6956,6 +7083,40 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 ----
 
+## Transformers: The Last Knight (2017)
+<!-- 422 -->
+
+**Scene: the final battle, Optimus and Megatron**
+
+> Megatron: "**We were brothers once!**"
+>
+> Optimus Prime: "**Once.**"
+
+- **Who:** Megatron (voiced by Frank Welker) and Optimus Prime (Peter Cullen). Optimus answers with his blade
+- **IMDb:** [Transformers: The Last Knight](https://www.imdb.com/title/tt3371366/) · [quotes](https://www.imdb.com/title/tt3371366/quotes/)
+- **Checked:** IMDb quotes [🔗](<../my-fetches/imdb-quotes/tt3371366-transformers-the-last-knight.txt>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-the-last-knight) [🔗](<../my-fetches/springfield-scripts/transformers-the-last-knight.txt>)
+- **Use it for:** the shortest answer to "but we go way back"
+
+----
+
+## Transformers One (2024)
+<!-- 423 -->
+
+**Scene: the cave, Alpha Trion shows how the Primes fell**
+
+> Alpha Trion: "It was a mission so important, we Primes took it on ourselves. We agreed to meet Sentinel for his sensitive intel in secret, here, in this cave. But we were not alone."
+>
+> Alpha Trion: "We were outnumbered but stood as one. Our victory was near. **Until we were betrayed.**"
+>
+> Zeta Prime: "**Sentinel... why?!**"
+>
+> Sentinel Prime: "**For all the power on Cybertron.**"
+
+- **Who:** Alpha Trion (Laurence Fishburne), the last Prime, showing Orion and D-16 a recording; Zeta Prime (James Remar) and Sentinel Prime (Jon Hamm). Sentinel, the Primes' aide, led them into a Quintesson ambush to take the Matrix. Later Starscream: "We were once the High Guard. We witnessed Sentinel's betrayal, saw the Primes fall."
+- **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>)
+- **Use it for:** betrayal from the inside, by the one everyone trusted with the plans
+
 ## Transformers One (2024)
 <!-- 400 -->
 
@@ -7007,7 +7168,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 >
 > Megatron: "**This isn't over... Prime.**"
 
-- **Who:** Optimus Prime and Megatron, the best friends Orion Pax and D-16 until now. The trailer's line is "Before we were enemies... we were like brothers"; "We were brothers once" isn't in the film
+- **Who:** Optimus Prime and Megatron, the best friends Orion Pax and D-16 until now
 - **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>)
 - **Use it for:** the end of a partnership. Betrayal of the cause, then of the friend
@@ -7772,7 +7933,7 @@ The original and prequel films, in story order
 - Meme pages: each Know Your Meme link was checked to exist on the same day
 - Scripts: [chakoteya.net](http://www.chakoteya.net/) for Star Trek, [Wikiquote](https://en.wikiquote.org/), and subtitle scripts on [springfieldspringfield.co.uk](https://www.springfieldspringfield.co.uk/), which don't name speakers. IMDb itself blocks automated reading
 - Quotes: entries with **Checked:** were compared word for word with a transcript, Wikiquote or a subtitle script on 30 October 2026. The rest are from memory, and lines marked **Check** could not be confirmed
-- Times: from the subtitle files (.srt) in C:\Library\Subtitles, by [my-fetches/tools/srt_times.py](../my-fetches/tools/srt_times.py). TV episodes have none yet, as there are no episode subtitle files
+- Times: from the subtitle files (.srt) in C:\Library\Subtitles, by [tools/srt_times.py](../tools/srt_times.py). TV episodes have none yet, as there are no episode subtitle files
 - Already used in the decks: Drakeposting, distracted boyfriend, galaxy brain, this is fine. Sources in [src/img/meme/readme.md](src/img/meme/readme.md)
 - Stills and clips are copyrighted. Keep them to teaching use, and credit each one on a Media used slide
 - Copyright: this deck © 2026 Mark Crowe. Film and TV quotes, characters, stills, logos and all other trademarks belong to their respective owners, and are quoted here for teaching and comment. reveal.js © Hakim El Hattab, MIT licence
