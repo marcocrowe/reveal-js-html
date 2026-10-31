@@ -19,7 +19,8 @@
  *   }
  * ?links=favicon-after in the address shows one style everywhere.
  * Links to sites with no icon get a plain link icon. Links that are
- * pictures (a QR code), and links matching skip, get nothing.
+ * pictures (a QR code), links matching skip, and links inside an element
+ * with class no-link-icon (a title slide that draws its own), get nothing.
  *********************************************************/
 (function () {
 	'use strict';
@@ -98,7 +99,7 @@
 		const style = styleFor(h);
 		top.dataset.links = style;
 		top.querySelectorAll('a[href^="http"]:not(:has(img))').forEach(function (link) {
-			if (link.matches(settings.skip)) return;
+			if (link.matches(settings.skip) || link.closest('.no-link-icon')) return;
 			const site = siteOf(link.href);
 			link.classList.add('site-link');
 			link.style.setProperty('--favicon', site ? 'url("' + iconUrl(site[0]) + '")' : PLAIN_LINK);

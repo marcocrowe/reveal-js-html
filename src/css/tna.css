@@ -239,6 +239,14 @@
 	mask: var(--icon-mail) center / contain no-repeat;
 }
 
+/* An email address shown as a picture (tools/email_svg.py), linked by
+ * a[data-mail] in src/js/deck.js */
+.reveal a.mail-picture img {
+	height: 1.5em;
+	margin: 0;
+	vertical-align: -0.3em;
+}
+
 /* Title slide: version, date and copyright */
 .reveal .title-slide .copyright {
 	margin-top: 1.2em;

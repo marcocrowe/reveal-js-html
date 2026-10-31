@@ -1,15 +1,17 @@
 # Meme bank
 <!-- .slide: class="title-slide" -->
 
-### Film and TV quotes, and internet memes, for presentations and training
-
-<p class="byline"><a class="person" href="https://sdevtutors.github.io/mark-crowe/" data-tip="Mark Crowe, sdevtutors.github.io/mark-crowe">Mark Crowe</a><a class="mail-link" href="mailto:SDevTutor@outlook.ie" data-tip="SDevTutor@outlook.ie" aria-label="Email SDevTutor@outlook.ie"></a> · <time class="deck-date" datetime="2026-10-31">31 October 2026</time> · Version <span class="deck-version">1.8.3</span></p>
-
-<p class="built-with">Built with <a href="https://revealjs.com/">reveal.js <img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="reveal.js logo" /></a> and TAP <span data-tap-version></span>, The Apocalypse Plugin · <a href="https://github.com/marcocrowe/reveal-js-html">Source on GitHub</a></p>
-
-<p class="copyright">© 2026 Mark Crowe. Quotes, characters and pictures belong to their owners: see Sources and notes, at the end</p>
-
-<figure class="deck-qr"><a href="https://marcocrowe.github.io/reveal-js-html/memes.html"><img src="src/img/qr/memes-deck.svg" alt="QR code: this deck online" /></a><figcaption><a href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></figcaption></figure>
+<div class="title-body no-link-icon">
+<div class="title-text">
+<h3>Film and TV quotes, and internet memes, for presentations and training</h3>
+<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a><span class="sep">–</span><a class="mail-link" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe" title="Email Mark Crowe"></a><span class="sep">–</span><time class="deck-date" datetime="2026-10-31T15:41:24+00:00">October 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
+<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="" />reveal.js</a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/tap-reveal-js" title="TAP, The Apocalypse Plugin"><span class="tap-box">tap-reveal</span> <span data-tap-version></span></a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/reveal-js-html"><img src="src/img/favicons/github.svg" alt="" />Source on GitHub</a></p>
+<p class="copyright"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commit/0ed9b5c1067814ccae8d725ad6fb60ff64e8794b">Version <span class="deck-version">1.8.3</span></a><span class="sep">–</span><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a></p>
+<p class="owners">Quotes, characters and pictures belong to their owners: see Sources and notes, at the end</p>
+</div>
+<figure class="deck-qr"><a href="https://marcocrowe.github.io/reveal-js-html/memes.html"><img src="src/img/qr/memes-deck-logo.svg" alt="QR code: this deck online" /></a></figure>
+</div>
+<footer class="slide-footer no-link-icon"><a class="ext" href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></footer>
 
 ---
 
@@ -23,6 +25,16 @@
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
 - Version <span class="deck-version">1.8.3</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. TAP, the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
 - [memes.html](memes.html) shows this file, [memes.md](memes.md), as slides
+
+----
+
+## About the author
+<!-- no-number -->
+
+- **Mark Crowe**, Education Officer at <img class="inline-logo" src="src/img/sdevtutors-logo.png" alt="" />Sdev Tutors: [sdevtutors.github.io/mark-crowe](https://sdevtutors.github.io/mark-crowe/)
+- A background in IT. Teaches programming in Python and C#
+- BSc in Computer Systems, MSc in Software Development
+- Email: <a class="mail-picture" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe"><img src="src/img/email.svg" alt="Email address, as a picture" /></a> (a picture, so that programs collecting addresses can't read it)
 
 <!--
 HOW THIS FILE BECOMES SLIDES (memes.html)
@@ -421,15 +433,18 @@ Group work, thanks and banter
 
 ----
 
-## Slow Horses (2022)
+## Slow Horses: "Fiasco" (2022)
 <!-- 27 -->
 
-> "**Working with you has been the lowest point in a disappointing career.**"
+**Scene: Lamb's team talk, before they split up**
 
-- **Who:** Jackson Lamb (Gary Oldman), in a mock pep talk to his team
-- **IMDb:** [Slow Horses](https://www.imdb.com/title/tt5875444/)
+> Lamb: "Look. I-I-I don't normally do these kind of speeches, but this feels like a big moment, and if it all turns to shit, I might not see any of you again. **You're fucking useless. The lot of you. Working with you has been the lowest point in a disappointing career.**"
+
+- **Who:** Jackson Lamb (Gary Oldman), to his team, before they go after the kidnappers. Then: "Cartwright, you're with me"
+- **Episode:** season 1, episode 5
+- **IMDb:** [episode](https://www.imdb.com/title/tt13660688/) · [series](https://www.imdb.com/title/tt5875444/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=slow-horses-2022&episode=s01e05) [🔗](<../my-fetches/springfield-scripts/slow-horses-2022/s01e05.txt>)
 - **Use it for:** a credits or thank-you slide, with affection
-- **Check:** wording (this is NPR's transcription) and the episode, likely season 1
 
 ----
 
@@ -874,9 +889,9 @@ Code, backups and things that break
 
 ---
 
-# Star Trek: the films
+# Star Trek II: The Wrath of Khan (1982)
 
-The original crew and The Next Generation, in film order and scene order. Nothing after 2009
+Kirk, Spock and Khan. The Star Trek films start here: the original crew, then The Next Generation, in film order and scene order. Nothing after 2009
 
 <figure class="topic-photo"><img src="src/img/topics/star-trek-films.jpg" alt="A model of the starship Enterprise" /><figcaption><a class="ref media" href="#/media-used"><sup>6</sup></a> – A model of the starship Enterprise</figcaption></figure>
 
@@ -998,6 +1013,27 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 ----
 
 ## Star Trek II: The Wrath of Khan (1982)
+<!-- 345 -->
+
+**Scene: the Mutara Nebula, the hunt**
+
+> Spock: "**He's intelligent, but not experienced. His pattern indicates two-dimensional thinking.**"
+>
+> Kirk: "Full stop."
+>
+> Sulu: "Full stop, sir."
+>
+> Kirk: "**Z minus 10,000 meters.** Stand by photon torpedoes."
+
+- **Who:** Spock (Leonard Nimoy), Kirk (William Shatner) and Sulu (George Takei). Kirk drops below the Reliant, as Khan never thinks about up and down. The subtitles have "Z minus", the transcript "Zee minus"
+- **IMDb:** [The Wrath of Khan](https://www.imdb.com/title/tt0084726/) · [quotes](https://www.imdb.com/title/tt0084726/quotes/)
+- **Time:** 1:26:22 to 1:26:46 (23 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html) [🔗](<../my-fetches/chakoteya-star-trek/movie2.html>) · subtitles [🔗](<../my-fetches/subtitles/Star Trek 2, The Wrath of Khan [1982] -imdb-tt0084726.srt>)
+- **Use it for:** problem solving and exam technique. The learner who only ever looks at the obvious axis. Bright, but not yet experienced
+
+----
+
+## Star Trek II: The Wrath of Khan (1982)
 <!-- 47 -->
 
 **Scene: engineering, Spock's death**
@@ -1029,6 +1065,12 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie2.html)
 - **Use it for:** an acknowledgements slide for a mentor or a retiring colleague. Not for a joke
 
+---
+
+# Star Trek III: The Search for Spock (1984)
+
+Kirk and his crew steal the Enterprise to bring Spock home
+
 ----
 
 ## Star Trek III: The Search for Spock (1984)
@@ -1047,6 +1089,12 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **Time:** 0:33:05 to 0:33:15 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 3, The Search for Spock [1984] -imdb-tt0088170.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie3.html)
 - **Use it for:** when the extension request is refused. *"The word is no. I am therefore submitting anyway"*
+
+---
+
+# Star Trek V: The Final Frontier (1989)
+
+Sybok, and the being at the centre of the galaxy
 
 ----
 
@@ -1077,6 +1125,12 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **Time:** 1:28:55 to 1:29:05 (10 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek 5, The Final Frontier [1989] -imdb-tt0098382.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie5.html)
 - **Use it for:** questioning requirements. *"What does a to-do app need with a blockchain?"*
+
+---
+
+# Star Trek VI: The Undiscovered Country (1991)
+
+The Klingon peace talks, and the last voyage of the original crew
 
 ----
 
@@ -1265,6 +1319,12 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie6.html)
 - **Use it for:** a new policy from management. Spock's dry reply is the joke
 
+---
+
+# Star Trek Generations (1994)
+
+Kirk meets Picard in the Nexus
+
 ----
 
 ## Star Trek Generations (1994)
@@ -1329,13 +1389,48 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 
 **Scene: the Nexus, the horses**
 
-> Kirk: "**Don't let them do anything that takes you off the bridge of that ship, because while you're there, you can make a difference.**"
+> Kirk: "Close to retirement?"
+>
+> Picard: "I'm not planning on it."
+>
+> Kirk: "Let me tell you something. **Don't! Don't let them promote you. Don't let them transfer you. Don't let them do anything that takes you off the bridge of that ship, because while you're there, you can make a difference.**"
 
-- **Who:** Kirk to Picard, before they leave the Nexus
+- **Who:** Kirk to Picard, before they leave the Nexus. It's "I'm not planning on it", not "I'm considering it". The next entry is Kirk agreeing to go
 - **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
-- **Time:** 1:38:35 to 1:38:45 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
-- **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html)
+- **Time:** 1:38:26 to 1:38:45 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>)
 - **Use it for:** why teachers stay in the classroom instead of going into management
+
+----
+
+## Star Trek Generations (1994)
+<!-- 346 -->
+
+**Scene: the Nexus, the horses, Kirk agrees**
+
+> Picard: "Come back with me. Help me stop Soran. Make a difference again."
+>
+> Kirk: "**Who am I to argue with the Captain of the Enterprise?** What's the name of that planet, Veridian Three?"
+>
+> Picard: "Yes."
+>
+> Kirk: "I take it the odds are against us, and the situation is grim?"
+>
+> Picard: "You could say that."
+>
+> Kirk: "You know if Spock were here, he'd say I was an irrational, illogical human being for taking on a mission like that. **Sounds like fun.**"
+
+- **Who:** Kirk and Picard (Patrick Stewart), straight after "Don't let them promote you"
+- **IMDb:** [Generations](https://www.imdb.com/title/tt0111280/) · [quotes](https://www.imdb.com/title/tt0111280/quotes/)
+- **Time:** 1:38:44 to 1:39:26 (42 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Generations [1994] -imdb-tt0111280.srt>)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie7.html) [🔗](<../my-fetches/chakoteya-star-trek/movie7.html>)
+- **Use it for:** agreeing to a learner's ambitious project. "The odds are against us and the situation is grim. Sounds like fun"
+
+---
+
+# Star Trek: First Contact (1996)
+
+The Borg, Lily Sloane and the first warp flight
 
 ----
 
@@ -1351,6 +1446,28 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **Time:** 0:08:01 to 0:08:19 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** AI tools, Microsoft Teams, a merger of two courses. *"We will add your technological distinctiveness to our training data"*
+
+----
+
+## Star Trek: First Contact (1996)
+<!-- 347 -->
+
+**Scene: the bridge, Worf comes aboard**
+
+> Picard: "Welcome aboard the Enterprise, Mister Worf."
+>
+> Worf: "Thank you sir. The Defiant?"
+>
+> Picard: "Adrift, but salvageable."
+>
+> Riker: "**Tough little ship.**"
+>
+> Worf: "**Little?**"
+
+- **Who:** Picard, Worf (Michael Dorn) and Riker (Jonathan Frakes), after the battle with the Borg cube. The Defiant was Worf's ship on Deep Space Nine
+- **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html) [🔗](<../my-fetches/chakoteya-star-trek/movie8.html>)
+- **Use it for:** the old laptop that still runs, or a small project that punched above its weight. Worf's reply for anyone who undersells someone else's work
 
 ----
 
@@ -1471,15 +1588,43 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 ----
 
 ## Star Trek: First Contact (1996)
+<!-- 348 -->
+
+**Scene: the observation lounge, Lily works it out**
+
+> Lily: "**I am such an idiot. It's so simple. The Borg hurt you, and now you're going to hurt them back.**"
+>
+> Picard: "In my century we don't succumb to revenge. We have a more evolved sensibility."
+>
+> Lily: "Bullshit! I saw the look on your face when you shot those Borg on the holodeck. You were almost enjoying it!"
+>
+> Picard: "How dare you!"
+
+- **Who:** Lily Sloane (Alfre Woodard) and Picard. The argument goes on through Moby Dick to "blow up the damn ship"
+- **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html) [🔗](<../my-fetches/chakoteya-star-trek/movie8.html>)
+- **Use it for:** feedback that hits home. Or the moment a learner works out why a project has gone off the rails
+
+----
+
+## Star Trek: First Contact (1996)
 <!-- 65 -->
 
 **Scene: the observation lounge, with Lily**
 
-> Picard: "I will not sacrifice the Enterprise. We've made too many compromises already. Too many retreats. They invade our space and we fall back. They assimilate entire worlds, and we fall back. Not again! **The line must be drawn here, this far, no further!** And I will make them pay for what they've done."
+> Picard: "This is not about revenge."
+>
+> Lily: "Liar!"
+>
+> Picard: "This is about saving the future of humanity."
+>
+> Lily: "**Jean-Luc, blow up the damn ship!**"
+>
+> Picard: "No! ...No! I will not sacrifice the Enterprise. We've made too many compromises already. Too many retreats. They invade our space and we fall back. They assimilate entire worlds, and we fall back. Not again! **The line must be drawn here, this far, no further!** And I will make them pay for what they've done."
 
-- **Who:** Picard, smashing the model ships. Lily answers: "See you around, Ahab"
+- **Who:** Picard and Lily, a minute after the entry before (Moby Dick comes between). Picard smashes the model ships; Lily answers: "You broke your little ships. See you around, Ahab"
 - **IMDb:** [First Contact](https://www.imdb.com/title/tt0117731/) · [quotes](https://www.imdb.com/title/tt0117731/quotes/)
-- **Time:** 1:20:39 to 1:21:11 (32 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
+- **Time:** 1:20:17 to 1:21:11 (54 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, First Contact [1996] -imdb-tt0117731.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html). It's "Not again"
 - **Use it for:** a firm deadline or policy. *"No more extensions"*
 
@@ -1584,6 +1729,40 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie8.html)
 - **Use it for:** temptation and academic integrity. *"Were you tempted to use ChatGPT?" "0.68 seconds"*. Also page load times
 
+---
+
+# Star Trek: Insurrection (1998)
+
+The Ba'ku, the Son'a and Admiral Dougherty
+
+----
+
+## Star Trek: Insurrection (1998)
+<!-- 349 -->
+
+**Scene: the Ba'ku village, Data has been mended**
+
+> Picard: "The artificial lifeform is a member of my crew. Apparently, he was taken ill."
+>
+> Tournel: "There was a phase variance in his positronic matrix which we were unable to repair."
+>
+> Anij: "**I think the Captain finds it hard to believe that we'd have any skills for repairing positronic devices.**"
+>
+> Sojef: "**Our technological abilities are not apparent because we have chosen not to employ them in our daily lives.** We believe when you create a machine to do the work of a man, you take something away from the man."
+>
+> Anij: "But at one time, we explored the galaxy just as you do."
+>
+> Picard: "You have warp capability?"
+>
+> Anij: "**Capability, yes. But where can warp drive take us, except away from here?**"
+>
+> Picard: "I apologise for our intrusion."
+
+- **Who:** Picard, Tournel, Anij (Donna Murphy) and Sojef, the Ba'ku. Both the transcript and the subtitles say "unable to repair", though they did mend him
+- **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
+- **Use it for:** not judging skills by what people choose to show. The quiet mature student who turns out to be a retired engineer. Sojef's line for AI and automation
+
 ----
 
 ## Star Trek: Insurrection (1998)
@@ -1630,6 +1809,42 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 ----
 
 ## Star Trek: Insurrection (1998)
+<!-- 350 -->
+
+**Scene: the ready room, Admiral Dougherty and the Son'a**
+
+> Picard: "Our partners are nothing more than petty thugs."
+>
+> Dougherty: "**On Earth, petroleum once turned petty thugs into world leaders. Warp drive transformed a bunch of Romulan thugs into an Empire. We can handle the Son'a.** I'm not worried about that."
+>
+> Picard: "**Someone probably said the same thing about the Romulans a century ago.**"
+
+- **Who:** Picard and Admiral Dougherty (Anthony Zerbe). It's "Romulan thugs", not Vulcans. The argument goes on in the next two entries
+- **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
+- **Use it for:** choosing partners and suppliers. A cheap third-party library from a dodgy source
+
+----
+
+## Star Trek: Insurrection (1998)
+<!-- 351 -->
+
+**Scene: the ready room, a moment later**
+
+> Picard: "Then the Son'a can establish a separate colony on this planet until we do."
+>
+> Dougherty: "It would take ten years of normal exposure to begin to reverse their condition. Some of them won't survive that long. **Besides, they don't want to live in the middle of the Briar Patch. ...Who would?**"
+>
+> Picard: "**The Ba'ku.**"
+
+- **Who:** Picard and Dougherty, just before "How many people does it take?"
+- **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
+- **Use it for:** assumptions about users. "Nobody would want that." Somebody already does
+
+----
+
+## Star Trek: Insurrection (1998)
 <!-- 73 -->
 
 **Scene: the ready room, Admiral Dougherty**
@@ -1642,6 +1857,48 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html)
 - **Use it for:** ethics, scale, "everyone else did it"
+
+----
+
+## Star Trek: Insurrection (1998)
+<!-- 352 -->
+
+**Scene: the Son'a ship's brig**
+
+> Dougherty: "Order them to surrender, and I promise you won't be court-martialled."
+>
+> Picard: "If a court-martial is the only way to let the people of the Federation know what is happening here, I welcome it."
+>
+> Ru'afo: "**The Enterprise has destroyed one of my ships. The other is on fire, requesting assistance.**"
+>
+> Picard: "The Enterprise would only fire to defend itself. Ru'afo must have ordered the attack. I can't believe he would have given that order without your consent, Admiral. **I wonder which of us will be facing that court-martial.**"
+
+- **Who:** Admiral Dougherty, Picard and Ru'afo (F. Murray Abraham), who storms in
+- **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
+- **Use it for:** an academic misconduct hearing that turns around. Or a threat that backfires
+
+----
+
+## Star Trek: Insurrection (1998)
+<!-- 353 -->
+
+**Scene: the brig, a moment later**
+
+> Dougherty: "There is nothing further to be gained from this."
+>
+> Ru'afo: "You're right. This is going to end now. The Ba'ku who want to stay on the planet. Let them. I'm going to launch the injector."
+>
+> Dougherty: "You're not going to launch any..."
+>
+> Ru'afo: "In six hours, every living thing in this system will be dead or dying."
+>
+> Picard: "You would kill your own people, Ru'afo? Your own parents, brothers, sisters. Didn't you know, Admiral? **The Son'a and the Ba'ku are the same race.**"
+
+- **Who:** Dougherty, Ru'afo and Picard. Dougherty learns it last
+- **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html) [🔗](<../my-fetches/chakoteya-star-trek/movie9.html>)
+- **Use it for:** the reveal at the end of a case study. Two teams arguing who turn out to want the same thing
 
 ----
 
@@ -1664,6 +1921,12 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **IMDb:** [Insurrection](https://www.imdb.com/title/tt0120844/) · [quotes](https://www.imdb.com/title/tt0120844/quotes/)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie9.html). It's "the exhaust", not "the gas"
 - **Use it for:** calling a bluff; "Sorry, time's up" for the submission deadline
+
+---
+
+# Star Trek: Nemesis (2002)
+
+Shinzon, Picard's clone, and the Scimitar
 
 ----
 
@@ -1723,19 +1986,94 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 ----
 
 ## Star Trek: Nemesis (2002)
+<!-- 354 -->
+
+**Scene: the ready room, Shinzon's projection**
+
+> Shinzon: "You can't trace my holographic emitters, Captain, so don't bother. And you can't contact Starfleet. **It's just the two of us now, Jean-Luc. ...As it should be.**"
+>
+> Picard: "Why are you here?"
+>
+> Shinzon: "**To accept your surrender.** I can clearly destroy you at any time. Lower your shields and I'll allow you to transport to my ship."
+>
+> Picard: "And the Enterprise?"
+>
+> Shinzon: "**I have little interest in your quaint vessel, Captain.**"
+
+- **Who:** Shinzon (Tom Hardy), Picard's clone, and Picard. The first part of one conversation; it goes on in the next two entries
+- **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 1:13:58 to 1:14:33 (35 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html) [🔗](<../my-fetches/chakoteya-star-trek/movie10.html>) · subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
+- **Use it for:** one-to-one meetings. "Quaint vessel" for anyone who looks down on the old system
+
+----
+
+## Star Trek: Nemesis (2002)
 <!-- 77 -->
 
 **Scene: the ready room, Picard and Shinzon**
 
-> Picard: "Buried deep within you, beneath all the years of pain and anger, there is something that has never been nurtured. **The potential to make yourself a better man, and that is what it is to be human. To make yourself more than you are.**"
+> Picard: "Look at me, Shinzon. Your heart, your hands, your eyes are the same as mine. The blood pumping within you, the raw material is the same. **We have the same potential.**"
 >
-> Picard: "**You still have a choice! Make the right one now!**"
+> Shinzon: "That's the past, Captain."
+>
+> Picard: "It can be the future. Buried deep within you, beneath all the years of pain and anger, there is something that has never been nurtured. **The potential to make yourself a better man, and that is what it is to be human. To make yourself more than you are.** Oh yes, I know you. There was a time you looked at the stars and dreamed of what might be."
+>
+> Shinzon: "Childish dreams, Captain, lost in the dilithium mines of Remus. I am what you see now."
 
-- **Who:** Picard to Shinzon, by projection. Two moments from one conversation
+- **Who:** Picard and Shinzon, by projection, the middle of the conversation. "You still have a choice" is now the next entry
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
-- **Time:** 1:14:53 to 1:16:06 (73 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
+- **Time:** 1:14:31 to 1:15:38 (67 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
-- **Use it for:** potential, feedback. Your line: *"You made the wrong choice, now make the right one"*
+- **Use it for:** potential, feedback, the first-year student who doesn't believe they can do it
+
+----
+
+## Star Trek: Nemesis (2002)
+<!-- 355 -->
+
+**Scene: the ready room, a moment later**
+
+> Picard: "I see more than that. **I see what you could be.** The man who is Shinzon of Remus and Jean Luc Picard could never exterminate the population of an entire planet! He is better than that!"
+>
+> Shinzon: "He's what his life has made him!"
+>
+> Picard: "And what will he do with that life? Waste it in a blaze of hatred? There is a better way."
+>
+> Shinzon: "It's too late."
+>
+> Picard: "**Never! Never! You still have a choice! Make the right one now!**"
+>
+> Shinzon: "I can't ...fight what I am!"
+>
+> Picard: "Yes you can!"
+
+- **Who:** Picard and Shinzon, the end of their conversation
+- **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 1:15:35 to 1:16:11 (36 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html) [🔗](<../my-fetches/chakoteya-star-trek/movie10.html>)
+- **Use it for:** the learner who says it's too late to pass. Your line: *"You made the wrong choice, now make the right one"*
+
+----
+
+## Star Trek: Nemesis (2002)
+<!-- 356 -->
+
+**Scene: the bridge, out of torpedoes**
+
+> Picard: "What if we targeted all phasers in a concentrated pattern?"
+>
+> La Forge: "The Scimitar's shields are still at seventy percent. It would make no difference, Captain."
+>
+> Troi: "What's he doing?"
+>
+> Picard: "**He wants to look me in the eye. ...We've got him. ...He thinks he knows exactly what I'm going to do.** Geordi, divert all power to the engines. Take it from life support if you have to. Give me everything you've got."
+
+- **Who:** Picard, Geordi La Forge (LeVar Burton) and Troi (Marina Sirtis), as the Scimitar comes alongside. The ramming follows
+- **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
+- **Time:** 1:26:31 to 1:27:27 (55 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
+- **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html) [🔗](<../my-fetches/chakoteya-star-trek/movie10.html>)
+- **Use it for:** the exam question the examiner thinks you'll answer the usual way
 
 ----
 
@@ -1754,7 +2092,7 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 - **IMDb:** [Nemesis](https://www.imdb.com/title/tt0253754/) · [quotes](https://www.imdb.com/title/tt0253754/quotes/)
 - **Time:** 1:27:48 to 1:28:13 (25 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Trek, Nemesis [2002] -imdb-tt0253754.srt>)
 - **Checked:** [transcript](http://www.chakoteya.net/movies/movie10.html)
-- **Use it for:** evaluations and self-assessment; a student who proves the feedback wrong. "Tough little ship" isn't in the transcript, so I left it out
+- **Use it for:** evaluations and self-assessment; a student who proves the feedback wrong.
 
 ---
 
@@ -1763,6 +2101,37 @@ The original crew and The Next Generation, in film order and scene order. Nothin
 The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 <figure class="topic-photo"><img src="src/img/topics/star-trek-series.jpg" alt="The Deep Space Nine filming model" /><figcaption><a class="ref media" href="#/media-used"><sup>7</sup></a> – The Deep Space Nine filming model</figcaption></figure>
+
+----
+
+## The Next Generation: "Peak Performance" (1989)
+<!-- 357 -->
+
+**Scene: the observation lounge, Data studies Riker**
+
+> Data: "Counsellor, Commander Riker will assume we have made this analysis, and knowing that we know his methods, he will alter them. **But, knowing that we know that he knows that we know, he might choose to return to his usual pattern.**"
+>
+> Troi: "Wait, wait. **You're over-analysing, Data. One cannot deny human nature.** What kind of a man is Commander Riker?"
+>
+> Data: "A fighter?"
+>
+> Troi: "Yes."
+>
+> Data: "The weaker his position, the more aggressive will be his posture."
+>
+> Troi: "And he won't give up."
+>
+> Data: "Then despite whatever options he is given, he must be..."
+>
+> Troi: "**The man that he is.** Exactly."
+>
+> Data: "Is that a failing in humans?"
+
+- **Who:** Data (Brent Spiner) and Troi (Marina Sirtis), before the war game in which Riker commands an old starship against the Enterprise
+- **Episode:** season 2, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708753/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/147.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/147.htm>)
+- **Use it for:** people being who they are. Predicting how a learner or a group will act, and over-thinking it. See also the scorpion, in Voyager's "Scorpion"
 
 ----
 
@@ -2227,6 +2596,37 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 ----
 
 ## The Next Generation: "Descent, Part II" (1993)
+<!-- 375 -->
+
+**Scene: the Borg hall, Picard and Data**
+
+> Picard: "**Data, it's not too late.** If you remove the fibres, then Geordi might yet recover."
+>
+> Data: "That would not be possible."
+>
+> Picard: "Why? Because Lore tells you so?"
+>
+> Data: "It is for the greater good."
+>
+> Picard: "Good? Data, isn't good and bad, right and wrong, a function of your ethical programme?"
+>
+> Data: "That is correct."
+>
+> Picard: "What does that programme tell you about what you're doing to Geordi? About what you and Lore are doing to the Borg? It tells you that these things are wrong, doesn't it, Data? **So how can actions that are wrong lead to a greater good?**"
+>
+> Data: "You are attempting to confuse me."
+>
+> Picard: "**No, you're not confused, Data. You're sensing the truth.**"
+
+- **Who:** Picard (Patrick Stewart) and Data (Brent Spiner), who has turned against the crew under Lore's control. One of the two Picard scenes behind your own "make the right one now" line (From your own documents); the other is in *Nemesis*
+- **Episode:** season 7, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708701/)
+- **Checked:** [transcript](http://www.chakoteya.net/NextGen/253.htm) [🔗](<../my-fetches/chakoteya-star-trek/NextGen/253.htm>)
+- **Use it for:** academic integrity: a learner who has gone wrong but can still put it right. Ends justifying means
+
+----
+
+## The Next Generation: "Descent, Part II" (1993)
 <!-- 84 -->
 
 **Scene: the Borg hall, Lore's test**
@@ -2475,6 +2875,184 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ----
 
+## Deep Space Nine: "Improbable Cause" (1995)
+<!-- 358 -->
+
+**Scene: Garak and Bashir, after the story of the boy who cried wolf**
+
+> Bashir: "But the point is, if you lie all the time, nobody's going to believe you even when you're telling the truth."
+>
+> Garak: "Are you sure that's the point, Doctor?"
+>
+> Bashir: "Of course. What else could it be?"
+>
+> Garak: "**That you should never tell the same lie twice.**"
+
+- **Who:** Doctor Bashir (Alexander Siddig) and Garak (Andrew Robinson). Bashir has just told him the whole story
+- **Episode:** season 3, episode 20
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708553/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/465.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/465.htm>)
+- **Use it for:** excuses for late work. The same story, told twice
+
+----
+
+## Deep Space Nine: "The Die Is Cast" (1995)
+<!-- 359 -->
+
+**Scene: the Romulan warbird, Lovok questions Garak**
+
+> Lovok: "My interest in the changeling is based on what I believe to be the strategic interests of the Romulan Empire. But you, you seem to have a personal interest in him."
+>
+> Garak: "Tell me, what else am I feeling? **I've never been psychoanalysed by a Romulan before. This is a fascinating experience.**"
+>
+> Lovok: "**You are a practiced liar, Mister Garak, but I am a practiced observer.** And I can assure you, I am going to be observing you very closely."
+
+- **Who:** Colonel Lovok (Leland Orser), a Romulan, and Garak, about Odo
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708621/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
+- **Use it for:** an exam invigilator, or a viva. "I am going to be observing you very closely"
+
+----
+
+## Deep Space Nine: "The Die Is Cast" (1995)
+<!-- 360 -->
+
+**Scene: the warbird's bridge, the ambush**
+
+> Tain: "How could this be? What have happened?"
+>
+> Garak: "**I'm afraid the fault, dear Tain, is not in our stars but in ourselves.**"
+>
+> Tain: "What?"
+>
+> Garak: "Just something I learned from Doctor Bashir."
+
+- **Who:** Enabran Tain (Paul Dooley) and Garak, as the Jem'Hadar attack. Garak's version of Cassius in *Julius Caesar*: see Shakespeare
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708621/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
+- **Use it for:** a project review. The plan didn't fail because of bad luck
+
+----
+
+## Deep Space Nine: "The Die Is Cast" (1995)
+<!-- 361 -->
+
+**Scene: the warbird, Garak won't leave Tain**
+
+> Garak: "**I can't just leave you here.**"
+>
+> Tain: "I always did have a soft spot for you, Garak. Another of my flaws."
+>
+> Garak: "Enabran!"
+>
+> *[Odo knocks Garak out]*
+>
+> Tain: "**These Founders, Elim. They're very good. Next time we should be more careful.**"
+
+- **Who:** Garak, Tain and Odo (René Auberjonois). It's "These Founders" and "more careful", not "changeling zealots" and "more prepared"
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708621/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
+- **Use it for:** the lessons-learned slide. "They're very good. Next time we should be more careful"
+
+----
+
+## Deep Space Nine: "The Die Is Cast" (1995)
+<!-- 362 -->
+
+**Scene: the runabout, Garak comes round**
+
+> Garak: "**You can be very persuasive on occasion, Constable. But in the future I hope you'll consider using gentler language.**"
+>
+> Odo: "**I'll keep that in mind.** A Jem'Hadar ship is following us. Raise shields and charge the weapons."
+
+- **Who:** Garak and Odo, after Odo knocked him out to get him off the warbird
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708621/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
+- **Use it for:** feedback that was a little too direct
+
+----
+
+## Deep Space Nine: "The Die Is Cast" (1995)
+<!-- 363 -->
+
+**Scene: the runabout, the shields fail**
+
+> Garak: "The shields are gone. Odo, I hope that you will accept my sincere apologies for all this."
+>
+> Odo: "A little late, isn't it?"
+>
+> Garak: "Nevertheless."
+>
+> Odo: "I may not agree with what you did, but I can certainly understand your desire to return home."
+>
+> Garak: "Thank you."
+>
+> Odo: "What?"
+>
+> *[The Defiant decloaks and blows the Jem'Hadar to atoms]*
+
+- **Who:** Garak and Odo, with two Jem'Hadar ships closing in. The cavalry arrives
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708621/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
+- **Use it for:** the moment help arrives. The lab technician who fixes the network five minutes before the demo
+
+----
+
+## Deep Space Nine: "The Die Is Cast" (1995)
+<!-- 364 -->
+
+**Scene: the Defiant's bridge, the attack**
+
+> Eddington: "Shields at eighty percent."
+>
+> Sisko: "Attack pattern omega four. Full impulse power. **Hold your fire until we're within five hundred metres.**"
+>
+> Kira: "**We might get pretty singed at that range.**"
+>
+> Sisko: "**Not as singed as they're going to get.** Engage."
+>
+> Dax: "Fifty thousand metres and closing. Two thousand metres. Five hundred!"
+>
+> Sisko: "Fire!"
+
+- **Who:** Eddington (Kenneth Marshall), Sisko (Avery Brooks), Kira (Nana Visitor) and Dax (Terry Farrell), against the Jem'Hadar
+- **Episode:** season 3, episode 21
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708621/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/467.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/467.htm>)
+- **Use it for:** a tough exam or interview, taken at close range
+
+----
+
+## Deep Space Nine: "The Way of the Warrior" (1995)
+<!-- 365 -->
+
+**Scene: the infirmary, after the Klingons beat Garak**
+
+> Bashir: "I can't believe you're not pressing charges."
+>
+> Garak: "Constable Odo and Captain Sisko expressed similar concern. But really, Doctor, there was no harm done."
+>
+> Bashir: "They broke seven of your transverse ribs and fractured your clavicle."
+>
+> Garak: "**Ah, but I got off several cutting remarks which no doubt did serious damage to their egos.**"
+>
+> Bashir: "Garak, this isn't funny."
+>
+> Garak: "I'm serious, Doctor. Thanks to your ministrations, I am almost completely healed. **But the damage I did to them will last a lifetime.**"
+
+- **Who:** Bashir and Garak
+- **Episode:** season 4, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394906/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/473.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/473.htm>)
+- **Use it for:** losing an argument but winning the exchange. A rough peer review
+
+----
+
 ## Deep Space Nine: "The Way of the Warrior" (1995)
 <!-- 234 -->
 
@@ -2717,6 +3295,129 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 ----
 
 ## Deep Space Nine: "In the Pale Moonlight" (1998)
+<!-- 366 -->
+
+**Scene: Sisko asks Garak to call in a favour**
+
+> Sisko: "Then I'd say it's time to call in a favour."
+>
+> Garak: "It would mean calling in all my favours, Captain. To do what you're asking would use up every resource I have left on Cardassia. **And it may be a very messy, very bloody business. Are you prepared for that?**"
+>
+> Sisko: "I posted my fourteenth casualty list this morning. **I'm already involved in a very messy, very bloody business.** And the only way I can see to end it is to bring the Romulans into the war. I am prepared to do whatever it takes to accomplish that goal, but I can't do it alone. I need help. Now, are you in or out?"
+>
+> Garak: "I'm in."
+
+- **Who:** Sisko and Garak, at the start of it all
+- **Episode:** season 6, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708557/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
+- **Use it for:** carefully. Ethics, and how a small compromise leads to bigger ones
+
+----
+
+## Deep Space Nine: "In the Pale Moonlight" (1998)
+<!-- 367 -->
+
+**Scene: three days later, Garak's progress**
+
+> Sisko: "Mister Garak, it's been three days. **Have you made any progress?**"
+>
+> Garak: "Well I suppose that depends on how you look at it."
+>
+> Sisko: "This is how I look at it is. Betazed has just fallen to the Dominion and we need to get this operation underway."
+>
+> Garak: "I share your desire for swift action, Captain. In fact, after our last conversation, I made a few discreet inquiries among my former associates still living on Cardassia. As I anticipated, they shared my loathing for the current government and were willing to take on an assignment aimed at its destruction."
+>
+> Sisko: "That sounds like progress to me."
+>
+> Garak: "Doesn't it? **Unfortunately, they're all dead now.**"
+>
+> Sisko: "What?"
+>
+> Garak: "Yes. All killed within one day of speaking with me. **I suppose that's a testament to the effectiveness of Dominion security. One should admire such efficiency.**"
+>
+> Sisko: "I'm sorry."
+
+- **Who:** Sisko and Garak. It's "a testament to", not "a testimony to"
+- **Episode:** season 6, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708557/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
+- **Use it for:** a progress report: *"Have you made any progress?" "That depends on how you look at it"*
+
+----
+
+## Deep Space Nine: "In the Pale Moonlight" (1998)
+<!-- 368 -->
+
+**Scene: a moment later, Garak's other plan**
+
+> Garak: "I hope you're not giving up that easily. **After all, the stakes are much higher than a few dead operatives.** The fate of the entire quadrant hangs in the balance. Or at least that's the case you made to me."
+>
+> Sisko: "Do you have another plan?"
+>
+> Garak: "As a matter of fact, I do. But I suspect you won't like it."
+>
+> Sisko: "Try me."
+>
+> Garak: "If you want to guarantee that we obtain evidence of a Dominion plan to attack the Romulans, **I suggest that we manufacture that evidence ourselves.**"
+
+- **Who:** Garak and Sisko
+- **Episode:** season 6, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708557/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
+- **Use it for:** research ethics. What not to do when the data doesn't support your hypothesis
+
+----
+
+## Deep Space Nine: "In the Pale Moonlight" (1998)
+<!-- 369 -->
+
+**Scene: the turbolift, Garak and Tolar**
+
+> Sisko: "Ops."
+>
+> Garak: "Hold. **The less I'm seen parading through Ops, the better.**"
+>
+> Sisko: "**I couldn't agree more.**"
+>
+> Garak: "You seem angry."
+>
+> Sisko: "Who's watching Tolar?"
+>
+> Garak: "I've locked him in his quarters. **I've also left him with the distinct impression that if he attempts to force the door open, it may explode.**"
+>
+> Sisko: "I hope that's just an impression."
+>
+> Garak: "**It's best not to dwell on such minutiae.**"
+
+- **Who:** Sisko and Garak, about Grathon Tolar, the forger. It's "parading through Ops"
+- **Episode:** season 6, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708557/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
+- **Use it for:** a risk register. "It's best not to dwell on such minutiae" for the detail that will sink the project
+
+----
+
+## Deep Space Nine: "In the Pale Moonlight" (1998)
+<!-- 370 -->
+
+**Scene: the turbolift, the price of the data rod**
+
+> *[The seller wants two hundred litres of biomimetic gel, or no deal]*
+>
+> Sisko: "Then let's forget about it. Ops. Hold. **Two hundred litres is out of the question. There's not that much gel in the entire sector.**"
+>
+> Garak: "**I believe the quantity is open to negotiation.**"
+
+- **Who:** Sisko and Garak, a moment later. Sisko has said "Find someone else" first; there's no "The answer is no"
+- **Episode:** season 6, episode 19
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708557/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/543.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/543.htm>)
+- **Use it for:** negotiating a deadline or a word count
+
+----
+
+## Deep Space Nine: "In the Pale Moonlight" (1998)
 <!-- 85 -->
 
 **Scene: the wardroom**
@@ -2925,6 +3626,23 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 - **IMDb:** [episode](https://www.imdb.com/title/tt0708848/)
 - **Checked:** [transcript](http://www.chakoteya.net/Voyager/211.htm). Your template's wording matches it
 - **Use it for:** a style guide, a referencing guide, class rules for an online course
+
+----
+
+## Voyager: "Scorpion, Part I" (1997)
+<!-- 371 -->
+
+**Scene: Chakotay's parable**
+
+> Chakotay: "There's a story I heard as a child, a parable, and I never forgot it. A scorpion was walking along the bank of a river, wondering how to get to the other side. Suddenly he saw a fox. He asked the fox to take him on his back across the river. The fox said no. If I do that you'll sting me, and I'll drown. The scorpion assured him. If I did that, we'd both drown. So the fox thought about it and finally agreed. So the scorpion climbed up on his back, and the fox began to swim. But halfway across the river, the scorpion stung him. As the poison filled his veins, the fox turned to the scorpion and said why did you do that? Now you'll drown too. **I couldn't help it, said the scorpion. It's my nature.**"
+>
+> Janeway: "I understand the risk, and I'm not proposing that we try to change the nature of the beast, but this is a unique situation."
+
+- **Who:** Chakotay (Robert Beltran) and Janeway (Kate Mulgrew), about an alliance with the Borg. Voyager tells it with a fox; it's usually a frog. The same fable is told in *The Crying Game* (1992) and *Drive* (2011), not checked: neither is in your subtitle library
+- **Episode:** season 3, episode 26
+- **IMDb:** [episode](https://www.imdb.com/title/tt0708968/)
+- **Checked:** [transcript](http://www.chakoteya.net/Voyager/321.htm) [🔗](<../my-fetches/chakoteya-star-trek/Voyager/321.htm>)
+- **Use it for:** people acting as they are. See also "Peak Performance": "the man that he is"
 
 ----
 
@@ -3632,6 +4350,21 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 
 ----
 
+## X-Men: The Last Stand (2006)
+<!-- 376 -->
+
+**Scene: Alcatraz, the X-Men arrive**
+
+> Magneto: "**Traitors to their own cause.**"
+
+- **Who:** Magneto (Ian McKellen), as the X-Men land to defend the humans on Alcatraz. Then: "Finish them!"
+- **IMDb:** [X-Men: The Last Stand](https://www.imdb.com/title/tt0376994/) · [quotes](https://www.imdb.com/title/tt0376994/quotes/)
+- **Time:** 1:20:25 to 1:20:31 (6 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men; The Last Stand [2006] -imdb-tt0376994.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/X-Men:_The_Last_Stand) [🔗](<../my-fetches/wikiquote/X-Men__The_Last_Stand.wiki>)
+- **Use it for:** a team member who sides with the other team. Say it with a smile
+
+----
+
 ## X-Men: Days of Future Past (2014)
 <!-- 112 -->
 
@@ -4023,6 +4756,32 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 
 ----
 
+## The Simpsons: "Bart Gets Hit by a Car" (1991)
+<!-- 372 -->
+
+**Scene: the trial, Mr Burns's version**
+
+> Lawyer: "Mr. Burns, relate in your own words what really happened on the day of the accident."
+>
+> Mr Burns: "Certainly. It was a beautiful day. The sun was shining. **I was driving to the orphanage to pass out toys.** Suddenly, that incorrigible Simpson boy darted in front of me. My goodness! Look what's happened!"
+>
+> Smithers: "It's not important. Let's drive on."
+>
+> Mr Burns: "You cold-blooded monster! Regardless of what you think, we must summon help and comfort him until an ambulance arrives."
+>
+> Mr Burns: "No! Take me, I'm old! **And that's what happened.**"
+>
+> Mr Burns: "**Why are you looking at me like that? You believed his story!**"
+
+- **Who:** Mr Burns (voiced by Harry Shearer) in court, and Smithers in his flashback, where everyone's parts are swapped. It's "You believed his story!"; there's no "cock and bull" in the subtitles
+- **Episode:** season 2, episode 10
+- **IMDb:** [episode](https://www.imdb.com/title/tt0757017/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s02e10) [🔗](<../my-fetches/springfield-scripts/simpsons/s02e10.txt>)
+- **Check:** who says each line in the flashback; the subtitles don't name speakers
+- **Use it for:** a student's account of why the project is late. "Why are you looking at me like that?"
+
+----
+
 ## The Simpsons: "One Fish, Two Fish, Blowfish, Blue Fish" (1991)
 <!-- 315 -->
 
@@ -4141,6 +4900,25 @@ Cartoons, in broadcast order. More Simpsons in topics 1 and 4
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s03e04) [🔗](<../my-fetches/springfield-scripts/simpsons/s03e04.txt>)
 - **Check:** who asks the questions (Hutz defends Bart, so it may be the prosecutor), and which of the men speaks
 - **Use it for:** a group project where everyone points at the same person. "Who wrote this?" "That's the guy."
+
+----
+
+## The Simpsons: "Homer Loves Flanders" (1994)
+<!-- 373 -->
+
+**Scene: Mr Burns's team talk, before the football game**
+
+> Mr Burns: "Men, there's a little crippled boy sitting in the hospital who wants you to win this game. **I know because I crippled him myself to inspire you.**"
+>
+> *[In hospital, Milhouse, with his leg in plaster]*
+>
+> Milhouse: "Well, I hope they win, or Mr. Burns said he's coming back."
+
+- **Who:** Mr Burns, to the Springfield Atoms, and Milhouse (voiced by Pamela Hayden)
+- **Episode:** season 5, episode 16
+- **IMDb:** [episode](https://www.imdb.com/title/tt0773646/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-simpsons&episode=s05e16) [🔗](<../my-fetches/springfield-scripts/simpsons/s05e16.txt>) · [Wikiquote](https://en.wikiquote.org/wiki/The_Simpsons/Season_5) [🔗](<../my-fetches/wikiquote/The_Simpsons_Season_5.wiki>)
+- **Use it for:** how not to motivate a team. The worst possible pep talk
 
 ----
 
@@ -5058,6 +5836,46 @@ Peep Show, Mitchell and Webb, Blackadder and Bean
 
 ----
 
+## Yes, Prime Minister: "A Conflict of Interest" (1987)
+<!-- 377 -->
+
+**Scene: Humphrey teaches Bernard how to sink a candidate**
+
+> Humphrey: "Bernard. Any news about the governorship of the Bank of England?"
+>
+> Bernard: "The Prime Minister is planning to appoint Alexander Jameson."
+>
+> Humphrey: "Mr Clean."
+>
+> Bernard: "That's one bit of good news."
+>
+> Humphrey: "Appalling news!"
+>
+> Bernard: "Will you try and change the PM's mind?"
+>
+> Humphrey: "No. I WILL change the PM's mind."
+>
+> Bernard: "He seems very keen on him."
+>
+> Humphrey: "That'll be my starting point. When you wish to suggest that somebody is not the ideal choice"
+>
+> Bernard: "You rubbish them?"
+>
+> Humphrey: "**The first stage is to express absolute support.**"
+>
+> Bernard: "Why?"
+>
+> Humphrey: "You don't want to say somebody's no good. **You must be seen to be their friend. After all, it is necessary to get behind someone before you can stab them in the back.**"
+
+- **Who:** Sir Humphrey Appleby (Nigel Hawthorne) and Bernard Woolley (Derek Fowlds). Your wording, "before you can stab someone in the back, you must first get behind them", is the same idea the other way round. The subtitles don't name speakers. Stages two to four follow: praise his virtues until they become vices, label him, then defend his faults
+- **Episode:** series 2, episode 4
+- **IMDb:** [episode](https://www.imdb.com/title/tt0751828/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=yes-prime-minister-1986&episode=s02e04) [🔗](<../my-fetches/springfield-scripts/yes-prime-minister-1986/s02e04.txt>)
+- **Check:** it isn't on Wikiquote's Yes, Minister page, so only the subtitles have it
+- **Use it for:** office politics, and how to spot it. Praise as a weapon
+
+----
+
 ## Father Ted: "The Passion of St Tibulus" (1995)
 <!-- 278 -->
 
@@ -5367,6 +6185,37 @@ Quotes you have already used in templates and reports
 - **Source:** [tweet](https://twitter.com/unclebobmartin/status/870311898545258497) · `data-analytics-project-template/docs/code-style-guide.md`
 - **Use it for:** code style and commenting
 
+----
+
+## Mark Crowe (2010)
+<!-- 378 -->
+
+> "**It's only arrogance if I'm wrong.**"
+
+- **Who:** your own line, a possible title for a report. Not a quotation from anyone else
+- **Use it for:** a report title; confidence backed by evidence
+
+----
+
+## Mark Crowe (2026)
+<!-- 379 -->
+
+> "**Deal with the traitor behind you before the enemy in front. You can survive an attack. You won't survive a betrayal.**"
+
+- **Who:** your own line, put together from your notes: internal problems and betrayal first, external threats after. It adapts an old saying that turns up online with no source I could find: an enemy in front, a traitor behind, a gun with two bullets: shoot the traitor twice. A version in *The Office* has Michael Scott shooting Toby twice; I haven't checked which episode. Change the wording as you like
+- **Check:** your final wording
+- **Use it for:** team charters, and dealing with problems inside the group before blaming outsiders
+
+----
+
+## Mark Crowe (2026), after Picard
+<!-- 380 -->
+
+> "**You've made the wrong choice. But it's not too late. Make the right one now.**"
+
+- **Who:** your own adaptation, not Picard's words. It comes from Picard to Shinzon in *Star Trek: Nemesis*: "It's too late." "Never! Never! You still have a choice! Make the right one now!", and Picard to Data in "Descent, Part II": "Data, it's not too late". Both are in the Star Trek topics
+- **Use it for:** academic integrity conversations: name the mistake, then the way back
+
 ---
 
 # Shakespeare
@@ -5423,6 +6272,7 @@ Out of copyright, so quote freely. Act and scene numbers follow the Folger editi
 > Cassius: "**The fault, dear Brutus, is not in our stars, but in ourselves**, that we are underlings."
 
 - **Who:** Cassius to Brutus, act 1, scene 2
+- **Also:** Garak's version in *Deep Space Nine*, "The Die Is Cast": "the fault, dear Tain, is not in our stars but in ourselves"
 - **Use it for:** taking responsibility for results. Not the timetable, not the laptop
 
 ----
@@ -5551,6 +6401,139 @@ Memes that started as photos, clips and cartoons
 - **Meme page:** [Know Your Meme](https://knowyourmeme.com/memes/i-am-once-again-asking-for-your-financial-support)
 - **Use it for:** *"I am once again asking you to commit your work"*
 
+----
+
+## Donald Trump (2016)
+<!-- 374 -->
+
+> "We want to see winning. We want to see win, win, win – constant winning. And you'll say – if I'm president... 'Please, Mr. President, we're winning too much. We can't stand it anymore. Can't we have a loss?' And I'll say no, **we're going to keep winning, winning, winning**... because we're going to make America great again. And you'll say, 'Okay, Mr. President. Okay.'"
+
+- **Who:** Donald Trump, in a speech at Liberty University, Virginia, 18 January 2016, before he was elected. He said versions of it at other rallies, including "you'll be so sick and tired of winning"
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Donald_Trump) [🔗](<../my-fetches/wikiquote/Donald_Trump.wiki>)
+- **Also:** "Sorry to keep you waiting. Complicated business" is three entries on, from NPR's transcript of the victory speech
+- **Use it for:** results day, or a run of good marks. Often used sarcastically, when there hasn't been much winning
+
+----
+
+## Donald Trump (2016): the "Fifth Avenue" remark
+<!-- 381 -->
+
+> "**I could stand in the middle of Fifth Avenue and shoot somebody, and I wouldn't lose any voters, OK?**"
+
+- **Who:** Donald Trump, at a campaign stop at Dordt College, Sioux Center, Iowa, 23 January 2016. He had just said his supporters were the most loyal, and went on: "It's, like, incredible." Reports differ slightly ("5th Avenue")
+- **Checked:** [NPR](https://www.npr.org/sections/thetwo-way/2016/01/23/464129029/donald-trump-i-could-shoot-somebody-and-i-wouldnt-lose-any-voters) [🔗](<../my-fetches/trump/fifth-avenue.txt>)
+- **Use it for:** loyalty that survives anything. Is that a good thing?
+
+----
+
+## Donald Trump and Hillary Clinton (2016): the second debate
+<!-- 382 -->
+
+> Clinton: "Last time at the first debate, we had millions of people fact checking, so I expect we'll have millions more fact checking, because, you know, it is—it's just awfully good that **someone with the temperament of Donald Trump is not in charge of the law in our country.**"
+>
+> Trump: "**Because you'd be in jail.**"
+
+- **Who:** Hillary Clinton and Donald Trump, the second presidential debate, Washington University in St. Louis, 9 October 2016. The audience applauds, and Anderson Cooper asks them not to
+- **Checked:** [Commission on Presidential Debates transcript](https://www.debates.org/voter-education/debate-transcripts/october-9-2016-debate-transcript/) [🔗](<../my-fetches/trump/debate-2016-10-09.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Donald_Trump) [🔗](<../my-fetches/wikiquote/Donald_Trump.wiki>)
+- **Use it for:** the comeback. Debating skills: a five-word reply that wins the room and answers nothing
+
+----
+
+## Donald Trump (2016): the victory speech
+<!-- 383 -->
+
+> "Thank you, thank you very much. **Sorry to keep you waiting. Complicated business, complicated business.** Thank you very much."
+
+- **Who:** Donald Trump, the first words of his victory speech, New York, early on 9 November 2016, after Clinton conceded
+- **Checked:** [NPR transcript](https://www.npr.org/2016/11/09/500715254/transcript-donald-trump-speaks-at-victory-rally) [🔗](<../my-fetches/trump/victory-2016.txt>)
+- **Use it for:** starting late. Or the end of a long marking session
+
+----
+
+## Donald Trump (2017): "You are fake news"
+<!-- 384 -->
+
+> Acosta: "Mr. President-elect, since you're attacking our news organization, can you give us a chance to ask a question?"
+>
+> Trump: "**Not you.**"
+>
+> Trump: "**Don't be rude.**"
+>
+> Trump: "**I'm not going to give you a question. You are fake news.**"
+
+- **Who:** Donald Trump, President-elect, and Jim Acosta of CNN, at Trump Tower, 11 January 2017, the day after CNN reported on Russian claims about him. They talked over each other between the lines
+- **Checked:** [Columbia Journalism Review](https://www.cjr.org/politics/trump_press_conference_acosta_fake_news.php) [🔗](<../my-fetches/trump/acosta-2017.txt>)
+- **Use it for:** media literacy. Dismissing the source instead of the question
+
+----
+
+## Donald Trump (2018): "You never do"
+<!-- 385 -->
+
+> Trump: "Okay, question. Yeah. Go ahead. Sure. She's shocked that I picked her. She's like in a state of shock."
+>
+> Cecilia Vega: "I'm not. Thank you, Mr. President."
+>
+> Trump: "**That's okay. I know you're not thinking. You never do.**"
+>
+> Cecilia Vega: "I'm sorry?"
+>
+> Trump: "No, go ahead. Go ahead."
+
+- **Who:** Donald Trump and Cecilia Vega of ABC News, at a Rose Garden press conference on the new trade deal with Mexico and Canada, 1 October 2018. The White House transcript first had "thanking"; it was corrected the next day
+- **Checked:** [White House transcript](https://trumpwhitehouse.archives.gov/briefings-statements/remarks-president-trump-united-states-mexico-canada-agreement/) [🔗](<../my-fetches/trump/usmca-2018-10-01.txt>) and [NBC News](https://www.nbcnews.com/politics/white-house/white-house-corrects-transcript-include-trump-insult-female-reporter-n915821) [🔗](<../my-fetches/trump/vega-2018.txt>)
+- **Use it for:** how not to treat a question. Feedback that's a put-down
+
+----
+
+## Donald Trump (2015): equal pay
+<!-- 386 -->
+
+> Young woman: "I want to get paid the same as a man, and I think you understand that. So, if you become president, will a woman make the same as a man and do I get to choose what I do with my body?"
+>
+> Trump: "**You're gonna make the same if you do as good a job.** You're gonna make the same if you do as good a job, and I happen to be pro-life. OK? I'm pro-life."
+
+- **Who:** Donald Trump and Lauren Batchelder, a student, at a town hall in New Hampshire, 12 October 2015. FactCheck.org's transcript
+- **Checked:** [FactCheck.org](https://www.factcheck.org/2016/06/clintons-equal-pay-claim/) [🔗](<../my-fetches/trump/equal-pay-factcheck.txt>) and [NBC News](https://www.nbcnews.com/politics/2016-election/trump-accuses-tough-questioner-being-bush-plant-n443476) [🔗](<../my-fetches/trump/equal-pay-2015.txt>)
+- **Use it for:** a fair-sounding answer with an assumption hidden in it. Equality and diversity training
+
+----
+
+## Donald Trump (2021): the January 6 video
+<!-- 387 -->
+
+> "I know your pain. I know you're hurt. We had an election that was stolen from us. It was a landslide election and everyone knows it, especially the other side, **but you have to go home now. We have to have peace.** We have to have law and order. We have to respect our great people in law and order. We don't want anybody hurt."
+>
+> "It's a very tough period of time. There's never been a time like this where such a thing happened, where they could take it away from all of us, from me, from you, from our country. This was a fraudulent election but we can't play into the hands of these people. We have to have peace. **So go home. We love you.**"
+>
+> "**You're very special.** You've seen what happens. You see the way others are treated that are so bad and so evil. I know how you feel. But go home and go home in peace."
+
+- **Who:** Donald Trump, in a video posted while his supporters were inside the US Capitol, 6 January 2021. The whole video, 61 seconds, in three parts as the transcript splits it; the platforms took it down. The claim that the election was stolen was false: courts and recounts rejected it
+- **Checked:** [Roll Call Factbase transcript and video](https://rollcall.com/factbase/trump/transcript/donald-trump-vlog-capitol-insurrection-january-6-2021/) [🔗](<../my-fetches/trump/jan6-video.txt>)
+- **Use it for:** mixed messages. Telling people to stop while telling them they're right
+
+----
+
+## H. L. Mencken (1920): democracy and the White House
+<!-- 388 -->
+
+> "The Presidency tends, year by year, to go to such men. **As democracy is perfected, the office represents, more and more closely, the inner soul of the people.** We move toward a lofty ideal. **On some great and glorious day the plain folks of the land will reach their heart's desire at last, and the White House will be adorned by a downright moron.**"
+
+- **Who:** H. L. Mencken, the American journalist, in "Bayard vs. Lionheart", *The Evening Sun*, Baltimore, 26 July 1920. This is the democracy quote that ends by insulting the voters. Also his: "**Democracy is the theory that the common people know what they want, and deserve to get it good and hard**" (*The Smart Set*, 1915). "The best argument against democracy is a five-minute conversation with the average voter" is not Churchill: no source before 1992
+- **Checked:** [Wikiquote: Mencken](https://en.wikiquote.org/wiki/H._L._Mencken) [🔗](<../my-fetches/wikiquote/H._L._Mencken.wiki>) [🔗](<../my-fetches/quotes/mencken-1920.txt>) · [Wikiquote: Churchill, misattributed](https://en.wikiquote.org/wiki/Winston_Churchill) [🔗](<../my-fetches/wikiquote/Winston_Churchill.wiki>)
+- **Use it for:** politics and citizenship. Pick the room
+
+----
+
+## Taylor Caldwell (1965): "treason from within", not Cicero
+<!-- 389 -->
+
+> "**A nation can survive its fools, and even the ambitious. But it cannot survive treason from within.** For the traitor appears not a traitor – He speaks in the accents familiar to his victims, and he appeals to the baseness that lies deep in the hearts of all men. **He rots the soul of a nation** – he works secretly and unknown in the night to undermine the pillars of a city – he infects the body politic so that it can no longer resist. A murderer is less to be feared."
+
+- **Who:** shared online as Cicero. It's from *A Pillar of Iron*, a 1965 novel about Cicero by Taylor Caldwell; a classicist found nothing like it in Cicero's works, and he was dead by the date the meme gives. The fuller meme adds "An enemy at the gates is less formidable, for he is known": I couldn't find a reliable copy of that part. The nearest real Cicero is his speeches against Catiline (63 BC), on enemies inside the city
+- **Checked:** [PolitiFact](https://www.politifact.com/factchecks/2019/may/03/facebook-posts/no-roman-statesman-did-not-give-warning-about-trum/) [🔗](<../my-fetches/quotes/politifact-cicero-caldwell.txt>)
+- **Use it for:** the enemy within. Credit the novel, not Cicero
+
 ---
 
 # Music, sound and clips
@@ -5597,7 +6580,7 @@ A few seconds of sound, and the law on clips in class
 
 # Transformers
 
-The 1986 animated film and the live-action films, in date order
+The 1986 animated film, the cartoons, the live-action films and *Transformers One*, in date order
 
 <figure class="topic-photo"><img src="src/img/topics/transformers.jpg" alt="Megatron and Optimus Prime cosplayers at WonderCon" /><figcaption><a class="ref media" href="#/media-used"><sup>18</sup></a> – Megatron and Optimus Prime, at WonderCon</figcaption></figure>
 
@@ -5649,6 +6632,37 @@ The 1986 animated film and the live-action films, in date order
 ----
 
 ## The Transformers: The Movie (1986)
+<!-- 390 -->
+
+**Scene: inside Astrotrain, lightening the load**
+
+> Starscream: "Do I hear a second on that?"
+>
+> "Aye!"
+>
+> Starscream: "And against?"
+>
+> "Nay!"
+>
+> Starscream: "**The ayes have it!**"
+>
+> Starscream: "**Oh, how it pains me to do this.**"
+>
+> Megatron: "Wait... **I still function.**"
+>
+> Starscream: "**Wanna bet?**"
+>
+> Starscream: "Well, as Megatron has, how shall we say, departed, **I nominate myself as the new leader.**"
+
+- **Who:** Starscream (voiced by Chris Latta) and the wrecked Megatron (Frank Welker). The fit Decepticons vote the damaged ones out of the airlock, then Starscream throws Megatron out after them. Bonecrusher has just called it "survival of the fittest"
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 0:27:05 to 0:27:54 (49 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
+- **Use it for:** a group vote that happens to suit the people voting. Democracy, Decepticon style
+
+----
+
+## The Transformers: The Movie (1986)
 <!-- 265 -->
 
 **Scene: deep space, Unicron finds Megatron**
@@ -5676,6 +6690,29 @@ The 1986 animated film and the live-action films, in date order
 - **Time:** 0:30:14 to 0:30:56 (42 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-transformers-the-movie) [🔗](<../my-fetches/springfield-scripts/the-transformers-the-movie.txt>)
 - **Use it for:** terms and conditions, a software licence, an unpaid internship. Your bargaining posture is highly dubious
+
+----
+
+## The Transformers: The Movie (1986)
+<!-- 391 -->
+
+**Scene: Starscream's coronation**
+
+> Starscream: "My fellow Decepticons. As your new leader, I... **Who disrupts my coronation?!**"
+>
+> Galvatron: "**"Coronation", Starscream? This is bad comedy.**"
+>
+> Starscream: "Megatron? Is that you?"
+>
+> Galvatron: "**Here's a hint!**"
+>
+> Galvatron: "**Will anyone else attempt to fill his shoes?**"
+
+- **Who:** Starscream and Galvatron (voiced by Leonard Nimoy), the old Megatron, rebuilt by Unicron. "Here's a hint" is a blast that leaves Starscream in ashes. Then: "Long live Galvatron!"
+- **IMDb:** [The Transformers: The Movie](https://www.imdb.com/title/tt0092106/)
+- **Time:** 0:32:52 to 0:33:47 (55 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Transformers; The Movie [1986] -imdb-tt0092106.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers:_The_Movie) [🔗](<../my-fetches/wikiquote/The_Transformers__The_Movie.wiki>)
+- **Use it for:** whoever claims credit for the project while the real lead is off sick. Or a coup that doesn't last
 
 ----
 
@@ -5737,6 +6774,46 @@ The 1986 animated film and the live-action films, in date order
 
 ----
 
+## The Transformers: "Five Faces of Darkness, Part 4" (1986)
+<!-- 392 -->
+
+**Scene: the planet Goo, Galvatron returns to his troops**
+
+> Galvatron: "**Now, Decepticons, learn the price of your disloyalty! Attack!**"
+>
+> Cyclonus: "Attack whom?"
+>
+> Galvatron: "**EVERYONE!**"
+
+- **Who:** Galvatron (Leonard Nimoy's role, voiced in the series by Frank Welker) and Cyclonus. The Decepticons had gone over to the Quintessons for energon; Galvatron shoots Cyclonus between lines. 
+- **Episode:** season 3, episode 4
+- **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
+- **Checked:** [TFWiki](https://tfwiki.net/wiki/Five_Faces_of_Darkness,_Part_4) [🔗](<../my-fetches/tfwiki/Five_Faces_of_Darkness,_Part_4.wiki>)
+- **Check:** only one source, a fan wiki; no transcript or subtitles
+- **Use it for:** blanket feedback to the whole class for one person's mistake. Don't
+
+----
+
+## The Transformers: "Ghost in the Machine" (1986)
+<!-- 393 -->
+
+**Scene: Starscream's ghost**
+
+> Galvatron: "Starscream! **You are a dead mechanism!**"
+>
+> Starscream: "**Of course I'm dead, Galvatron! But not for much longer. And then are you going to be sorry!**"
+>
+> Galvatron: "**I'm already sorry!**"
+
+- **Who:** Galvatron and the ghost of Starscream, who wants a new body. In the episode Unicron gives him one
+- **Episode:** season 3, episode 15
+- **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
+- **Checked:** [TFWiki](https://tfwiki.net/wiki/Ghost_in_the_Machine_(G1)) [🔗](<../my-fetches/tfwiki/Ghost_in_the_Machine_(G1).wiki>)
+- **Check:** only one source, a fan wiki. Your "Sorry" from Megatron isn't there; Galvatron's "I'm already sorry" is
+- **Use it for:** a bug you thought you'd fixed, back again. Or a former colleague who keeps coming back
+
+----
+
 ## Transformers (2007)
 <!-- 269 -->
 
@@ -5751,6 +6828,93 @@ The 1986 animated film and the live-action films, in date order
 - **Time:** 1:34:19 to 1:34:53 (35 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers [2007] -imdb-tt0418279.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers) [🔗](<../my-fetches/springfield-scripts/transformers.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers_(film)) [🔗](<../my-fetches/wikiquote/Transformers_(film).wiki>)
 - **Use it for:** first years, from the second years' point of view. They have much to learn, but were we so different?
+
+----
+
+## Transformers: Animated: "Mission Accomplished" (2009)
+<!-- 394 -->
+
+**Scene: Megatron and Starscream**
+
+> Megatron: "Is that the best you could do, Starscream? **And to think you actually believed you could take over as leader of the Decepticons. You couldn't lead a parade.**"
+
+- **Who:** Megatron (voiced by Corey Burton) to Starscream (Tom Kenny). Not Galvatron, and not the 1980s cartoon
+- **IMDb:** [Transformers: Animated](https://www.imdb.com/title/tt0864133/)
+- **Checked:** [TFWiki](https://tfwiki.net/wiki/Mission_Accomplished) [🔗](<../my-fetches/tfwiki/Mission_Accomplished.wiki>)
+- **Check:** only one source, a fan wiki
+- **Use it for:** the person who wants to lead the group but can't organise a meeting
+
+----
+
+## Transformers: Revenge of the Fallen (2009)
+<!-- 395 -->
+
+**Scene: the Fallen and Megatron**
+
+> The Fallen: "And you will, my apprentice, in time. **For millennia, I have dreamed of my return to that wretched planet where I, too, was once betrayed by the Primes I called my brothers.** Only a Prime can defeat me, and now, only one remains."
+>
+> Megatron: "Optimus! He protects the boy."
+
+- **Who:** The Fallen (voiced by Tony Todd) and Megatron (Hugo Weaving). The Fallen calls it betrayal; the film's own history, later, is that he was the traitor, and his brothers hid the Matrix from him
+- **IMDb:** [Revenge of the Fallen](https://www.imdb.com/title/tt1055369/)
+- **Time:** 0:42:45 to 0:43:15 (30 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Revenge_of_the_Fallen) [🔗](<../my-fetches/wikiquote/Transformers__Revenge_of_the_Fallen.wiki>)
+- **Use it for:** every traitor's story: I was the one betrayed
+
+----
+
+## Transformers: Revenge of the Fallen (2009)
+<!-- 396 -->
+
+**Scene: the forest fight**
+
+> Megatron: "**Is the future of our race not worth a single human life?**"
+>
+> Sam: "Up! Get up!"
+>
+> Optimus Prime: "**You'll never stop at one! I'll take you all on!**"
+
+- **Who:** Megatron, Sam Witwicky (Shia LaBeouf) and Optimus Prime (Peter Cullen), against Megatron, Starscream and Grindor at once. Wikiquote has "You'll never stop at one... I'll take you all on!"
+- **IMDb:** [Revenge of the Fallen](https://www.imdb.com/title/tt1055369/)
+- **Time:** 1:01:13 to 1:01:29 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Revenge_of_the_Fallen) [🔗](<../my-fetches/wikiquote/Transformers__Revenge_of_the_Fallen.wiki>)
+- **Use it for:** standing up for one learner when the rule would sacrifice them. Give one up, and it never stops at one
+
+----
+
+## Transformers: Revenge of the Fallen (2009)
+<!-- 397 -->
+
+**Scene: Egypt, Optimus and the Fallen**
+
+> "**Die, like your brothers!**"
+>
+> "**They were your brothers, too.**"
+
+- **Who:** the Fallen and Optimus Prime, in their last fight. Not "died just like his brothers"
+- **IMDb:** [Revenge of the Fallen](https://www.imdb.com/title/tt1055369/)
+- **Time:** 2:19:19 to 2:19:27 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Revenge of the Fallen [2009] -imdb-tt1055369.srt>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-revenge-of-the-fallen) [🔗](<../my-fetches/springfield-scripts/transformers-revenge-of-the-fallen.txt>)
+- **Check:** who says which. Neither source names them; the sense is the Fallen threatening, Optimus answering
+- **Use it for:** a reminder, in a falling-out, that the people being attacked were once on the same side
+
+----
+
+## Transformers: Dark of the Moon (2011)
+<!-- 398 -->
+
+**Scene: NEST base, Sentinel Prime's betrayal**
+
+> Sentinel Prime: "Indeed, I am. **What you must realize, my Autobot brothers, is we were never going to win the war. For the sake of our planet's survival, a deal had to be made with Megatron.**"
+>
+> "What have you done?"
+
+- **Who:** Sentinel Prime (voiced by Leonard Nimoy), the Autobots' old leader, turning on them. Their answer to the betrayal is the Chicago scene below
+- **IMDb:** [Dark of the Moon](https://www.imdb.com/title/tt1399103/)
+- **Time:** 1:10:12 to 1:10:40 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers; Dark of the Moon [2011] -imdb-tt1399103.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Dark of the Moon [2011] -imdb-tt1399103.srt>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-dark-of-the-moon) [🔗](<../my-fetches/springfield-scripts/transformers-dark-of-the-moon.txt>)
+- **Check:** who says "What have you done?"
+- **Use it for:** "we were never going to win anyway": the excuse every quiet deal with the other side uses
 
 ----
 
@@ -5773,6 +6937,81 @@ The 1986 animated film and the live-action films, in date order
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-dark-of-the-moon) [🔗](<../my-fetches/springfield-scripts/transformers-dark-of-the-moon.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Dark_of_the_Moon) [🔗](<../my-fetches/wikiquote/Transformers__Dark_of_the_Moon.wiki>)
 - **Use it for:** plagiarism. You didn't cheat me, you cheated yourself
 
+----
+
+## Transformers: Age of Extinction (2014)
+<!-- 399 -->
+
+**Scene: Lockdown and Optimus**
+
+> Lockdown: "**I feel sorry for you, Prime. Your allegiance to these humans. The trouble with loyalty to a cause is that the cause will always betray you.**"
+>
+> Optimus Prime: "Who sent you here?"
+
+- **Who:** Lockdown (voiced by Mark Ryan), a bounty hunter, and Optimus Prime
+- **IMDb:** [Age of Extinction](https://www.imdb.com/title/tt2109248/)
+- **Time:** 1:21:25 to 1:21:43 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Transformers; Age of Extinction [2014] -imdb-tt2109248.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Transformers; Age of Extinction [2014] -imdb-tt2109248.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Transformers:_Age_of_Extinction) [🔗](<../my-fetches/wikiquote/Transformers__Age_of_Extinction.wiki>)
+- **Use it for:** a cynic's view of loyalty, to argue with
+
+----
+
+## Transformers One (2024)
+<!-- 400 -->
+
+**Scene: Sentinel's prisoners**
+
+> Sentinel Prime: "Oh, D-16, what a tragic story you'll be. Atop the leaderboard in your sector, and secretly a traitor."
+>
+> D-16: "**I'm not a traitor. You're the traitor.**"
+>
+> Sentinel Prime: "**You, all of you, are traitors.** You've been working with the Quintessons to sabotage my expeditions."
+>
+> Sentinel Prime: "Because down here, **the truth is what I make it.**"
+
+- **Who:** Sentinel Prime (voiced by Jon Hamm) and D-16 (Brian Tyree Henry), the miner who becomes Megatron. It's this 2024 animated film, not *Rise of the Beasts*. B-127 (Keegan-Michael Key) says "None of that is true!" in between
+- **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>), which is rough ("A top-the-leader board")
+- **Use it for:** the accuser who is the guilty one. Also: whoever controls the record controls the truth
+
+----
+
+## Transformers One (2024)
+<!-- 401 -->
+
+**Scene: Iacon, Sentinel exposed**
+
+> Sentinel Prime: "You pathetic little twits! Did you really think you could knock down what I've built?!"
+>
+> Orion: "It's over, Sentinel! You can't escape the truth!"
+>
+> Sentinel Prime: "**What truth? That I plucked the cogs from your newborn chests, forced you to mine so I could pay off the Quintessons and live like a king?!** None of that matters!"
+
+- **Who:** Sentinel Prime and Orion Pax (Chris Hemsworth), the future Optimus. The cogs let a Transformer transform; Sentinel took them so the miners could never be more than miners. Earlier, Alpha Trion (Laurence Fishburne): "He removed your cogs before you came online"
+- **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>) ("Then I plucked the cons from your newborn chest")
+- **Use it for:** a leader who keeps people from developing so they stay useful. Or the hidden cost behind cheap labour
+
+----
+
+## Transformers One (2024)
+<!-- 402 -->
+
+**Scene: Optimus banishes Megatron**
+
+> Optimus Prime: "We were given the power to change our world, and you chose to destroy it. Just like Sentinel. **You have betrayed Cybertron and its citizens. And you betrayed... me.**"
+>
+> Optimus Prime: "Go. Take the High Guard and leave. **You are... banished from Iacon.**"
+>
+> Optimus Prime: "**It didn't have to end this way.**"
+>
+> Megatron: "**This isn't over... Prime.**"
+
+- **Who:** Optimus Prime and Megatron, the best friends Orion Pax and D-16 until now. The trailer's line is "Before we were enemies... we were like brothers"; "We were brothers once" isn't in the film
+- **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>)
+- **Use it for:** the end of a partnership. Betrayal of the cause, then of the friend
+
 ---
 
 # TV drama and sci-fi
@@ -5780,6 +7019,58 @@ The 1986 animated film and the live-action films, in date order
 Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mandalorian, Chernobyl, The Boys and Wednesday, in date order
 
 <figure class="topic-photo"><img src="src/img/topics/tv-drama.jpg" alt="An old television set on a suburban road" /><figcaption><a class="ref media" href="#/media-used"><sup>19</sup></a> – An old television set</figcaption></figure>
+
+----
+
+## Stargate SG-1: "The Serpent's Lair" (1998)
+<!-- 403 -->
+
+**Scene: Klorel's ship**
+
+> Klorel: "Come. **Witness the power of your god.**"
+>
+> "I cannot."
+>
+> Klorel: "Why do you defy me?"
+>
+> Teal'c: "**Because you are not a god. You are a parasite within a child, and I despise you.**"
+>
+> Klorel: "Jaffa, kree tai! **I am your god! And you will feel my wrath!**"
+>
+> Teal'c: "**I... die... free!**"
+
+- **Who:** Klorel, the Goa'uld in the body of Skaara, a boy (voiced through Alexis Cruz), and Teal'c (Christopher Judge), on his knees under Klorel's hand device. Bra'tac (Tony Amendola), pretending to be Klorel's loyal servant, then turns on Klorel and saves him. Not "Come see what your god can do"
+- **Episode:** season 2, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0709199/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=stargate-sg-1&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/stargate-sg-1/s02e01.txt>)
+- **Check:** the speakers: the subtitles don't name them. You remembered Bra'tac as the one tortured; the lines read as Teal'c's
+- **Use it for:** refusing to bow to a bad authority. Courage, and the price of it
+
+----
+
+## Stargate SG-1: "The Serpent's Lair" (1998)
+<!-- 404 -->
+
+**Scene: the end, adrift in a glider after the ships explode**
+
+> Carter: "It'll be a beautiful sunset, sir."
+>
+> O'Neill: "You know, Captain, this wasn't such a bad day after all."
+>
+> "Not bad at all."
+>
+> Bra'tac: "**We die well, Teal'c.**"
+>
+> Teal'c: "**More than that, old friend. We die free.**"
+>
+> O'Neill: "**Or not.**"
+
+- **Who:** Samantha Carter (Amanda Tapping), Jack O'Neill (Richard Dean Anderson), Bra'tac and Teal'c, out of air in orbit, until the Space Shuttle *Endeavour* arrives
+- **Episode:** season 2, episode 1
+- **IMDb:** [episode](https://www.imdb.com/title/tt0709199/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=stargate-sg-1&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/stargate-sg-1/s02e01.txt>)
+- **Check:** the speakers: the subtitles don't name them
+- **Use it for:** the end of a hard project that went wrong for the right reasons. Then the rescue nobody expected
 
 ----
 
@@ -5869,6 +7160,48 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 
 ----
 
+## The Sopranos: "Fortunate Son" (2001)
+<!-- 405 -->
+
+**Scene: Tony and Jackie Jr. at lunch**
+
+> Tony Soprano: "Lose the glasses. I'm gonna say a few things. I'm gonna say some bad words. You're just gonna have to deal with it. Now I know what you're thinkin', you're thinkin' I clipped your uncle. On the one hand, you'd be a shithead to believe me when I told you I didn't do it. But I didn't. Now I got some bad news for you- look at me... Look at me. **Your uncle was a rat.**"
+>
+> Jackie Jr.: "No fucking way!"
+>
+> Tony Soprano: "Sit down. Sit down. Sit the fuck down. **Your uncle was a rat. And now he's in the witness protection program.**"
+>
+> Jackie Jr.: "That's my father's brother you're talkin' about."
+
+- **Who:** Tony Soprano (James Gandolfini) and Jackie Aprile Jr. (Jason Cerbone). It's a lie: Richie Aprile is dead. Branding someone a traitor is the cover story
+- **Episode:** season 3, episode 3
+- **IMDb:** [episode](https://www.imdb.com/title/tt0705246/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Sopranos:_Season_3) [🔗](<../my-fetches/wikiquote/The_Sopranos__Season_3.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-sopranos&episode=s03e03) [🔗](<../my-fetches/springfield-scripts/the-sopranos/s03e03.txt>)
+- **Use it for:** how a smear works: a cover story that can't be checked. Media literacy
+
+----
+
+## Buffy the Vampire Slayer: "Intervention" (2001)
+<!-- 406 -->
+
+**Scene: Spike, after Glory's torture**
+
+> Buffy: "Why did you let that Glory hurt you?"
+>
+> Spike: "She wanted to know who the Key was."
+>
+> Spike: "Anything happened to Dawn, it'd destroy her. **I couldn't live, her bein' in that much pain. I'd let Glory kill me first.**"
+>
+> Buffy: "**What you did for me and Dawn, that was real. I won't forget it.**"
+
+- **Who:** Buffy (Sarah Michelle Gellar), pretending to be Spike's Buffy robot, and Spike (James Marsters), who was tortured by Glory and didn't give Dawn away. Loyalty, tested
+- **Episode:** season 5, episode 18
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533449/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Buffy_the_Vampire_Slayer/Season_5) [🔗](<../my-fetches/wikiquote/Buffy_the_Vampire_Slayer_Season_5.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s05e18) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s05e18.txt>)
+- **Use it for:** thanking someone who kept a confidence under pressure
+
+----
+
 ## Buffy the Vampire Slayer: "The Gift" (2001)
 <!-- 303 -->
 
@@ -5927,6 +7260,67 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 
 ----
 
+## Buffy the Vampire Slayer: "Touched" (2003)
+<!-- 407 -->
+
+**Scene: Spike comes back to Buffy's house, and finds her gone**
+
+> Spike: "So, I think we got a lead. Where's Buffy?"
+>
+> "Um she's not here right now."
+>
+> Spike: "When does she get back?"
+>
+> "While you were gone, we all got together and talked out some disagreements that we were having. And eventually, after much discussion, Buffy decided that it would be best for all of us if she took a little time off, a little breather."
+>
+> Spike: "Uh-huh. I see. Been practising that little speech long, have you? So, Buffy took time off right in the middle of the apocalypse, and it was her decision?"
+>
+> "Well, we all decided."
+>
+> Spike: "Oh, yeah, you all decided. **You sad, sad, ungrateful traitors.**"
+>
+> "Who do you think you are?" "We're her friends."
+>
+> Spike: "**You're her friends, and you betray her like this?**"
+>
+> Giles: "You don't understand."
+>
+> Spike: "You know, I think I do, Rupert. You used to be the big man, didn't you? The teacher, all full of wisdom. Now she's surpassed you, and you can't handle it. **She has saved your lives again and again. She has died for you. And this is how you thank**"
+
+- **Who:** Spike, to the Scoobies and the Potentials, the night after they turned Buffy out of her own house ("Empty Places"). Giles (Anthony Stewart Head) answers him. The subtitles don't name the others
+- **Episode:** season 7, episode 20
+- **IMDb:** [episode](https://www.imdb.com/title/tt0533514/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=buffy-the-vampire-slayer&episode=s07e20) [🔗](<../my-fetches/springfield-scripts/buffy-the-vampire-slayer/s07e20.txt>)
+- **Check:** who says the unnamed lines (Dawn, Willow, Kennedy?)
+- **Use it for:** a team that blames its leader the moment things get hard. Who stood by her, and who turned
+
+----
+
+## The Sopranos: "Live Free or Die" (2006)
+<!-- 408 -->
+
+**Scene: the back room, the crew learns about Vito**
+
+> Tony Soprano: "There can be no mistake now."
+>
+> Paulie Walnuts: "**I can't believe I stuck up for him! I feel like I've been stabbed in the heart.**"
+>
+> Bobby Baccalieri: "We can't have him here in our social club no more. I mean, that much I do know."
+>
+> Carlo Gervasi: "Social club? He's gotta go!"
+>
+> Tony Soprano: "I wanna think about it."
+>
+> Paulie Walnuts: "I'm sorry if I yelled, T. it's just **how much more betrayal can I take?**"
+
+- **Who:** Tony, Paulie Walnuts (Tony Sirico), Bobby (Steve Schirripa) and Carlo (Arthur Nascarella), on hearing that Vito Spatafore is gay. Paulie's "betrayal" is his prejudice talking, and the episode knows it. Use the line, not the context; the scene has homophobic slurs either side
+- **Episode:** season 6, episode 6
+- **IMDb:** [episode](https://www.imdb.com/title/tt0705259/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Sopranos:_Season_6) [🔗](<../my-fetches/wikiquote/The_Sopranos__Season_6.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-sopranos&episode=s06e06) [🔗](<../my-fetches/springfield-scripts/the-sopranos/s06e06.txt>). The subtitles leave out some of the lines between
+- **Use it for:** overreacting. Someone left the group chat
+
+----
+
 ## 24: "Day 7: 8:00 a.m. – 9:00 a.m." (2009)
 <!-- 291 -->
 
@@ -5963,6 +7357,50 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 
 ----
 
+## Breaking Bad: "Better Call Saul" (2009)
+<!-- 409 -->
+
+**Scene: Jesse recommends a lawyer**
+
+> Jesse: "This is the guy you want. This is the guy I'd hire."
+>
+> Walter: "It's the guy you'd hire."
+>
+> Jesse: "Look, you remember Emilio? Okay, this dude got Emilio off, like, twice. Okay? Both times, they had him dead to rights, yo. And then, poof. Dude is like Houdini. **Seriously, when the going gets tough you don't want a criminal lawyer. You want a "criminal" lawyer.** Know what I'm saying?"
+
+- **Who:** Jesse Pinkman (Aaron Paul) and Walter White (Bryan Cranston), watching Saul Goodman's TV advert. The joke is all in how Jesse says the second "criminal"
+- **Episode:** season 2, episode 8
+- **IMDb:** [episode](https://www.imdb.com/title/tt1232255/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=breaking-bad&episode=s02e08) [🔗](<../my-fetches/springfield-scripts/breaking-bad/s02e08.txt>)
+- **Use it for:** choosing a library, or a supervisor: the one who gets results, not the one with the right job title
+
+----
+
+## Breaking Bad: "Más" (2010)
+<!-- 410 -->
+
+**Scene: Gus's offer**
+
+> Walter: "I have made a series of very bad decisions, and I cannot make another one."
+>
+> Gus: "Why did you make these decisions?"
+>
+> Walter: "For the good of my family."
+>
+> Gus: "**Then they weren't bad decisions. What does a man do, Walter? A man provides for his family.**"
+>
+> Walter: "This cost me my family."
+>
+> Gus: "When you have children, you always have family. They will always be your priority, your responsibility, and a man-- **a man provides. And he does it even when he's not appreciated or respected or even loved. He simply bears up, and he does it because he's a man.**"
+
+- **Who:** Gustavo Fring (Giancarlo Esposito) and Walter White. Gus is the one who says it; "What kind of man? No man" isn't in the episode, and isn't anywhere I could find
+- **Episode:** season 3, episode 5
+- **IMDb:** [episode](https://www.imdb.com/title/tt1615555/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=breaking-bad&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/breaking-bad/s03e05.txt>)
+- **Use it for:** moral justification: how a good reason makes a bad decision feel right. Pair it with "Felina", below
+
+----
+
 ## Hannibal: "Fromage" (2013)
 <!-- 305 -->
 
@@ -5981,6 +7419,25 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **IMDb:** [episode](https://www.imdb.com/title/tt2373039/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=hannibal&episode=s01e08) [🔗](<../my-fetches/springfield-scripts/hannibal/s01e08.txt>)
 - **Use it for:** standards. Some things you won't compromise, even in a crisis: the marking scheme, the code review
+
+----
+
+## Breaking Bad: "Felina" (2013)
+<!-- 411 -->
+
+**Scene: Walt says goodbye to Skyler**
+
+> Walter: "Skyler. All the things that I did, you need to understand"
+>
+> Skyler: "If I have to hear one more time that you did this for the family"
+>
+> Walter: "**I did it for me. I liked it. I was good at it. And I was really I was alive.**"
+
+- **Who:** Walter White and Skyler White (Anna Gunn), in the last episode. The answer to "a man provides"
+- **Episode:** season 5, episode 16
+- **IMDb:** [episode](https://www.imdb.com/title/tt2301455/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=breaking-bad&episode=s05e16) [🔗](<../my-fetches/springfield-scripts/breaking-bad/s05e16.txt>)
+- **Use it for:** reflection: the real reason, not the noble one
 
 ----
 
@@ -6155,9 +7612,15 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 
 **Scene: the live broadcast, Homelander goes off script**
 
-> Homelander: "All my life, people have tried to control me. My whole life. Rich people, powerful people have tried to muzzle me, cancel me, keep me impotent and obedient, like I'm a fucking puppet. You know what? It worked. Because I allowed it to work. And guess what. **If they can control me, then you can bet your ass they can control you. They already do. You just don't realize it.** I'm done. I am done apologizing. I am done being persecuted for my strength. You people should be thanking Christ that I am who and what I am, **because you need me. You need me to save you.** You do. I am the only one who possibly can. You're not the real heroes. **I'm the real hero.**"
+> Starlight: "Homelander... He's just, he's a human. He's just like the rest of us. And we all make mistakes, right?"
+>
+> Homelander: "No. No. Starlight lied to you just now. She did. **I don't make mistakes. I'm not "just like the rest of you." I'm stronger. I'm smarter. I'm better. I am better. I'm not some weak-kneed fucking crybaby that goes around fucking apologizing all the time. And why the fuck would you want me to be?**"
+>
+> Ashley: "Go to fucking commercial, Roger."
+>
+> Homelander: "Don't you dare stop rolling, Roger! All my life, people have tried to control me. My whole life. Rich people, powerful people have tried to muzzle me, cancel me, keep me impotent and obedient, like I'm a fucking puppet. You know what? It worked. Because I allowed it to work. And guess what. **If they can control me, then you can bet your ass they can control you. They already do. You just don't realize it.** I'm done. I am done apologizing. I am done being persecuted for my strength. You people should be thanking Christ that I am who and what I am, **because you need me. You need me to save you.** You do. I am the only one who possibly can. You're not the real heroes. **I'm the real hero.**"
 
-- **Who:** Homelander, to a live audience, telling them what they want to hear
+- **Who:** Homelander (Antony Starr), to a live audience at his birthday special, telling them what they want to hear; Starlight (Erin Moriarty) has just announced a $10 million donation in his name; Ashley Barrett (Colby Minifie) is in the gallery. The "you want me to be better than you" meme is this speech: "why the fuck would you want me to be?" The subtitles don't name speakers; Starlight's line is from Wikiquote
 - **Episode:** season 3, episode 2
 - **IMDb:** [episode](https://www.imdb.com/title/tt13609680/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-boys-2019&episode=s03e02) [🔗](<../my-fetches/springfield-scripts/the-boys-2019/s03e02.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/The_Boys_(TV_series)/Season_3) [🔗](<../my-fetches/wikiquote/The_Boys_(TV_series)_Season_3.wiki>)
@@ -6212,6 +7675,38 @@ The original and prequel films, in story order
 
 ----
 
+## Star Wars: Episode II – Attack of the Clones (2002)
+<!-- 412 -->
+
+**Scene: the Senate votes emergency powers**
+
+> Palpatine: "It is with great reluctance that I have agreed to this calling. **I love democracy. I love the Republic.** The power you give me I will lay down when this crisis has abated. And as my first act with this new authority I will create a grand army of the Republic to counter the increasing threats of the separatists."
+
+- **Who:** Supreme Chancellor Palpatine (Ian McDiarmid), after Jar Jar Binks proposes the emergency powers. He doesn't lay them down
+- **IMDb:** [Attack of the Clones](https://www.imdb.com/title/tt0121765/)
+- **Time:** 1:34:21 to 1:35:00 (39 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 2 - Attack of the Clones [2002] -imdb-tt0121765.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Star_Wars_Episode_II:_Attack_of_the_Clones) [🔗](<../my-fetches/wikiquote/Star_Wars__Episode_II_–_Attack_of_the_Clones.wiki>)
+- **Use it for:** a temporary measure. They never are
+
+----
+
+## Star Wars: Episode III – Revenge of the Sith (2005)
+<!-- 413 -->
+
+**Scene: the Senate, the Empire is declared**
+
+> Palpatine: "In order to ensure the security and continuing stability the Republic will be reorganized into the first Galactic Empire! For a safe and secure society."
+>
+> Padmé: "**So this is how liberty dies. With thunderous applause.**"
+
+- **Who:** Palpatine, then Padmé Amidala (Natalie Portman), to Bail Organa (Jimmy Smits), as the Senate cheers
+- **IMDb:** [Revenge of the Sith](https://www.imdb.com/title/tt0121766/)
+- **Time:** 1:35:44 to 1:36:22 (38 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 3 - Revenge of the Sith [2005] -imdb-tt0121766.srt>) ("Fora safe") and [Wikiquote](https://en.wikiquote.org/wiki/Star_Wars_Episode_III:_Revenge_of_the_Sith) [🔗](<../my-fetches/wikiquote/Star_Wars__Episode_III_–_Revenge_of_the_Sith.wiki>)
+- **Use it for:** a bad decision everyone votes for. Groupthink
+
+----
+
 ## Star Wars: Episode VI – Return of the Jedi (1983)
 <!-- 318 -->
 
@@ -6230,6 +7725,43 @@ The original and prequel films, in story order
 - **IMDb:** [Return of the Jedi](https://www.imdb.com/title/tt0086190/)
 - **Checked:** subtitles [🔗](<../my-fetches/subtitles/Star Wars; Episode 6 - Return of the Jedi [1983] -imdb-tt0086190 (Remake-Hayden).srt>)
 - **Use it for:** the free trial that needs a credit card, the phishing email, the "easy" exam question
+
+----
+
+## Star Wars: Episode VII – The Force Awakens (2015)
+<!-- 414 -->
+
+**Scene: Maz's castle, the stormtrooper with the baton**
+
+> Finn: "I need a weapon!"
+>
+> Han Solo: "You have one!"
+>
+> "**Traitor!**"
+
+- **Who:** Finn (John Boyega), Han Solo (Harrison Ford), then a stormtrooper, FN-2199, who recognises Finn as a deserter. Known online as "TR-8R"; the meme is his riot baton
+- **IMDb:** [The Force Awakens](https://www.imdb.com/title/tt2488496/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=star-wars-episode-vii-the-force-awakens) [🔗](<../my-fetches/springfield-scripts/star-wars-episode-vii-the-force-awakens.txt>)
+- **Check:** who says "You have one!"; the subtitles don't name speakers
+- **Use it for:** a learner who changes group. Light-hearted
+
+----
+
+## Star Wars: Episode VII – The Force Awakens (2015)
+<!-- 415 -->
+
+**Scene: the snowy forest, Starkiller Base**
+
+> Kylo Ren: "**Traitor!**"
+>
+> Kylo Ren: "That lightsaber... **belongs to me.**"
+>
+> Finn: "**Come and get it.**"
+
+- **Who:** Kylo Ren (Adam Driver) and Finn, who picks up Luke's lightsaber after Rey is thrown against a tree
+- **IMDb:** [The Force Awakens](https://www.imdb.com/title/tt2488496/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=star-wars-episode-vii-the-force-awakens) [🔗](<../my-fetches/springfield-scripts/star-wars-episode-vii-the-force-awakens.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Star_Wars:_The_Force_Awakens) [🔗](<../my-fetches/wikiquote/Star_Wars__The_Force_Awakens.wiki>)
+- **Use it for:** someone using your code without asking. "That function belongs to me." "Come and get it."
 
 ---
 

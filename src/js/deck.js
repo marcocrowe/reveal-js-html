@@ -22,7 +22,7 @@
  *
  * On a phone (under 435px wide) reveal.js switches to its scroll
  * view, where the deck is one long page. The mouse handlers stand
- * down there, so the page scrolls and taps work normally.
+ * down there, so the page scrolls and taps work normally. A deck can
  * keep the slides instead with scrollActivationWidth: null.
  *
  * Touch screens, with tapZones: true in Reveal.initialize: tap the
@@ -323,6 +323,18 @@
 		});
 		pre.classList.add('has-copy');
 		pre.appendChild(button);
+	});
+
+	/* ---------- Email addresses that scrapers can't read ----------
+	 * <a data-mail="ei.koolt...@...">: the address written backwards. The
+	 * mailto link is only made when the link is clicked, so the address is
+	 * never in the page as text. Show it as a picture (tools/email_svg.py). */
+	document.querySelectorAll('.reveal a[data-mail]').forEach(function (link) {
+		link.href = '#';
+		link.addEventListener('click', function (event) {
+			event.stopPropagation();
+			link.href = 'mailto:' + link.dataset.mail.split('').reverse().join('');
+		});
 	});
 
 	/* ---------- Position bar inside a vertical stack ----------
