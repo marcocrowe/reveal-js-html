@@ -4,33 +4,33 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>Meme bank</title>
+	<title>Meme Bank</title>
 	<!-- About this page. tools/version.py keeps the version, TAP version and modified date up to date -->
 	<meta name="author" content="Mark Crowe" />
-	<meta name="description" content="Meme bank: film and TV quotes, and internet memes, for presentations and training." />
+	<meta name="description" content="Meme Bank: film and TV quotes for intermediate memes, for presentations and training." />
 	<meta name="keywords" content="memes, film quotes, TV quotes, Star Trek, presentations, training, reveal.js" />
 	<meta name="version" content="1.8.3" />
 	<meta name="generator" content="reveal.js 5.1.0 and TAP 1.8.5, The Apocalypse Plugin" />
 	<meta name="dcterms.creator" content="Mark Crowe" />
 	<meta name="dcterms.created" content="2026-10-29" />
-	<meta name="dcterms.modified" content="2026-10-31T15:41:24+00:00" />
+	<meta name="dcterms.modified" content="2026-10-31T18:38:43+00:00" />
 	<meta name="dcterms.rights" content="© 2026 Mark Crowe. Quotes, characters and pictures belong to their owners." />
 	<link rel="canonical" href="https://marcocrowe.github.io/reveal-js-html/memes.html" />
 	<link rel="author" href="https://sdevtutors.github.io/mark-crowe/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Meme bank" />
-	<meta property="og:description" content="Film and TV quotes, and internet memes, for presentations and training." />
+	<meta property="og:title" content="Meme Bank" />
+	<meta property="og:description" content="Film and TV quotes for intermediate memes." />
 	<meta property="og:url" content="https://marcocrowe.github.io/reveal-js-html/memes.html" />
 	<meta property="og:site_name" content="Sdev Tutors" />
 	<meta property="article:author" content="https://sdevtutors.github.io/mark-crowe/" />
 	<meta property="article:published_time" content="2026-10-29" />
-	<meta property="article:modified_time" content="2026-10-31T15:41:24+00:00" />
+	<meta property="article:modified_time" content="2026-10-31T18:38:43+00:00" />
 	<meta name="twitter:card" content="summary" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
-	<link rel="stylesheet" href="src/css/tna.css" />
+	<link rel="stylesheet" href="arj/css/tna.css" />
 	<link rel="stylesheet" href="src/css/memes.css" />
-	<link rel="stylesheet" href="src/css/deck-controls.css" />
+	<link rel="stylesheet" href="arj/css/deck-controls.css" />
 </head>
 
 <!--
@@ -56,7 +56,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
-	<script src="src/js/deck-start.js"></script>
+	<script src="arj/js/deck-start.js"></script>
 	<script>
 		// Settings only. What each one does is described in the script it belongs to.
 		startDeck({
@@ -69,15 +69,17 @@
 			progress: true,
 			slideNumber: 'h.v',
 			transition: 'none',
-			mouseWheel: false, // src/js/deck.js handles the wheel
+			mouseWheel: false, // arj/js/deck.js handles the wheel
 			scrollActivationWidth: null, // keep the slides on a phone, not one long page
 			plugins: [RevealMarkdown, RevealNotes],
 
-			deckMarkdown: { fitMin: 0.55 }, // src/js/deck-markdown.js
-			linkIcons: { style: 'compare' }, // src/js/link-icons.js: a different style on each topic
-			stackBarLinks: true, // src/js/deck.js: click a grey bar to go to that slide
-			tapZones: true, // src/js/deck.js: on a touch screen, tap left to go back, right to go on
-			deckControls: { // src/js/deck-controls.js
+			deckMarkdown: { fitMin: 0.55 }, // arj/js/deck-markdown.js
+			linkIcons: { style: 'compare' }, // arj/js/link-icons.js: a different style on each topic
+			stackBarLinks: true, // arj/js/deck.js: click a grey bar to go to that slide
+			tapZones: true, // arj/js/deck.js: on a touch screen, tap left to go back, right to go on
+			lock: true, // arj/js/deck.js: the padlock; locked, the mouse changes slides; unlocked, it selects text
+			draw: true, // arj/js/deck-start.js and deck-draw.js: the pen, drawing on the slides with tldreveal
+			deckControls: { // arj/js/deck-controls.js
 				contentsColumns: 4, contentsRows: 3,
 				contentsColumnsPortrait: 2, contentsRowsPortrait: 2,
 				contentsCaptions: false,
@@ -89,11 +91,12 @@
 				sidebarSide: 'left',
 			},
 
-			deckScripts: [
-				'src/js/deck-markdown.js',
-				'src/js/link-icons.js',
-				'src/js/deck-controls.js',
-				'src/js/deck.js',
+			deckScripts: [ // from the folder deck-start.js is in
+				'deck-markdown.js',
+				'link-icons.js',
+				'deck-controls.js',
+				'deck.js',
+				'deck-draw.js',
 			],
 		});
 	</script>

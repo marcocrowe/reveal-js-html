@@ -240,7 +240,7 @@
 }
 
 /* An email address shown as a picture (tools/email_svg.py), linked by
- * a[data-mail] in src/js/deck.js */
+ * a[data-mail] in arj/js/deck.js */
 .reveal a.mail-picture img {
 	height: 1.5em;
 	margin: 0;
@@ -609,7 +609,7 @@
 	background: transparent;
 }
 
-/* Tooltip for 🔗 links, shown by src/js/deck.js. It sits outside the
+/* Tooltip for 🔗 links, shown by arj/js/deck.js. It sits outside the
  * slides, so its size is set in screen pixels by the script. */
 #ref-tip {
 	position: fixed;
@@ -634,7 +634,7 @@
 	visibility: visible;
 }
 
-/* Position in a vertical stack, drawn by src/js/deck.js under the heading.
+/* Position in a vertical stack, drawn by arj/js/deck.js under the heading.
  * One piece per slide in the stack; the gold one is the slide you are on.
  * It replaces the single gold bar on those headings. The pieces share the
  * full width of the slide, so it is always one complete line from the
@@ -683,7 +683,7 @@
 	background: var(--gold);
 }
 
-/* Copy button on code boxes, added by src/js/deck.js */
+/* Copy button on code boxes, added by arj/js/deck.js */
 .reveal pre.has-copy {
 	position: relative;
 }
@@ -706,7 +706,7 @@
 	background: var(--gold);
 }
 
-/* Footnote jump: the line you landed on, and the way back (src/js/deck.js) */
+/* Footnote jump: the line you landed on, and the way back (arj/js/deck.js) */
 .reveal .entry-target {
 	background: #fff3cf;
 	outline: 3px solid var(--gold);

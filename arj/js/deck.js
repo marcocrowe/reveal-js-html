@@ -12,7 +12,7 @@
  *   back / forward  side buttons, previous / next slide
  * With a keyboard: Shift+click back, Alt+click next section.
  *
- * Footnote markers (a.ref, icons drawn in src/css/tna.css):
+ * Footnote markers (a.ref, icons drawn in arj/css/tna.css):
  *   a reference or media marker jumps to its line on the References or
  *   Media used slide. Right click or the back button returns.
  *   Hover either to see the full entry.
@@ -28,6 +28,20 @@
  * Touch screens, with tapZones: true in Reveal.initialize: tap the
  * left third of the slide to go back, the right third to go on. The
  * middle third does nothing, so text can still be selected.
+ *
+ * Lock, with lock: true in Reveal.initialize: a padlock button at the
+ * top right (beside deck-controls.js's buttons) switches between two modes.
+ *   Locked (the start): the mouse moves through the slides as above.
+ *     Text can't be selected and there is no context menu (right click
+ *     is back), so a click never selects by accident.
+ *   Unlocked: text can be selected and copied, the context menu works,
+ *     and the mouse doesn't change slides (the keyboard, the arrows and
+ *     the buttons still do).
+ * Either way links, buttons, copy icons and the slide controls work.
+ * Without lock: true, the mouse moves the slides and text can be selected.
+ *
+ * Drawing (deck-draw.js, tldreveal): while drawing, the mouse belongs to
+ * the drawing, so none of the handlers here act on it.
  *********************************************************/
 (function () {
 	const deck = document.querySelector('.reveal');
@@ -38,7 +52,61 @@
 
 	/* Things the mouse handlers leave alone: links, buttons, form fields,
 	 * code, the reveal.js controls. Add data-no-click to anything else. */
-	const LEAVE_ALONE = 'a, button, input, textarea, select, label, pre, code, kbd, summary, .controls, .progress, .slide-number, [data-no-click]';
+	const LEAVE_ALONE = 'a, button, input, textarea, select, label, pre, code, kbd, summary, .controls, .progress, .slide-number, .tldreveal, [data-no-click]';
+
+	/* ---------- Lock ----------
+	 * Locked or unlocked, as a class on .reveal (arj-locked, arj-unlocked),
+	 * which arj/css/deck-controls.css uses to turn text selection off and on. */
+	const lockable = !!Reveal.getConfig().lock && !/print-pdf/i.test(window.location.search); // not in the print version
+	let unlocked = false;
+
+	function drawing() {
+		return document.body.classList.contains('arj-drawing');
+	}
+
+	// May the mouse move the slides?
+	function mouseMoves() {
+		return !unlocked && !drawing();
+	}
+
+	function setLock(locked) {
+		unlocked = !locked;
+		deck.classList.toggle('arj-locked', locked);
+		deck.classList.toggle('arj-unlocked', !locked);
+		if (!locked) return;
+		window.getSelection().removeAllRanges();
+	}
+
+	if (lockable) {
+		setLock(true);
+		const lockButton = document.createElement('button');
+		lockButton.type = 'button';
+		lockButton.className = 'deck-button deck-lock on';
+		function showLock() {
+			const text = unlocked
+				? 'Unlocked: select text; the mouse does not change slides. Click to lock'
+				: 'Locked: the mouse changes slides. Click to unlock and select text';
+			lockButton.classList.toggle('on', !unlocked);
+			lockButton.title = text;
+			lockButton.setAttribute('aria-label', text);
+			lockButton.setAttribute('aria-pressed', String(!unlocked));
+		}
+		lockButton.addEventListener('click', function (event) {
+			event.stopPropagation();
+			setLock(unlocked);
+			showLock();
+		});
+		showLock();
+		const dock = document.querySelector('.deck-dock-top-right');
+		if (dock) dock.insertBefore(lockButton, dock.firstChild);
+		else {
+			const box = document.createElement('div');
+			box.className = 'deck-dock deck-dock-top-right';
+			box.setAttribute('data-no-click', '');
+			box.appendChild(lockButton);
+			document.body.appendChild(box);
+		}
+	}
 
 	/* ---------- Footnote jumps and the way back ---------- */
 
@@ -48,7 +116,7 @@
 	backLink.className = 'ref-back';
 
 	// The number the slide shows: the deck's own numbering when slideNumber is a
-	// function (src/js/deck-controls.js), otherwise reveal.js's h.v
+	// function (arj/js/deck-controls.js), otherwise reveal.js's h.v
 	function slideLabel(indices) {
 		const number = Reveal.getConfig().slideNumber;
 		const own = typeof number === 'function' && number(Reveal.getSlide(indices.h, indices.v))[0];
@@ -104,7 +172,7 @@
 	let lastWheelEvent = 0;
 
 	window.addEventListener('wheel', function (event) {
-		if (scrollView()) return;
+		if (scrollView() || !mouseMoves()) return;
 		if (event.ctrlKey) return; // Ctrl + wheel is browser zoom
 		if (event.target.closest && event.target.closest('[data-no-click]')) return; // e.g. scrolling a sidebar
 		const delta = Math.abs(event.deltaY) >= Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
@@ -127,7 +195,7 @@
 
 	deck.addEventListener('click', function (event) {
 		if (event.button !== 0 || event.defaultPrevented) return;
-		if (scrollView() || Reveal.isOverview()) return;
+		if (scrollView() || Reveal.isOverview() || !mouseMoves()) return;
 		if (event.target.closest(LEAVE_ALONE)) return;
 		if (String(window.getSelection())) return; // the user was selecting text
 
@@ -150,9 +218,13 @@
 	 * The context menu is switched off on the slides, but kept on links, code
 	 * and selected text, where you may want to open or copy something. */
 	deck.addEventListener('contextmenu', function (event) {
-		if (scrollView() || Reveal.isOverview()) return;
-		if (event.target.closest(LEAVE_ALONE)) return;
-		if (String(window.getSelection())) return;
+		if (scrollView() || Reveal.isOverview() || !mouseMoves()) return;
+		if (event.target.closest(LEAVE_ALONE)) {
+			// Locked: no menu at all, but a right click on a link doesn't go back either
+			if (lockable && !event.target.closest('.tldreveal')) event.preventDefault();
+			return;
+		}
+		if (String(window.getSelection()) && !lockable) return;
 		event.preventDefault();
 		back();
 	});
@@ -160,13 +232,13 @@
 	/* ---------- Middle click: next section ----------
 	 * Pressing the wheel normally starts auto-scroll, so that is stopped first. */
 	deck.addEventListener('mousedown', function (event) {
-		if (event.button !== 1 || scrollView()) return;
+		if (event.button !== 1 || scrollView() || !mouseMoves()) return;
 		if (event.target.closest(LEAVE_ALONE)) return;
 		event.preventDefault();
 	});
 
 	deck.addEventListener('auxclick', function (event) {
-		if (event.button !== 1 || scrollView()) return;
+		if (event.button !== 1 || scrollView() || !mouseMoves()) return;
 		if (event.target.closest(LEAVE_ALONE)) return;
 		event.preventDefault();
 		Reveal.right();
@@ -182,7 +254,8 @@
 	window.addEventListener('mouseup', function (event) {
 		if (event.button !== 3 && event.button !== 4) return;
 		if (scrollView()) return;
-		event.preventDefault();
+		event.preventDefault(); // unlocked or drawing too: not even the browser's back
+		if (!mouseMoves()) return;
 		if (event.button === 3) back();
 		else Reveal.next();
 	});
@@ -388,7 +461,7 @@
 
 	document.querySelectorAll('.reveal .slides > section').forEach(addStackBars);
 
-	// src/js/deck-controls.js rebuilds the contents when the screen turns
+	// arj/js/deck-controls.js rebuilds the contents when the screen turns
 	document.addEventListener('deck:stack-rebuilt', function (event) {
 		addStackBars(event.detail);
 		Reveal.layout();

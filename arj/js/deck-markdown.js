@@ -1,7 +1,7 @@
 /*********************************************************
  * Classes and fitting for decks written in Markdown, so the CSS can style
  * what Markdown can't mark up. Load after Reveal.initialize has finished
- * (src/js/deck-start.js does), and before src/js/deck-controls.js, so the
+ * (arj/js/deck-start.js does), and before arj/js/deck-controls.js, so the
  * contents thumbnails show the same thing. Settings, all optional:
  *   deckMarkdown: {
  *     fieldClasses: true,      // "- **Use it for:** ..." gets li.field.field-use-it-for
@@ -74,6 +74,27 @@
 			}
 			slide.dataset.fitted = 'yes';
 		};
+		// The print version (?print-pdf) shows every slide at once, so fit them
+		// all, once reveal.js has laid out the pages (pdf-ready). It sized each
+		// page to its slide, with extra pages for a long one, so size them again.
+		const fitPrint = function () {
+			slides.querySelectorAll('section:not(.stack)').forEach(function (slide) {
+				delete slide.dataset.fitted;
+				fit(slide);
+			});
+			const pages = Array.from(document.querySelectorAll('.reveal .pdf-page'));
+			const pageHeight = Math.min.apply(null, pages.map(function (page) { return page.offsetHeight; }));
+			pages.forEach(function (page) {
+				const slide = page.querySelector(':scope > section');
+				if (!slide) return;
+				const needed = Math.max(1, Math.ceil((slide.offsetTop + slide.scrollHeight) / pageHeight));
+				page.style.height = (needed * pageHeight) + 'px';
+			});
+		};
+		if (/print-pdf/i.test(window.location.search)) {
+			if (document.querySelector('.reveal .pdf-page')) fitPrint();
+			else Reveal.on('pdf-ready', fitPrint);
+		}
 		fit(Reveal.getCurrentSlide());
 		Reveal.on('slidechanged', function (event) { fit(event.currentSlide); });
 		// Slides added later (the contents) can change the current slide

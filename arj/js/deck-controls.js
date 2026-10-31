@@ -27,7 +27,7 @@
  * is dropped from the sidebar and contents, as the deck numbers them.
  *
  * Load after Reveal.initialize has finished (the slides must exist), and
- * before scripts that decorate slides (src/js/deck.js), so they see the
+ * before scripts that decorate slides (arj/js/deck.js), so they see the
  * contents slides too. Settings, all optional, in Reveal.initialize:
  *   deckControls: {
  *     contents: true,              // make the contents slides
@@ -361,7 +361,7 @@
 			sidebarList = list;
 			markCurrent();
 		}
-		// src/js/deck.js adds the position bars to the new pages
+		// arj/js/deck.js adds the position bars to the new pages
 		document.dispatchEvent(new CustomEvent('deck:stack-rebuilt', { detail: contentsStack }));
 	}
 

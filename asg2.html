@@ -9,9 +9,9 @@
 	<title>Training Needs Analysis</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
-	<link rel="stylesheet" href="src/css/tna.css" />
+	<link rel="stylesheet" href="arj/css/tna.css" />
 	<link rel="stylesheet" href="src/css/asg2.css" />
-	<link rel="stylesheet" href="src/css/deck-controls.css" />
+	<link rel="stylesheet" href="arj/css/deck-controls.css" />
 </head>
 
 <!--
@@ -29,9 +29,9 @@
 	The entries (data-n, data-m, data-cite) on the last two slides are the one place to edit.
 
 	Contact: the name links to sdevtutors.github.io/mark-crowe, hover shows the address (data-tip).
-	Mouse only: wheel or left click next, right click back, middle click next section (src/js/deck.js).
+	Mouse only: wheel or left click next, right click back, middle click next section (arj/js/deck.js).
 	Slide list, contents, home, blackout, all slides and full screen buttons, and the numbering:
-	src/js/deck-controls.js. Type a number and press Enter to go to that slide.
+	arj/js/deck-controls.js. Type a number and press Enter to go to that slide.
 -->
 
 <body>
@@ -308,7 +308,7 @@ Thanks, Mark</code></pre>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
-	<script src="src/js/deck-start.js"></script>
+	<script src="arj/js/deck-start.js"></script>
 	<script>
 		// Settings only. What each one does is described in the script it belongs to.
 		startDeck({
@@ -321,13 +321,14 @@ Thanks, Mark</code></pre>
 			progress: true,
 			slideNumber: 'h.v',
 			transition: 'none',
-			mouseWheel: false, // src/js/deck.js handles the wheel
+			mouseWheel: false, // arj/js/deck.js handles the wheel
 			scrollActivationWidth: null, // keep the slides on a phone, not one long page
 			plugins: [RevealNotes],
 
-			stackBarLinks: true, // src/js/deck.js: click a grey bar to go to that slide
-			tapZones: true, // src/js/deck.js: on a touch screen, tap left to go back, right to go on
-			deckControls: { // src/js/deck-controls.js
+			stackBarLinks: true, // arj/js/deck.js: click a grey bar to go to that slide
+			tapZones: true, // arj/js/deck.js: on a touch screen, tap left to go back, right to go on
+			draw: false, // arj/js/deck-start.js: no drawing in this deck yet
+			deckControls: { // arj/js/deck-controls.js
 				contentsColumns: 4, contentsRows: 3,
 				contentsColumnsPortrait: 2, contentsRowsPortrait: 2,
 				contentsCaptions: false,
@@ -339,8 +340,8 @@ Thanks, Mark</code></pre>
 			},
 
 			deckScripts: [
-				'src/js/deck-controls.js',
-				'src/js/deck.js',
+				'arj/js/deck-controls.js',
+				'arj/js/deck.js',
 			],
 		});
 	</script>

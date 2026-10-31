@@ -1,17 +1,17 @@
-# Meme bank
+# Meme Bank
 <!-- .slide: class="title-slide" -->
 
 <div class="title-body no-link-icon">
 <div class="title-text">
-<h3>Film and TV quotes, and internet memes, for presentations and training</h3>
-<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a><span class="sep">–</span><a class="mail-link" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe" title="Email Mark Crowe"></a><span class="sep">–</span><time class="deck-date" datetime="2026-10-31T15:41:24+00:00">October 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
-<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="" />reveal.js</a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/tap-reveal-js" title="TAP, The Apocalypse Plugin"><span class="tap-box">tap-reveal</span> <span data-tap-version></span></a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/reveal-js-html"><img src="src/img/favicons/github.svg" alt="" />Source on GitHub</a></p>
-<p class="copyright"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commit/0ed9b5c1067814ccae8d725ad6fb60ff64e8794b">Version <span class="deck-version">1.8.3</span></a><span class="sep">–</span><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a></p>
-<p class="owners">Quotes, characters and pictures belong to their owners: see Sources and notes, at the end</p>
+<h3>Film and TV Quotes for Intermediate Memes</h3>
+<p class="byline"><a class="person ext" href="https://sdevtutors.github.io/mark-crowe/" data-tip="sdevtutors.github.io/mark-crowe"><img class="logo" src="src/img/mc-logo.png" alt="" />Mark Crowe</a><span class="sep">–</span><a class="mail-picture" data-mail="ei.kooltuo@rotuTveDS" aria-label="Email Mark Crowe" title="Email Mark Crowe"><img src="src/img/email.svg" alt="Email address, as a picture" /></a><span class="sep">–</span><time class="deck-date" datetime="2026-10-31T18:38:43+00:00">October 2026</time> <span class="calendar" aria-hidden="true">📅</span></p>
+<p class="built-with">Built with <a class="ext" href="https://revealjs.com/"><img src="https://revealjs.com/images/logo/reveal-symbol.svg" alt="" />Reveal.js</a> and <a class="ext" href="https://github.com/SDevTutors/apocalypse-reveal-js" title="TAP Reveal, The Apocalypse Plugin (ARJ)"><img src="arj/img/tap-logo.png" alt="" />TAP Reveal</a><span class="sep">–</span><a class="ext" href="https://github.com/marcocrowe/reveal-js-html" title="This deck's source, on GitHub"><img src="src/img/favicons/github.svg" alt="GitHub" />Source</a></p>
 </div>
 <figure class="deck-qr"><a href="https://marcocrowe.github.io/reveal-js-html/memes.html"><img src="src/img/qr/memes-deck-logo.svg" alt="QR code: this deck online" /></a></figure>
 </div>
-<footer class="slide-footer no-link-icon"><a class="ext" href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a></footer>
+<footer class="slide-footer no-link-icon"><p class="deck-version-line"><a class="version-link ext" href="https://github.com/marcocrowe/reveal-js-html/commit/0ed9b5c1067814ccae8d725ad6fb60ff64e8794b">Version <span class="deck-version">1.8.3</span></a></p>
+<a class="deck-url ext" href="https://marcocrowe.github.io/reveal-js-html/memes.html">marcocrowe.github.io/reveal-js-html/memes.html</a>
+<p class="footer-rights"><a class="ext" href="https://sdevtutors.github.io/mark-crowe/#email" title="Contact Mark Crowe">© 2026 Mark Crowe</a><span class="sep">–</span>Quotes, characters and pictures belong to their respective owners.</p></footer>
 
 ---
 
@@ -23,7 +23,8 @@
 - **Time:** where the quote starts and ends in the film, from the subtitle file. It starts 2 seconds early, as subtitles are never quite in sync
 - Stills: grab your own, or search [imgflip](https://imgflip.com/memetemplates) and [Know Your Meme](https://knowyourmeme.com/)
 - Getting around: → for the next topic, ↓ for the entries in it. Next and back step over the contents; the contents button, bottom left, opens them. Type a number and press Enter to jump to that topic
-- Version <span class="deck-version">1.8.3</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. TAP, the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
+- Top right: the padlock and the pen. Locked, the mouse changes slides; unlocked, it selects and copies text, and the slides stay put. The pen (or D) draws on the slide; press it again, or Esc, to stop. Each slide keeps its drawings until the page is reloaded
+- Version <span class="deck-version">1.8.3</span> is year.tenth.day: the year (1 is 2026), which tenth of the year it is (0 to 9), and how many days in that tenth have had changes. [TAP Reveal](https://github.com/SDevTutors/apocalypse-reveal-js), the scripts behind the slides, is numbered the same way. [tools/version.py](tools/version.py) works them out
 - [memes.html](memes.html) shows this file, [memes.md](memes.md), as slides
 
 ----
@@ -7104,7 +7105,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 **Scene: the cave, Alpha Trion shows how the Primes fell**
 
-> Alpha Trion: "It was a mission so important, we Primes took it on ourselves. We agreed to meet Sentinel for his sensitive intel in secret, here, in this cave. But we were not alone."
+> Alpha Trion: "We agreed to meet Sentinel for his sensitive intel in secret, here, in this cave. But we were not alone."
 >
 > Alpha Trion: "We were outnumbered but stood as one. Our victory was near. **Until we were betrayed.**"
 >
@@ -7112,7 +7113,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 >
 > Sentinel Prime: "**For all the power on Cybertron.**"
 
-- **Who:** Alpha Trion (Laurence Fishburne), the last Prime, showing Orion and D-16 a recording; Zeta Prime (James Remar) and Sentinel Prime (Jon Hamm). Sentinel, the Primes' aide, led them into a Quintesson ambush to take the Matrix. Later Starscream: "We were once the High Guard. We witnessed Sentinel's betrayal, saw the Primes fall."
+- **Who:** Alpha Trion (Laurence Fishburne), the last Prime, showing Orion and D-16 the past; Zeta Prime (James Remar) and Sentinel Prime (Jon Hamm). Sentinel, the Primes' aide, led them into a Quintesson ambush to take the Matrix
 - **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>)
 - **Use it for:** betrayal from the inside, by the one everyone trusted with the plans
@@ -7944,6 +7945,8 @@ The original and prequel films, in story order
 
 ## Media used
 <!-- .slide: id="media-used" -->
+
+<p class="print-line"><a href="?print-pdf" target="_blank">Print version</a>, then Save as PDF: every slide, ready for paper</p>
 
 <ol class="reflist media-list">
 <li data-m="1"><a href="https://commons.wikimedia.org/wiki/File:Hurling_Ball_and_Hurley.JPG">A hurley and sliotar. Photo: Peter Wöllauer, CC BY-SA 3.0, Wikimedia Commons</a></li>

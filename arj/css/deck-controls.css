@@ -1,5 +1,5 @@
 /*********************************************************
- * Deck controls (src/js/deck-controls.js): the button docks, the slide list
+ * Deck controls (arj/js/deck-controls.js): the button docks, the slide list
  * sidebar, the contents slides and the "Go to slide" box. Nothing here prints.
  * Icons are Feather (MIT), as CSS masks from data URIs, so they work when the
  * deck is opened from file:// too.
@@ -8,6 +8,11 @@
 	--dock-colour: var(--navy, #1b2a4a);
 	--dock-hover: var(--gold, #e8b232);
 	--deck-sidebar-width: 340px;
+	--icon-lock: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='11' width='18' height='11' rx='2' ry='2'/%3E%3Cpath d='M7 11V7a5 5 0 0 1 10 0v4'/%3E%3C/svg%3E");
+	--icon-unlock: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='11' width='18' height='11' rx='2' ry='2'/%3E%3Cpath d='M7 11V7a5 5 0 0 1 9.9-1'/%3E%3C/svg%3E");
+	--icon-pen: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 20h9'/%3E%3Cpath d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z'/%3E%3C/svg%3E");
+	/* Not Feather: a page with PDF on it, in colour, for print-version links */
+	--icon-pdf: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 1h10l5 5v16a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z' fill='white' stroke='%23b3261e' stroke-width='1.5'/%3E%3Cpath d='M15 1v5h5' fill='none' stroke='%23b3261e' stroke-width='1.5'/%3E%3Crect x='1' y='12' width='18' height='8' rx='1.5' fill='%23b3261e'/%3E%3Ctext x='10' y='18.6' font-family='Arial,sans-serif' font-size='6.4' font-weight='bold' fill='white' text-anchor='middle'%3EPDF%3C/text%3E%3C/svg%3E");
 	--icon-maximize: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3'/%3E%3C/svg%3E");
 	--icon-minimize: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3'/%3E%3C/svg%3E");
 	--icon-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'/%3E%3Cpolyline points='9 22 9 12 15 12 15 22'/%3E%3C/svg%3E");
@@ -86,6 +91,50 @@ body:has(.reveal.paused) .deck-dock .deck-button::before {
 .deck-collapse { --icon: var(--icon-chevrons-up); }
 .deck-side { --icon: var(--icon-sidebar); }
 .deck-close { --icon: var(--icon-close); }
+
+/* ---------- Lock and drawing (arj/js/deck.js, arj/js/deck-draw.js) ---------- */
+.deck-lock { --icon: var(--icon-unlock); }
+.deck-lock.on { --icon: var(--icon-lock); }
+.deck-draw { --icon: var(--icon-pen); }
+.deck-draw.on {
+	opacity: 1;
+	background: rgba(232, 178, 50, 0.3);
+}
+
+/* Locked: no selecting by accident while clicking through. Form fields keep it */
+.reveal.arj-locked .slides,
+.reveal.arj-locked .slides * {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.reveal.arj-locked .slides :is(input, textarea) {
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+/* Unlocked: select anything, with the text cursor over text */
+.reveal.arj-unlocked .slides,
+.reveal.arj-unlocked .slides * {
+	-webkit-user-select: text;
+	user-select: text;
+}
+
+.reveal.arj-unlocked .slides :is(p, li, blockquote, h1, h2, h3, td, th, figcaption, pre, code) {
+	cursor: text;
+}
+
+/* ---------- Print version links ----------
+ * <a href="?print-pdf">: reveal.js's own print layout. A PDF icon before it */
+.reveal a[href="?print-pdf"]::before {
+	content: "";
+	display: inline-block;
+	width: 1.3em;
+	height: 1.3em;
+	margin-right: 0.3em;
+	vertical-align: -0.25em;
+	background: var(--icon-pdf) center / contain no-repeat;
+}
 
 /* ---------- Slide list sidebar ----------
  * While open, the slides move over and shrink to fit beside it. It sits

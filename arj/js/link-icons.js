@@ -1,8 +1,8 @@
 /*********************************************************
  * Link icons: each website's own icon (favicon) beside links to it, so
  * "IMDb" or "Wikiquote" can be seen at a glance. Load after the slides
- * exist and after src/js/deck-markdown.js (the 'label' style uses its
- * field classes), before src/js/deck-controls.js. Styles in CSS, keyed on
+ * exist and after arj/js/deck-markdown.js (the 'label' style uses its
+ * field classes), before arj/js/deck-controls.js. Styles in CSS, keyed on
  * data-links on each horizontal slide (see src/css/memes.css):
  *   favicon-before   icon, then the link
  *   favicon-after    the link, then the icon
