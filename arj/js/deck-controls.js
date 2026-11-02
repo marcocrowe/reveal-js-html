@@ -671,6 +671,7 @@
 	window.addEventListener('keydown', function (event) {
 		if (event.ctrlKey || event.metaKey || event.altKey) return;
 		if (event.target.closest && event.target.closest('input, textarea, select, [contenteditable]')) return;
+		if (document.body.classList.contains('arj-drawing')) return; // the keys are tldraw's (deck-draw.js)
 		const key = event.key;
 		if (/^[0-9]$/.test(key)) {
 			typed += key;

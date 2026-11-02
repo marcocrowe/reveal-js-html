@@ -9,6 +9,9 @@
  *   or Esc               their slides, and the mouse is back to the slides
  *   V                    hide or show the drawings (tldreveal's own key)
  *
+ * While drawing, the other keys are tldraw's: reveal.js only gets the
+ * arrows and Page Up/Down, and deck-controls.js doesn't take the numbers.
+ *
  * Each slide keeps its own drawings, so they come back with the slide.
  * While drawing, deck.js leaves the mouse alone (body.arj-drawing) and
  * the lock doesn't matter. The button only appears when tldreveal has
@@ -52,6 +55,18 @@
 	function close() {
 		window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', code: 'Escape', keyCode: 27, which: 27, bubbles: true }));
 	}
+
+	// While drawing, the keys are tldraw's (O is its ellipse, F its frame),
+	// so reveal.js only gets the ones that change slides; not O (overview),
+	// F (full screen), B (blackout) or Esc. Keeps a deck's own condition.
+	const SLIDE_KEYS = ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'PageUp', 'PageDown'];
+	const condition = Reveal.getConfig().keyboardCondition;
+	Reveal.configure({
+		keyboardCondition: function (event) {
+			if (isDrawing() && SLIDE_KEYS.indexOf(event.key) === -1) return false;
+			return typeof condition === 'function' ? condition(event) : true;
+		},
+	});
 
 	button.addEventListener('click', function (event) {
 		event.stopPropagation();

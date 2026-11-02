@@ -3582,6 +3582,28 @@ The Next Generation, Deep Space Nine and Voyager, in broadcast order
 
 ----
 
+## Deep Space Nine: "What You Leave Behind" (1999)
+<!-- 465 -->
+
+**Scene: Dominion headquarters, the Founder in custody**
+
+> Kira: "This war's over. You lost."
+>
+> Founder: "Have I? I think you'll find that neither the Jem'Hadar or the Breen will agree with that assessment. **They will fight to the last man.**"
+>
+> Kira: "And what will that accomplish?"
+>
+> Founder: "Isn't it obvious? **You may win this war, Commander, but I promise you, when it is over, you will have lost so many ships, so many lives, that your victory will taste as bitter as defeat.**"
+
+- **Who:** Kira (Nana Visitor) and the Female Changeling (Salome Jens), just after Garak shoots Weyoun
+- **Episode:** season 7, episodes 25 and 26, the finale
+- **IMDb:** [episode](https://www.imdb.com/title/tt0394907/)
+- **Checked:** [transcript](http://www.chakoteya.net/DS9/575.htm) [🔗](<../my-fetches/chakoteya-star-trek/DS9/575.htm>)
+- **Use it for:** deterrence. Not that you'd lose; that it wouldn't be worth it. A grade appeal against a well-documented marker
+
+
+----
+
 ## Deep Space Nine: O'Brien memes
 <!-- 93 -->
 
@@ -3733,6 +3755,25 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 ----
 
+## The Batman Superman Movie: World's Finest (1997)
+<!-- 466 -->
+
+**Scene: Luthor's office, the Joker's offer**
+
+> Joker: "Pay me one billion dollars, and I'll kill Superman!"
+>
+> Luthor: "**What makes you think you can kill Superman, when you can't even handle a mere mortal in a Halloween costume?**"
+>
+> Joker: "**There's nothing mere about that mortal!**"
+
+- **Who:** the Joker (voiced by Mark Hamill) and Lex Luthor (voiced by Clancy Brown). The first Batman and Superman cartoon team-up. It's "that mortal", not "that bat"
+- **IMDb:** [World's Finest](https://www.imdb.com/title/tt0169590/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-batman-superman-movie-worlds-finest) [🔗](<../my-fetches/springfield-scripts/the-batman-superman-movie-worlds-finest.txt>). It doesn't name speakers
+- **Use it for:** underestimating the experienced colleague with no fancy title
+
+----
+
+
 ## Batman Beyond: "Rebirth, Part 2" (1999)
 <!-- 258 -->
 
@@ -3817,6 +3858,60 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 ----
 
+## Batman Beyond: "Out of the Past" (2000)
+<!-- 427 -->
+
+**Scene: Talia's estate, Bruce young again**
+
+> Bruce: "The agility, the stamina, everything. It's all coming back to me. **It's unnatural. A cheat.**"
+>
+> Terry: "But you're strong again."
+>
+> Bruce: "**No. If I stay here, I'll be weaker than ever.**"
+
+- **Who:** Bruce Wayne (voiced by Kevin Conroy), made young by the Lazarus Pit, and Terry McGinnis (voiced by Will Friedle)
+- **Episode:** season 3, episode 5
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s03e05.txt>). It doesn't name speakers; Terry's line is from the scene
+- **Use it for:** AI writing the assignment. It works, and it leaves you weaker
+
+----
+
+## Batman Beyond: "Out of the Past" (2000)
+<!-- 428 -->
+
+**Scene: Ra's al Ghul in Talia's body, Bruce strapped down**
+
+> Ra's al Ghul: "I must move on to a new host body. Yours."
+>
+> Bruce: "Sure, Ra's, why not? Anything to hold off the Grim Reaper another few seconds. **I take it back. You don't cheat death. You whimper in fear of it.**"
+>
+> Ra's al Ghul: "Silence!"
+>
+> Bruce: "**And you hit like a girl.**"
+
+- **Who:** Bruce and Ra's al Ghul, who has taken over his daughter Talia's body. Earlier Bruce said "I should have known you'd cheat death again", and Ra's said "I don't cheat death. I master it"
+- **Episode:** season 3, episode 5
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s03e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
+- **Use it for:** the comeback that lands even when you're losing. Mind the dated last line
+
+----
+
+## Batman Beyond: "Out of the Past" (2000)
+<!-- 429 -->
+
+**Scene: the fight, Bruce admits it**
+
+> Ra's al Ghul: "When Talia offered you youth again, you fairly drooled to take it. A simple blow to your ego."
+>
+> Bruce: "**I guess for a moment, I was as weak as you, Ra's.**"
+
+- **Who:** Ra's al Ghul (in Talia's body) and Bruce, fighting with Terry's help
+- **Episode:** season 3, episode 5
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=batman-beyond-1999&episode=s03e05) [🔗](<../my-fetches/springfield-scripts/batman-beyond-1999/s03e05.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman_Beyond) [🔗](<../my-fetches/wikiquote/Batman_Beyond.wiki>)
+- **Use it for:** owning a mistake. The shortcut was tempting, and I took it
+
+----
+
 ## Batman Beyond: Return of the Joker (2000)
 <!-- 262 -->
 
@@ -3875,6 +3970,60 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 ----
 
+## Justice League Unlimited: "Ultimatum" (2004)
+<!-- 430 -->
+
+**Scene: Amanda Waller comes for the Ultimen**
+
+> Waller: "You need to step back."
+>
+> Batman: "Not gonna happen. **Long Shadow's with us.**"
+>
+> Waller: "Safeties."
+>
+> Batman: "**Mine are bigger than yours.**"
+>
+> Waller: "Stand down."
+
+- **Who:** Amanda Waller (voiced by C. C. H. Pounder) and Batman. Her soldiers raise their guns; Superman and Aquaman step in. It's Long Shadow, one of the cloned Ultimen, not Nightshade
+- **Episode:** season 1, episode 9
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s01e09) [🔗](<../my-fetches/springfield-scripts/justice-league/s01e09.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
+- **Use it for:** a standoff with the other department. Know who's backing you
+
+----
+
+## Justice League Unlimited: "The Once and Future Thing, Part 2: Time, Warped" (2005)
+<!-- 431 -->
+
+**Scene: a Gotham rooftop in the future, the two Batmen**
+
+> Batman: "**Where's Chronos? My arm's getting tired.**"
+>
+> Old Bruce: "**I can't believe I was ever that green.** This is how you interrogate someone."
+
+- **Who:** Batman (Kevin Conroy) dangling Ghoul, one of the Jokerz, off a roof, and his old self from *Batman Beyond*, who takes over. It's Ghoul, not Scarecrow
+- **Episode:** season 1, episode 13
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s01e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
+- **Use it for:** the experienced colleague watching the new one. Or you, reading your first lesson plan
+
+----
+
+## Justice League Unlimited: "The Once and Future Thing, Part 2: Time, Warped" (2005)
+<!-- 432 -->
+
+**Scene: Chronos's hideout, the universe unravelling**
+
+> Enid: "Because a loser with a kingdom is still just a loser!"
+>
+> Batman: "**Get the belt. Nothing else matters.**"
+
+- **Who:** Enid, Chronos's wife, and Batman. Chronos's time belt is wrecking all of time, and Batman's program for it is the only fix. At the end: "I reprogrammed the belt to make sure that Chronos would never come to exist"
+- **Episode:** season 1, episode 13
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=justice-league&episode=s01e13) [🔗](<../my-fetches/springfield-scripts/justice-league/s01e13.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Justice_League_Unlimited) [🔗](<../my-fetches/wikiquote/Justice_League_Unlimited.wiki>)
+- **Use it for:** priorities in the last week. The working demo; nothing else matters
+
+----
+
 ## Justice League Unlimited: "Destroyer" (2006)
 <!-- 287 -->
 
@@ -3909,6 +4058,60 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 ----
 
+## Young Justice: "Usual Suspects" (2011)
+<!-- 488 -->
+
+**Scene: round the table, why Robin is so young**
+
+> Wonder Woman: "Why did you recruit him so young? So he'd turn out like you?"
+>
+> Batman: "**No. So that he wouldn't turn out like me.**"
+
+- **Who:** Wonder Woman and Batman (voiced by Bruce Greenwood), about Robin
+- **Episode:** season 1, episode 25, as you remember it
+- **Check:** your recollection only. It isn't in the subtitle scripts for episodes 24 to 26 [🔗](<../my-fetches/springfield-scripts/young-justice/s01e25.txt>), and I found no other source. Wording, speakers and episode
+- **Use it for:** why we teach good habits early. So they don't turn out like us
+
+----
+
+
+## Batman (1989)
+<!-- 467 -->
+
+**Scene: the museum, Batman rescues Vicki Vale**
+
+> Joker: "**Where does he get those wonderful toys?**"
+
+- **Who:** the Joker (Jack Nicholson), watching Batman's grappling gun and the Batmobile
+- **IMDb:** [Batman](https://www.imdb.com/title/tt0096895/)
+- **Time:** 1:07:21 to 1:07:27 (7 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman [1989] -imdb-tt0096895.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman [1989] -imdb-tt0096895.srt>)
+- **Use it for:** the colleague with the new laptop, the new tablet, the new software licence
+
+----
+
+## Batman Forever (1995)
+<!-- 468 -->
+
+**Scene: the rooftop, Dr Chase Meridian meets Batman**
+
+> Chase: "I wish I could say that my interest in you was purely professional."
+>
+> Batman: "Are you trying to get under my cape?"
+>
+> Chase: "A girl can't live by psychoses alone."
+>
+> Batman: "**It's the car, right? Chicks love it.**"
+
+- **Who:** Dr Chase Meridian (Nicole Kidman) and Batman (Val Kilmer). Remembered as "Chicks dig the car"; the subtitles have "Chicks love it"
+- **IMDb:** [Batman Forever](https://www.imdb.com/title/tt0112462/)
+- **Time:** 0:18:04 to 0:18:20 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Forever [1995] -imdb-tt0112462.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Forever [1995] -imdb-tt0112462.srt>). Check the spoken words against the film
+- **Use it for:** why students pick a module. It's the robot kit, right?
+
+----
+
+
 ## Batman Begins (2005)
 <!-- 96 -->
 
@@ -3927,6 +4130,44 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ----
 
 ## Batman Begins (2005)
+<!-- 433 -->
+
+**Scene: Gordon meets Batman**
+
+> Gordon: "Who are you?"
+>
+> Batman: "Watch for my sign."
+>
+> Gordon: "**You're just one man?**"
+>
+> Batman: "**Now we're two.**"
+
+- **Who:** Jim Gordon (Gary Oldman) and Batman (Christian Bale). Batman is gone before Gordon's "We?"
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 0:54:58 to 0:55:11 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** a new team, or the first student to back a new idea
+
+----
+
+## Batman Begins (2005)
+<!-- 434 -->
+
+**Scene: Applied Sciences, Fox shows Bruce the Tumbler**
+
+> Fox: "We never could get the damn bridge to work, but this baby works just fine. So, what do you think?"
+>
+> Bruce: "**Does it come in black?**"
+
+- **Who:** Lucius Fox (Morgan Freeman) and Bruce Wayne. The bridge was what the Tumbler was built for
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 0:57:40 to 0:58:02 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** a demo that impressed, and the one question asked: dark mode
+
+----
+
+## Batman Begins (2005)
 <!-- 99 -->
 
 **Scene: the docks, Batman and Detective Flass**
@@ -3940,6 +4181,29 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Time:** 1:14:58 to 1:15:03 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-begins). "Who are you? Where are you?" isn't in it
 - **Use it for:** getting a straight answer out of a group about who did the work
+
+----
+
+## Batman Begins (2005)
+<!-- 435 -->
+
+**Scene: the phone call, Bruce's birthday party**
+
+> Fox: "**Earle just fired me for asking too many questions about it.**"
+>
+> Bruce: "Go back to Wayne Enterprises now and start making more of that antidote. The police are gonna need as much as they can get their hands on."
+>
+> Fox: "My security clearance has been revoked."
+>
+> Bruce: "**That wouldn't stop a man like you, would it?**"
+>
+> Fox: "**I suppose not.**"
+
+- **Who:** Lucius Fox and Bruce. "It" is the microwave emitter that went missing from Wayne Enterprises
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 1:42:28 to 1:42:50 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** a locked lab, an expired licence, a blocked site. Resourcefulness
 
 ----
 
@@ -3982,6 +4246,25 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ----
 
 ## Batman Begins (2005)
+<!-- 436 -->
+
+**Scene: the Narrows, Batman saves Rachel and the boy**
+
+> Rachel: "Wait. You could die. **At least tell me your name.**"
+>
+> Batman: "**It's not who I am underneath, but what I do that defines me.**"
+>
+> Rachel: "Bruce?"
+
+- **Who:** Rachel Dawes (Katie Holmes) and Batman, who then jumps from the rooftop. She recognises Bruce's words from earlier
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 1:57:28 to 1:57:50 (22 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** portfolios and assessment. What you do defines you, not what you say you can do
+
+----
+
+## Batman Begins (2005)
 <!-- 324 -->
 
 **Scene: the monorail, Batman arrives**
@@ -4017,18 +4300,45 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 ----
 
-## The Dark Knight (2008)
-<!-- 102 -->
+## Batman Begins (2005)
+<!-- 437 -->
 
-**Scene: Gambol's pool hall**
+**Scene: the rooftop, the end, Gordon on escalation**
 
-> Joker: "**You wanna know how I got these scars?** My father was a drinker, and a fiend."
+> Gordon: "**What about escalation?**"
+>
+> Batman: "Escalation?"
+>
+> Gordon: "**We start carrying semiautomatics, they buy automatics. We start wearing Kevlar, they buy armor-piercing rounds.**"
+>
+> Batman: "And?"
+>
+> Gordon: "**And you're wearing a mask and jumping off rooftops.** Now, take this guy. Armed robbery, double homicide. Got a taste for the theatrical, like you. Leaves a calling card."
 
-- **Who:** the Joker (Heath Ledger). He tells a different story each time. The rest of this speech is violent; use only the first line
-- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
-- **Time:** 0:30:06 to 0:30:19 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
-- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
-- **Use it for:** war stories from past projects. *"Wanna know how I got these grey hairs? Supervising FYPs"*
+- **Who:** Gordon and Batman. The calling card is a Joker card, setting up *The Dark Knight*
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 2:09:56 to 2:10:28 (32 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** an arms race. Plagiarism checkers and the tools that beat them; AI detectors and AI
+
+----
+
+## Batman Begins (2005)
+<!-- 438 -->
+
+**Scene: the rooftop, the last lines**
+
+> Batman: "I'll look into it."
+>
+> Gordon: "**I never said thank you.**"
+>
+> Batman: "**And you'll never have to.**"
+
+- **Who:** Gordon and Batman, who is gone when Gordon turns round. The same scene as the one before
+- **IMDb:** [Batman Begins](https://www.imdb.com/title/tt0372784/) · [quotes](https://www.imdb.com/title/tt0372784/quotes/)
+- **Time:** 2:10:31 to 2:10:48 (17 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman Begins [2005] -imdb-tt0372784.srt>)
+- **Use it for:** the colleague who covered your class. Or the end of the course
 
 ----
 
@@ -4048,6 +4358,178 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ----
 
 ## The Dark Knight (2008)
+<!-- 439 -->
+
+**Scene: the mob meeting, the Joker arrives**
+
+> Joker: "Hoo, hee, aha. Ha, ooh, hee, ha-ha, ha-ha."
+>
+> Gambol: "**And I thought my jokes were bad.**"
+
+- **Who:** the Joker (Heath Ledger) and Gambol (Michael Jai White). What comes next, the "magic trick", is violent; stop here
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:23:11 to 0:23:22 (10 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). The laugh is spelled the subtitles' way
+- **Use it for:** a colleague's joke, after yours fell flat
+
+----
+
+## The Dark Knight (2008)
+<!-- 440 -->
+
+**Scene: the mob meeting, the Joker's pitch**
+
+> Joker: "**I know why you choose to have your little group-therapy sessions in broad daylight. I know why you're afraid to go out at night.** The Batman."
+>
+> Joker: "He'll find him and make him squeal. **I know the squealers when I see them.**"
+
+- **Who:** the Joker to the mob bosses, on the run since Batman and Dent started on them. He looks at Gambol on "the squealers"
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:24:14 to 0:24:54 (40 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the 9 a.m. stand-up, held where the manager can't see
+
+----
+
+## The Dark Knight (2008)
+<!-- 441 -->
+
+**Scene: the mob meeting, the price**
+
+> Maroni: "What do you propose?"
+>
+> Joker: "It's simple. We, uh, kill the Batman."
+>
+> Gambol: "If it's so simple, why haven't you done it already?"
+>
+> Joker: "**If you're good at something, never do it for free.**"
+>
+> Chechen: "How much you want?"
+>
+> Joker: "**Uh, half.**"
+
+- **Who:** the Joker, Gambol and the Chechen (Ritchie Coster) at the mob meeting
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:24:54 to 0:25:13 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). The subtitles don't name speakers; check who asks "How much"
+- **Use it for:** freelancing, and knowing your worth
+
+----
+
+## The Dark Knight (2008)
+<!-- 102 -->
+
+**Scene: Gambol's pool hall**
+
+> Joker: "**You wanna know how I got these scars?** My father was a drinker, and a fiend."
+
+- **Who:** the Joker (Heath Ledger). He tells a different story each time. The rest of this speech is violent; use only the first line
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:30:06 to 0:30:19 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
+- **Use it for:** war stories from past projects. *"Wanna know how I got these grey hairs? Supervising FYPs"*
+
+----
+
+## The Dark Knight (2008)
+<!-- 469 -->
+
+**Scene: Hong Kong, Lau's office**
+
+> Bruce: "Well, I do appreciate you bringing me out here in such style, Mr. Lau, but I re..."
+>
+> Lau: "**We do not allow cell phones in here.**"
+>
+> Bruce: "**I'm sorry. Forgot I had it.**"
+
+- **Who:** Bruce Wayne and Lau (Chin Han). Bruce leaves the phone at the desk on his way in: it's a sonar device, and he keeps a second one. The "one to find, one to keep" part has no dialogue
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:32:30 to 0:32:43 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Bruce's cut-off line is the subtitles'
+- **Use it for:** phones in the exam hall. Or the student who hands one phone in and keeps the other
+
+----
+
+
+## The Dark Knight (2008)
+<!-- 442 -->
+
+**Scene: Fox's office, Hong Kong**
+
+> Fox: "Sends out a high-frequency pulse, records the response time for mapping an environment."
+>
+> Bruce: "**Sonar. Just like a...**"
+>
+> Fox: "**Submarine, Mr. Wayne. Like a submarine.**"
+
+- **Who:** Lucius Fox and Bruce, before the Lau extraction. Bruce's dots are the subtitles'
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:33:40 to 0:33:53 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the student who explains it back to you, just like a... tutor
+
+----
+
+## The Dark Knight (2008)
+<!-- 443 -->
+
+**Scene: the fundraiser, Rachel stands up to the Joker**
+
+> Joker: "Now I see the funny side. Now I'm always smiling."
+>
+> Joker: "**You got a little fight in you. I like that.**"
+>
+> Batman: "**Then you're gonna love me.**"
+
+- **Who:** the Joker, after Rachel (Maggie Gyllenhaal) knees him, and Batman, arriving. Start after the scars story, which is violent
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:51:45 to 0:52:01 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the keen learner who pushes back. The marker is coming
+
+----
+
+## The Dark Knight (2008)
+<!-- 444 -->
+
+**Scene: the fundraiser, Rachel at the window**
+
+> Batman: "Drop the gun."
+>
+> Joker: "Oh, sure. You just take off your little mask and show us all who you really are. Hm?"
+>
+> Batman: "**Let her go.**"
+>
+> Joker: "**Very poor choice of words.**"
+
+- **Who:** Batman and the Joker, holding Rachel out of the window. He lets go; Batman dives after her
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:52:26 to 0:52:45 (18 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** requirements taken literally. Say what you mean in the brief
+
+----
+
+## The Dark Knight (2008)
+<!-- 445 -->
+
+**Scene: Fox's office, Reese's offer**
+
+> Reese: "I want... $10 million a year for the rest of my life."
+>
+> Fox: "**Let me get this straight. You think that your client, one of the wealthiest, most powerful men in the world, is secretly a vigilante who spends his nights beating criminals to a pulp with his bare hands, and your plan is to blackmail this person?**"
+>
+> Fox: "**Good luck.**"
+
+- **Who:** Coleman Reese (Joshua Harto), a Wayne Enterprises lawyer, and Lucius Fox. Reese has worked out who Batman is. Fox pauses before "Good luck", and Reese backs down
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:57:56 to 0:58:36 (39 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** a plan that needs reading back out loud. *"Let me get this straight..."*
+
+----
+
+## The Dark Knight (2008)
 <!-- 100 -->
 
 **Scene: the fire escape, interrogating Maroni**
@@ -4060,13 +4542,235 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Batman: "He must have friends!"
 >
-> Maroni: "**Friends? You met this guy?**"
+> Maroni: "**Friends? Have you met this guy?** Someone knows where he is. Nobody's gonna tell you nothing. **They're wise to your act. You got rules. The Joker, he's got no rules. Nobody's gonna cross him for you.**"
 
 - **Who:** Sal Maroni (Eric Roberts) and Batman
 - **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
-- **Time:** 1:05:36 to 1:06:02 (26 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Time:** 1:05:36 to 1:06:17 (42 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** that one group member. Or the module nobody wants to take
+
+----
+
+## The Dark Knight (2008)
+<!-- 489 -->
+
+**Scene: the interrogation room, the Joker and Batman**
+
+> Joker: "They need you right now, but when they don't, they'll cast you out like a leper. You see, **their morals, their code, it's a bad joke. Dropped at the first sign of trouble.** They're only as good as the world allows them to be. I'll show you. **When the chips are down, these... These civilized people, they'll eat each other. See, I'm not a monster. I'm just ahead of the curve.**"
+
+- **Who:** the Joker to Batman, in Gordon's interrogation room
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:28:23 to 1:29:03 (40 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** group work in week 12. When the deadline's close, these civilised people...
+
+----
+
+## The Dark Knight (2008)
+<!-- 446 -->
+
+**Scene: the docks, the Joker and the mob's money**
+
+> Chechen: "Joker-man, what you do with all your money?"
+>
+> Joker: "**You see, I'm a guy of simple taste. I enjoy dynamite, and gunpowder, and gasoline.** And you know the thing that they have in common? **They're cheap.**"
+
+- **Who:** the Chechen and the Joker, on top of a mountain of cash. Then he sets fire to it
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:42:30 to 1:42:56 (26 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). It's "a guy of simple taste", not "a man of simple tastes"
+- **Use it for:** open-source tools. Simple, and cheap
+
+----
+
+## The Dark Knight (2008)
+<!-- 447 -->
+
+**Scene: the docks, the money burning**
+
+> Joker: "All you care about is money. This town deserves a better class of criminal, and I'm gonna give it to them. Tell your men they work for me now. This is my city."
+>
+> Chechen: "**They won't work for a freak.**"
+>
+> Joker: "**"Freak."** Why don't we cut you up into little pieces, and feed you to your pooches? Hm? **And then we'll see how loyal a hungry dog really is.**"
+
+- **Who:** the Joker and the Chechen, whose dogs are there. A dark one; stop at "Freak" for a gentler slide
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:43:27 to 1:43:57 (29 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). The quotation marks round "Freak" are the subtitles'
+- **Use it for:** a new idea, and the old guard's verdict on it
+
+----
+
+## The Dark Knight (2008)
+<!-- 448 -->
+
+**Scene: the docks, the end of the scene**
+
+> Joker: "**It's not about money, it's about sending a message. Everything burns.**"
+
+- **Who:** the Joker to the Chechen. Show the burning money, not the threat before it
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:43:56 to 1:44:04 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** a penalty that's about the message, not the marks. Late submissions
+
+----
+
+## The Dark Knight (2008)
+<!-- 449 -->
+
+**Scene: the hospital, the Joker and Harvey Dent**
+
+> Joker: "Do I really look like a guy with a plan? You know what I am? **I'm a dog chasing cars. I wouldn't know what to do with one if I caught it.** You know? I just do things. **The Mob has plans. The cops have plans. Gordon's got plans. You know, they're schemers. Schemers trying to control their little worlds.** I'm not a schemer. I try to show the schemers how pathetic their attempts to control things really are."
+
+- **Who:** the Joker (dressed as a nurse) to Harvey Dent (Aaron Eckhart) in hospital
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:48:10 to 1:48:48 (37 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). "Cars", "one" and "caught"
+- **Use it for:** the student who chased a project idea, got it approved, and now has no idea what to do
+
+----
+
+## The Dark Knight (2008)
+<!-- 450 -->
+
+**Scene: the hospital, "according to plan"**
+
+> Joker: "**Nobody panics when things go "according to plan." Even if the plan is horrifying.** If tomorrow I tell the press that, like, a gangbanger will get shot, or a truckload of soldiers will be blowing up, nobody panics. Because it's all part of the plan. **But when I say that one little old mayor will die, well, then, everyone loses their minds.**"
+
+- **Who:** the Joker to Harvey Dent, the same scene
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:49:51 to 1:50:22 (31 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). It's "mayor", not "mare"
+- **Use it for:** change management. Exams on the timetable, fine; move one class, outrage
+
+----
+
+## The Dark Knight (2008)
+<!-- 451 -->
+
+**Scene: the hospital, "a little anarchy"**
+
+> Joker: "**Introduce a little anarchy, upset the established order, and everything becomes chaos. I'm an agent of chaos.** Oh, and you know the thing about chaos? **It's fair.**"
+
+- **Who:** the Joker to Harvey Dent, the same scene. It's "a little anarchy", not "a little chaos". The coin toss that follows is violent
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:50:22 to 1:50:43 (21 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the cover teacher. Or a random group allocation: chaos, but fair
+
+----
+
+## The Dark Knight (2008)
+<!-- 452 -->
+
+**Scene: Fox and the sonar machine**
+
+> Bruce: "Beautiful, isn't it?"
+>
+> Fox: "**Beautiful. Unethical. Dangerous.** You've turned every cell phone in Gotham into a microphone."
+>
+> Bruce: "I've gotta find this man, Lucius."
+>
+> Fox: "At what cost?"
+>
+> Fox: "**This is too much power for one person.**"
+>
+> Bruce: "**That's why I gave it to you. Only you can use it.**"
+>
+> Fox: "**Spying on 30 million people isn't part of my job description.**"
+
+- **Who:** Bruce and Lucius Fox. It's 30 million, not 60
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:55:43 to 1:56:37 (53 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Some lines in between left out
+- **Use it for:** data protection, ethics and surveillance; admin rights to the learner records
+
+----
+
+## The Dark Knight (2008)
+<!-- 453 -->
+
+**Scene: Fox and the sonar machine, the deal**
+
+> Fox: "**I'll help you this one time. But consider this my resignation.** As long as this machine is at Wayne Enterprises, I won't be."
+>
+> Bruce: "**When you're finished, type in your name.**"
+
+- **Who:** Fox and Bruce, the same scene. Typing his name will destroy the machine
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 1:56:42 to 1:56:59 (17 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** temporary access, revoked when the job's done. A kill switch
+
+----
+
+## The Dark Knight (2008)
+<!-- 454 -->
+
+**Scene: the Prewitt Building, the rooftop**
+
+> SWAT: "**We have clear shots on five clowns.** Snipers take them out, smash the windows, a team rappels in. Two, three casualties max."
+>
+> Gordon: "Let's do it."
+>
+> Batman: "**It's not that simple. With the Joker, it never is.**"
+>
+> Gordon: "What's simple is every second, those people on the ferries get closer to blowing..."
+>
+> Batman: "That won't happen."
+>
+> Gordon: "Then he'll blow both of them up!"
+
+- **Who:** the SWAT commander, Gordon and Batman. The subtitles run some of these lines together
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:03:49 to 2:04:12 (23 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Check who says each line; the subtitles don't name speakers
+- **Use it for:** a "simple" fix. With legacy code, it never is
+
+----
+
+## The Dark Knight (2008)
+<!-- 455 -->
+
+**Scene: the Prewitt Building, five minutes**
+
+> Batman: "**I need five minutes alone.**"
+>
+> Gordon: "No! There's no time! We have clear shots! Dent is in there with them. We have to save Dent!"
+>
+> Batman: "**I have to save Dent.**"
+>
+> Gordon: "Get ready. **Two minutes, then we breach.**"
+
+- **Who:** Batman and Gordon. Batman jumps off the roof
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:04:35 to 2:04:56 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). Check who says "Get ready"
+- **Use it for:** asking for more time before the deadline. You get two minutes
+
+----
+
+## The Dark Knight (2008)
+<!-- 456 -->
+
+**Scene: the Prewitt Building, midnight**
+
+> Joker: "We really should stop this fighting, otherwise **we'll miss the fireworks.**"
+>
+> Batman: "**There won't be any fireworks.**"
+>
+> Joker: "And here we go."
+>
+> Batman: "**What were you trying to prove? That deep down, everyone's as ugly as you? You're alone.**"
+
+- **Who:** the Joker and Batman. Midnight comes and neither ferry blows the other up. The Joker's "Can't rely on anyone these days" is next (below)
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:11:44 to 2:12:40 (56 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>). It's "trying to prove", not "expecting"
+- **Use it for:** a prediction of disaster that didn't happen. The class trusted each other
 
 ----
 
@@ -4082,6 +4786,118 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **Time:** 2:12:46 to 2:13:02 (16 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_(film))
 - **Use it for:** group projects. Pairs with Thanos's "Fine. I'll do it myself"
+
+----
+
+## The Dark Knight (2008)
+<!-- 457 -->
+
+**Scene: the Prewitt Building, the Joker upside down**
+
+> Joker: "This is what happens when an unstoppable force meets an immovable object. **You truly are incorruptible, aren't you?** Huh? **You won't kill me out of some misplaced sense of self-righteousness. And I won't kill you because you're just too much fun. I think you and I are destined to do this forever.**"
+>
+> Batman: "**You'll be in a padded cell forever.**"
+>
+> Joker: "**Maybe we could share one.** You know, they'll be doubling up, the rate this city's inhabitants are losing their minds."
+
+- **Who:** the Joker, hanging from Batman's line, and Batman. It's "misplaced sense of self-righteousness", not "perverse sense of honour"
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:13:27 to 2:14:15 (48 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the student who resubmits every year. Destined to do this forever
+
+----
+
+## The Dark Knight (2008)
+<!-- 458 -->
+
+**Scene: the Prewitt Building, the ace in the hole**
+
+> Batman: "This city just showed you that it's full of people ready to believe in good."
+>
+> Joker: "Until their spirit breaks completely. Until they get a good look at the real Harvey Dent, and all the heroic things he's done. **You didn't think I'd risk losing the battle for Gotham's soul in a fistfight with you? No. You need an ace in the hole. Mine's Harvey.**"
+>
+> Batman: "What did you do?"
+>
+> Joker: "I took Gotham's white knight, and I brought him down to our level. It wasn't hard. **See, madness, as you know, is like gravity. All it takes is a little push.**"
+
+- **Who:** Batman and the Joker, the same scene
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:14:12 to 2:15:10 (58 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** a backup plan. Or one bad week before the deadline: all it takes is a little push
+
+----
+
+## The Dark Knight (2008)
+<!-- 470 -->
+
+**Scene: the end, Batman saves Gordon's son**
+
+> Gordon: "**Thank you.**"
+>
+> Batman: "**You don't have to thank me.**"
+>
+> Gordon: "**Yes, I do.**"
+
+- **Who:** Gordon and Batman, after Batman pulls Gordon's son back from Two-Face. A callback to "I never said thank you" in *Batman Begins*. It's from *The Dark Knight*, not *Begins* or *Rises*
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:20:49 to 2:20:57 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** thanking the colleague who says it was nothing
+
+----
+
+
+## The Dark Knight (2008)
+<!-- 459 -->
+
+**Scene: the end, the callback**
+
+> Batman: "**You either die a hero, or you live long enough to see yourself become the villain.**"
+
+- **Who:** Batman to Gordon, over Dent's body: the callback to Dent's line at the dinner (above)
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 0:20:52 to 0:20:59 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the same line twice, an hour apart: the friendly tutor who became the strict marker, now said by the marker
+
+----
+
+## The Dark Knight (2008)
+<!-- 471 -->
+
+**Scene: the end, Batman takes the blame**
+
+> Batman: "I can do those things because **I'm not a hero, not like Dent. I killed those people. That's what I can be.**"
+>
+> Gordon: "No, no, you can't. You're not."
+>
+> Batman: "**I'm whatever Gotham needs me to be.** Call it in."
+
+- **Who:** Batman to Gordon, straight after the callback (above). "Those people" is the subtitles'; the spoken line may be "those men"
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:22:03 to 2:22:22 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** taking the blame for the team. Whatever the class needs me to be
+
+
+----
+
+## The Dark Knight (2008)
+<!-- 460 -->
+
+**Scene: the end, Fox types in his name**
+
+> Gordon: "They'll hunt you."
+>
+> Batman: "You'll hunt me. You'll condemn me. Set the dogs on me. Because that's what needs to happen. Because **sometimes the truth isn't good enough. Sometimes people deserve more. Sometimes people deserve to have their faith rewarded.**"
+
+- **Who:** Gordon, then Batman. Over the speech, Lucius Fox types in his name and the sonar machine destroys itself
+- **IMDb:** [The Dark Knight](https://www.imdb.com/title/tt0468569/) · [quotes](https://www.imdb.com/title/tt0468569/quotes/)
+- **Time:** 2:22:36 to 2:23:10 (34 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight [2008] -imdb-tt0468569.srt>)
+- **Use it for:** the reference letter. Kind, and a little more than true
 
 ----
 
@@ -4107,10 +4923,131 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 ----
 
 ## The Dark Knight Rises (2012)
+<!-- 472 -->
+
+**Scene: the plane, the CIA interrogation**
+
+> CIA agent: "Tell me about Bane! Why does he wear the mask? A lot of loyalty for a hired gun!"
+>
+> Bane: "**Well, perhaps he's wondering why someone would shoot a man before throwing him out of a plane.**"
+
+- **Who:** the CIA agent (Aidan Gillen) and Bane (Tom Hardy), hooded as a prisoner. The subtitles call him "Man"
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:02:45 to 0:03:04 (19 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles have "l" for "I"
+- **Use it for:** a sanction that makes no sense. Why fail them before they've submitted?
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 473 -->
+
+**Scene: the plane, the mask**
+
+> CIA agent: "No one cared who I was till I put on the mask."
+>
+> CIA agent: "**If I pull that off, will you die?**"
+>
+> Bane: "**It would be extremely painful.**"
+>
+> CIA agent: "**You're a big guy.**"
+>
+> Bane: "**For you.**"
+
+- **Who:** the CIA agent and Bane. The first line is the agent's, not Bane's, though it's often quoted as Bane's
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:03:19 to 0:03:34 (15 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** the deadline extension. It would be extremely painful. For you
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 474 -->
+
+**Scene: the plane, the master plan**
+
+> CIA agent: "Was getting caught part of your plan?"
+>
+> Bane: "Of course."
+>
+> CIA agent: "Well, congratulations, you got yourself caught! **Now what's the next step of your master plan?**"
+>
+> Bane: "**Crashing this plane... with no survivors.**"
+
+- **Who:** the CIA agent and Bane. A few lines between the first two and the rest are left out
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:03:35 to 0:04:17 (42 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** asking a student about their project plan
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 475 -->
+
+**Scene: the plane, falling**
+
+> Bane: "**No! They expect one of us in the wreckage, brother.**"
+>
+> Mercenary: "**Have we started the fire?**"
+>
+> Bane: "**Yes, the fire rises.**"
+
+- **Who:** Bane and one of his men, who volunteers to stay on the falling plane
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:05:53 to 0:06:06 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles don't say who asks about the fire
+- **Use it for:** the volunteer who stays behind to finish the group report
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 476 -->
+
+**Scene: the stock exchange**
+
+> Trader: "**This is a stock exchange. There's no money you can steal.**"
+>
+> Bane: "**Really? Then why are you people here?**"
+
+- **Who:** a trader and Bane
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:42:47 to 0:42:57 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** "There's nothing to learn in this module." Then why are you here?
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 477 -->
+
+**Scene: the stock exchange, the program running**
+
+> Bane: "How much longer does the program need?"
+>
+> Mercenary: "Eight minutes."
+>
+> Bane: "**Time to go mobile.**"
+
+- **Who:** Bane and one of his men, with the hostages
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 0:44:25 to 0:44:36 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** the install is still running and the class is over. Laptops on the move
+
+----
+
+
+## The Dark Knight Rises (2012)
 <!-- 105 -->
 
-**Scene: the Bat, after the chase**
+**Scene: Selina cornered, then the Bat**
 
+> Selina: "Stay back! **I'm not bluffing!**"
+>
+> Batman: "**They know. They just don't care.**"
+>
 > Batman: "**No guns. No killing.**"
 >
 > Selina: "**Where's the fun in that?**"
@@ -4119,28 +5056,149 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 >
 > Batman: "**This isn't a car.**"
 
-- **Who:** Batman (Christian Bale) and Selina Kyle (Anne Hathaway)
+- **Who:** Batman (Christian Bale) and Selina Kyle (Anne Hathaway), her gun on her hostage while the gunmen close in. Then the chase in the Bat
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
-- **Time:** 0:53:35 to 0:54:03 (29 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Time:** 0:53:05 to 0:54:03 (58 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** *"This isn't a test. It's a formative assessment."* "Where's the fun in that?" for any rule
 
 ----
 
 ## The Dark Knight Rises (2012)
+<!-- 478 -->
+
+**Scene: Daggett's penthouse, waiting for Bane**
+
+> Daggett: "How the hell did Miranda Tate get the inside track on the Wayne board? She been meeting with him?"
+>
+> Daggett: "Where's Bane?"
+>
+> Stryver: "We told him it was urgent."
+>
+> Daggett: "Where is that masked..."
+>
+> Bane: "**Speak of the devil, and he shall appear.**"
+
+- **Who:** John Daggett (Ben Mendelsohn), his assistant Stryver (Burn Gorman), and Bane. A line in between is left out
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:03:34 to 1:03:54 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles don't name Stryver
+- **Use it for:** complaining about the external examiner, who walks in
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 479 -->
+
+**Scene: Daggett's penthouse, who's in charge**
+
+> Bane: "Leave us."
+>
+> Daggett: "No. You stay here. **I'm in charge.**"
+>
+> Bane: "**Do you feel in charge?**"
+>
+> Daggett: "**I've paid you a small fortune.**"
+>
+> Bane: "**And this gives you power over me?**"
+
+- **Who:** Bane and Daggett, the same scene. What happens to Daggett next is violent; stop here
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:04:19 to 1:04:39 (20 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** the client who thinks the fee buys them everything. Or the fees-paying student
+
+----
+
+
+## The Dark Knight Rises (2012)
+<!-- 461 -->
+
+**Scene: the sewers, Selina hands Batman over**
+
+> Selina: "I had to find a way to stop them trying to kill me."
+>
+> Batman: "**You made a serious mistake.**"
+>
+> Bane: "**Not as serious as yours, I fear.**"
+
+- **Who:** Selina Kyle (Anne Hathaway), Batman, and Bane (Tom Hardy) arriving. It's "serious", not "terrible" or "grave"
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:11:28 to 1:11:42 (14 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>). The subtitles have "l" for "I"
+- **Use it for:** telling a student off, just before their supervisor walks in
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 480 -->
+
+**Scene: the sewers, the fight begins**
+
+> Bane: "**You fight like a younger man. Nothing held back. Admirable, but mistaken.**"
+
+- **Who:** Bane to Batman. "Nothing held back", not "withheld". "You merely adopted the dark" comes next (below)
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:13:55 to 1:14:03 (8 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** the keen first-year who does everything at once, and burns out by week 4
+
+----
+
+
+## The Dark Knight Rises (2012)
 <!-- 107 -->
 
 **Scene: the sewers, the first fight**
 
-> Bane: "Oh, you think darkness is your ally. **But you merely adopted the dark. I was born in it, moulded by it.**"
+> Bane: "Oh, you think darkness is your ally? **But you merely adopted the dark. I was born in it, moulded by it. I didn't see the light until I was already a man. By then, it was nothing to me but blinding!**"
 
 - **Who:** Bane (Tom Hardy) to Batman
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
-- **Time:** 1:14:06 to 1:14:20 (13 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Time:** 1:14:06 to 1:14:30 (24 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Dark_Knight_Rises)
 - **Use it for:** *"You merely adopted Git. I was born in it"*
 
 ----
+
+## The Dark Knight Rises (2012)
+<!-- 462 -->
+
+**Scene: the sewers, the end of the fight**
+
+> Bane: "**Your precious armory. Gratefully accepted.** We will need it."
+
+- **Who:** Bane, holding up Batman's cowl. Then he breaks him
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 1:14:59 to 1:15:08 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** the student who borrows your code, your slides, your marker. Gratefully accepted
+
+----
+
+## The Dark Knight Rises (2012)
+<!-- 481 -->
+
+**Scene: the street, Batman and Blake**
+
+> Batman: "**If you're working alone, wear a mask.**"
+>
+> Blake: "I'm not afraid to be seen standing up to them."
+>
+> Batman: "**The mask is not for you. It's to protect the people you care about.**"
+>
+> Batman: "Count to five, then throw."
+>
+> Blake: "No offense, but **you got something bigger in that belt?**"
+
+- **Who:** Batman and John Blake (Joseph Gordon-Levitt), the young detective. Blake asked him earlier, "When you started, why the mask?"
+- **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
+- **Time:** 2:08:22 to 2:08:50 (28 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Use it for:** privacy online. The username isn't for you; it's for the people you care about
+
+----
+
 
 ## The Dark Knight Rises (2012)
 <!-- 106 -->
@@ -4164,15 +5222,97 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 
 **Scene: Selina saves Batman on the Bat-Pod**
 
+> Bane: "**We both know that I have to kill you now.** You'll just have to imagine the fire."
+>
 > Selina: "**About the whole no-guns thing. I'm not sure I feel as strongly about it as you do.**"
 
-- **Who:** Selina, having just shot Bane with the Bat-Pod's cannon. The callback to "No guns. No killing"
+- **Who:** Bane, about to kill Batman, then Selina, having just shot Bane with the Bat-Pod's cannon. The callback to "No guns. No killing"
 - **IMDb:** [The Dark Knight Rises](https://www.imdb.com/title/tt1345836/) · [quotes](https://www.imdb.com/title/tt1345836/quotes/)
-- **Time:** 2:22:48 to 2:22:57 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
+- **Time:** 2:22:32 to 2:22:57 (26 seconds), from the subtitles [🔗](<../my-fetches/subtitles/The Dark Knight Rises [2012] -imdb-tt1345836.srt>)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-dark-knight-rises)
 - **Use it for:** a rule a colleague doesn't share. *"About the whole no-AI thing..."*
 
 ----
+
+## Batman: The Dark Knight Returns, Part 1 (2012)
+<!-- 482 -->
+
+**Scene: the mud pit, Batman and the Mutant leader**
+
+> Mutant leader: "**You're weak, old man. You're slow.**"
+>
+> Batman: "**True, but we're all slow when we're thigh high deep in mud.**"
+
+- **Who:** the Mutant leader and Batman (voiced by Peter Weller). "Thigh high deep" is the subtitles'
+- **IMDb:** [The Dark Knight Returns](https://www.imdb.com/title/tt11060882/) (both parts) · [Part 1](https://www.imdb.com/title/tt2313197/)
+- **Time:** 1:07:38 to 1:07:48 (11 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Use it for:** choosing the ground. Fight on your terms, not theirs
+
+----
+
+## Batman: The Dark Knight Returns, Part 1 (2012)
+<!-- 483 -->
+
+**Scene: the mud pit, the cut**
+
+> Mutant leader: "**What was that?**"
+>
+> Batman: "**Just the right kind of cut above the eyes. The kind that bleeds.**"
+
+- **Who:** the Mutant leader and Batman. It's about blinding your opponent, not hurting him
+- **IMDb:** [The Dark Knight Returns](https://www.imdb.com/title/tt11060882/) (both parts) · [Part 1](https://www.imdb.com/title/tt2313197/)
+- **Time:** 1:08:18 to 1:08:28 (10 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Use it for:** a small, precise fix that takes out a whole class of bugs
+
+----
+
+## Batman: The Dark Knight Returns, Part 1 (2012)
+<!-- 484 -->
+
+**Scene: the mud pit, the arm**
+
+> Batman: "**That a tickle? That was a nerve bundle in your deltoid. Might not hurt, but you won't be moving that arm for a while.**"
+
+- **Who:** Batman to the Mutant leader
+- **IMDb:** [The Dark Knight Returns](https://www.imdb.com/title/tt11060882/) (both parts) · [Part 1](https://www.imdb.com/title/tt2313197/)
+- **Time:** 1:09:26 to 1:09:36 (9 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Use it for:** feedback that doesn't sting now, and shows up at the exam
+
+----
+
+## Batman: The Dark Knight Returns, Part 1 (2012)
+<!-- 490 -->
+
+**Scene: the mud pit, the end of the fight**
+
+> Mutant leader: "You finished, old man."
+>
+> Batman: "**You don't get it, son. This isn't a mud hole. It's an operating table. And I'm the surgeon.**"
+
+- **Who:** the Mutant leader and Batman. What follows is violent; stop at "the surgeon". The comic has "mudhole"
+- **IMDb:** [The Dark Knight Returns](https://www.imdb.com/title/tt11060882/) (both parts) · [Part 1](https://www.imdb.com/title/tt2313197/)
+- **Time:** 1:09:53 to 1:10:16 (23 seconds), from the subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/Batman; The Dark Knight Returns, Part 1 [2012] -imdb-tt2313197.srt>) and [Wikiquote](https://en.wikiquote.org/wiki/Batman:_The_Dark_Knight_Returns) [🔗](<../my-fetches/wikiquote/Batman__The_Dark_Knight_Returns.wiki>)
+- **Use it for:** a code review. This isn't a meeting; it's an operating table
+
+----
+
+## Batman: The Dark Knight Returns (1986, comic)
+<!-- 491 -->
+
+**Scene: the mud pit, the Mutant leader's leg**
+
+> Batman: "**Something tells me I should stop with the leg. I don't listen.**"
+
+- **Who:** Batman's narration in Frank Miller's comic, as you remember it
+- **Check:** your recollection only. It isn't on Wikiquote [🔗](<../my-fetches/wikiquote/Batman__The_Dark_Knight_Returns.wiki>) or in the film's subtitles, and I found no other source. Wording, and which issue (probably #2)
+- **Use it for:** the extra feature you add after the project is finished. Something told you to stop
+
+----
+
 
 ## Batman: The Dark Knight Returns, Part 2 (2013)
 <!-- 109 -->
@@ -4217,6 +5357,37 @@ Nolan's trilogy and the animated *Dark Knight Returns*, in film order and scene 
 - **IMDb:** [The Dark Knight Returns](https://www.imdb.com/title/tt11060882/) (both parts) · [Part 2](https://www.imdb.com/title/tt2166834/)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Batman:_The_Dark_Knight_Returns_(film))
 - **Use it for:** the student who finally beats the lecturer at something; a resit passed
+
+----
+
+## Batman: Hush (2019)
+<!-- 463 -->
+
+**Scene: lead-lined tunnels, Superman under Poison Ivy's control**
+
+> Catwoman: "But this is Superman."
+>
+> Batman: "**Yes, and if he wanted, we'd be dead already. Deep down, he's a good person. And deep down... I'm not.**"
+
+- **Who:** Catwoman (voiced by Jennifer Morrison) and Batman (voiced by Jason O'Mara), with kryptonite knuckles. The Riddler is Hush in this film
+- **IMDb:** [Batman: Hush](https://www.imdb.com/title/tt8752440/)
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=batman-hush) [🔗](<../my-fetches/springfield-scripts/batman-hush.txt>). It doesn't name speakers
+- **Use it for:** the strongest student in the class plays fair. You don't have to
+
+----
+
+## Batman: Hush (2002–2003, comic)
+<!-- 464 -->
+
+**Scene: Batman faces Superman, under Poison Ivy's control**
+
+> Batman: "If Clark wanted to, he could use his superspeed and squish me into the cement. But I know how he thinks. Even more than the Kryptonite, he's got one big weakness. **Deep down, Clark's essentially a good person... and deep down, I'm not.**"
+
+- **Who:** Batman's narration, in the comic by Jeph Loeb and Jim Lee. The film (above) shortens it
+- **Checked:** [Goodreads quotes](https://www.goodreads.com/work/quotes/1399483) [🔗](<../my-fetches/quotes/goodreads-batman-hush.html>)
+- **Check:** a quote site only; the issue (*Batman* #612) and the exact wording against the comic
+- **Use it for:** the original, and better. A colleague who could fail you, but won't
+
 
 ---
 
@@ -4282,6 +5453,22 @@ From X-Men (2000) to Apocalypse, in film order and scene order
 - **Use it for:** managers who mandate training they won't do themselves. Bleep it for some rooms
 
 ----
+
+## X-Men Origins: Wolverine (2009)
+<!-- 485 -->
+
+**Scene: Three Mile Island, Weapon XI has Logan**
+
+> Victor: "**Nobody kills you but me.**"
+
+- **Who:** Victor Creed, Sabretooth (Liev Schreiber), arriving to save his brother Logan (Hugh Jackman) from Weapon XI. In the spirit of "Nobody insults my family but me"
+- **IMDb:** [X-Men Origins: Wolverine](https://www.imdb.com/title/tt0458525/)
+- **Time:** 1:29:39 to 1:29:44 (5 seconds), from the subtitles [🔗](<../my-fetches/subtitles/X-Men Origins; Wolverine [2009] -imdb-tt0458525.srt>)
+- **Checked:** subtitles [🔗](<../my-fetches/subtitles/X-Men Origins; Wolverine [2009] -imdb-tt0458525.srt>)
+- **Use it for:** the rival who backs you in front of outsiders. Only I get to criticise my team
+
+----
+
 
 ## X-Men: First Class (2011)
 <!-- 111 -->
@@ -6674,6 +7861,24 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 ----
 
+## The Transformers: "More than Meets the Eye, Part 3" (1984)
+<!-- 424 -->
+
+**Scene: Starscream makes his move**
+
+> Starscream: "It's time for a change, Megatron! It's time for actions, not words! **I am the leader of the future!**"
+>
+> Megatron: "**You couldn't lead ant-droids to a picnic. How can you pretend to lead the Decepticons?**"
+
+- **Who:** Starscream (Chris Latta) and Megatron (Frank Welker). This is the 1980s original of "Starscream couldn't lead a parade": the parade wording is Megatron in *Transformers: Animated* (below), echoing this line
+- **Episode:** season 1, episode 3, aired 19 September 1984
+- **IMDb:** [More Than Meets the Eye: Part 3](https://www.imdb.com/title/tt0925993/) · [quotes](https://www.imdb.com/title/tt0925993/quotes/)
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/The_Transformers_(Season_1)) [🔗](<../my-fetches/wikiquote/The_Transformers_(Season_1).wiki>) and [TFWiki](https://tfwiki.net/wiki/More_than_Meets_the_Eye,_Part_3) [🔗](<../my-fetches/tfwiki/More_than_Meets_the_Eye,_Part_3.wiki>)
+- **Check:** no transcript or subtitles; TFWiki gives only the second line of Starscream's
+- **Use it for:** the self-appointed leader. And a put-down that a franchise kept for 25 years
+
+----
+
 ## The Transformers: "Starscream's Brigade" (1986)
 <!-- 420 -->
 
@@ -6689,8 +7894,24 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Episode:** season 2, episode 46 (62nd overall), aired 7 January 1986
 - **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
 - **Checked:** [TFWiki](https://tfwiki.net/wiki/Starscream%27s_Brigade) [🔗](<../my-fetches/tfwiki/Starscream's_Brigade.wiki>)
-- **Check:** only one source, a fan wiki; no transcript or subtitles. "Starscream couldn't lead a parade, let alone an army against us" wasn't found in this episode or anywhere else; the parade line is Megatron in *Transformers: Animated* (above)
+- **Check:** only one source, a fan wiki; no transcript or subtitles
 - **Use it for:** dismissing a rival, and handing them their next move
+
+----
+
+## The Transformers: "Starscream's Brigade" (1986)
+<!-- 425 -->
+
+**Scene: the Decepticon base, Megatron rallies his troops**
+
+> Megatron: "**Starscream is a child. Even with an army of thousands, he couldn't lead them in a parade, let alone against us.**"
+
+- **Who:** Megatron (Frank Welker), after Starscream's Combaticons have attacked. He vows to exterminate Starscream and anyone who follows him
+- **Episode:** season 2, episode 46 (62nd overall), aired 7 January 1986, later in the same episode as "You and what army?" (previous slide)
+- **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
+- **Checked:** [Teletraan I wiki quotes](https://transformers.fandom.com/wiki/Starscream%27s_Brigade) [🔗](<../my-fetches/quotes/fandom-starscreams-brigade.txt>), and [RQ87's episode guide](https://rq87.flyingomelette.com/RQ/C/TF/62/62.html) [🔗](<../my-fetches/flyingomelette/tf-62.html>), which tells the same speech in its own words
+- **Check:** fan sources only; no transcript or subtitles. Often remembered as "Starscream couldn't lead a parade, let alone an army against us". The Starscream jab goes back to season 1 ("ant-droids to a picnic", above) and comes back in *Transformers: Animated* ("You couldn't lead a parade", below)
+- **Use it for:** underestimating the rival, just before he turns up with an army
 
 ----
 
@@ -6699,6 +7920,8 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 **Scene: Starscream holds the Earth to ransom**
 
+> Megatron: "Help us preserve the Earth, and I might preserve you"
+>
 > Starscream: "Not until you relinquish control over the Decepticons."
 >
 > Megatron: "Don't be a fool."
@@ -6709,8 +7932,26 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **Episode:** season 2, episode 47 (63rd overall), aired 8 January 1986, straight after "Starscream's Brigade"
 - **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
 - **Checked:** [TFWiki](https://tfwiki.net/wiki/The_Revenge_of_Bruticus) [🔗](<../my-fetches/tfwiki/The_Revenge_of_Bruticus.wiki>)
-- **Check:** only one source, a fan wiki. Megatron's "Help us preserve the Earth, and I might preserve you" wasn't found here, in "The Key to Vector Sigma" or anywhere else
+- **Check:** only one source, a fan wiki
 - **Use it for:** blackmail dressed up as negotiation
+
+----
+
+## The Transformers: "The Revenge of Bruticus" (1986)
+<!-- 426 -->
+
+**Scene: Bruticus attacks, and only Starscream knows how to stop him**
+
+> Starscream: "Why should I help you? What's in it for me?"
+>
+> Megatron: "**Help us preserve the Earth, and I might preserve you.**"
+
+- **Who:** Starscream and Megatron, who grabs him and pushes his cannon into his face. Starscream then gives away the failsafe he built into Bruticus: three spots on his back
+- **Episode:** season 2, episode 47 (63rd overall), aired 8 January 1986, later in the same episode as "Then let the Earth burn!" (previous slide)
+- **IMDb:** [The Transformers](https://www.imdb.com/title/tt0086817/)
+- **Checked:** [TV Tropes recap](https://tvtropes.org/pmwiki/pmwiki.php/Recap/TransformersG1TheRevengeOfBruticus) [🔗](<../my-fetches/quotes/tvtropes-recap-the-revenge-of-bruticus.txt>), and [RQ87's episode guide](https://rq87.flyingomelette.com/RQ/C/TF/63/63.html) [🔗](<../my-fetches/flyingomelette/tf-63.html>), which tells it in its own words
+- **Check:** one word-for-word source, a fan recap; no transcript or subtitles. RQ87 has Sideswipe ask how to stop Bruticus first, and doesn't give Starscream's "What's in it for me?"
+- **Use it for:** leverage. Helping is the only way out, and the reward is only "might"
 
 ----
 
@@ -7105,7 +8346,7 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 
 **Scene: the cave, Alpha Trion shows how the Primes fell**
 
-> Alpha Trion: "We agreed to meet Sentinel for his sensitive intel in secret, here, in this cave. But we were not alone."
+> Alpha Trion: "It was a mission so important, we Primes took it on ourselves. We agreed to meet Sentinel for his sensitive intel in secret, here, in this cave. But we were not alone."
 >
 > Alpha Trion: "We were outnumbered but stood as one. Our victory was near. **Until we were betrayed.**"
 >
@@ -7117,6 +8358,8 @@ The 1986 animated film, the cartoons, the live-action films and *Transformers On
 - **IMDb:** [Transformers One](https://www.imdb.com/title/tt8864596/)
 - **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/Transformers_One) [🔗](<../my-fetches/wikiquote/Transformers_One.wiki>) and [subtitle script](https://www.springfieldspringfield.co.uk/movie_script.php?movie=transformers-one) [🔗](<../my-fetches/springfield-scripts/transformers-one.txt>)
 - **Use it for:** betrayal from the inside, by the one everyone trusted with the plans
+
+----
 
 ## Transformers One (2024)
 <!-- 400 -->
@@ -7233,6 +8476,25 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=stargate-sg-1&episode=s02e01) [🔗](<../my-fetches/springfield-scripts/stargate-sg-1/s02e01.txt>)
 - **Check:** the speakers: the subtitles don't name them
 - **Use it for:** the end of a hard project that went wrong for the right reasons. Then the rescue nobody expected
+
+----
+
+## Stargate SG-1: "Lost City" (2004)
+<!-- 486 -->
+
+**Scene: the Prometheus over Antarctica, out of options**
+
+> Hammond: "**Set a course for Anubis's mothership.**"
+>
+> Officer: "Sir, whatever you're gonna do... Shields are down. Weapons are expended. The next hit's gonna take us out."
+>
+> Hammond: "**Hold your course.** Brace for a collision. **If we go, they go.**"
+
+- **Who:** General George Hammond (Don S. Davis) commanding the Prometheus, and one of his officers. SG-1 saves them at the last moment with the Ancient weapon
+- **Episode:** season 7, episodes 21 and 22, the season finale
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=stargate-sg-1&episode=s07e21) [🔗](<../my-fetches/springfield-scripts/stargate-sg-1/s07e21.txt>). It doesn't name speakers; Hammond's lines are as you remember them. A few lines in between are left out
+- **Use it for:** going down fighting. If I fail this project, the whole team comes with me
+
 
 ----
 
@@ -7419,6 +8681,79 @@ Andromeda, Buffy, 24, Hannibal, House of Cards, The Expanse, Cobra Kai, The Mand
 - **IMDb:** [episode](https://www.imdb.com/title/tt0769837/)
 - **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s02e19) [🔗](<../my-fetches/springfield-scripts/andromeda/s02e19.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Andromeda_(TV_series)) [🔗](<../my-fetches/wikiquote/Andromeda_(TV_series).wiki>)
 - **Use it for:** the colleague who'll be marking scripts when the building falls down. Or the tutor saving every last learner
+
+----
+
+## Andromeda: "Point of the Spear" (2003)
+<!-- 487 -->
+
+**Scene: the Andromeda, Dylan's new plan**
+
+> Dylan: "Okay, people, listen up. New plan. **We will not abandon this system to the Pyrians.**"
+>
+> Tyr: "So we fight the Pyrians to the death and add another glorious defeat to the High Guard honor roll?"
+>
+> Dylan: "**Tyr, sometimes, winning just means preventing the other guy from achieving his objective.**"
+
+- **Who:** Captain Dylan Hunt (Kevin Sorbo) and Tyr Anasazi (Keith Hamilton Cobb). The Pyrians want the planet Samsarra; Dylan destroys it to deny it to them. At the end: "We sacrificed an entire world today, but we saved thousands in the process"
+- **Episode:** season 3, episode 16
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s03e16) [🔗](<../my-fetches/springfield-scripts/andromeda/s03e16.txt>). It doesn't name speakers, and it's all lower case
+- **Check:** the episode title; the script page gives only the number
+- **Use it for:** scorched earth. Sometimes winning is just stopping the other side
+
+
+----
+
+## Andromeda: "Twilight of the Idols" (2003)
+<!-- 492 -->
+
+**Scene: the Genite facility, Dylan faces Stark**
+
+> Stark: "If your people refuse to stand down, you have ordered them to their deaths."
+>
+> Dylan: "Maybe, but sooner or later, a swarm of very angry Genites are going to come out of slipstream, and they're going to kill whichever one of us is left."
+>
+> Stark: "Yeah, but I can't believe that you would allow this facility to fall back into the hands of the Genites."
+>
+> Dylan: "I wouldn't. **My dying act would be to blow it to hell, and so, I think, would be yours.**"
+>
+> Stark: "You've played me to a stalemate."
+>
+> Dylan: "**You said my greatest weakness was the reluctance to make sacrifices, but your great weakness was assuming that I wouldn't make them at all.**"
+
+- **Who:** Admiral Constanza Stark, Dylan's old mentor, now living on in other bodies as Constantine Stark, and Captain Dylan Hunt. "I had excellent training" is Dylan's too, a little earlier
+- **Episode:** season 3, episode 20
+- **Checked:** [subtitle script](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=andromeda&episode=s03e20) [🔗](<../my-fetches/springfield-scripts/andromeda/s03e20.txt>) and [Wikiquote](https://en.wikiquote.org/wiki/Andromeda_(TV_series)) [🔗](<../my-fetches/wikiquote/Andromeda_(TV_series).wiki>). The script doesn't name speakers and it's all lower case
+- **Use it for:** the old teacher who assumed you'd never call their bluff
+
+----
+
+## House: "Pilot" (2004)
+<!-- 493 -->
+
+**Scene: the first episode, House on the team**
+
+> House: "**Everybody lies.**"
+
+- **Who:** Dr Gregory House (Hugh Laurie). The episode is also known as "Everybody Lies", and it's the show's motto
+- **Episode:** season 1, episode 1
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/House_(Season_1)) [🔗](<../my-fetches/wikiquote/House_(Season_1).wiki>)
+- **Use it for:** "I did read the brief." Requirements gathering: users don't mean to lie, but they do
+
+----
+
+## House: "Fidelity" (2004)
+<!-- 494 -->
+
+**Scene: House on patients**
+
+> House: "**I don't ask why patients lie. I just assume they all do.**"
+
+- **Who:** Dr House
+- **Episode:** season 1, episode 7
+- **Checked:** [Wikiquote](https://en.wikiquote.org/wiki/House_(Season_1)) [🔗](<../my-fetches/wikiquote/House_(Season_1).wiki>)
+- **Use it for:** "My dog ate my USB stick." Debugging: assume the logs are telling the truth and the user isn't
+
 
 ----
 
